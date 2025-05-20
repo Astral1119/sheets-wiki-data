@@ -1,0 +1,1 @@
+Unofficial terminology is terminology developed by the community, separate from the official terminology provided by Google. There is no formal process for introducing new terms into the community lexicon, aside from maintainer approval.
