@@ -6,5 +6,10 @@ Theory beyond native data types is heavily steeped in mathematics and computer s
 
 ### Native data types
 
-Native data types are those that can be identified by [[TYPE]] and [[ERROR.TYPE]]. 
+Native data types are those that can be identified by [[TYPE]] and [[ERROR.TYPE]]. They include:
+- [[Number]]
+- [[String]]
+- [[Boolean]]
+- [[Error]]
+- [[Array]]
 
