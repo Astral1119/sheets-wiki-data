@@ -1,7 +1,6 @@
 ---
 tags:
 	- datatype
-	- date
 ---
 
 Strictly speaking, datetimes are not a distinct [[data type]]. Instead, they are a format for [[number|numbers]].

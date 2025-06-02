@@ -11,5 +11,5 @@ Native data types are those that can be identified by [[TYPE]] and [[ERROR.TYPE]
 - [[String]]
 - [[Boolean]]
 - [[Error]]
-- [[Array]]
+- [[Array]
 
