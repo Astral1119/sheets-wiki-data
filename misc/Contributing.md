@@ -8,8 +8,8 @@ Edits and new articles should be in accordance with the [[Style Guide]].
 
 ### Quickstart
 
-1. Fork [the sheets.wiki articles repository](https://github.com/Astral1119/quartz-sheets-wiki) and clone it to your machine.
-2. [Create an Obsidian vault](https://help.obsidian.md/manage-vaults#Create+vault+from+an+existing+folder) from your forked repository.
+1. Fork [the sheets.wiki articles repository](https://github.com/Astral1119/sheets-wiki-data) and clone it to your machine.
+2. [Create an Obsidian vault](https://help.obsidian.md/manage-vaults#Create+vault+from+an+existing+folder) from your forked repository. Alternatively, you can use [Foam](https://foambubble.github.io/foam/) or any other PKM system that supports wikilinks.
 3. Make whatever edits you'd like. Make sure to `git pull` relatively often.
 4. Push to your fork and make a pull request. A maintainer will review and potentially merge it.
 
