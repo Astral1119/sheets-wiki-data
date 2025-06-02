@@ -4,7 +4,7 @@ tags:
   - advice
   - technique
 ---
-If you haven't already, read [Documenting Formulas](https://sheets.wiki/books/techniques/documenting-formulas/) as this is a continuation of concepts from that blog.
+If you haven't already, read [[Documenting formulas]] as this is a continuation of concepts from that blog.
 
 In formula writing users sometimes create a difficult to read or update formula due to the nature of how formulas are written. A small scale example would be
 ```haskell

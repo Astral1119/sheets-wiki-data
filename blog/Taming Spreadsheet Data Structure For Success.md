@@ -96,4 +96,4 @@ By prioritizing a well-organized structure from the beginning, you'll empower yo
 
 
 
-Further information on techniques for data structure success see [Tables](https://sheets.wiki/books/advice/tables/)
+Further information on techniques for data structure success see [[table|tables]].
