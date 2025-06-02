@@ -13,6 +13,8 @@ sheets.wiki is not a guidebook. For instructions and advice on how to use functi
 
 Don't be afraid to create dead links. We can always fill them in later.
 
+Articles should generally have at least one wikilink and at least one tag. This makes navigation much easier.
+
 ### Formatting
 
 #### Functions and formulae
