@@ -58,3 +58,7 @@ The syntax section should have a code block with the function or formula, follow
 ##### Notes
 
 Notes should contain a list of helpful tidbits that do not warrant a dedicated section and can vary in style and tone.
+
+### Other
+
+If you modify one of the #generated articles, **make sure to replace the generated tag with #modified**. If you do not, your edits may be overwritten.
