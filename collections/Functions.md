@@ -1,1 +1,3 @@
-Google Sheets currently has 512 documented functions and several more #undocumented functions. Functions are comprised of [[Term#Primitive functions|primitive functions]], [[LAMBDA]] functions, and [[Operator|operators]].
+Google Sheets currently has 512 documented functions and several more #undocumented functions. Functions are comprised of [[Term#Primitive functions|primitive functions]], [[LAMBDA]] functions, and [[Operator|operators]]. This collection mostly deals with primitives for the sake of developing a working vocabulary of functions.
+
+Generally speaking, most advanced users learn functions through one of two methods. The first is by by raw experience; as one uses spreadsheets, they begin to u. The second, pioneered by [[Matt King]] involves using and trying to understand all primitives.

@@ -3,11 +3,11 @@ tags:
   - terminology
 ---
 
-Operators are a type of function that take one or two operands and return a value. Unlike normal functions, operators generally separate their arguments using the form `argument operator argument`. For example, the `MULTIPLY` function can also be represented using the `*` operator. Thus, `MULTIPLY(3,5)` is functionally the same as `3 * 5`.
+Operators are a type of function that take one or two operands and return a value. Operators are typically [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) for underlying primitive functions (with the notable exceptions of `.` and `%`). Such primitives are rarely seen and using them is generally [[bad practice]].
 
-If a function has an operator, generally speaking, you will only ever see the operator. If an operator exists, there is rarely a reason to use the function behind it.
+### Syntax
 
-This is a relatively minor distinction, but it is worth noting as it is common terminology.
+Unlike normal functions, operators generally separate their arguments using the form `[argument] operator argument`. For example, the `MULTIPLY` function can also be represented using the `*` operator. Thus, `MULTIPLY(3,5)` is functionally the same as `3 * 5`.
 
 ### Math Operators
 
