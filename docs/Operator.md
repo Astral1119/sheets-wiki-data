@@ -39,4 +39,4 @@ Comparators are a special class of operator.
 | -------- | ----------- | -------------------------------------- |
 | `:`      | [[REFERENCE]] | Creates a range between two references |
 | `&`      | [[CONCAT]]    | Concatenates two strings               |
-| `.` |  None | Extracts data from a [[chip]] |
+| `.` |  None | Extracts data from a [[smart chip]] |
