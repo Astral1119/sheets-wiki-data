@@ -23,9 +23,11 @@ Obsidian supports a number of community plugins that greatly enhance the editing
 
 Ordinary wikis require a server to handle editing, and sheets.wiki doesn't really need that since it's so lightweight. It's what we call a *static site*—its server just sends static pages, and doesn't receive information other than requests for said pages.
 
+Also, it is much cheaper and easier to maintain than a traditional website with a backend.
+
 #### Why can't I edit the wiki on the website?
 
-sheets.wiki used to support this kind of editing through [Decap CMS](https://decapcms.org), a system which essentially used my Github account to push edits via Github. While this worked, the experience was deeply unsatisfying compared to Obsidian. While this complicates some things—having to make pull requests, for instance—I think it ultimately leads to a superior editor experience.
+sheets.wiki used to support this kind of editing through [Decap CMS](https://decapcms.org), a system which essentially used [[Astral]]'s Github account to push edits. While this worked, the editor did not autocomplete wikilinks and lacked core features in most PKM systems. While not having a built-in editor complicates some things—having to make pull requests, for instance—I think it ultimately leads to a superior editor experience.
 
 #### Will sheets.wiki ever change frameworks?
 
