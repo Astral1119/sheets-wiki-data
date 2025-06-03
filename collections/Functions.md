@@ -1,0 +1,1 @@
+Google Sheets currently has 512 documented functions and several more #undocumented functions.
