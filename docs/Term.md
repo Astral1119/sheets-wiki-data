@@ -16,4 +16,4 @@ Lambda terms are [first-class](https://en.wikipedia.org/wiki/First-class_functio
 
 ### Primitive functions
 
-Primitive functions are not first-class and comprise every default function. The only operation that can be performed on primitive functions is [application](https://en.wikipedia.org/wiki/Function_application) (e.g. applying it to lambda terms, such as `SUM(1, 2, 3)`).
+Primitive functions are not first-class and comprise every default function. The only operation that can be performed on primitive functions is [application](https://en.wikipedia.org/wiki/Function_application) (e.g. applying them to lambda terms, such as `SUM(1, 2, 3)`).

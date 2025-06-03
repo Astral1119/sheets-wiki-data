@@ -1,2 +1,1 @@
-Google Sheets currently has 512 documented functions and several more #undocumented functions.
-
+Google Sheets currently has 512 documented functions and several more #undocumented functions. Functions are comprised of [[Term#Primitive functions|primitive functions]], [[LAMBDA]] functions, and [[Operator|operators]].
