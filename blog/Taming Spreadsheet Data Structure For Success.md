@@ -90,7 +90,7 @@ Let's take a look at another example.
 | 567891 | DEF Company | Salad      | 5        | 4/3/2024 |
 | 234567 | ABC Company | Water      | 1        | 4/5/2024 |
 
-While this might seem like extra work upfront, this structure allows you to easily filter by various criteria, such as specific companies or items, to see how much stock you have on hand, or other important information you may be looking for such as "How much Meat did we buy from ABC company last month?" can be answered with a simple Filter or [query](https://sheets.wiki/pages/query/).
+While this might seem like extra work upfront, this structure allows you to easily filter by various criteria, such as specific companies or items, to see how much stock you have on hand, or other important information you may be looking for such as "How much Meat did we buy from ABC company last month?" can be answered with a simple Filter or [query](https://sheets.wiki/docs/QUERY).
 
 By prioritizing a well-organized structure from the beginning, you'll empower yourself to get the most out of your spreadsheets!
 
