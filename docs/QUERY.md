@@ -27,7 +27,7 @@ QUERY(data, query, [headers])
 	
 * `headers` - The number of header rows at the top of the `data`. If omitted or set to `-1`, the value is guessed based on the content of `data`.
 	- It is currently unclear how QUERY guesses the number of header rows in `data`. Therefore, it is recommended that you always submit a header argument.
-	- Header rows are combined by joining with a delimiter (`" "`). See [QUERY Smush](https://sheets.wiki/pages/query-smush/) for the related technique.
+	- Header rows are combined by joining with a delimiter (`" "`). See [[QUERY smush]] for the associated technique.
 
 ### Language Clauses
 
