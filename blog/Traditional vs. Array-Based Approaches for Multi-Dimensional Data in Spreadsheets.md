@@ -1,6 +1,6 @@
 
 
-Spreadsheet users typically handle data the way that makes the most sense to them, however this typically leads to users not remembering how or what the formula works after a long period of time if something changes. Billions use spreadsheets, but poorly maintained formulas cost businesses hours in debugging or adjusting.
+Spreadsheet users typically handle data the way that makes the most sense to them, however, this typically leads to users not remembering how or what the formula works after a long period of time if something changes. Billions use spreadsheets, but poorly maintained formulas cost businesses hours in debugging or adjusting.
 
 
 
@@ -17,13 +17,13 @@ Spreadsheet users typically handle data the way that makes the most sense to the
 |Warehouse C|Bananas|688||Warehouse C|Bananas|12||Warehouse C|Bananas|328||Warehouse C|Bananas|393|
 |Warehouse C|Oranges|955||Warehouse C|Oranges|69||Warehouse C|Oranges|393||Warehouse C|Oranges|931|
 
-One common task for inventory management is to sum a particular product for all of the stores. Most users rely on formulas like [[SUMIF]]
+One common task for inventory management is to sum a particular product for all the stores. Most users rely on formulas like [[SUMIF]]
 
 ```
 =SUMIF(B2:B10,"Apples",C2:C10)+SUMIF(F2:F10,"Apples",G2:G10)+SUMIF(J2:J10,"Apples",K2:K10)+SUMIF(N2:N10,"Apples",O2:O10)
 ```
 
-While this does achieve the desired result it comes with downsides such as, if a store closed down which [[SUMIF]] is it, if new criteria, like quality or bundle types (e.g., 4-apple or 16-apple bundles), are added, now the user has to adjust to a [[SUMIFS]] function.
+While this does achieve the desired result, it comes with downsides, such as if a store closed down which [[SUMIF]] is it, if new criteria, like quality or bundle types (e.g., 4-apple or 16-apple bundles), are added, now the user has to adjust to a [[SUMIFS]] function.
 
 ```
 =INDEX(LET(
@@ -178,7 +178,7 @@ which gives us all the apples for that date!
 
 It is arguably more abstract, however, you can add any number of criteria and label those criteria making things significantly more sustainable.
 
-Array-based methods, while scalable, demand a learning curve and careful data structuring. Unlike [[SUMIF]]’s intuitive setup, [[LET]]/[[N]] requires understanding array multiplication, but its flexibility outweighs the initial complexity for multi-dimensional tasks, especially once you start adding even more dimensions to your data.
+Array-based methods, while scalable, demand a learning curve and careful data structuring. Unlike [[SUMIF]]’s intuitive setup, [[LET]]/[[N]] requires understanding array multiplication, but its flexibility outweighs the initial complexity for multidimensional tasks, especially once you start adding even more dimensions to your data.
 
 4D such as
 Person Product Grade Date
@@ -189,9 +189,11 @@ Region, Person, Product, Price, Date
 
 or 6D
 
-Region, Person, Brand, Product, Price Date
+Region, Person, Brand, Product, Price, Date
 
-all the way to n dimensions as data demands by simply adding another line making it scalable, easy to read, or adjustable.
+all the way to n-dimensions as data demands. 
+
+This allows us to by simply adding another line to the formula to add more criteria as we need.
 
 ```
 =INDEX(LET(
@@ -203,5 +205,7 @@ sales,E2:I9,
 SUM(products*dates*sales*regions*brands)))
 ```
 
-These methods apply to financial models such as revenue by region, product, quarter or logistics for example shipments by route, vehicle, date, enabling robust multi-dimensional analysis without the burden of nested filters that are hard to read, maintain, or debug.
+These methods apply to financial models such as revenue by region, product, quarter or logistics, for example, shipments by route, vehicle, date.
+
+By applying this type of mentallity we can enable robust multidimensional analysis without the burden of nested filters that are hard to read, maintain, or debug.
 
