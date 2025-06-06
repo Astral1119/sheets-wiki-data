@@ -23,7 +23,7 @@ One common task for inventory management is to sum a particular product for all 
 =SUMIF(B2:B10,"Apples",C2:C10)+SUMIF(F2:F10,"Apples",G2:G10)+SUMIF(J2:J10,"Apples",K2:K10)+SUMIF(N2:N10,"Apples",O2:O10)
 ```
 
-While this does achieve the desired result, it comes with downsides, such as if a store closed down which [[SUMIF]] is it, if new criteria, like quality or bundle types (e.g., 4-apple or 16-apple bundles), are added, now the user has to adjust to a [[SUMIFS]] function.
+While this does achieve the desired result, it comes with downsides; for example, if a store closed down which [[SUMIF]] is it, if new criteria, like quality or bundle types (e.g., 4-apple or 16-apple bundles), are added, requiring a [[SUMIFS]] function.
 
 ```
 =INDEX(LET(
@@ -37,7 +37,7 @@ SUM(store_1,store_2,store_3,store_4)))
 
 [[LET]] is extremely useful for documenting formulas allowing co-workers or our future selves to easily determine what the formula is doing, what each part is, and the ability to make changes with reduced chance of making a mistake.
 
-[[N]] converts TRUE/FALSE statements into 1/0 allowing array multiplication which enables the ability to add any number of conditions. For example
+[[N]] converts TRUE/FALSE to 1/0, enabling array multiplication for flexible criteria. For example
 
 ```
 store_1,N(B2:B10=product)*C2:C10
@@ -195,11 +195,21 @@ all the way to n-dimensions as data demands.
 
 This allows us to by simply adding another line to the formula to add more criteria as we need.
 
+
+|   |   |   |   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|---|
+|Region|Person|Brand|Product|6/1|6/2|6/3|6/4|6/5|6/6|6/7|
+|Region A|Bob|Brand A|Apples|11|3|7|17|20|16|8|
+|Region A|Sally|Brand A|Oranges|19|7|6|1|6|18|16|
+|Region A|Sarah|Brand B|Oranges|18|18|13|5|12|17|19|
+|Region B|Bob|Brand B|Apples|14|6|1|4|2|12|7|
+|Region B|Sally|Brand B|Apples|9|12|14|2|15|18|1|
+|Region B|George|Brand A|Oranges|10|7|20|8|14|1|16|
 ```
 =INDEX(LET(
-products,N(B2:B9="Apples"),
-brands,N(C2:C9="Farm A"),
-regions,N(D2:D9="Region B"),
+regions,N(B2:B9="Region B"),
+products,N(C2:C9="Apples"),
+brands,N(D2:D9="Brand A"),
 dates,N(E1:I1=DATEVALUE("6/2/2025")),
 sales,E2:I9,
 SUM(products*dates*sales*regions*brands)))
@@ -207,5 +217,5 @@ SUM(products*dates*sales*regions*brands)))
 
 These methods apply to financial models such as revenue by region, product, quarter or logistics, for example, shipments by route, vehicle, date.
 
-By applying this type of mentallity we can enable robust multidimensional analysis without the burden of nested filters that are hard to read, maintain, or debug.
+By applying this type of mentality, we can enable robust multidimensional analysis without the burden of nested filters that are hard to read, maintain, or debug.
 
