@@ -2,6 +2,12 @@ The [CORE library](https://docs.google.com/spreadsheets/d/13UCmWS5fzYTqxzRI5iEaJ
 
 Currently, the only data structure implemented is `CHVEC`.
 
+### General principles
+
+Containers in the CORE library all have an abstracted interface. They can be interacted with via payloads.
+
+Payloads can generally take the form of either a 
+
 ### CHVEC
 
-`CHVEC` (from [[CHoose]] VECtor) is a Clojure-style 
+`CHVEC` (from [[CHoose]] VECtor) is a Clojure-style vector implemented using array mapped [tries](https://en.wikipedia.org/wiki/Trie). It supports efficient random access.
