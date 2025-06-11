@@ -6,7 +6,7 @@ Currently, the only data structure implemented is `CHVEC`.
 
 Containers in the CORE library all have an abstracted interface. They can be interacted with via payloads.
 
-Payloads can generally take the form of either a 
+Payloads can be methods or values. To 
 
 ### CHVEC
 
