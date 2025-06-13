@@ -2,30 +2,18 @@
 version: 0.1.0
 maintainer: Astral Café
 last-updated: 2025-06-12
-title: CORE
+title: anduin
 tags:
-  - CORE-lib
+  - anduin
 ---
 
-The [CORE library](https://docs.google.com/spreadsheets/d/13UCmWS5fzYTqxzRI5iEaJnc9ad9poMm6ZyxX9HlYbGE) provides implementations for functional data structures and a suite of helper functions for mid-level manipulation.
+Anduin is a [functional](https://en.wikipedia.org/wiki/Functional_programming) library for [[LAMBDA UDT]]-based [[Container|containers]].
 
-Currently, the only data structure implemented is [[CHVEC]].
+### Philosophy
 
-### General principles
+- **Functional**: Anduin is designed for a functional programming paradigm, meaning a heavy emphasis on [[LAMBDA]].
 
-Containers in the CORE library all have an abstracted interface. They can be interacted with via payloads.
+- **Efficient**: Anduin is designed to be efficient and optimized for Google Sheets. This means that it may forgo asymptotic optimality in favor of fast JavaScript-native implementations.
 
-
-
-Values are interpreted on a container-to-container basis. For instance, `CHVEC` interprets numbers as indices and strings as objects to `push` by default.
-
-### General-purpose functions
-
-#### THROW
-
-`THROW` creates a `#REF!` error with a custom error message.
-
-#### HASH and HASH_EQ
-
-`HASH` creates an eight-byte hash of any value or container. `HASH_EQ` is a version of [[EQ]] that evaluates equality based on `HASH` outputs.
+- **Accessible**: Anduin is designed to be easy to use and understand. In addition, there is a focus on using Google Sheets-like syntax and conventions for analogous contexts.
 
