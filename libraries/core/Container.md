@@ -3,7 +3,7 @@ tags:
   - CORE-lib
 ---
 
-Containers are [[LAMBDA data structures]] designed to store, process, and 
+Containers are [[LAMBDA data structures]] designed to efficiently store and process data using a common interface. They are [purely functional](https://en.wikipedia.org/wiki/Purely_functional_data_structure). Unlike [[array|arrays]], containers can store any kind of [[lambda]]
 
 ### Syntax
 
