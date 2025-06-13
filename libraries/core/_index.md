@@ -7,7 +7,7 @@ tags:
   - anduin
 ---
 
-Anduin is a [functional](https://en.wikipedia.org/wiki/Functional_programming) library for [[LAMBDA UDT]]-based [[Container|containers]].
+Anduin is a [functional](https://en.wikipedia.org/wiki/Functional_programming) library for Google Sheets.
 
 ### Philosophy
 
@@ -16,4 +16,3 @@ Anduin is a [functional](https://en.wikipedia.org/wiki/Functional_programming) l
 - **Efficient**: Anduin is designed to be efficient and optimized for Google Sheets. This means that it may forgo asymptotic optimality in favor of fast JavaScript-native implementations.
 
 - **Accessible**: Anduin is designed to be easy to use and understand. In addition, there is a focus on using Google Sheets-like syntax and conventions for analogous contexts.
-
