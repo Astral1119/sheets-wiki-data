@@ -17,4 +17,20 @@ In the backend, named functions are just `LAMBDA`s. You can confirm this by expo
 
 ### What is a package manager?
 
-A [package manager](https://en.wikipedia.org/wiki/Package_manager) helps install, update, configu
+Per [Wikipedia](https://en.wikipedia.org/wiki/Package_manager),
+
+> A **package manager** or **package management system** is a collection of [software tools](https://en.wikipedia.org/wiki/Programming_tool) that automates the process of installing, upgrading, configuring, and removing [computer programs](https://en.wikipedia.org/wiki/Computer_program) for a [computer](https://en.wikipedia.org/wiki/Computer) in a consistent manner.
+
+In Google Sheets, this means helping manage named function libraries.
+
+### Why named functions suck
+
+Taken at face value, named functions seem pretty handy. [[Ben L. Collins]] certainly thought so, [writing in a blog post](https://www.benlcollins.com/spreadsheets/named-functions/):
+
+> Named Functions in Google Sheets let you save and name your own custom formulas and then re-use them in other Google Sheet files.
+>
+> Wow! How exciting is that?!? (Hint: _VERY_)
+
+And that's not wrong, necessarily. But there's a couple of major issues that we should probably address.
+
+There have been some attempts at building libraries and indices for Google Sheets, but none of them have caught on. For instance, the [Custom Function Li]
