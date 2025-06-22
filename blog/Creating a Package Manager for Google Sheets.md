@@ -16,3 +16,8 @@ Put simply, named functions allow users to create their own functions and use th
 In the backend, named functions are just `LAMBDA`s. You can confirm this by exporting a Google Sheet as an `.xslx` file and reading the metadata.
 
 ### What is a package manager?
+
+Per [Wikipedia](https://en.wikipedia.org/wiki/Package_manager),
+
+> A **package manager** or **package management system** is a collection of [software tools](https://en.wikipedia.org/wiki/Programming_tool) that automates the process of installing, upgrading, configuring, and removing [computer programs](https://en.wikipedia.org/wiki/Computer_program) for a [computer](https://en.wikipedia.org/wiki/Computer) in a consistent manner.
+
