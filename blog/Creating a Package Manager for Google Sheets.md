@@ -17,7 +17,4 @@ In the backend, named functions are just `LAMBDA`s. You can confirm this by expo
 
 ### What is a package manager?
 
-Per [Wikipedia](https://en.wikipedia.org/wiki/Package_manager),
-
-> A **package manager** or **package management system** is a collection of [software tools](https://en.wikipedia.org/wiki/Programming_tool) that automates the process of installing, upgrading, configuring, and removing [computer programs](https://en.wikipedia.org/wiki/Computer_program) for a [computer](https://en.wikipedia.org/wiki/Computer) in a consistent manner.
-
+A [package manager](https://en.wikipedia.org/wiki/Package_manager) helps install, update, configu
