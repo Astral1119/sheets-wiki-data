@@ -23,6 +23,8 @@ Per [Wikipedia](https://en.wikipedia.org/wiki/Package_manager),
 
 In Google Sheets, this means helping manage named function libraries.
 
+There have been some attempts at building libraries and indices for Google Sheets. For example, the [Custom Function Library](https://customfunctionlibrary.com/) has compiled a number of custom functions (19 as of this writing). Others have been largely personal endeavors, such as [[Shay Capehart]]'s [Named Functions](https://docs.google.com/spreadsheets/d/1Q0ZrBIuND41MlzdXGa_TYpXItVkfPDihqCKvJfivArc/edit?gid=1804628114#gid=1804628114) or [[aHorseSplashes]]'s [Named Functions and Tools](https://docs.google.com/spreadsheets/d/12H3HHwHxNPAzDzB7RdxOO4NAVs5wvHYnRauLZLiJG9o/edit?gid=1401109056#gid=1401109056). These are wonderful resources, of course; but there are also a number of issues with them that we have to address.
+
 ### Why named functions suck
 
 Taken at face value, named functions seem pretty handy. [[Ben L. Collins]] certainly thought so, [writing in a blog post](https://www.benlcollins.com/spreadsheets/named-functions/):
@@ -31,6 +33,16 @@ Taken at face value, named functions seem pretty handy. [[Ben L. Collins]] certa
 >
 > Wow! How exciting is that?!? (Hint: _VERY_)
 
-And that's not wrong, necessarily. But there's a couple of major issues that we should probably address.
+And that's not wrong. But currently, they are quite difficult to manage. One of the big motivations for this project, in fact, comes from a [Reddit thread on r/googlesheets](https://www.reddit.com/r/googlesheets/comments/1lcs510/what_are_some_named_functions_youve_created_that/). A very respected community member, [[mommasaid]], commented the following:
 
-There have been some attempts at building libraries and indices for Google Sheets, but none of them have caught on. For instance, the [Custom Function Li]
+> The big issue with named functions is the inability to share / update them in any structured way.
+>
+> They are also a PITA to edit/update if they are complex, which is often the reason for putting them in a named function in the first place.
+>
+> If we could create a library sheet of version-numbered functions that other sheets could automatically import or something that could be a game changer.
+>
+> Or... if Google would actively release new built-in functions from a laundry list of those that would make life much easier... even better. Especially baffling to me is not at _least_ having all the Excel capability, e.g. some array-manipulation formulas are missing.)
+
+On top of their difficulty to update and maintain, simply importing, removing, and sharing functions can be quite difficult. Consider the aforementioned libraries. If you're interested in using a function from those libraries, you have to either import the entire library or spend time looking for only the functions relevant to you.
+
+In other words—there is a need for a named function manager. That is where [[spi]] comes in.
