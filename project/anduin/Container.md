@@ -11,5 +11,5 @@ Containers are [[LAMBDA data structures]] designed to efficiently store and proc
 =CONTAINER(payload)
 ```
 
-- `CONTAINER`: A [[Container]] in the [[projects/anduin/_index|Anduin]] library.
+- `CONTAINER`: A [[Container]] in the [[project/anduin/_index|Anduin]] library.
 - `payload`: A [[method]] or [[lambda term]].
