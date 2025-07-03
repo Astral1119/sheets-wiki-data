@@ -1,5 +1,5 @@
 ---
-version: 0.1.0
+version: 0.1.1
 maintainer: Astral Café
 last-updated: 2025-06-12
 title: anduin
