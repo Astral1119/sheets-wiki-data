@@ -7,12 +7,44 @@ tags:
   - anduin
 ---
 
-Anduin is a [functional](https://en.wikipedia.org/wiki/Functional_programming) library for Google Sheets.
+Anduin brings advanced functional and object-oriented programming concepts into Google Sheets.
 
-### Philosophy
+### Code sample
 
-- **Functional**: Anduin is designed for a functional programming paradigm, meaning a heavy emphasis on [[LAMBDA]].
+```gse
+=let(
+  pet_record, record("pet")({"name", "species", "age", "weight"}),
 
-- **Efficient**: Anduin is designed to be efficient and optimized for Google Sheets. This means that it may forgo asymptotic optimality in favor of fast JavaScript-native implementations.
+  customer_protocol, protocol({"add_pet", "get_pet"}),
 
-- **Accessible**: Anduin is designed to be easy to use and understand. In addition, there is a focus on using Google Sheets-like syntax and conventions for analogous contexts.
+  customer_record, record("customer")
+
+    ({"name", "address", "phone", "email", "pets"})
+
+    (customer_protocol)
+
+    ("add_pet")
+    (lambda(self, lambda(pet,
+        self(method("update"))("pets", self("pets")(method("update"))(pet("name"), pet))
+    )))
+
+    ("get_pet")
+    (lambda(self, lambda(petname,
+      self("pets")(petname)
+    ))),
+
+  customer_instance, customer_record
+    ("John Doe")
+    ("123 Main St")
+    ("555-1234")
+    ("johndoe@example.com")
+    (DICT),
+  
+  fluffy, pet_record("Fluffy")("cat")(3)(10),
+  cpt_arf, pet_record("Cpt. Arf")("dog")(5)(20),
+  updated_customer, customer_instance(method("add_pet"))(fluffy),
+  fluffy_retrieved, updated_customer(method("get_pet"))("Fluffy"),
+  fluffy_retrieved("name")&" is a "&fluffy_retrieved("species")&" and is "&fluffy_retrieved("age")&" years old."
+)
+```
+`Fluffy is a cat and is 3 years old.`
