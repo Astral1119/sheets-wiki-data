@@ -7,7 +7,7 @@ tags:
   - anduin
 ---
 
-Anduin brings advanced functional and object-oriented programming concepts into Google Sheets.
+Anduin (/ˈanduɪn/) brings advanced [functional](https://en.wikipedia.org/wiki/Functional_programming) and [object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming) programming concepts to Google Sheets.
 
 ### Code sample
 
@@ -47,4 +47,5 @@ Anduin brings advanced functional and object-oriented programming concepts into 
   fluffy_retrieved("name")&" is a "&fluffy_retrieved("species")&" and is "&fluffy_retrieved("age")&" years old."
 )
 ```
+
 `Fluffy is a cat and is 3 years old.`
