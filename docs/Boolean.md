@@ -3,7 +3,7 @@ tags:
   - datatype
 ---
 
-Perhaps the simplest data type, [Booleans](https://en.wikipedia.org/wiki/Boolean_data_type) can only ever be `TRUE` or `FALSE`. They are key to logic within formulae.
+[Booleans](https://en.wikipedia.org/wiki/Boolean_data_type) can only ever be `TRUE` or `FALSE`. They are key to logic within formulae.
 
 Other data types are capable of emulating Booleans under the right conditions. We call these values [‘truthy’ and ‘falsy,’](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) as although they are not true Booleans, they function similarly.
 
