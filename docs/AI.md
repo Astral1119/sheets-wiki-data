@@ -10,6 +10,8 @@ tags:
 
 The `AI` function queries [Gemini](https://en.wikipedia.org/wiki/Gemini_(language_model)) given a prompt and context from a Google Sheet. This model is [tool-calling](https://www.ibm.com/think/topics/tool-calling) and can access the web.
 
+Unlike other functions, the `AI` function does not update its output when its dependencies change.
+
 Use the AI function in Sheets
 -----------------------------
 
