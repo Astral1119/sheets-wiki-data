@@ -2,5 +2,6 @@ Astral Café is the lead maintainer of sheets.wiki and an admin in the [[Spreads
 
 ### Links
 
+- [Personal Site](https://astral.cafe)
 - [Portfolio](https://astral.lol)
 - [Ko-fi](https://ko-fi.com/astralcafe)

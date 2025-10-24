@@ -2,6 +2,7 @@
 tags:
   - function
   - generated
+  - modified
   - array
 ---
 
@@ -9,7 +10,10 @@ Flattens all the values from one or more ranges into a single column.
 
 ### Parts of a FLATTEN function
 
+```
 =FLATTEN(range1, [range2, …])
+```
+
 
 | Part | Description |
 | --- | --- |
@@ -53,6 +57,10 @@ A more complex example, using the CONCAT (&) operator and SPLIT to do a simple *
 | **4** |  |  |  | B | 2 |
 | **5** |  |  |  | C | 1 |
 | **6** |  |  |  | C | 2 |
+
+### History
+
+The `FLATTEN` function was originally #undocumented and was first discovered on March 15, 2020 by a user named Andy on the [Google Docs Editors Help Community forum](https://support.google.com/docs/thread/33715001). It has since been [officially recognized](https://support.google.com/docs/answer/10307761), although it has been mostly deprecated by [[TOCOL]].
 
 ### Related functions
 
