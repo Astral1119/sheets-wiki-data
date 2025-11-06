@@ -22,6 +22,7 @@ Sheets recognizes the following core types:
 | [[Null]] | Empty cells or expressions that return no value. |
 | [[Array]] | Two-dimensional collections of values that may spill across multiple cells. |
 | [[Lambda]] | Executable terms created using `LAMBDA` or related constructs. |
+| [[Error]] | Runtime signals representing failed evaluation. Propagate through most expressions. |
 
 Higher-level constructs such as [[LAMBDA UDTs]] and [[Data structures]] are derived from these base types.
 
@@ -30,22 +31,13 @@ Higher-level constructs such as [[LAMBDA UDTs]] and [[Data structures]] are deri
 A term’s type may change depending on how it is used. For example:
 
 ```gse
-=1+"1"       → 2
 ="1"&1       → "11"
 =IF("","X","Y") → "Y"
 ```
 
-In the first case, "1" is coerced to a number. In the second, 1 is coerced to a string. Such conversions are governed by [[Type Coercion]].
+Such conversions are governed by [[Type Coercion]].
 
-Weak vs. Strong Typing
-
-Sheets is weakly typed: most functions implicitly convert incompatible inputs. However, coercion is not universal. Some functions enforce strict typing:
-
-Function	Behavior
-=IF("foo",TRUE,FALSE)	Returns #VALUE! (string cannot be coerced to Boolean).
-=IF("TRUE",TRUE,FALSE)	Returns TRUE (string successfully coerced).
-
-Structural Types
+### Structural Types
 
 Some expressions encapsulate multiple values or behaviors:
 - [[Array]] terms hold multiple values in two dimensions.
@@ -54,17 +46,12 @@ Some expressions encapsulate multiple values or behaviors:
 
 These may be considered compound types, though Sheets does not support type introspection.
 
-Type Errors
+### Type Errors
 
-If a value cannot be coerced into the expected type, evaluation produces an error such as #VALUE! or #N/A. Errors occur only at runtime.
+If a value cannot be coerced into the expected type, evaluation produces an error such as #VALUE! or #N/A.
 
-Notes
-- Type inference is localized; two identical literals can yield different types depending on the function evaluating them.
-- Non-vector arrays larger than 2,147,483,647 elements may crash a sheet.
-- Empty cells ("" or =NA()) are treated differently by functions expecting numeric vs. text input.
-
-See Also
+### See Also
 - [[Type Coercion]] — conversion rules between types.
 - [[Number]], [[String]], [[Boolean]], [[Null]], [[Array]], [[Lambda]] — type-specific behavior.
-- [[Data structures]] — compound types built from LAMBDA.
+- [[LAMBDA data structures]] — compound types built from LAMBDA.
 
