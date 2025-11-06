@@ -8,7 +8,7 @@ This post details the first LAMBDA UDT scheme. This version is no longer best pr
 
 LAMBDA UDTs use [LAMBDA](https://sheets.wiki/lambda/) to define a custom data type. They emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming), where UDTs consist of [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)). These types take the form:
 
-```haskell
+```gse
 lambda(m,m(a,b...))
 ```
 
@@ -17,7 +17,7 @@ In other words, they allow the user to define collections of different kinds of 
 
 UDTs must be [instantiated](https://en.wikipedia.org/wiki/Instance_(computer_science)) and provided data for each field to be operated on. LAMBDA UDTs can be instantiated manually or via constructor:
 
-```haskell
+```gse
 =let(
     udt,lambda(a,b...,
         lambda(m,m(a,b...))
@@ -30,7 +30,7 @@ Note that the above formula only shows instantiation. The output will be a lambd
 
 To access data stored within a LAMBDA UDT, you must define lambda terms, or lambda functions, to interface with it. These terms, known as methods, take each field of the UDT as arguments. All fields of a LAMBDA UDT are [private](https://en.wikipedia.org/wiki/Access_modifiers) and must be accessed through methods. For example, if we want to implement a [pair](https://www.geeksforgeeks.org/pair-in-cpp-stl/) structure, where the UDT stores two associated fields of any type, we could implement methods to access the `first` and `second` elements like so:
 
-```haskell
+```gse
 =let(
     pair,lambda(a,b,
         lambda(m,m(a,b))
@@ -43,7 +43,7 @@ To access data stored within a LAMBDA UDT, you must define lambda terms, or lamb
 
 This formula works by accepting a LAMBDA function, known as the method, as input. The method then accesses the data within the UDT. Note that all methods must be lambda terms that accept all fields of the UDT as arguments. Performing the [β-reduction](https://en.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2) for this formula, we start by resolving the `pair` instantiation:
 
-```haskell
+```gse
 
 lambda(m,m("foo","bar"))(first)
 
@@ -51,7 +51,7 @@ lambda(m,m("foo","bar"))(first)
 
 Then, we resolve the `m` term:
 
-```haskell
+```gse
 first("foo","bar")
 ```
 

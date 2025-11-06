@@ -3,7 +3,7 @@ tags:
   - datatype
 ---
 
-Arrays are any *m* by *n* grid of contiguous values where *m* is the number of rows and *n* is the number of columns in the array. Within an array, one can have any other kind of data type, including multiple different types. You can also think of arrays as a collection of cells arranged into a rectangle.
+Arrays represent any *m* by *n* grid of contiguous values, where *m* is the number of rows and *n* is the number of columns. Each cell in an array can contain any data type, including mixed types. Conceptually, an array is a rectangular collection of cells.
 
 All rows of an array must share the same number of columns, and all columns must share the same number of rows.
 
@@ -11,29 +11,36 @@ All rows of an array must share the same number of columns, and all columns must
 
 #### Ranges
 
-Arrays can be separated into two types: ranges and virtual arrays. Ranges are referenced directly from the spreadsheet, while virtual arrays are not. They carry additional data, such as the row or column they were sourced from. It is important to make this distinction as some formulae, such as SUMIF or OFFSET, require range data to work.
+Arrays fall into two primary categories: **ranges** and **virtual arrays**.  
+
+A **range** refers directly to cells in a spreadsheet and retains contextual information such as the row or column from which it originates. Certain functions, such as `SUMIF` or `OFFSET`, require range data to function correctly.
 
 #### Virtual Array
 
-A virtual array is any array that does not contain range data. These are typically created by either constructing an array using an array literal or by passing a range through most functions.
+A **virtual array** is any array that does not reference range data. These arrays are typically produced by constructing an array literal or by passing a range through most spreadsheet functions. Virtual arrays exist only in memory and are not directly tied to spreadsheet cells.
 
 #### Array Literals
 
-Array literals are constructed arrays that use the `{}` operators to generate a virtual array.
+**Array literals** are constructed arrays defined using curly braces `{}` to produce a virtual array.
 
 ```xls
 {<item>,<item>;<item>,<item>}
 ```
 
-The `,` separator delimits values within a row and the `;` separator delimits different rows. Elements are processed horizontally first, and vertically second. The number of elements in each row much be the same using `{}`. If you wish to create [[Array#Jagged Arrays|jagged arrays]], you may need `VSTACK` and `HSTACK`.
+The comma (`,`) separator delimits values within a row and the semicolon (`;`) separator delimits different rows. Elements are processed horizontally first, then vertically.
+
+All rows within an array literal must contain the same number of elements. To create [[Array#Jagged Arrays|jagged arrays]], use the [[VSTACK]] and [[HSTACK]] functions instead.
 
 #### Vectors
-Vectors are 1 by *n* or *m* by 1 arrays. Many functions operate on vectors, often referring to a 'single column or row.' Vectors distinguish themselves from other types of arrays by pure virtue of how many functions require them.
 
-These are typically distinguished from "2-D arrays".
+Vectors are one-dimensional arrays with dimensions of either $1 \times n$ (row vector) or $m \times 1$ (column vector). Many functions specifically operate on vectors, often referring to "a single row or column." Vectors are conceptually distinct from two-dimensional arrays, even though they share structural similarities.
 
 #### Jagged Arrays
-Jagged arrays are arrays comprised of rows or columns of varying size and padded with null values. There is no significant difference between how jagged and non-jagged arrays are handled by Google Sheets functions, and is quite useful when used in conjunction with [[LAMBDA Helper Functions]]. They are considered [[Bad Practice]] in Excel, however.
+
+Jagged arrays consist of rows or columns of varying lengths padded with null values to align dimensions.
+
+In Google Sheets, jagged arrays behave similarly to regular arrays and are especially useful when combined with [[LAMBDA Helper Functions]].
+In Excel, however, they are generally considered [[bad practice]] due to inconsistent behavior across functions.
 
 ### Notes
 
