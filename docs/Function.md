@@ -8,7 +8,7 @@ tags:
 > sheets.wiki is a reference, not a guidebook. For tutorials and applied examples, see the [[Blog]] or linked `Guides`.
 
 
-Google Sheets currently has 512 documented functions and numerous #undocumented functions. Functions are comprised of [[Term#Primitive functions|primitive functions]], [[LAMBDA]] functions, and [[Operator|operators]]. Functions form the foundation of expression syntax and are used to manipulate, transform, and compute data.
+Google Sheets currently has over 500 documented functions and numerous #undocumented functions. Functions are comprised of [[Term#Primitive functions|primitive functions]], [[LAMBDA]] functions, and [[Operator|operators]]. Functions form the foundation of expression syntax and are used to manipulate, transform, and compute data.
 
 Alongside [[Operator|operators]] and [[LAMBDA]] expressions, functions are one of three primary [[Term#Callable terms|callable terms]] in Sheets.
 
