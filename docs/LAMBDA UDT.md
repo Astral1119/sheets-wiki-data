@@ -21,11 +21,15 @@ Data is [encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(computer_pro
 
 These fields can contain any [[term]] except for [[Term#Primitive function|primitives]].
 
-In other words, they allow the user to define collections of different kinds of data that can be used as both input and output for user-defined functions.
+In essence, LAMBDA UDTs allow users to define composite data structures that can serve as both inputs and outputs for user-defined functions.
 
-UDTs must be [instantiated](https://en.wikipedia.org/wiki/Instance_(computer_science)) and provided data for each field to be operated on. LAMBDA UDTs can be instantiated manually or via constructor:
+### Instantiation
 
-```haskell
+UDTs must be [instantiated](https://en.wikipedia.org/wiki/Instance_(computer_science)) with specific field values before they can be used.
+
+They can be instantiated manually or via a constructor pattern:
+
+```gse
 =let(
     udt,lambda(a,b...,
         lambda(i,choose(i,a,b...))
@@ -34,9 +38,12 @@ UDTs must be [instantiated](https://en.wikipedia.org/wiki/Instance_(computer_sci
 )
 ```
 
-Note that the above formula only shows instantiation. The output will be a lambda term which cannot be output to a cell.
+The expression above creates an instance of the type `udt`.
+Note that the resulting value is a lambda term; it cannot be directly displayed in a cell.
 
-To access data stored within a LAMBDA UDT, simply provide it with an index argument, as shown below:
+### Field access
+
+To access a stored field, provide an index argument to the instantiated term:
 
 ```gse
 =let(
@@ -47,10 +54,10 @@ To access data stored within a LAMBDA UDT, simply provide it with an index argum
 )
 ```
 
-The [β-reduction](https://en.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2) will then supply that index to the `CHOOSE`, returning the field at the desired index.
+This applies the index via [β-reduction](https://en.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2), returning the field corresponding to that index.
 
 ### Notes
-[[Calculation limits]] represent a major limitation to LAMBDA UDTs, as they are heavily LAMBDA-intensive in nature and can quickly hit the recursion limit.
+- [[Calculation limits]] represent a major limitation to LAMBDA UDTs, as they are heavily LAMBDA-intensive in nature and can quickly hit the recursion limit.
 
 ### See Also
 
