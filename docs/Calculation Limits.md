@@ -17,7 +17,7 @@ The function call limit is approximately `2,000,000` (`2e6`) function calls per 
 
 ### Recursion Calls
 
-The recursion limit is exactly `10,000` (`1e4`). This limit is the same when used in [LAMBDA Recursion](https://sheets.wiki/lambda-recursion) and [iterative calculation](https://sheets.wiki/iterative-calculation).
+The recursion limit is exactly `10,000` (`1e4`). This limit is the same when used in [[LAMBDA Recursion]] and [[iterative calculation]].
 
 ### Further Reading
 

@@ -3,10 +3,18 @@ tags:
   - datatype
 ---
 
-[Booleans](https://en.wikipedia.org/wiki/Boolean_data_type) can only ever be `TRUE` or `FALSE`. They are key to logic within formulae.
+[Booleans](https://en.wikipedia.org/wiki/Boolean_data_type) represent logical values that can only be `TRUE` or `FALSE`. They are fundamental to conditional logic in Google Sheets formulas.
 
-Other data types are capable of emulating Booleans under the right conditions. We call these values [‘truthy’ and ‘falsy,’](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) as although they are not true Booleans, they function similarly.
+Other data types can behave like Booleans in certain contexts. Such values are known as ["truthy" and "falsy"](https://developer.mozilla.org/en-US/docs/Glossary/Truthy). While not genuine Booleans, these values can be [[Type coercion|coerced]] to logical equivalents.
 
-When used in mathematical operations, Booleans will turn into numbers—`TRUE` becomes `1`, `FALSE` becomes `0`. When used in string operations, Booleans will simply turn into text versions of themselves (i.e. `TRUE` becomes `“TRUE”`).
+When Booleans participate in mathematical operations, they are automatically converted to numbers:  
+- `TRUE` becomes `1`  
+- `FALSE` becomes `0`
 
-Checkboxes will correspond with Boolean values by default.
+When used in text operations, Booleans convert to their string representations:  
+- `TRUE` becomes `"TRUE"`  
+- `FALSE` becomes `"FALSE"`
+
+For a complete reference of how Sheets coerces types, see [[Type Coercion]].
+
+In Google Sheets, checkboxes correspond directly to Boolean values by default—checked for `TRUE`, and unchecked for `FALSE`.

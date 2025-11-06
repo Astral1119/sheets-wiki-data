@@ -19,5 +19,5 @@ fn,LAMBDA(low,high,ISBETWEEN(A1,low,high)),
 IFS(fn(1,2),1,fn(2,3),2,fn(4,5),3)
 )
 ```
-We can use [LAMBDA](https://sheets.wiki/pages/lambda/) to define our own function where the first input is our low and our second input is our high. Meaning every time we use fn(1,2) it translates to ISBETWEEN(A1,1,2). We can name fn anything we'd like to something more contextually appropriate. With this as well if we ever needed to change the cell A1 to something else we only need to change it in one place which will change it for all of them.
+We can use [[LAMBDA]] to define our own function where the first input is our low and our second input is our high. Meaning every time we use fn(1,2) it translates to ISBETWEEN(A1,1,2). We can name fn anything we'd like to something more contextually appropriate. With this as well if we ever needed to change the cell A1 to something else we only need to change it in one place which will change it for all of them.
 

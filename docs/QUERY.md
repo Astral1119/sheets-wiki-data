@@ -108,7 +108,7 @@ If you use a `pivot` clause, then _every column_ listed in the `select` cla
 
 You can pivot by multiple columns. The resulting table has columns for every unique combination of those columns.
 
-There is no native [unpivot](https://sheets.wiki/pages/unpivotting/) clause or function. 
+There is no native unpivotting clause or function. 
 
 #### Order By
 

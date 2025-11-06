@@ -8,6 +8,9 @@ tags:
 > [!ATTENTION]
 > This article refers to Google Workspace Labs, which is a trusted tester program for users to try new AI features. You can sign up for Google Workspace Labs [here](https://workspace.google.com/labs-sign-up/).
 
+> !WARNING
+> This article, although originally generated from an official source, was not a documentation article.
+
 The `AI` function queries [Gemini](https://en.wikipedia.org/wiki/Gemini_(language_model)) given a prompt and context from a Google Sheet. This model is [tool-calling](https://www.ibm.com/think/topics/tool-calling) and can access the web.
 
 Unlike other functions, the `AI` function does not update its output when its dependencies change.

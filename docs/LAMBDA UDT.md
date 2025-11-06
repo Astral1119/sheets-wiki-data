@@ -5,7 +5,7 @@ tags:
   - terminology
 author: Astral Café
 ---
-LAMBDA UDTs use [LAMBDA](https://sheets.wiki/lambda/) to define a custom data type. They emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming), where UDTs consist of [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)). These types take the form:
+LAMBDA UDTs use [[LAMBDA]] to define a custom data type. They emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming), where UDTs consist of [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)). These types take the form:
 
 ```haskell
 lambda(i,choose(i,a,b...))
@@ -41,7 +41,7 @@ To access data stored within a LAMBDA UDT, simply provide it with an index argum
 The [β-reduction](https://en.wikipedia.org/wiki/Lambda_calculus#%CE%B2-reduction_2) will then supply that index to the `CHOOSE`, returning the field at the desired index.
 
 ### Notes
-[Calculation limits](https://sheets.wiki/calculation-limits/) represent a major limitation to LAMBDA UDTs, as they are heavily LAMBDA-intensive in nature and can quickly hit the recursion limit.
+[[Calculation limits]] represent a major limitation to LAMBDA UDTs, as they are heavily LAMBDA-intensive in nature and can quickly hit the recursion limit.
 
 ### See Also
 

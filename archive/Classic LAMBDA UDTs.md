@@ -4,15 +4,15 @@ tags:
   - archive
   - technique
 ---
-This post details the first LAMBDA UDT scheme. This version is no longer best practice due to inefficient field access that counted against the [calculation limits](https://sheets.wiki/calculation-limits/). However, I've opted to archive the old article as a blog post. See the main [LAMBDA UDT](https://sheets.wiki/lambda-udts/) page for up-to-date information.
+This post details the first LAMBDA UDT scheme. This version is no longer best practice due to inefficient field access that counted against the [[calculation limits]]. However, I've opted to archive the old article as a blog post. See the main [[LAMBDA UDT]] page for up-to-date information.
 
-LAMBDA UDTs use [LAMBDA](https://sheets.wiki/lambda/) to define a custom data type. They emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming), where UDTs consist of [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)). These types take the form:
+LAMBDA UDTs use [[LAMBDA]] to define a custom data type. They emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming), where UDTs consist of [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)). These types take the form:
 
 ```gse
 lambda(m,m(a,b...))
 ```
 
-Data is [encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) inside a number of user-defined fields, listed as `a,b...` in the expression above. These fields can contain any data types, including ranges, [arrays](https://sheets.wiki/arrays/), and lambda terms.
+Data is [encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) inside a number of user-defined fields, listed as `a,b...` in the expression above. These fields can contain any data types, including ranges, [[array|arrays]], and lambda terms.
 In other words, they allow the user to define collections of different kinds of data that can be used as both input and output for user-defined functions.
 
 UDTs must be [instantiated](https://en.wikipedia.org/wiki/Instance_(computer_science)) and provided data for each field to be operated on. LAMBDA UDTs can be instantiated manually or via constructor:
@@ -57,4 +57,4 @@ first("foo","bar")
 
 Which then resolves to `"foo"`.
 
-[Calculation limits](https://sheets.wiki/calculation-limits/) represent a major limitation to LAMBDA UDTs, as they are heavily LAMBDA-intensive in nature and can quickly hit the recursion limit. LAMBDA UDTs also require user-defined interfaces in order to work properly.
+[[Calculation limits]] represent a major limitation to LAMBDA UDTs, as they are heavily LAMBDA-intensive in nature and can quickly hit the recursion limit. LAMBDA UDTs also require user-defined interfaces in order to work properly.
