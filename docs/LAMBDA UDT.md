@@ -3,15 +3,24 @@ tags:
   - technique
   - datatype
   - terminology
-author: Astral Café
 ---
-LAMBDA UDTs use [[LAMBDA]] to define a custom data type. They emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming), where UDTs consist of [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)). These types take the form:
 
-```haskell
-lambda(i,choose(i,a,b...))
+LAMBDA UDTs use [[LAMBDA]] to define custom data types that emulate the [object-oriented programming paradigm](https://en.wikipedia.org/wiki/Object-oriented_programming).
+
+A *user-defined type* (UDT) combines [fields](https://en.wikipedia.org/wiki/Field_(computer_science)) and [methods](https://en.wikipedia.org/wiki/Method_(computer_programming)) into a structured [[term]].
+
+### Overview
+
+LAMBDA UDTs follow the general form:
+
+```gse
+lambda(i, choose(i, a, b, ...))
 ```
 
-Data is [encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) inside a number of user-defined fields, listed as `a,b...` in the expression above. These fields can contain any data types, including ranges, [[Array|arrays]], and lambda terms.
+Data is [encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) inside a number of user-defined fields, listed as `a,b...` in the expression above.
+
+These fields can contain any [[term]] except for [[Term#Primitive function|primitives]].
+
 In other words, they allow the user to define collections of different kinds of data that can be used as both input and output for user-defined functions.
 
 UDTs must be [instantiated](https://en.wikipedia.org/wiki/Instance_(computer_science)) and provided data for each field to be operated on. LAMBDA UDTs can be instantiated manually or via constructor:

@@ -155,7 +155,7 @@ When you use the AI function in Sheets, Google uses and stores the following dat
 To understand how this data is used, review the [Google Workspace Labs Privacy Notice and Terms for Personal Accounts](https://support.google.com/docs/answer/13447401).
 
 ### Notes
-- The `AI` function is not allowed to [[depend]] on a [[volatile]] function.
+- The `AI` function is not allowed to [[Dependency|depend]] on a [[volatile]] function.
 
 Related resources
 -----------------
