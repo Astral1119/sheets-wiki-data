@@ -73,7 +73,7 @@ Understanding a function requires understanding both its **input coercion** and 
 
 ### Notes
 
-- [[Volatile functions]] (such as `RAND`) recalculate on every sheet change.  
+- [[Volatile]] functions (such as `RAND`) recalculate on every sheet change.  
 
 ### See Also
 
