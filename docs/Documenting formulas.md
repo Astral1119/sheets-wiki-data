@@ -17,7 +17,7 @@ LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_ex
 | 2   |     |     |     |
 
 
-```haskell
+```gse
 =Let(
 data,A1:A2,
 sum(data))
@@ -25,7 +25,7 @@ sum(data))
 will output 3.
 
 What this means is you can declare variable names and use them in the formula expression allowing you to document your equation into parts with familiar names like
-```haskell
+```gse
 =Let(
 interest_rate,.13,
 loan,A1,
@@ -36,7 +36,7 @@ Allowing you to know what A1 is and letting you know the .13 in the formula is y
 Another interesting thing of note you can accomplish with Let() is you don't NEED to use the variable names at the end.
 
 You can simply
-```haskell
+```gse
 =LET(
 purpose,"This formula is for calculating the sum of all the apples",
 range_to_sum,B1:B10,

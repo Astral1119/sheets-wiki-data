@@ -5,7 +5,7 @@ tags:
 ---
 LAMBDA recursion allows the user to apply [[LAMDBA|lambda terms]] [recursively](https://en.wikipedia.org/wiki/Recursion_(computer_science)) using [anonymous recursion](https://en.wikipedia.org/wiki/Anonymous_recursion).
 
-```haskell
+```gse
 LET(
 	func, LAMBDA(func, <variables>, <expression>),
 	func(func, <variables>)

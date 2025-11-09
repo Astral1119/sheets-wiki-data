@@ -20,12 +20,12 @@ Like all volatile functions, LUS will cause a desynchronization between the serv
 
 # Example
 
-```haskell
+```gse
 =LAMBDA(x,x)(RANDBETWEEN(1,10))
 ```
 
 This `RANDBETWEEN` will not update on a cell change. Compare to:
 
-```haskell
+```gse
 =RANDBETWEEN(1,10)
 ```

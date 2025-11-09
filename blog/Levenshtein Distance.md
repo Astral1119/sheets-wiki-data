@@ -110,7 +110,7 @@ I also realized that you don't actually have to store all of the rows between it
 
 This is the formula I developed. For readability, I've beautified it and redefined the variables.
 
-```haskell
+```gse
 =let(
     source,
     "chat",
@@ -186,7 +186,7 @@ This is the formula I developed. For readability, I've beautified it and redefin
 
 It looks a bit intimidating when it's all spaced out like this, in my opinion, so here it is compressed.
 
-```haskell
+```gse
 =let(source,"chat",target,"act",index(reduce({0,sequence(1,len(target))},sequence(len(source)),lambda(previous,current,scan(#N/A,sequence(1,len(target)+1),lambda(left,n,min(index(previous,n)+1,ifna(left+1),iferror(index(previous,n-1)+not(exact(mid(source,current,1),mid(target,n-1,1))))))))),len(target)+1))
 ```
 

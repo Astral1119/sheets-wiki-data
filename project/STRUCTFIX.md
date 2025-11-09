@@ -3,11 +3,11 @@ maintainer: Chris Carpenter/Aliafriend
 ---
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSO3dYwsO1OOjmnLmI0IPMiwfWXxY5n-ynkS0MHvbK34uyzle-RvWGhj0zlIpOC3UWxijpzvXkZViqE/pubhtml?gid=193434782&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-```haskell
+```gse
 =STRUCTFIX(A3:E,{1,2},{3,4,5},C2:E2)
 ```
 
-```haskell
+```gse
 =LAMBDA(data,groupby_columns,columns_to_transpose,groupby_headers,MAP(TOCOL(BYROW(data,lambda(row,map(CHOOSECOLS(row,columns_to_transpose),groupby_headers,lambda(items,label,IF(items<>"",JOIN("|",CHOOSECOLS(row,groupby_columns),label,items),))))),3),lambda(results,split(results,"|"))))(data,groupby_columns,columns_to_transpose,groupby_headers)
 ```
 

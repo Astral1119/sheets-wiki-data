@@ -55,14 +55,14 @@ This is an example of a data structure that would be fine to use if you're only 
 
 While this doesn't look as nice, it's infinitely more easier to do something like
 
-```haskell
+```gse
 =QUERY(A:C,"SELECT Sum(C)
  WHERE A >= date '2024-04-01' and A <= date '2024-04-07'")
 ```
 
 This formula easily calculates the sum for the week or any date range you specify.
 
-```haskell
+```gse
 =QUERY(A:C,"SELECT Sum(C) WHERE B ='Food'")
 ```
 
@@ -70,7 +70,7 @@ For more information see [[QUERY]]
 
 and
 
-```haskell
+```gse
 =SUM(FILTER(C:C,B:B="Food"))
 ```
 
