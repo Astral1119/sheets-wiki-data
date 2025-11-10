@@ -15,7 +15,9 @@ Edits and new articles should be in accordance with the [[Style Guide]].
 
 ### Recommended plugins
 
-Obsidian supports a number of community plugins that greatly enhance the editing experience. The only plugin I would really recommend adding is [Shiki Highlighter](https://github.com/mProjectsCode/obsidian-shiki-plugin), configured to support `gse`.
+Obsidian supports a number of community plugins that greatly enhance the editing experience. The only plugin I would really recommend adding is [Shiki Highlighter](https://github.com/mProjectsCode/obsidian-shiki-plugin).
+
+To properly configure Shiki Highlighter to work with Google Sheets formulae, start by installing Shiki Highlighter. Then, under `Settings -> Community plugins -> Shiki Highlighter`, set `Custom languages folder location` to a directory containing [`gse.tmLanguage.json`](https://raw.githubusercontent.com/Astral1119/gse-syntax/refs/heads/main/syntaxes/gse.tmLanguage.json). Restart Obsidian, and code blocks with the `gse` tag will highlight accordingly.
 
 ### FAQ
 
