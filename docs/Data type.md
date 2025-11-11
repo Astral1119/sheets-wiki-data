@@ -24,7 +24,7 @@ Sheets recognizes the following core types:
 | [[Lambda]] | Executable terms created using `LAMBDA` or related constructs. |
 | [[Error]] | Runtime signals representing failed evaluation. Propagate through most expressions. |
 
-Higher-level constructs such as [[LAMBDA UDTs]] and [[Data structures]] are derived from these base types.
+Higher-level constructs such as [[LAMBDA UDT|LAMBDA UDTs]] and [[Data structures]] are derived from these base types.
 
 ### Dynamic Typing
 
