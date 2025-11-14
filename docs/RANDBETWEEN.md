@@ -3,19 +3,24 @@ tags:
   - function
   - generated
   - math
+  - volatile
+  - modified
 ---
 
-Returns a uniformly random integer between two values, inclusive.
+Returns a uniformly random integer between two values, inclusive. `RANDBETWEEN` is [[volatile.]]
 
 ### Sample Usage
 
-`RANDBETWEEN(1,10)`
-
-`RANDBETWEEN(A2,A3)`
+```gse
+RANDBETWEEN(1,10)
+RANDBETWEEN(A2,A3)
+```
 
 ### Syntax
 
-`RANDBETWEEN(low, high)`
+```gse
+RANDBETWEEN(low, high)
+```
 
 * `low` - The low end of the random range.
 * `high` - The high end of the random range.

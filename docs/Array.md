@@ -7,7 +7,7 @@ Arrays represent any *m* by *n* grid of contiguous values, where *m* is the numb
 
 All rows of an array must share the same number of columns, and all columns must share the same number of rows.
 
-### Array Subtypes
+### Array subtypes
 
 #### Ranges
 
@@ -15,11 +15,11 @@ Arrays fall into two primary categories: **ranges** and **virtual arrays**.
 
 A **range** refers directly to cells in a spreadsheet and retains contextual information such as the row or column from which it originates. Certain functions, such as `SUMIF` or `OFFSET`, require range data to function correctly.
 
-#### Virtual Array
+#### Virtual array
 
 A **virtual array** is any array that does not reference range data. These arrays are typically produced by constructing an array literal or by passing a range through most spreadsheet functions. Virtual arrays exist only in memory and are not directly tied to spreadsheet cells.
 
-#### Array Literals
+#### Array literals
 
 **Array literals** are constructed arrays defined using curly braces `{}` to produce a virtual array.
 
@@ -35,7 +35,7 @@ All rows within an array literal must contain the same number of elements. To cr
 
 Vectors are one-dimensional arrays with dimensions of either $1 \times n$ (row vector) or $m \times 1$ (column vector). Many functions specifically operate on vectors, often referring to "a single row or column." Vectors are conceptually distinct from two-dimensional arrays, even though they share structural similarities.
 
-#### Jagged Arrays
+#### Jagged arrays
 
 Jagged arrays consist of rows or columns of varying lengths padded with null values to align dimensions.
 

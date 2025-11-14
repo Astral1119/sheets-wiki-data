@@ -14,19 +14,19 @@ Google Sheets uses a [dynamic](https://developer.mozilla.org/en-US/docs/Glossary
 
 Sheets recognizes the following core types:
 
-| Type | Description |
-|------|--------------|
-| [[Number]] | Numeric values such as integers, decimals, and scientific notation. |
-| [[String]] | Text values enclosed in quotes or inferred from literal input. |
-| [[Boolean]] | Logical values `TRUE` and `FALSE`. |
-| [[Null]] | Empty cells or expressions that return no value. |
-| [[Array]] | Two-dimensional collections of values that may spill across multiple cells. |
-| [[Lambda]] | Executable terms created using `LAMBDA` or related constructs. |
-| [[Error]] | Runtime signals representing failed evaluation. Propagate through most expressions. |
+| Type        | Description                                                                         |
+| ----------- | ----------------------------------------------------------------------------------- |
+| [[Number]]  | Numeric values such as integers, decimals, and scientific notation.                 |
+| [[String]]  | Text values enclosed in quotes or inferred from literal input.                      |
+| [[Boolean]] | Logical values `TRUE` and `FALSE`.                                                  |
+| [[Null]]    | Empty cells or expressions that return no value.                                    |
+| [[Array]]   | Two-dimensional collections of values that may spill across multiple cells.         |
+| [[Lambda]]  | Executable terms created using `LAMBDA` or related constructs.                      |
+| [[Error]]   | Runtime signals representing failed evaluation. Propagate through most expressions. |
 
 Higher-level constructs such as [[LAMBDA UDT|LAMBDA UDTs]] and [[Data structures]] are derived from these base types.
 
-### Dynamic Typing
+### Dynamic typing
 
 A term’s type may change depending on how it is used. For example:
 
@@ -37,16 +37,22 @@ A term’s type may change depending on how it is used. For example:
 
 Such conversions are governed by [[Type Coercion]].
 
-### Structural Types
+### Scalar types
+
+These are single-cell values that represent indivisible data within a formula. Scalar types form the basic units of computation in Sheets and contrast with compound structures such as arrays or lambdas. They include [[Number]] , [[String]], [[Boolean]], [[Null]], and [[Error]].
+
+Scalar types participate directly in type coercion and function arguments, and they do not produce spill ranges or encapsulate multiple values.
+
+### Structural types
 
 Some expressions encapsulate multiple values or behaviors:
 - [[Array]] terms hold multiple values in two dimensions.
 - [[Lambda]] terms hold executable expressions.
-- [[LAMBDA UDTs]] simulate user-defined structures.
+- [[LAMBDA UDT|LAMBDA UDTs]] simulate user-defined structures.
 
 These may be considered compound types, though Sheets does not support type introspection.
 
-### Type Errors
+### Type errors
 
 If a value cannot be coerced into the expected type, evaluation produces an error such as #VALUE! or #N/A.
 

@@ -5,7 +5,7 @@ tags:
 ---
 
 > [!WARNING]
-> This article uses [[unofficial terminology]].
+> This article uses [[Unofficial terminology]].
 
 A **dependency** is a directed relationship between two [[term|terms]] in a spreadsheet, where one term's value depends on another's.  
 Dependencies form the underlying structure that determines evaluation order and recalculation behavior in Google Sheets.
