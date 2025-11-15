@@ -41,17 +41,17 @@ This examples shows the price of part number 126.
 
 | Part Number | Price | Formula | Result |
 | --- | --- | --- | --- |
-| 105 | $27.50 | =LOOKUP(126, $A$2:$A$6, $B$2:$B$6) | $33.00 |
-| 126 | $33.00 |  |  |
-| 133 | $41.75 |  |  |
-| 171 | $26.75 |  |  |
-| 188 | $32.99 |  |  |
+| 105 | \$27.50 | =LOOKUP(126, \$A\$2:\$A\$6, \$B\$2:\$B\$6) | \$33.00 |
+| 126 | \$33.00 |  |  |
+| 133 | \$41.75 |  |  |
+| 171 | \$26.75 |  |  |
+| 188 | \$32.99 |  |  |
 
 This examples shows when the search\_key is not found (student ID 765333), a non-exact match may be returned.
 
 | Part Number | Price | Formula | Result |
 | --- | --- | --- | --- |
-| 764541 | B | =LOOKUP(765333,$A$2:$A$5,$B$2:$B$5) | C |
+| 764541 | B | =LOOKUP(765333,\$A\$2:\$A\$5,\$B\$2:\$B\$5) | C |
 | 764598 | C |  |  |
 | 765444 | B- |  |  |
 | 766765 | A |  |  |

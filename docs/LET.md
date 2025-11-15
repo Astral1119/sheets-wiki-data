@@ -3,15 +3,24 @@ tags:
   - function
   - generated
   - logical
+  - modified
 ---
 
 This function assigns a name with the `value_expression` results and returns the result of the `formula_expression`.
 
 ### Sample Usage
 
-`LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor")))`: Categorize an average value.
+```gse
+LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor")))
+```
 
-`LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range)))`: Filter data and replace blank cell with dash.
+Categorize an average value.
+
+```gse
+LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range)))
+```
+
+Filter data and replace blank cell with dash.
 
 ### Syntax
 
@@ -30,15 +39,15 @@ LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_ex
 
 ### Examples
 
-### Categorize the average value of product ratings with LET
+#### Categorize the average value of product ratings with LET
 
 **Example Data:**
 
-| 1 | Product | January ratings | February ratings | March ratings |
-| --- | --- | --- | --- | --- |
-| **2** | Red t-shirt | 3.5 | 4 | 3 |
-| **3** | Black jeans | 4.5 | 5 | 3.5 |
-| **4** | Hat | 3 | 2.5 | 2 |
+| 1     | Product     | January ratings | February ratings | March ratings |
+| ----- | ----------- | --------------- | ---------------- | ------------- |
+| **2** | Red t-shirt | 3.5             | 4                | 3             |
+| **3** | Black jeans | 4.5             | 5                | 3.5           |
+| **4** | Hat         | 3               | 2.5              | 2             |
 
 **With LET:** Input this formula in `E2` and drag the blue box around the cell down to fill `E3` and `E4`.
 
@@ -62,7 +71,7 @@ LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_ex
 
 **[Make a Copy](https://docs.google.com/spreadsheets/d/1sclstxZjPEXkFA-qxxRH8VGCJlpoBSdCKOAcsrLt9Z0/copy)**
 
-### Filter data & replace blank cell with dash using LET
+#### Filter data & replace blank cell with dash using LET
 
 Return all data for “Fred” and replace blank cells with dash.
 
@@ -70,13 +79,13 @@ Return all data for “Fred” and replace blank cells with dash.
 
 | 1 | Rep | Region | Product | Profit |
 | --- | --- | --- | --- | --- |
-| **2** | Amy | East | Apple | $1.33 |
-| **3** | Fred | South | Banana | $0.09 |
-| **4** | Amy | West | Mango | $1.85 |
-| **5** | Fred | North |  | $0.82 |
-| **6** | Fred | West | Banana | $1.25 |
-| **7** | Amy | East | Apple | $0.72 |
-| **8** | Fred | North | Mango | $0.54 |
+| **2** | Amy | East | Apple | \$1.33 |
+| **3** | Fred | South | Banana | \$0.09 |
+| **4** | Amy | West | Mango | \$1.85 |
+| **5** | Fred | North |  | \$0.82 |
+| **6** | Fred | West | Banana | \$1.25 |
+| **7** | Amy | East | Apple | \$0.72 |
+| **8** | Fred | North | Mango | \$0.54 |
 
 **With LET:** Input this formula in `E2`:
 

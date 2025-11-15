@@ -94,6 +94,6 @@ Lookup table for all examples.
 
 ### Related functions
 
-- [XMATCH](https://support.google.com/docs/answer/12406049)
+- [[XMATCH]]
 - [[VLOOKUP]]
 - [[HLOOKUP]]

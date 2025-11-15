@@ -3,20 +3,24 @@ tags:
   - modified
   - generated
   - function
+aliases:
+  - docs/GEMINI
 ---
 
 > [!ATTENTION]
 > This article refers to Google Workspace Labs, which is a trusted tester program for users to try new AI features. You can sign up for Google Workspace Labs [here](https://workspace.google.com/labs-sign-up/).
 
-> !WARNING
+> [!WARNING]
 > This article, although originally generated from an official source, was not a documentation article.
+
+> [!INFO]
+> The `GEMINI` function is an alias for `AI`.
 
 The `AI` function queries [Gemini](https://en.wikipedia.org/wiki/Gemini_(language_model)) given a prompt and context from a Google Sheet. This model is [tool-calling](https://www.ibm.com/think/topics/tool-calling) and can access the web.
 
 Unlike other functions, the `AI` function does not update its output when its dependencies change.
 
-Use the AI function in Sheets
------------------------------
+### Use the AI function in Sheets
 
 ![An animation that demonstrates how to use the AI function by describing the desired action with a specific prompt.](https://storage.googleapis.com/support-kms-prod/vTTDnB8vMxl9BYIhvu6UZBDd7861OMksc4kf)
 
@@ -37,15 +41,13 @@ You can use the AI function to:
 
 **Tip:** When you click “Generate and Insert” or “Refresh and Insert,” generated content is inserted and the cell edit is attributed to you in version history.
 
-Add an AI column to a table
----------------------------
+### Add an AI column to a table
 
 When you add an AI column to a table, its first non-header row automatically shows the AI function. After you enter a specific function in that row, you can autofill the rest of the column with the same function and generate entries.
 
 To add an AI column, at the top right of the last column in the table, click Insert AI column right ![](https://storage.googleapis.com/support-kms-prod/nDHdodQqXK8ChLmL7XG9Nt9SPyPBK076K9hg).
 
-Check some examples
--------------------
+### Check some examples
 
 * **Generate new text**
   + `=AI(“Generate slogan for event in 10 words or less”, A2)`
@@ -72,16 +74,16 @@ Check some examples
 
 For example, if you use the function `=AI("Find the major themes in the customer feedback of "&B2&" using the comments: "&D2&"")`, when B2 or D2 change, you need to manually determine when to refresh the data.
 
-Syntax
-------
+### Syntax
 
-`AI(“prompt”,[optional range])`
+```gse
+AI(“prompt”,[optional range])
+```
 
 * **Prompt:** A specific prompt that describes your desired action.
 * **Range:** This is optional. It’s the range that the prompt refers to when it generates data.
 
-Give feedback about the AI function
------------------------------------
+### Give feedback about the AI function
 
 Google Workspace with Gemini is constantly learning and may not be able to support your request.
 
@@ -103,8 +105,7 @@ To provide general feedback on this feature, at the top, click **Help** ![and th
 
 To report a legal issue, [create a request](https://support.google.com/legal/answer/3110420).
 
-Learn about the limitations of the AI functions
------------------------------------------------
+### Learn about the limitations of the AI functions
 
 * Responses are limited to text.
 * The AI function doesn’t have access to your entire spreadsheet or other files in your Google Drive.
@@ -121,8 +122,7 @@ Learn about the limitations of the AI functions
 * You can select multiple cells with AI functions and generate outputs; however, only the first 200 selected cells with AI functions will be generated. You can wait for the generation to complete and select more cells to generate outputs.
 * You can’t generate content with the AI function if you access Sheets with other cloud storage providers like Box, Dropbox, or Egnyte with Google Drive. [Learn how to use Google Docs, Sheets & Slides with Box, Dropbox, or Egnyte](https://support.google.com/drive/answer/9191990).
 
-Turn off the AI function
-------------------------
+### Turn off the AI function
 
 To turn off any of the features on Google Workspace Labs, you must exit Workspace Labs. If you exit, you can’t rejoin Workspace Labs and permanently lose access to [all Workspace Labs features](https://support.google.com/docs/answer/13447104).
 
@@ -133,8 +133,7 @@ If you use AI functions after you exit Workspace Labs:
 * The error “AI function not available” shows.
 * You can’t generate output with AI functions.
 
-Learn about Workspace Labs feature suggestions
-----------------------------------------------
+### Learn about Workspace Labs feature suggestions
 
 * Workspace Labs feature suggestions don’t represent Google’s views, and should not be attributed to Google.
 * Don’t rely on Workspace Labs features as medical, legal, financial or other professional advice.
@@ -157,8 +156,7 @@ To understand how this data is used, review the [Google Workspace Labs Privacy N
 ### Notes
 - The `AI` function is not allowed to [[Dependency|depend]] on a [[volatile]] function.
 
-Related resources
------------------
+### Related resources
 
 * [Get started with Google Workspace Labs](https://support.google.com/docs/answer/13447104)
 * [Collaborate with Gemini in Google Sheets (Workspace Labs)](https://support.google.com/docs/answer/14218565)

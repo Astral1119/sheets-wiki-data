@@ -34,27 +34,27 @@ AMORLINC(A1, A2, A3, A4, 6, 15%)
 
 ### Examples
 
-This example shows the sixth period depreciation of an asset with a purchase cost of $1,000, a purchase date of 7/20/1969, a first period end date of 8/20/1969, a salvage value of $100, and a depreciation rate of 15% using the default 30-day month and 360-day year counting convention:
+This example shows the sixth period depreciation of an asset with a purchase cost of \$1,000, a purchase date of 7/20/1969, a first period end date of 8/20/1969, a salvage value of \$100, and a depreciation rate of 15% using the default 30-day month and 360-day year counting convention:
 
 |  | **A** | **B** |
 | --- | --- | --- |
-| **1** | **Cost** | $1,000 |
+| **1** | **Cost** | \$1,000 |
 | **2** | **Purchase date** | 7/20/1969 |
 | **3** | **First period end date** | 8/20/1969 |
-| **4** | **Salvage value** | $100 |
+| **4** | **Salvage value** | \$100 |
 | **5** | **Period** | 6 |
 | **6** | **Depreciation rate** | 15% |
 | **7** | **Result** | 137.5 |
 | **8** | **Formula** | =AMORLINC(B1, B2, B3, B4, B5, B6) |
 
-This example shows the sixth period depreciation of an asset with a purchase cost of $1,000, a purchase date of 7/20/1969, a first period end date of 8/20/1969, a salvage value of $100, and a depreciation rate of 15% using the actual days-per-month and actual days-per-year day counting convention:
+This example shows the sixth period depreciation of an asset with a purchase cost of \$1,000, a purchase date of 7/20/1969, a first period end date of 8/20/1969, a salvage value of \$100, and a depreciation rate of 15% using the actual days-per-month and actual days-per-year day counting convention:
 
 |  | **A** | **B** |
 | --- | --- | --- |
-| **1** | **Cost** | $1,000 |
+| **1** | **Cost** | \$1,000 |
 | **2** | **Purchase date** | 7/20/1969 |
 | **3** | **First period end date** | 8/20/1969 |
-| **4** | **Salvage value** | $100 |
+| **4** | **Salvage value** | \$100 |
 | **5** | **Period** | 6 |
 | **6** | **Depreciation rate** | 15% |
 | **7** | **Day count convention** | 1 |

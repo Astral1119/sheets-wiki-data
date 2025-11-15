@@ -32,4 +32,4 @@ FORMULATEXT(cell)
 | **3** | 18 | `=FORMULATEXT($A3)` | =MAX(10,12,18) |
 | **4** | 10 | `=FORMULATEXT($A4:$A5)` | =MODE.MULT(10,15,10,15) |
 | 5 | 15 | `=FORMULATEXT($A4:$A5)` | =MODE.MULT(10,15,10,15) |
-| **6** | =FORMULATEXT($A6) | `=FORMULATEXT($A6)` | =B6 |
+| **6** | =FORMULATEXT(\$A6) | `=FORMULATEXT($A6)` | =B6 |

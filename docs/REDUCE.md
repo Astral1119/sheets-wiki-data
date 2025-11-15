@@ -102,18 +102,18 @@ After processing cell A3:
 | --- |
 | 120 |
 
-### Sum if price is greater than or equal to $20
+### Sum if price is greater than or equal to \$20
 
-Add all the prices that are greater than or equal to $20.
+Add all the prices that are greater than or equal to \$20.
 
 **Example Data:**
 
 |  | **A** |
 | --- | --- |
-| **1** | $50 |
-| **2** | $10 |
-| **3** | $30 |
-| **4** | $20 |
+| **1** | \$50 |
+| **2** | \$10 |
+| **3** | \$30 |
+| **4** | \$20 |
 
 **Example:** `=REDUCE(0, A1:A4, LAMBDA(accumulator, price, if(price>=20, accumulator + price, accumulator)))`
 
@@ -121,7 +121,7 @@ Add all the prices that are greater than or equal to $20.
 
 |  |
 | --- |
-| $100 |
+| \$100 |
 
 ### Use a named function as LAMBDA function
 
@@ -134,7 +134,7 @@ Return the end price after increasing it by a certain percentage every period.
 |  | **A** | **B** | **C** |
 | --- | --- | --- | --- |
 | **1** | 2022 | 10% | Starting Price: |
-| **2** | 2023 | 5% | $100 |
+| **2** | 2023 | 5% | \$100 |
 | **3** | 2024 | 5% |  |
 | **4** | 2025 | 10% |  |
 

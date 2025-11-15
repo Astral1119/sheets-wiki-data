@@ -27,8 +27,8 @@ VDB(cost, salvage, life, start_period, end_period, [factor], [no_switch])
 
 | 1 | Formula | Result |
 | --- | --- | --- |
-| **2** | `=VDB(100, 10, 20, 10, 11, 2, TRUE)` | $3.49 |
-| **3** | `=VDB(100, 33, 20, 10, 11, 2, FALSE)` | $1.87 |
+| **2** | `=VDB(100, 10, 20, 10, 11, 2, TRUE)` | \$3.49 |
+| **3** | `=VDB(100, 33, 20, 10, 11, 2, FALSE)` | \$1.87 |
 
 ### Related functions
 

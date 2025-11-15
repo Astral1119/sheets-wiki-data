@@ -90,9 +90,9 @@ To return a non-error value, these search keys must be in the first column of th
 
 |  |  |
 | --- | --- |
-| `search_key` is "Orange" | =VLOOKUP("Orange", B4:D8, 3, FALSE)  Return value = $1.01 |
-| `search_key` is "Apple" | =VLOOKUP("Apple", B4:D8, 3, FALSE)  Return value = $1.50 |
-| `search_key` that uses cell reference of "Apple" in G9 | =VLOOKUP(G9, B4:D8, 3, FALSE)  Return value = $1.50 |
+| `search_key` is "Orange" | =VLOOKUP("Orange", B4:D8, 3, FALSE)  Return value = \$1.01 |
+| `search_key` is "Apple" | =VLOOKUP("Apple", B4:D8, 3, FALSE)  Return value = \$1.50 |
+| `search_key` that uses cell reference of "Apple" in G9 | =VLOOKUP(G9, B4:D8, 3, FALSE)  Return value = \$1.50 |
 
 ### VLOOKUP on different column indexes
 
@@ -234,7 +234,7 @@ Best practices
 
 | To do | Reason |
 | --- | --- |
-| Use absolute references for `range` | You should use:   * Absolute reference for `VLOOKUP` `range` * VLOOKUP(G3, $B$3:$D$7, 3, FALSE)   You should notuse:   * VLOOKUP(G3, B3:D7, 3, FALSE)   This prevents unpredictable changes in the `range` when it’s copied or dragged down. |
+| Use absolute references for `range` | You should use:   * Absolute reference for `VLOOKUP` `range` * VLOOKUP(G3, \$B\$3:\$D\$7, 3, FALSE)   You should notuse:   * VLOOKUP(G3, B3:D7, 3, FALSE)   This prevents unpredictable changes in the `range` when it’s copied or dragged down. |
 | Sort the first column in ascending order when you use an approximate match, such as `is_sorted` = `TRUE`. | If you use an approximate match or `is_sorted` = `TRUE`, you must sort the first column in ascending order. Otherwise, you most likely get a wrong return value. [Learn more on how to sort](https://support.google.com/docs/answer/3540681). |
 | Clean your data before you use `VLOOKUP` | Before you use `VLOOKUP`, remember to clean your data. Unclean data may cause `VLOOKUP` to return an unpredictable value. Here are some common pitfalls of unclean data:   * **Spaces that lead:** " apple" * **Spaces that trail:** "apple " * **Blanks or spaces:** "" and " " aren’t equivalent   To trim white space that leads and trails, you can use **Data** and then **Data cleanup** and then **Trim whitespace**. |
 | Don't store number or date values as text | Make sure your date or number values in the first column of your `VLOOKUP` range, such as the search key column, aren’t stored as text values. You may get an unexpected return value.   1. On the top of Sheets, select your search key column. 2. Tap **Format Menu** and then **Number**. 3. Choose an option depending on your desired data type:    * **Date**    * **Number** |
