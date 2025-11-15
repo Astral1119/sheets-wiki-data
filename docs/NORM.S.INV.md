@@ -9,20 +9,23 @@ Returns the value of the inverse standard normal distribution function for a spe
 
 ### Sample Usage
 
-`NORMSINV(.75)`
-
-`NORMSINV(A2)`
+```gse
+NORMSINV(.75)
+NORMSINV(A2)
+```
 
 ### Syntax
 
-`NORMSINV(x)`
+```gse
+NORMSINV(x)
+```
 
-* `x` - The input to the inverse standard normal distribution function.
+- `x` - The input to the inverse standard normal distribution function.
 
 ### Notes
 
-* The "standard" normal distribution function is the normal distribution function with mean of `0` and variance (and therefore standard deviation) of `1`.
-* `x` must be greater than `0` and less than `1` or a `#NUM!` error will occur.
+- The "standard" normal distribution function is the normal distribution function with mean of `0` and variance (and therefore standard deviation) of `1`.
+- `x` must be greater than `0` and less than `1` or a `#NUM!` error will occur.
 
 ### See Also
 

@@ -9,18 +9,22 @@ Calculates the slope of the line resulting from linear regression of a dataset.
 
 ### Sample Usage
 
-`SLOPE(A2:A100,B2:B100)`
+```gse
+SLOPE(A2:A100,B2:B100)
+```
 
 ### Syntax
 
-`SLOPE(data_y, data_x)`
+```gse
+SLOPE(data_y, data_x)
+```
 
-* `data_y` - The range representing the array or matrix of dependent data.
-* `data_x` - The range representing the array or matrix of independent data.
+- `data_y` - The range representing the array or matrix of dependent data.
+- `data_x` - The range representing the array or matrix of independent data.
 
 ### Notes
 
-* Any text encountered in the `value` arguments will be ignored.
+- Any text encountered in the `value` arguments will be ignored.
 
 ### See Also
 

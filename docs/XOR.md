@@ -7,36 +7,33 @@ tags:
 
 The XOR function returns TRUE if an odd number of the provided arguments are logically true, and FALSE otherwise.
 
-Parts of a XOR formula
-----------------------
+### Parts of a XOR formula
 
-`XOR(logical_expression1, [logical_expression2, ...])`
+```gse
+XOR(logical_expression1, [logical_expression2, ...])
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | `logical_expression1` | An expression or reference to a cell containing an expression that represents some logical value, e.g. "TRUE" or "FALSE," or an expression that can be coerced to a logical value. |  |
 | `logical_expression2` | More expressions or cell references that represent logical values. | A second logical expression, and any additional expressions are optional. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`XOR(TRUE, FALSE, TRUE)`
+```gse
+XOR(TRUE, FALSE, TRUE)
+XOR(A2=TRUE, A3=FALSE)
+XOR(A1:A10, B1:B10)
+XOR(0, 1, 2, 3)
+```
 
-`XOR(A2=TRUE, A3=FALSE)`
+### Notes
 
-`XOR(A1:A10, B1:B10)`
+- The number 0 is logically false. All other numbers (including negative numbers) are logically true.
+- The XOR function accepts both logical value and range parameters.
+- Returns TRUE if an odd number of arguments are TRUE.
 
-`XOR(0, 1, 2, 3)`
-
-Notes
------
-
-* The number 0 is logically false. All other numbers (including negative numbers) are logically true.
-* The XOR function accepts both logical value and range parameters.
-* Returns TRUE if an odd number of arguments are TRUE.
-
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |
@@ -63,8 +60,7 @@ Examples
 | **19** | FALSE | =XOR(B11,B12,B13) |
 | **20** | TRUE | =XOR(B11,B14) |
 
-Related functions
------------------
+### Related functions
 
-* [[OR]]: The OR function returns true if any of the provided arguments are logically true, and false if all of the provided arguments are logically false.
-* [[AND]]: The AND function returns true if all of the provided arguments are logically true, and false if any of the provided arguments are logically false.
+- [[OR]]: The OR function returns true if any of the provided arguments are logically true, and false if all of the provided arguments are logically false.
+- [[AND]]: The AND function returns true if all of the provided arguments are logically true, and false if any of the provided arguments are logically false.

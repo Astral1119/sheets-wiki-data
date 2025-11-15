@@ -9,9 +9,11 @@ You can create and return a custom function with a set of names and a `formula_e
 
 ### Sample Usage
 
-`LAMBDA(Salary, Salary*0.3)(1000)`
+```gse
+LAMBDA(Salary, Salary*0.3)(1000)
 
-`LAMBDA(Temp, (5/9)*(Temp-32))(85)`
+LAMBDA(Temp, (5/9)*(Temp-32))(85)
+```
 
 ### Syntax
 
@@ -26,8 +28,7 @@ LAMBDA(name, formula_expression)
 
 * If a named function expects another function as an input in an argument inside a named function, you can use a `LAMBDA` or a named function.
 
-Examples
---------
+### Examples
 
 **Example data:**
 
@@ -67,8 +68,7 @@ You can write the `tax_calculator_function` argument with a `LAMBDA` function.
 
 This calculates the average monthly tax for months 1–6.
 
-Common errors
--------------
+### Common errors
 
 ### The name argument isn’t an identifier
 

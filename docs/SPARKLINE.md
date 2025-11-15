@@ -9,20 +9,21 @@ Creates a miniature chart contained within a single cell.
 
 ### Sample Usage
 
-`SPARKLINE(A1:F1)`
-
-`SPARKLINE(A2:E2,{"charttype","bar";"max",40})`
-
-`SPARKLINE(A2:E2,A4:B5)`
-
-`SPARKLINE(A1:A5, {"charttype","column"; "axis", true; "axiscolor", "red"})`
+```gse
+SPARKLINE(A1:F1)
+SPARKLINE(A2:E2,{"charttype","bar";"max",40})
+SPARKLINE(A2:E2,A4:B5)
+SPARKLINE(A1:A5, {"charttype","column"; "axis", true; "axiscolor", "red"})
+```
 
 ### Syntax
 
-`SPARKLINE(data, [options])`
+```gse
+SPARKLINE(data, [options])
+```
 
-* `data` - The range or array containing the data to plot.
-* `options` - **[** OPTIONAL **]** - A range or array of optional settings and associated values used to customize the chart.
+- `data` - The range or array containing the data to plot.
+- `options` - **[** OPTIONAL **]** - A range or array of optional settings and associated values used to customize the chart.
 
   + If referencing a range, `options` should be two cells wide where the first cell is the option and the second cell is the value that option is set to.
   + The `"charttype"` option defines the type of chart to plot, which includes:
@@ -68,8 +69,8 @@ Creates a miniature chart contained within a single cell.
 
 ### Notes
 
-* Colors can be written using their names (e.g., "green") or as a hex code (e.g., "#3D3D3D").
-* To modify the color of a line chart, change the font color of the cell.
+- Colors can be written using their names (e.g., "green") or as a hex code (e.g., "#3D3D3D").
+- To modify the color of a line chart, change the font color of the cell.
 
 ### See Also
 

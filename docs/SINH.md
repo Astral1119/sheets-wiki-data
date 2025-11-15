@@ -9,19 +9,22 @@ The SINH function returns the hyperbolic sine of any real number.
 
 ### Sample Usage
 
-`SINH(A2)`
-
-`SINH(1)`
+```gse
+SINH(A2)
+SINH(1)
+```
 
 ### Syntax
 
-`SINH(value)`
+```gse
+SINH(value)
+```
 
-* `value` - Any real value to calculate the hyperbolic sine of.
+- `value` - Any real value to calculate the hyperbolic sine of.
 
 ### Notes
 
-* Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
+- Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
 
 ### See Also
 

@@ -9,20 +9,23 @@ Returns a substring from the end of a specified string.
 
 ### Sample Usage
 
-`RIGHT(A2,2)`
-
-`RIGHT("lorem ipsum")`
+```gse
+RIGHT(A2,2)
+RIGHT("lorem ipsum")
+```
 
 ### Syntax
 
-`RIGHT(string, [number_of_characters])`
+```gse
+RIGHT(string, [number_of_characters])
+```
 
-* `string` - The string from which the right portion will be returned.
-* `number_of_characters` - **[** OPTIONAL - `1` by default **]** - The number of characters to return from the right side of `string`.
+- `string` - The string from which the right portion will be returned.
+- `number_of_characters` - **[** OPTIONAL - `1` by default **]** - The number of characters to return from the right side of `string`.
 
 ### Notes
 
-* `0` is a valid input for `number_of_characters` and will cause `RIGHT` to return the empty string.
+- `0` is a valid input for `number_of_characters` and will cause `RIGHT` to return the empty string.
 
 ### See Also
 

@@ -7,10 +7,11 @@ tags:
 
 The PDURATION function returns the number of periods for an investment to reach a specific value at a given rate. Mathematically, `PDURATION` = (log(futureValue) - log (currentValue))/(log(1 + rate)).
 
-Parts of a PDURATION function
------------------------------
+### Parts of a PDURATION function
 
-`PDURATION(rate, present_value, future_value)`
+```gse
+PDURATION(rate, present_value, future_value)
+```
 
 | Part | Description |
 | --- | --- |
@@ -18,20 +19,17 @@ Parts of a PDURATION function
 | `present_valuepresent_value` | Required. The investment's current value. |
 | `future_valuefuture_value` | Required. The investment's desired future value. |
 
-Notes
------
+### Notes
 
 All values must be positive and greater than 0.
 
-Examples
---------
+### Examples
 
 | PDURATION | FORMULA |
 | --- | --- |
 | 1.817059493 | `=PDURATION(0.25, 10, 15)` |
 | 3.600511394 | `=PDURATION(0.75, 2, 15)` |
 
-Related functions
------------------
+### Related functions
 
-* [[RRI]]: The RRI function returns the interest rate needed for an investment to reach a specific value within a given number of periods.
+- [[RRI]]: The RRI function returns the interest rate needed for an investment to reach a specific value within a given number of periods.

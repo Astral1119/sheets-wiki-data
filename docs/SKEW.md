@@ -9,23 +9,26 @@ Calculates the skewness of a dataset, which describes the symmetry of that datas
 
 ### Sample Usage
 
-`SKEW(1,2,3,4,5,6,7,8,9,10)`
-
-`SKEW(A2:A100)`
+```gse
+SKEW(1,2,3,4,5,6,7,8,9,10)
+SKEW(A2:A100)
+```
 
 ### Syntax
 
-`SKEW(value1, [value2, ...])`
+```gse
+SKEW(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the dataset.
-* `value2, ...` - Additional values or ranges to include in the dataset.
+- `value1` - The first value or range of the dataset.
+- `value2, ...` - Additional values or ranges to include in the dataset.
 
 ### Notes
 
-* Although `SKEW` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `SKEW` will return the `#DIV/0!` error.
-* Any text encountered in the `value` arguments will be ignored.
-* Positive skewness indicates a longer tail extending in the positive direction, to the right of the mean, while negative skewness indicates a longer tail in the negative direction, to the left. Skewness nearer to zero indicates more symmetrical distributions.
+- Although `SKEW` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `SKEW` will return the `#DIV/0!` error.
+- Any text encountered in the `value` arguments will be ignored.
+- Positive skewness indicates a longer tail extending in the positive direction, to the right of the mean, while negative skewness indicates a longer tail in the negative direction, to the left. Skewness nearer to zero indicates more symmetrical distributions.
 
 ### See Also
 

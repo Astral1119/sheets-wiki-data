@@ -9,18 +9,21 @@ The NORMDIST function returns the value of the normal distribution function (or 
 
 ### Sample Usage
 
-`NORMDIST(2.4,1,4,FALSE)`
-
-`NORMDIST(A2,A3,A4,TRUE)`
+```gse
+NORMDIST(2.4,1,4,FALSE)
+NORMDIST(A2,A3,A4,TRUE)
+```
 
 ### Syntax
 
-`NORMDIST(x, mean, standard_deviation, cumulative)`
+```gse
+NORMDIST(x, mean, standard_deviation, cumulative)
+```
 
-* `x` - The input to the normal distribution function.
-* `mean` - The mean (mu) of the normal distribution function.
-* `standard_deviation` - The standard deviation (sigma) of the normal distribution function.
-* `cumulative` - Whether to use the normal cumulative distribution function rather than the distribution function.
+- `x` - The input to the normal distribution function.
+- `mean` - The mean (mu) of the normal distribution function.
+- `standard_deviation` - The standard deviation (sigma) of the normal distribution function.
+- `cumulative` - Whether to use the normal cumulative distribution function rather than the distribution function.
 
 ### See Also
 

@@ -9,15 +9,18 @@ Returns the multiplicative inverse of a square matrix specified as an array or r
 
 ### Sample Usage
 
-`MINVERSE(A1:D4)`
-
-`MINVERSE({1,0,0,0;0,0,4,0;0,1,1,0;0,0,0,1})`
+```gse
+MINVERSE(A1:D4)
+MINVERSE({1,0,0,0;0,0,4,0;0,1,1,0;0,0,0,1})
+```
 
 ### Syntax
 
-`MINVERSE(square_matrix)`
+```gse
+MINVERSE(square_matrix)
+```
 
-* `square_matrix` - An array or range with an equal number of rows and columns representing a matrix whose multiplicative inverse will be calculated.
+- `square_matrix` - An array or range with an equal number of rows and columns representing a matrix whose multiplicative inverse will be calculated.
 
 ### See Also
 

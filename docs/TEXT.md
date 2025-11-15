@@ -15,30 +15,31 @@ Converts a number into text according to a specified format.
 
 ### Sample Usage
 
-`TEXT(1.23,"$0.00")`
-
-`TEXT(A2,"#.###")`
-
-`TEXT(24,"#.0?")`
-
-`TEXT(DATE(1969,7,20),"yyyy-MM")`
+```gse
+TEXT(1.23,"$0.00")
+TEXT(A2,"#.###")
+TEXT(24,"#.0?")
+TEXT(DATE(1969,7,20),"yyyy-MM")
+```
 
 ### Syntax
 
-`TEXT(number, format)`
+```gse
+TEXT(number, format)
+```
 
-* `number` - The number, date, or time to format.
-* `format` - The pattern by which to format the number, enclosed in quotation marks.
+- `number` - The number, date, or time to format.
+- `format` - The pattern by which to format the number, enclosed in quotation marks.
 
   + `0` forces display of zeros if a number has fewer digits than the format specifies. For example, `TEXT(12.3,"000.00")` produces `012.30`. Numbers which have more digits to the right of the decimal point than the pattern are rounded to the indicated number of places. For example, `TEXT(12.305,"00.00")` results in `12.31`.
   + `#` is similar to `0` but does not force the display of zeros on either side of the decimal point. For example, `TEXT(12.3,"###.##")` produces `12.3`.
 
 ### Notes
 
-* The `format` argument to `TEXT` cannot contain an asterisk (`*`).
-* `TEXT` does not support the `?` pattern in Google Sheets.
-* `TEXT` does not support fractional format patterns.
-* `TEXT` supports the following date and time patterns:
+- The `format` argument to `TEXT` cannot contain an asterisk (`*`).
+- `TEXT` does not support the `?` pattern in Google Sheets.
+- `TEXT` does not support fractional format patterns.
+- `TEXT` supports the following date and time patterns:
 
   + `d` for the day of the month as one or two digits.
   + `dd` for the day of the month as two digits.
@@ -56,7 +57,7 @@ Converts a number into text according to a specified format.
   + `ss` for the seconds in a time.
   + `ss.000` for milliseconds in a time.
   + `AM/PM` for displaying hours based on a 12-hour clock and showing AM or PM depending on the time of day.
-* Note that the date/time patterns and `#` or `0` cannot be mixed.
+- Note that the date/time patterns and `#` or `0` cannot be mixed.
 
 ### See Also
 

@@ -7,24 +7,23 @@ tags:
 
 The FORMULATEXT function returns a formula as a string.
 
-Parts of a FORMULATEXT function
--------------------------------
+### Parts of a FORMULATEXT function
 
-`FORMULATEXT(cell)`
+```gse
+FORMULATEXT(cell)
+```
 
 | Part | Description |
 | --- | --- |
 | `cell` | The cell to be verified as containing a formula. |
 
-Notes
------
+### Notes
 
-* `FORMULATEXT` returns what is displayed in the formula bar when selecting a cell.
-* If the cell passed into `FORMULATEXT` references the cell that contains the `FORMULATEXT` formula, then `FORMULATEXT` will properly handle this and avoid a circular reference.
-* If a range is passed into `FORMULATEXT`, only the top left most cell is evaluated.
+- `FORMULATEXT` returns what is displayed in the formula bar when selecting a cell.
+- If the cell passed into `FORMULATEXT` references the cell that contains the `FORMULATEXT` formula, then `FORMULATEXT` will properly handle this and avoid a circular reference.
+- If a range is passed into `FORMULATEXT`, only the top left most cell is evaluated.
 
-Examples
---------
+### Examples
 
 | A | B | C |
 | --- | --- | --- |

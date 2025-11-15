@@ -9,22 +9,25 @@ Returns the percentage rank (percentile) of a specified value in a dataset.
 
 ### Sample Usage
 
-`PERCENTRANK(A2:A100,A2)`
-
-`PERCENTRANK(A2:A100,1,7)`
+```gse
+PERCENTRANK(A2:A100,A2)
+PERCENTRANK(A2:A100,1,7)
+```
 
 ### Syntax
 
-`PERCENTRANK(data, value, [significant_digits])`
+```gse
+PERCENTRANK(data, value, [significant_digits])
+```
 
-* `data` - The array or range containing the dataset to consider.
-* `value` - The value whose percentage rank will be determined.
-* `significant_digits` - **[** OPTIONAL - `3` by default **]** - The number of significant figures to use in the calculation.
+- `data` - The array or range containing the dataset to consider.
+- `value` - The value whose percentage rank will be determined.
+- `significant_digits` - **[** OPTIONAL - `3` by default **]** - The number of significant figures to use in the calculation.
 
 ### Notes
 
-* If `data` does not contain `value` in any cell or element, `PERCENTRANK` will return the `#N/A` error.
-* If a number less than or equal to 0 is used for `significant_digits` then this value will be ignored and the default number of significant digits will be used instead.
+- If `data` does not contain `value` in any cell or element, `PERCENTRANK` will return the `#N/A` error.
+- If a number less than or equal to 0 is used for `significant_digits` then this value will be ignored and the default number of significant digits will be used instead.
 
 ### See Also
 

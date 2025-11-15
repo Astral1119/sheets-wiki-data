@@ -13,20 +13,22 @@ VLOOKUP for BigQuery
 
 Vertical lookup. Returns the values in a data column at the position where a match was found in the search column.
 
-Sample Usage
-------------
+### Sample Usage
 
-`VLOOKUP("Apple",table_name!fruit,table_name!price)`
+```gse
+VLOOKUP("Apple",table_name!fruit,table_name!price)
+```
 
-Syntax
-------
+### Syntax
 
-`VLOOKUP(search_key, range,index, is_sorted)`
+```gse
+VLOOKUP(search_key, range,index, is_sorted)
+```
 
-* `search_key`: The value to search for in the search column.
-* `search_column`: The data column to consider for the search.
-* `result_column`: The data column to consider for the result.
-* `is_sorted`: [OPTIONAL] The manner in which to find a match for the `search_key`.
+- `search_key`: The value to search for in the search column.
+- `search_column`: The data column to consider for the search.
+- `result_column`: The data column to consider for the result.
+- `is_sorted`: [OPTIONAL] The manner in which to find a match for the `search_key`.
   + `FALSE`: For an exact match, this is recommended.
   + `TRUE`: For an approximate match, this is the default if `is_sorted` is unspecified.  
     **Tip:** Before you use an approximate match, sort your search key in ascending order. Otherwise, you may likely get a wrong return value. [Learn why you may encounter a wrong return value](https://support.google.com/docs/answer/3093318).
@@ -43,8 +45,8 @@ Syntax
 2. **`range`:** The upper and lower values to consider for the search.
 3. **`index`:** The index of the column with the return value of the range. The index must be a positive integer.
 4. **`is_sorted`:** Optional input. Choose an option:
-   * `FALSE` = Exact match. This is recommended.
-   * `TRUE` = Approximate match. This is the default if `is_sorted` is unspecified.  
+   - `FALSE` = Exact match. This is recommended.
+   - `TRUE` = Approximate match. This is the default if `is_sorted` is unspecified.  
      **Important:** Before you use an approximate match, sort your search key in ascending order. Otherwise, you may likely get a wrong return value.[Learn why you may encounter a wrong return value](#Vlookupexactorapproximatetitle).
 
 ### Return value
@@ -70,8 +72,7 @@ Technical details:
 | --- | --- |
 | Return value | This is the value that `VLOOKUP` returns based on your inputs. There’s only one return value from each `VLOOKUP` function.   * If there are multiple search key values that match, the value in the return value column whose associated search key is first matched in the search key column is returned. * If `#N/A` is returned, a value isn’t found.   If you encounter an expected value or error like `#N/A` or `#VALUE!`, [begin to troubleshoot](#vlookuptroubleshoot). If you want to replace `#N/A` with another value, [learn more about how to use IFNA() on VLOOKUP()](#vlookupifna). |
 
-Basic VLOOKUP examples:
------------------------
+### Basic VLOOKUP examples:
 
 ### **VLOOKUP on different search keys**
 
@@ -111,8 +112,8 @@ When you use `VLOOKUP`, imagine that the columns of the `range` are numbered fro
 
 ### VLOOKUP exact match or approximate match
 
-* Use `VLOOKUP` exact match to find an exact ID.
-* Use `VLOOKUP` approximate match to find the approximate ID.
+- Use `VLOOKUP` exact match to find an exact ID.
+- Use `VLOOKUP` approximate match to find the approximate ID.
 
 ![VLOOKUP exact match or approximate match example](https://lh3.googleusercontent.com/VSFyToHtnKjpYO_i2kn0xPSBgu7063rLobXCdVitBmaVXb01SZdLMfxizkgHIQ8_iR5Q=w800)
 
@@ -135,8 +136,7 @@ When you search for the exact match, such as `is_sorted` = `FALSE`, it returns a
 | **Exact match** | =VLOOKUP(G6, A4:D8, 2, FALSE)  **Return value = "Apple"** |
 | **Approximate match** | =VLOOKUP(G3, A4:D8, 2, TRUE)  **OR**  =VLOOKUP(G3, A4:D8, 2)  **Return value = "Banana"** |
 
-Common VLOOKUP applications
----------------------------
+### Common VLOOKUP applications
 
 ### Replace error value from VLOOKUP
 
@@ -169,8 +169,8 @@ You may want to replace an error value returned by `VLOOKUP` when your search ke
 
 In `VLOOKUP`, you can also use wildcards or partial matches. You can use these wildcard characters:
 
-* A question mark "?" matches any single character.
-* An asterisk "\*" matches any sequence of characters.
+- A question mark "?" matches any single character.
+- An asterisk "\*" matches any sequence of characters.
 
 To use wildcards in `VLOOKUP`, you must use an exact match: "`is_sorted` = `FALSE`".
 
@@ -182,14 +182,13 @@ To use wildcards in `VLOOKUP`, you must use an exact match: "`is_sorted` = `FALS
 | --- | --- |
 | "St\*" is used to match anything that starts with "St" regardless of the number of characters, such as "Steve", "St1", "Stock", or "Steeeeeeve". | =VLOOKUP("St\*", B4:D8, 3, FALSE)  Return value = "Marketing" |
 
-Troubleshoot errors & best practices:
--------------------------------------
+### Troubleshoot errors & best practices:
 
 Wrong return value
 
-* **Returns an unexpected value:** If you set `is_sorted` as `TRUE`, but your first column in the range isn’t sorted numerically or alphabetically in ascending order, then change is\_sorted to `FALSE`.
-* **VLOOKUP gives the first match:** `VLOOKUP` only returns the first match. If you have multiple matched search keys, a value is returned, but it may not be the expected value.
-* **Unclean data:** Sometimes, values with spaces that trail and lead may seem similar but `VLOOKUP` treats them differently. For example, the following are different to `VLOOKUP`:
+- **Returns an unexpected value:** If you set `is_sorted` as `TRUE`, but your first column in the range isn’t sorted numerically or alphabetically in ascending order, then change is\_sorted to `FALSE`.
+- **VLOOKUP gives the first match:** `VLOOKUP` only returns the first match. If you have multiple matched search keys, a value is returned, but it may not be the expected value.
+- **Unclean data:** Sometimes, values with spaces that trail and lead may seem similar but `VLOOKUP` treats them differently. For example, the following are different to `VLOOKUP`:
   + " Apple"
   + "Apple "
   + "Apple"
@@ -198,30 +197,38 @@ To get your expected results, remove spaces before you use `VLOOKUP`.
 
 To learn more, [check out our best practice section](#VlookupBestPractice).
 
-`#N/A`
+```gse
+#N/A
+```
 
-* If approximate or `is_sorted` = `TRUE` is used and if the search key in `VLOOKUP` is smaller than the smallest value in the first column, then `VLOOKUP` returns `#N/A`.
-* If exact match or `is_sorted` = `FALSE` is used, then the exact match of the search key in `VLOOKUP` isn’t found in the first column. If you don’t want `#N/A` when the search key isn’t found in the first column, you can use the function [IFNA()](https://support.google.com/docs/answer/9365944).
+- If approximate or `is_sorted` = `TRUE` is used and if the search key in `VLOOKUP` is smaller than the smallest value in the first column, then `VLOOKUP` returns `#N/A`.
+- If exact match or `is_sorted` = `FALSE` is used, then the exact match of the search key in `VLOOKUP` isn’t found in the first column. If you don’t want `#N/A` when the search key isn’t found in the first column, you can use the function [IFNA()](https://support.google.com/docs/answer/9365944).
 
-`#REF!`
+```gse
+#REF!
+```
 
 You might mistakenly specify a `range` with a number bigger than the maximum number of columns of the `range`. To avoid this, make sure you:
 
-* Count the columns from the selected `range`, not the entire table.
-* Start to count from 1 instead of 0.
+- Count the columns from the selected `range`, not the entire table.
+- Start to count from 1 instead of 0.
 
-`#VALUE!`
+```gse
+#VALUE!
+```
 
 If you get `#VALUE!` error, you might have:
 
-* Incorrectly input the text or the column name for the `index`.
-* Entered a number smaller than 1 for the `index`. The `index` must be at least equal to 1 and smaller than the maximum number of columns of the `range`. `VLOOKUP` can only search in the search key column, when `index` = 1, or columns that are further right.
+- Incorrectly input the text or the column name for the `index`.
+- Entered a number smaller than 1 for the `index`. The `index` must be at least equal to 1 and smaller than the maximum number of columns of the `range`. `VLOOKUP` can only search in the search key column, when `index` = 1, or columns that are further right.
 
 **Important:** `index` only accepts a number.
 
-`#NAME`?
+```gse
+#NAME?
+```
 
-* You might have missed a quote in the search key when your `search_key` is text data.
+- You might have missed a quote in the search key when your `search_key` is text data.
 
 Best practices
 

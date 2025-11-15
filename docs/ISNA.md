@@ -9,19 +9,23 @@ Checks whether a value is the error `#N/A`.
 
 ### Sample Usage
 
-`ISNA(A2)`
+```gse
+ISNA(A2)
+```
 
 ### Syntax
 
-`ISNA(value)`
+```gse
+ISNA(value)
+```
 
-* `value` - The value to be compared with the error value `#N/A`.
+- `value` - The value to be compared with the error value `#N/A`.
 
   \*`ISNA` returns `TRUE` if `value` is `#N/A` or a reference to a cell containing `#N/A` and false otherwise.
 
 ### Notes
 
-* This function is most often used in conjunction with `IF` in conditional statements.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

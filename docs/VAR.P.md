@@ -11,40 +11,45 @@ VARP for BigQuery
 
 Calculates the population variance of a data column.
 
-Sample Usage
-------------
+### Sample Usage
 
-`=VARP(table_name!price)`
+```gse
+=VARP(table_name!price)
+```
 
-Syntax
-------
+### Syntax
 
-`VARP(column)`
+```gse
+VARP(column)
+```
 
-* `column`: The data column of the population.
+- `column`: The data column of the population.
 
 **Tip**: Returning population variance across multiple columns is not supported.
 
 ### Sample Usage
 
-`VARP(1,2,3,4,5,6,7,8,9,10)`
-
-`VARP(A2:A100)`
+```gse
+VARP(1,2,3,4,5,6,7,8,9,10)
+VARP(A2:A100)
+```
 
 ### Syntax
 
-`VARP(value1, [value2, ...])`
+```gse
+VARP(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the population.
-* `value2, ...` - Additional values or ranges to include in the population.
+- `value1` - The first value or range of the population.
+- `value2, ...` - Additional values or ranges to include in the population.
 
 ### Notes
 
-* Although `VARP` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `VARP` will return the `#DIV/0!` error.
-* `VARP` will ignore any of the `value` arguments that include text. To calculate variance while interpreting text values as `0`, use `VARPA`.
-* `VARP` calculates variance for an entire population. To calculate variance across a sample, use `VAR`.
-* `VARP` takes the sum of the squares of each value's deviation from the mean and divides by the number of such values. This differs from the calculation of variance across a sample in that the latter divides by the size of the dataset minus one.
+- Although `VARP` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `VARP` will return the `#DIV/0!` error.
+- `VARP` will ignore any of the `value` arguments that include text. To calculate variance while interpreting text values as `0`, use `VARPA`.
+- `VARP` calculates variance for an entire population. To calculate variance across a sample, use `VAR`.
+- `VARP` takes the sum of the squares of each value's deviation from the mean and divides by the number of such values. This differs from the calculation of variance across a sample in that the latter divides by the size of the dataset minus one.
 
 ### See Also
 

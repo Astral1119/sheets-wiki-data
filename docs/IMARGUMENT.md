@@ -7,31 +7,29 @@ tags:
 
 The IMARGUMENT function returns the angle (also known as the argument, or theta) of the given complex number in radians. This is the angle θ such that, for any complex number in Cartesian form x + yi, x + yi = reiθ where r is the magnitude of the number.
 
-Parts of an IMARGUMENT formula
-------------------------------
+### Parts of an IMARGUMENT formula
 
-`=IMARGUMENT(number)`
+```gse
+=IMARGUMENT(number)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | number | The complex number whose argument will be calculated. | This can be either the result of the COMPLEX function, a real number (which is interpreted as a complex number with imaginary part equal to 0),  or a string in the format “x + yi” where x and y are numeric. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`IMARGUMENT(COMPLEX(4, 6)`
+```gse
+IMARGUMENT(COMPLEX(4, 6)
+IMARGUMENT(4)
+IMARGUMENT("2+3I")
+```
 
-`IMARGUMENT(4)`
-
-`IMARGUMENT("2+3I")`
-
-Notes
------
+### Notes
 
 The IMARGUMENT function returns an error if the given number isn't a valid complex number, or is 0.
 
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |
@@ -40,7 +38,6 @@ Examples
 | **3** | =IMARGUMENT(1) | 0 |
 | **4** | =IMARGUMENT("1+1i") | 0.7853981634 |
 
-Related function
-----------------
+### Related function
 
 [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.

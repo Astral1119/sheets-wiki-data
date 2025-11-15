@@ -9,16 +9,19 @@ Returns `TRUE` if the first argument is greater than or equal to the second, and
 
 ### Sample Usage
 
-`GTE(A2,A3)`
-
-`GTE(2,3)`
+```gse
+GTE(A2,A3)
+GTE(2,3)
+```
 
 ### Syntax
 
-`GTE(value1, value2)`
+```gse
+GTE(value1, value2)
+```
 
-* `value1` - The value to test as being greater than or equal to `value2`.
-* `value2` - The second value.
+- `value1` - The value to test as being greater than or equal to `value2`.
+- `value2` - The second value.
 
 ### See Also
 

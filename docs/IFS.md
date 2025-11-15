@@ -9,21 +9,24 @@ Evaluates multiple conditions and returns a value that corresponds to the first 
 
 ### Sample Usage
 
-`IFS(A1>90, "A", A1>80, "B", A1>70, "C")`
-
-`IFS({A1:A5} > 3, "bigger", {A1:A5} = 3, "equal")`
+```gse
+IFS(A1>90, "A", A1>80, "B", A1>70, "C")
+IFS({A1:A5} > 3, "bigger", {A1:A5} = 3, "equal")
+```
 
 ### Syntax
 
-`IFS(condition1, value1, [condition2, value2, …])`
+```gse
+IFS(condition1, value1, [condition2, value2, …])
+```
 
-* `condition1` - The first condition to be evaluated. This can be a boolean, a number, an array, or a reference to any of those.
-* `value1` - The returned value if `condition1` is `TRUE`.
-* `condition2, value2, …` - Additional conditions and values if the first one is evaluated to be false.
+- `condition1` - The first condition to be evaluated. This can be a boolean, a number, an array, or a reference to any of those.
+- `value1` - The returned value if `condition1` is `TRUE`.
+- `condition2, value2, …` - Additional conditions and values if the first one is evaluated to be false.
 
 ### Notes
 
-* If all conditions are FALSE, `#N/A` is returned.
+- If all conditions are FALSE, `#N/A` is returned.
 
 ### See Also
 

@@ -9,20 +9,23 @@ Calculates the interest rate of an annuity investment based on constant-amount p
 
 ### Sample Usage
 
-`RATE(12,-100,400,0,0,0.1)`
-
-`RATE(A2,B2,C2,D2,1,0.08)`
+```gse
+RATE(12,-100,400,0,0,0.1)
+RATE(A2,B2,C2,D2,1,0.08)
+```
 
 ### Syntax
 
-`RATE(number_of_periods, payment_per_period, present_value, [future_value, end_or_beginning, rate_guess])`
+```gse
+RATE(number_of_periods, payment_per_period, present_value, [future_value, end_or_beginning, rate_guess])
+```
 
-* `number_of_periods` - The number of payments to be made.
-* `payment_per_period` - The amount per period to be paid.
-* `present_value` - The current value of the annuity.
-* `future_value` - **[** OPTIONAL **]** - The future value remaining after the final payment has been made.
-* `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
-* `rate_guess` - **[** OPTIONAL - 0.1 by default **]** - An estimate for what the interest rate will be.
+- `number_of_periods` - The number of payments to be made.
+- `payment_per_period` - The amount per period to be paid.
+- `present_value` - The current value of the annuity.
+- `future_value` - **[** OPTIONAL **]** - The future value remaining after the final payment has been made.
+- `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
+- `rate_guess` - **[** OPTIONAL - 0.1 by default **]** - An estimate for what the interest rate will be.
 
 ### See Also
 

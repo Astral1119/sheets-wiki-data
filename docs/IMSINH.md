@@ -8,31 +8,29 @@ tags:
 The IMSINH function returns the hyperbolic sine of the given complex number.
  For example, a given complex number "x+yi" returns "sinh(x+yi)."
 
-Parts of an IMSINH function
----------------------------
+### Parts of an IMSINH function
 
-`IMSINH(number)`
+```gse
+IMSINH(number)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | `number` | The complex number for which you want the hyperbolic sine. | This can be either the result of the COMPLEX function, a real number interpreted as a complex number with imaginary parts equal to 0, or a string in the format “x+yi” where x and y are numeric. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`IMSINH(COMPLEX(4,6))`
+```gse
+IMSINH(COMPLEX(4,6))
+IMSINH(4)
+IMSINH("2+3i")
+```
 
-`IMSINH(4)`
-
-`IMSINH("2+3i")`
-
-Notes
------
+### Notes
 
 The `IMSINH` function returns an error if the given number isn't a valid complex number.
 
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |
@@ -41,8 +39,7 @@ Examples
 | **3** | `=IMSINH(3.5)` | 16.542627287635 |
 | **4** | `=IMSINH("3+2i")` | -4.16890695996657+9.15449914691143i |
 
-Related functions
------------------
+### Related functions
 
 [[IMSIN]]:  The IMSIN function returns the sine of the given complex number.
 

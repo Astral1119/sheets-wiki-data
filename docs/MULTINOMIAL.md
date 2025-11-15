@@ -9,20 +9,23 @@ Returns the factorial of the sum of values divided by the product of the values'
 
 ### Sample Usage
 
-`MULTINOMIAL(1,2,3)`
-
-`MULTINOMIAL(A2:A9)`
+```gse
+MULTINOMIAL(1,2,3)
+MULTINOMIAL(A2:A9)
+```
 
 ### Syntax
 
-`MULTINOMIAL(value1, [value2, ...])`
+```gse
+MULTINOMIAL(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider.
-* `value2, ...` - Additional values or ranges to consider.
+- `value1` - The first value or range to consider.
+- `value2, ...` - Additional values or ranges to consider.
 
 ### Notes
 
-* Although `MULTINOMIAL` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Although `MULTINOMIAL` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
 
 ### See Also
 

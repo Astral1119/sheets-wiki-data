@@ -9,24 +9,27 @@ Converts a provided number to a dollar value.
 
 ### Sample Usage
 
-`TO_DOLLARS(A2)`
-
-`TO_DOLLARS(40826.43)`
+```gse
+TO_DOLLARS(A2)
+TO_DOLLARS(40826.43)
+```
 
 ### Syntax
 
-`TO_DOLLARS(value)`
+```gse
+TO_DOLLARS(value)
+```
 
-* `value` - The argument or reference to a cell to be converted to a dollar value.
+- `value` - The argument or reference to a cell to be converted to a dollar value.
 
   + If `value` is not a number or a reference to a cell containing a numeric value, `TO_DOLLARS` returns `value` without modification.
 
 ### Notes
 
-* Because dates and percentages are backed by numbers, `TO_DOLLARS` will convert them successfully. However, these conversions are not typically meaningful.
-* `TO_DOLLARS` is equivalent to applying Format -> Number -> Currency from the menu bar.
-* `TO_DOLLARS` differs from the related function `DOLLAR` in that `DOLLAR` outputs text rather than applying a cell format to a number.
-* `TO_DOLLARS` does not convert from other currencies into US Dollars. Please use the `GoogleFinance` function to convert currencies at current exchange rates.
+- Because dates and percentages are backed by numbers, `TO_DOLLARS` will convert them successfully. However, these conversions are not typically meaningful.
+- `TO_DOLLARS` is equivalent to applying Format -> Number -> Currency from the menu bar.
+- `TO_DOLLARS` differs from the related function `DOLLAR` in that `DOLLAR` outputs text rather than applying a cell format to a number.
+- `TO_DOLLARS` does not convert from other currencies into US Dollars. Please use the `GoogleFinance` function to convert currencies at current exchange rates.
 
 ### See Also
 

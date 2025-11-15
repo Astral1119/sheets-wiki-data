@@ -9,29 +9,32 @@ The BIN2OCT function converts a signed binary number to signed octal format.
 
 ### Sample Usage
 
-`BIN2OCT(101,8)`
-
-`BIN2OCT(A2)`
+```gse
+BIN2OCT(101,8)
+BIN2OCT(A2)
+```
 
 ### Syntax
 
-`BIN2OCT(signed_binary_number, [significant_digits])`
+```gse
+BIN2OCT(signed_binary_number, [significant_digits])
+```
 
-* `signed_binary_number` - The signed 10-bit binary value to be converted to signed octal, provided as a string.
+- `signed_binary_number` - The signed 10-bit binary value to be converted to signed octal, provided as a string.
 
   + The most significant bit of `signed_binary_number` is the sign bit; that is, negative numbers are represented in two's complement format.
   + For this function, this value has a maximum of 0111111111 if positive, and a minimum of 1000000000 if negative.
   + If `signed_binary_number` is provided as a valid binary number, it will automatically be converted to the appropriate string input. For example, `BIN2OCT(11111)` and `BIN2OCT("11111")` yield the same result: `37`.
-* `significant_digits` - **[** OPTIONAL **]** - The number of significant digits to ensure in the result.
+- `significant_digits` - **[** OPTIONAL **]** - The number of significant digits to ensure in the result.
 
   + If this is greater than the number of significant digits in the result, the result is left-padded with zeros until the total number of digits reaches `significant_digits`. For example, `BIN2OCT("11111")` yields the value `00000037`.
   + This value is ignored if the most significant bit of `signed_binary_number` is `1`; that is, if the expressed `signed_binary_number` is greater than or equal to 1000000000.
 
 ### Notes
 
-* As with any binary value, only the digits `0` and `1` are valid. Digits other than these will cause `BIN2OCT` to return a `#NUM!` error.
-* If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
-* Ensure that any calculations using the result of BIN2OCT take into account that it is in octal. Results will be silently converted by Google Sheets; thus if cell `A2` contains `111`, the octal equivalent of binary `1001001`, and `B2` contains a formula such as `=A2+9`, the result will be `120`, which is incorrect in octal calculation.
+- As with any binary value, only the digits `0` and `1` are valid. Digits other than these will cause `BIN2OCT` to return a `#NUM!` error.
+- If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
+- Ensure that any calculations using the result of BIN2OCT take into account that it is in octal. Results will be silently converted by Google Sheets; thus if cell `A2` contains `111`, the octal equivalent of binary `1001001`, and `B2` contains a formula such as `=A2+9`, the result will be `120`, which is incorrect in octal calculation.
 
 ### See Also
 

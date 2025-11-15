@@ -13,30 +13,38 @@ Returns the number of empty values in a data column.
 
 ### Sample Usage
 
-`COUNTBLANK(table_name!fruits)`
+```gse
+COUNTBLANK(table_name!fruits)
+```
 
 ### Syntax
 
-`COUNTBLANK(column)`
+```gse
+COUNTBLANK(column)
+```
 
-* `column`: The data column in which to count the number of nulls.
+- `column`: The data column in which to count the number of nulls.
 
 **Tip:** Counting blanks in multiple columns is not supported.
 
 ### Sample Usage
 
-`COUNTBLANK(A2:C100)`
+```gse
+COUNTBLANK(A2:C100)
+```
 
 ### Syntax
 
-`COUNTBLANK(value1, [value2,...])`
+```gse
+COUNTBLANK(value1, [value2,...])
+```
 
-* value1 - The first value or range in which to count the number of blanks.
-* value2 - [OPTIONAL ] - Additional values or ranges in which to count the number of blanks.
+- value1 - The first value or range in which to count the number of blanks.
+- value2 - [OPTIONAL ] - Additional values or ranges in which to count the number of blanks.
 
 ### Notes
 
-* `COUNTBLANK` considers cells with no content and cells containing an empty string (`""`) to be blank cells.
+- `COUNTBLANK` considers cells with no content and cells containing an empty string (`""`) to be blank cells.
 
 ### See Also
 

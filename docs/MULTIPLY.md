@@ -9,20 +9,23 @@ Returns the product of two numbers. Equivalent to the `\*` operator.
 
 ### Sample Usage
 
-`MULTIPLY(A2,B2)`
-
-`MULTIPLY(2,3)`
+```gse
+MULTIPLY(A2,B2)
+MULTIPLY(2,3)
+```
 
 ### Syntax
 
-`MULTIPLY(factor1, factor2)`
+```gse
+MULTIPLY(factor1, factor2)
+```
 
-* `factor1` - The first multiplicand.
-* `factor2` - The second multiplicand.
+- `factor1` - The first multiplicand.
+- `factor2` - The second multiplicand.
 
 ### Notes
 
-* Unlike `PRODUCT`, `MULTIPLY` only supports the multiplication of two scalar values and takes neither ranges nor more than two arguments.
+- Unlike `PRODUCT`, `MULTIPLY` only supports the multiplication of two scalar values and takes neither ranges nor more than two arguments.
 
 ### See Also
 

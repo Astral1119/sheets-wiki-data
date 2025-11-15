@@ -9,19 +9,22 @@ Returns the length of a string.
 
 ### Sample Usage
 
-`LEN(A2)`
-
-`LEN("lorem ipsum")`
+```gse
+LEN(A2)
+LEN("lorem ipsum")
+```
 
 ### Syntax
 
-`LEN(text)`
+```gse
+LEN(text)
+```
 
-* `text` - The string whose length will be returned.
+- `text` - The string whose length will be returned.
 
 ### Notes
 
-* `LEN` counts all characters, even spaces and nonprinting characters. In cases where `LEN` returns unexpected values, ensure that there are no such characters in `text`.
+- `LEN` counts all characters, even spaces and nonprinting characters. In cases where `LEN` returns unexpected values, ensure that there are no such characters in `text`.
 
 ### See Also
 

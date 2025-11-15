@@ -9,20 +9,23 @@ Calculates the harmonic mean of a dataset.
 
 ### Sample Usage
 
-`HARMEAN(1,2,3,4,5,6,7,8,9,10)`
-
-`HARMEAN(A2:A100)`
+```gse
+HARMEAN(1,2,3,4,5,6,7,8,9,10)
+HARMEAN(A2:A100)
+```
 
 ### Syntax
 
-`HARMEAN(value1, [value2, ...])`
+```gse
+HARMEAN(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the population.
-* `value2, ...` - Additional values or ranges to include in the population.
+- `value1` - The first value or range of the population.
+- `value2, ...` - Additional values or ranges to include in the population.
 
 ### Notes
 
-* The harmonic mean of a population is the size of the population divided by the sum of the reciprocals of each of the data points in the population.
+- The harmonic mean of a population is the size of the population divided by the sum of the reciprocals of each of the data points in the population.
 
 ### See Also
 

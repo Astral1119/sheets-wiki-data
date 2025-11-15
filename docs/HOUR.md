@@ -9,26 +9,27 @@ Returns the hour component of a specific time, in numeric format.
 
 ### Sample Usage
 
-`HOUR(TIME(11,40,59))`
-
-`HOUR(A2)`
-
-`HOUR(40909.0004)`
-
-`HOUR("20:49:59")`
+```gse
+HOUR(TIME(11,40,59))
+HOUR(A2)
+HOUR(40909.0004)
+HOUR("20:49:59")
+```
 
 ### Syntax
 
-`HOUR(time)`
+```gse
+HOUR(time)
+```
 
-* `time` - The time from which to calculate the hour component. Must be a reference to a cell containing a date/time, a function returning a date/time type, or a number.
+- `time` - The time from which to calculate the hour component. Must be a reference to a cell containing a date/time, a function returning a date/time type, or a number.
 
 ### Notes
 
-* Ensure that the input to the function is either a reference to a cell containing a date/time, a function which returns a date/time object such as [[TIME]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
-* `HOUR` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `HOUR(12:00:00)` will return an error.
-* `HOUR` returns the intuitive understanding of hours, and is useful primarily in other calculations rather than to extract the hour component of a known time, as that value is easily known from a plain reading of the entire time.
-* Note that date objects that are created with the [[DATE]] function or by entry of a date without a time component will have a time of 0:00:00.
+- Ensure that the input to the function is either a reference to a cell containing a date/time, a function which returns a date/time object such as [[TIME]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+- `HOUR` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `HOUR(12:00:00)` will return an error.
+- `HOUR` returns the intuitive understanding of hours, and is useful primarily in other calculations rather than to extract the hour component of a known time, as that value is easily known from a plain reading of the entire time.
+- Note that date objects that are created with the [[DATE]] function or by entry of a date without a time component will have a time of 0:00:00.
 
 ### See Also
 

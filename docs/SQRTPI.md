@@ -9,22 +9,25 @@ Returns the positive square root of the product of Pi and the given positive num
 
 ### Sample Usage
 
-`SQRTPI(9)`
-
-`SQRTPI(A2)`
+```gse
+SQRTPI(9)
+SQRTPI(A2)
+```
 
 ### Syntax
 
-`SQRTPI(value)`
+```gse
+SQRTPI(value)
+```
 
-* `value` - The number which will be multiplied by Pi and have the product's square root returned
+- `value` - The number which will be multiplied by Pi and have the product's square root returned
 
   + `value` must be positive; if it is negative, `SQRTPI` will return the `#NUM!` error.
 
 ### Notes
 
-* To find the negative root of `value` \* Pi, simply multiply the result of the `SQRTPI` function call by `-1`.
-* `SQRTPI` is used for certain types of analysis or as a component to other functions (e.g. an estimation of the Gamma function) and is rarely used by itself.
+- To find the negative root of `value` \* Pi, simply multiply the result of the `SQRTPI` function call by `-1`.
+- `SQRTPI` is used for certain types of analysis or as a component to other functions (e.g. an estimation of the Gamma function) and is rarely used by itself.
 
 ### See Also
 

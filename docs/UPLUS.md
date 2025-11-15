@@ -9,15 +9,18 @@ Returns a specified number, unchanged.
 
 ### Sample Usage
 
-`UPLUS(-4)`
-
-`UPLUS(A2)`
+```gse
+UPLUS(-4)
+UPLUS(A2)
+```
 
 ### Syntax
 
-`UPLUS(value)`
+```gse
+UPLUS(value)
+```
 
-* `value` - The number to return.
+- `value` - The number to return.
 
 ### See Also
 

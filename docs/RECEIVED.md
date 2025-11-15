@@ -9,19 +9,22 @@ Calculates the amount received at maturity for an investment in fixed-income sec
 
 ### Sample Usage
 
-`RECEIVED(DATE(2010,02,01),DATE(2019,12,31),1000,0.05)`
-
-`RECEIVED(A2,A3,A4,A5,1)`
+```gse
+RECEIVED(DATE(2010,02,01),DATE(2019,12,31),1000,0.05)
+RECEIVED(A2,A3,A4,A5,1)
+```
 
 ### Syntax
 
-`RECEIVED(settlement, maturity, investment, discount, [day_count_convention])`
+```gse
+RECEIVED(settlement, maturity, investment, discount, [day_count_convention])
+```
 
-* `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
-* `maturity` - The maturity or end date of the security, when it can be redeemed at face or par value.
-* `investment` - The amount invested (irrespective of face value of each security).
-* `discount` - The discount rate of the security invested in.
-* `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
+- `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
+- `maturity` - The maturity or end date of the security, when it can be redeemed at face or par value.
+- `investment` - The amount invested (irrespective of face value of each security).
+- `discount` - The discount rate of the security invested in.
+- `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
 
   + 0 indicates US (NASD) 30/360 - This assumes 30 day months and 360 day years as per the National Association of Securities Dealers standard, and performs specific adjustments to entered dates which fall at the end of months.
   + 1 indicates Actual/Actual - This calculates based upon the actual number of days between the specified dates, and the actual number of days in the intervening years. Used for US Treasury Bonds and Bills, but also the most relevant for non-financial use.
@@ -31,7 +34,7 @@ Calculates the amount received at maturity for an investment in fixed-income sec
 
 ### Notes
 
-* `settlement` and `maturity` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
+- `settlement` and `maturity` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
 
 ### See Also
 

@@ -9,23 +9,26 @@ Calculates the sum of squares of deviations based on a sample.
 
 ### Sample Usage
 
-`DEVSQ(1,2,3,4,5,6,7,8,9,10)`
-
-`DEVSQ(A2:A100)`
+```gse
+DEVSQ(1,2,3,4,5,6,7,8,9,10)
+DEVSQ(A2:A100)
+```
 
 ### Syntax
 
-`DEVSQ(value1, [value2, ...])`
+```gse
+DEVSQ(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the sample.
-* `value2, ...` - Additional values or ranges to include in the sample.
+- `value1` - The first value or range of the sample.
+- `value2, ...` - Additional values or ranges to include in the sample.
 
 ### Notes
 
-* Although `DEVSQ` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `DEVSQ` will return a value of `0`.
-* `DEVSQ` will ignore any text values found in ranges included in `value` arguments.
-* `DEVSQ` is equivalent to the variance of a sample multiplied by the number of elements in the sample minus one; that is, `(COUNT(...)-1)*VAR(...)` where `COUNT` and `VAR` are called on the same dataset.
+- Although `DEVSQ` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `DEVSQ` will return a value of `0`.
+- `DEVSQ` will ignore any text values found in ranges included in `value` arguments.
+- `DEVSQ` is equivalent to the variance of a sample multiplied by the number of elements in the sample minus one; that is, `(COUNT(...)-1)*VAR(...)` where `COUNT` and `VAR` are called on the same dataset.
 
 ### See Also
 

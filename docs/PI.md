@@ -9,11 +9,15 @@ The PI function returns the value of pi to 9 decimal places.
 
 ### Sample Usage
 
-`PI()`
+```gse
+PI()
+```
 
 ### Syntax
 
-`PI()`
+```gse
+PI()
+```
 
 ### See Also
 

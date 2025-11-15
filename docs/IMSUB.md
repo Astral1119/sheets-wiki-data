@@ -9,27 +9,31 @@ Returns the difference between two complex numbers.
 
 ### Sample Usage
 
-`IMSUB("6+5i", "2+3i")`
+```gse
+IMSUB("6+5i", "2+3i")
+```
 
 ### Syntax
 
-`IMSUB(first_number, second_number)`
+```gse
+IMSUB(first_number, second_number)
+```
 
-* `first_number` - The complex number to subtract `second_number` from.
-* `second_number` - The complex number to subtract from `first_number`.
+- `first_number` - The complex number to subtract `second_number` from.
+- `second_number` - The complex number to subtract from `first_number`.
 
 ### Notes
 
-* The difference between two complex numbers is defined as follows:
+- The difference between two complex numbers is defined as follows:
   + (a+bi) - (c+di) = (a-c) + (b-d)i
-* You can subtract two complex numbers only if they have the same suffix (i or j). For example, you can't do `IMSUB("4+3i", "1+2j")`.
+- You can subtract two complex numbers only if they have the same suffix (i or j). For example, you can't do `IMSUB("4+3i", "1+2j")`.
 
 ### See also
 
-* [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
-* [[IMREAL]]: Returns the real coefficient of a complex number.
-* [[IMAGINARY]]: Returns the imaginary coefficient of a complex number.
-* [[IMSUM]]: Returns the sum of a series of complex numbers or cells or both.
+- [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
+- [[IMREAL]]: Returns the real coefficient of a complex number.
+- [[IMAGINARY]]: Returns the imaginary coefficient of a complex number.
+- [[IMSUM]]: Returns the sum of a series of complex numbers or cells or both.
 
 ### Examples
 

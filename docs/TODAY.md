@@ -9,17 +9,21 @@ Returns the current date as a date value.
 
 ### Sample Usage
 
-`TODAY()`
+```gse
+TODAY()
+```
 
 ### Syntax
 
-`TODAY()`
+```gse
+TODAY()
+```
 
 ### Notes
 
-* Note that `TODAY` is a volatile function and can hurt spreadsheet performance.
-* `TODAY` provides the current date with no time component. To create a date with the current time, use [[NOW]].
-* `TODAY` will always represent the current date the last time the spreadsheet was recalculated, rather than remaining at the date when it was first entered.
+- Note that `TODAY` is a volatile function and can hurt spreadsheet performance.
+- `TODAY` provides the current date with no time component. To create a date with the current time, use [[NOW]].
+- `TODAY` will always represent the current date the last time the spreadsheet was recalculated, rather than remaining at the date when it was first entered.
 
 ### See Also
 

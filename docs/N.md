@@ -9,15 +9,18 @@ Returns the argument provided as a number.
 
 ### Sample Usage
 
-`N(A2)`
-
-`N(4)`
+```gse
+N(A2)
+N(4)
+```
 
 ### Syntax
 
-`N(value)`
+```gse
+N(value)
+```
 
-* `value` - The argument to be converted to a number.
+- `value` - The argument to be converted to a number.
 
   + If `value` is `TRUE`, `N` returns `1`.
   + If `value` is a number, the number is returned.
@@ -28,8 +31,8 @@ Returns the argument provided as a number.
 
 ### Notes
 
-* When using `N` on numeric values in other cells, formatting (into currencies, scientific notation, etc.) is lost. To specify formatting on the return value of `N`, simply apply the format desired to the cell containing the formula.
-* This function is, in fact, rarely necessary as Google Spreadsheet automatically converts between most formats appropriately. It is provided primarily for compatibility with formulas used in other spreadsheet packages.
+- When using `N` on numeric values in other cells, formatting (into currencies, scientific notation, etc.) is lost. To specify formatting on the return value of `N`, simply apply the format desired to the cell containing the formula.
+- This function is, in fact, rarely necessary as Google Spreadsheet automatically converts between most formats appropriately. It is provided primarily for compatibility with formulas used in other spreadsheet packages.
 
 ### See Also
 

@@ -9,23 +9,26 @@ Returns the median value in a numeric dataset.
 
 ### Sample Usage
 
-`MEDIAN(A2:A100,B2:B100,4,26)`
-
-`MEDIAN(1,2,3,4,5,C6:C20)`
+```gse
+MEDIAN(A2:A100,B2:B100,4,26)
+MEDIAN(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`MEDIAN(value1, [value2, ...])`
+```gse
+MEDIAN(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the median value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the median value.
+- `value1` - The first value or range to consider when calculating the median value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the median value.
 
 ### Notes
 
-* Although `MEDIAN` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Any text encountered in the `value` arguments will be ignored.
-* `MEDIAN` returns the center value if the dataset contains an odd number of values. If the combined `value` arguments contain an even number of values, `MEDIAN` will interpolate between the two center values.
-* `MEDIAN` finds the center value of the dataset rather than the mean. To find the mean use `AVERAGE` or `AVERAGEA`.
+- Although `MEDIAN` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Any text encountered in the `value` arguments will be ignored.
+- `MEDIAN` returns the center value if the dataset contains an odd number of values. If the combined `value` arguments contain an even number of values, `MEDIAN` will interpolate between the two center values.
+- `MEDIAN` finds the center value of the dataset rather than the mean. To find the mean use `AVERAGE` or `AVERAGEA`.
 
 ### See Also
 

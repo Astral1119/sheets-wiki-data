@@ -9,20 +9,23 @@ Returns one number divided by another, without the remainder.
 
 ### Sample Usage
 
-`QUOTIENT(4,2)`
-
-`QUOTIENT(A2,B2)`
+```gse
+QUOTIENT(4,2)
+QUOTIENT(A2,B2)
+```
 
 ### Syntax
 
-`QUOTIENT(dividend, divisor)`
+```gse
+QUOTIENT(dividend, divisor)
+```
 
-* `dividend` - The number to be divided.
-* `divisor` - The number to divide by (cannot equal `0`).
+- `dividend` - The number to be divided.
+- `divisor` - The number to divide by (cannot equal `0`).
 
 ### Notes
 
-* `QUOTIENT` performs a division, but will only return the quotient and not the remainder. To see the full result (quotient and remainder), use the `DIVIDE` function or the '/' operator.
+- `QUOTIENT` performs a division, but will only return the quotient and not the remainder. To see the full result (quotient and remainder), use the `DIVIDE` function or the '/' operator.
 
 ### See Also
 

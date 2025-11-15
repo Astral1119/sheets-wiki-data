@@ -9,25 +9,26 @@ Converts a numeric value to a different unit of measure.
 
 ### Sample Usage
 
-`CONVERT(5.1, "g", "kg")`
-
-`CONVERT(32, "C", "F")`
-
-`CONVERT(35.7, "in^2", "m^2")`
-
-`CONVERT(A1, A2, A3)`
+```gse
+CONVERT(5.1, "g", "kg")
+CONVERT(32, "C", "F")
+CONVERT(35.7, "in^2", "m^2")
+CONVERT(A1, A2, A3)
+```
 
 ### Syntax
 
-`CONVERT(value, start_unit, end_unit)`
+```gse
+CONVERT(value, start_unit, end_unit)
+```
 
-* `value` - the numeric value in `start_unit` to convert to `end_unit`
-* `start_unit` - The starting unit, the unit currently assigned to `value` .
-* `end_unit` - The unit of measure into which to convert `value`.
+- `value` - the numeric value in `start_unit` to convert to `end_unit`
+- `start_unit` - The starting unit, the unit currently assigned to `value` .
+- `end_unit` - The unit of measure into which to convert `value`.
 
 ### Notes
 
-* The following list outlines the available unit conversions by category:
+- The following list outlines the available unit conversions by category:
 
   + Weight - u, grain, g, ozm, lbm, stone, sg, cwt, uk\_cwt, ton, uk\_ton
   + Distance - ang, Picapt, pica, in, ft, yd, m, ell, mi, survey\_mi Nmi, ly, parsec
@@ -42,7 +43,7 @@ Converts a numeric value to a different unit of measure.
   + Area - ang^2, Picapt^2, in^2, ft^2, yd^2, m^2,ar, Morgen,uk\_acre, us\_acre, ha, mi^2, Nmi^2, ly^2
   + Information - bit, byte
   + Speed - m/hr, mph, kn, admkn, m/s
-* The use of `CONVERT` between two different categories of `start_unit` and  `end_unit` will result in an error. For example, `CONVERT(13.2,"ft","C")` would result in an error as a result of an attempted conversion from distance units to temperature units.
+- The use of `CONVERT` between two different categories of `start_unit` and  `end_unit` will result in an error. For example, `CONVERT(13.2,"ft","C")` would result in an error as a result of an attempted conversion from distance units to temperature units.
 
 ### See Also
 

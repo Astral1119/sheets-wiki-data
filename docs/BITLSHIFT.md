@@ -7,30 +7,28 @@ tags:
 
 The BITLSHIFT function shifts the bits of the input a certain number of places to the left. Bits on the right are filled with zeroes (0s).
 
-Parts of a BITLSHIFT function
------------------------------
+### Parts of a BITLSHIFT function
 
-`BITLSHIFT(value,shift_amount)`
+```gse
+BITLSHIFT(value,shift_amount)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | `value` | The number to be shifted. | Must be a non-negative number. |
 | `shift_amount` | The number of places to shift. | Must be a value between -53 and 53, inclusive. Supplying a negative value will effectively be a BITRSHIFT. |
 
-Sample formulas
----------------
+### Sample formulas
 
 `BITLSHIFT(9, 2)  
 BITLSHIFT(A2, 4)`
 
-Notes
------
+### Notes
 
-* Values don't necessarily have to be numbers.
-* Values may be coerced. For example, a string value of “3” can be coerced to be simply 3 and a boolean value of TRUE can be coerced to 1.
+- Values don't necessarily have to be numbers.
+- Values may be coerced. For example, a string value of “3” can be coerced to be simply 3 and a boolean value of TRUE can be coerced to 1.
 
-Examples
---------
+### Examples
 
 In this example, we use BITLSHIFT with values inlined into the function. The value 2 (represented as 10 in base 2) has its bits shifted left by the shift\_amount of 2, resulting in 8 (represented as 1000 in base 2).
 
@@ -46,7 +44,6 @@ Similar to the last example, a value of 2 being shifted by 2 results in a BITLS
 | **1** | **Formula** | **Result** | **Reference cells** |
 | **2** | `=BITLSHIFT(C2,C3)` | 8 | 2 |
 
-Related functions
------------------
+### Related functions
 
 BITRSHIFT: The BITRSHIFT function shifts the bits of the input a certain number of places to the right. Bits on the left are filled with zeroes (0s).

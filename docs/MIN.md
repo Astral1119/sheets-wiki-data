@@ -13,33 +13,40 @@ Returns the minimum value in a data column.
 
 ### Sample Usage
 
-`MIN(table_name!price)`
+```gse
+MIN(table_name!price)
+```
 
 ### Syntax
 
-`MIN(column)`
+```gse
+MIN(column)
+```
 
-* `column`: The data column to consider when calculating the minimum value.
+- `column`: The data column to consider when calculating the minimum value.
 
 **Tip:** Returning minimum value across multiple columns is not supported
 
 ### Sample Usage
 
-`MIN(A2:A100,B2:B100,4,26)`
-
-`MIN(1,2,3,4,5,C6:C20)`
+```gse
+MIN(A2:A100,B2:B100,4,26)
+MIN(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`MIN(value1, [value2, ...])`
+```gse
+MIN(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the minimum value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the minimum value.
+- `value1` - The first value or range to consider when calculating the minimum value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the minimum value.
 
 ### Notes
 
-* Although `MIN` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Each `value` argument must be a cell, a number, or a range containing numbers. Cells without numbers or ranges are ignored. Entering text values will cause `MIN` to return the `#VALUE!` error. To allow text values, use `MINA`.
+- Although `MIN` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Each `value` argument must be a cell, a number, or a range containing numbers. Cells without numbers or ranges are ignored. Entering text values will cause `MIN` to return the `#VALUE!` error. To allow text values, use `MINA`.
 
 ### See Also
 

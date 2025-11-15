@@ -9,26 +9,29 @@ Returns the complex conjugate of a number.
 
 ### Sample Usage
 
-`IMCONJUGATE("3+4i")`
-
-`IMCONJUGATE("-2i")`
+```gse
+IMCONJUGATE("3+4i")
+IMCONJUGATE("-2i")
+```
 
 ### Syntax
 
-`IMCONJUGATE(number)`
+```gse
+IMCONJUGATE(number)
+```
 
-* `number` - The complex number to calculate the conjugate for.
+- `number` - The complex number to calculate the conjugate for.
 
 ### Notes
 
-* The complex conjugate is defined as follows:
+- The complex conjugate is defined as follows:
   + ![IMCONJUGATE Equation](https://lh3.googleusercontent.com/G-3CYkTX1itwNRCfgr7WX3E1yW6Df-qw5nE0JQfDPiUwhREvYz2xvLM77JR2xblzSkE=w116)
 
 ### See also
 
-* [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
-* [[IMREAL]]: Returns the real coefficient of a complex number.
-* [[IMAGINARY]]: Returns the imaginary coefficient of a complex number.
+- [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
+- [[IMREAL]]: Returns the real coefficient of a complex number.
+- [[IMAGINARY]]: Returns the imaginary coefficient of a complex number.
 
 ### Examples
 

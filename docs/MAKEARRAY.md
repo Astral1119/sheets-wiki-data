@@ -7,41 +7,40 @@ tags:
 
 This function returns an array of specified dimensions with values calculated by application of a LAMBDA function.
 
-Sample Usage
-------------
+### Sample Usage
 
-`MAKEARRAY(2, 3, LAMBDA(row_index, column_index, row_index+column_index))`
+```gse
+MAKEARRAY(2, 3, LAMBDA(row_index, column_index, row_index+column_index))
+MAKEARRAY(2, 3, LAMBDA(row_index, column_index, row_index*column_index))
+```
 
-`MAKEARRAY(2, 3, LAMBDA(row_index, column_index, row_index*column_index))`
+### Syntax
 
-Syntax
-------
+```gse
+MAKEARRAY(rows, columns, LAMBDA)
+```
 
-`MAKEARRAY(rows, columns, LAMBDA)`
-
-* `rows`: The number of rows to return.
-* `columns`: The number of columns to return.
-* `LAMBDA`: A `LAMBDA` that’s applied to create the array.
+- `rows`: The number of rows to return.
+- `columns`: The number of columns to return.
+- `LAMBDA`: A `LAMBDA` that’s applied to create the array.
   + **Syntax:** `LAMBDA(name1, name2, formula_expression)`
     - [Learn more about LAMBDA functions](https://support.google.com/docs/answer/12508718).
   + **Requirements:**
     - The `LAMBDA` must have exactly 2 `name` arguments along with a `formula_expression` which uses those `names`. When applying the `LAMBDA`, `name1` resolves to the current `row_index` and `name2` resolves to the current `column_index`.
 
-Notes
------
+### Notes
 
-* The passed `LAMBDA` function should accept exactly 2 `name` arguments, otherwise an `#N/A`error is returned. These correspond to `row_index` and `column_index`, in order. These are explained as:
+- The passed `LAMBDA` function should accept exactly 2 `name` arguments, otherwise an `#N/A`error is returned. These correspond to `row_index` and `column_index`, in order. These are explained as:
 
   + `name1`:Resolves to the current `row_index` for which value is created.
   + `name2`:Resolves to the current `column_index` for which value is created.
-* Every value created by the `LAMBDA` function applied on indices should be a single value. Array results for created values aren’t supported.
-* `row_index` and `column_index` start from 1.
-* A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` function in this case. [Learn more about named functions](http://support.google.com/docs/answer/12504534).
+- Every value created by the `LAMBDA` function applied on indices should be a single value. Array results for created values aren’t supported.
+- `row_index` and `column_index` start from 1.
+- A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` function in this case. [Learn more about named functions](http://support.google.com/docs/answer/12504534).
   + The `named function` must follow the `LAMBDA` syntax for `MAKEARRAY` with exactly 2 argument placeholders defined for it.
   + The `named function` shouldn't be followed by parenthesis.
 
-Examples
---------
+### Examples
 
 ### Return a 2 by 3 array with row index\*column index as cell value
 
@@ -128,8 +127,7 @@ In array `A1:B2`, you’ll find the employees who joined in a particular year. I
 | **7** | **Q3** | Kimberly,Lily,Zack,Christina |  |  |  |  |  |  |
 | **8** | **Q4** | Maurice,Steven,Charles |  |  |  |  |  |  |
 
-Common Errors
--------------
+### Common Errors
 
 The passed LAMBDA doesn't have exactly 2 name arguments
 
@@ -169,13 +167,12 @@ If the applied `LAMBDA` on the row and column creates multiple values, this erro
 
 Every application of `LAMBDA` on the `row_index` and `column_index` must create a value which is a single value only and can't be another array.
 
-Related functions
------------------
+### Related functions
 
-* [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
-* [[MAP]]: This function maps each value in the given arrays to a new value.
-* [[REDUCE]]: This function reduces an array to an accumulated result.
-* [[BYROW]]: This function groups an array by rows.
-* [[BYCOL]]: This function groups an array by columns.
-* [[SCAN]]: This function scans an array and produces intermediate values.
-* [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets you create and store custom functions, similar to `LAMBDA`.
+- [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
+- [[MAP]]: This function maps each value in the given arrays to a new value.
+- [[REDUCE]]: This function reduces an array to an accumulated result.
+- [[BYROW]]: This function groups an array by rows.
+- [[BYCOL]]: This function groups an array by columns.
+- [[SCAN]]: This function scans an array and produces intermediate values.
+- [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets you create and store custom functions, similar to `LAMBDA`.

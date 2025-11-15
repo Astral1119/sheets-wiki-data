@@ -7,33 +7,31 @@ tags:
 
 The ACOT function returns the inverse cotangent of a value in radians.
 
-Parts of an ACOT function
--------------------------
+### Parts of an ACOT function
 
-`ACOT(value)`
+```gse
+ACOT(value)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | `value` | The value for which to calculate the inverse cotangent. | * Values must be a number. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`ACOT(0)`
+```gse
+ACOT(0)
+ACOT(-1)
+ACOT(A1)
+```
 
-`ACOT(-1)`
+### Notes
 
-`ACOT(A1)`
+- ACOT returns results that are between 0 and π (pi).
+- ACOT is sometimes written as "arccot" or "cot-1(x)" in mathematics or other programs.
+- Use the DEGREES function to convert the result of ACOT from radians to degrees.
 
-Notes
------
-
-* ACOT returns results that are between 0 and π (pi).
-* ACOT is sometimes written as "arccot" or "cot-1(x)" in mathematics or other programs.
-* Use the DEGREES function to convert the result of ACOT from radians to degrees.
-
-Examples
---------
+### Examples
 
 This example shows the inverse cotangent of numbers in radians:
 
@@ -55,18 +53,17 @@ This example shows the inverse cotangent of numbers converted to degrees:
 
 
 
-Related functions
------------------
+### Related functions
 
-* [[ACOTH]]: The ACOTH function returns the inverse hyperbolic cotangent of a value in radians.
-* [[COT]]: The COT function returns the cotangent of an angle provided in radians.
-* [[COTH]]: The COTH function returns the hyperbolic cotangent of any real number.
-* [[ATANH]]: The ATANH function returns the inverse hyperbolic tangent of a number.
-* [[ATAN]]: The ATAN function returns the inverse tangent of a value in radians.
-* [[ASINH]]: The ASINH function returns the inverse hyperbolic sine of a number.
-* [[ASIN]]: The ASIN function returns the inverse sine of a value in radians.
-* [[ACOSH]]: The ACOSH function returns the inverse hyperbolic cosine of a number.
-* [[ACOS]]: The ACOS function returns the inverse cosine of a value in radians.
-* [[DEGREES]]: The DEGREES function converts an angle value in radians to degrees.
-* [[RADIANS]]: The RADIANS function converts an angle value in degrees to radians.
-* [[PI]]: The PI function returns the value of pi to 9 decimal places.
+- [[ACOTH]]: The ACOTH function returns the inverse hyperbolic cotangent of a value in radians.
+- [[COT]]: The COT function returns the cotangent of an angle provided in radians.
+- [[COTH]]: The COTH function returns the hyperbolic cotangent of any real number.
+- [[ATANH]]: The ATANH function returns the inverse hyperbolic tangent of a number.
+- [[ATAN]]: The ATAN function returns the inverse tangent of a value in radians.
+- [[ASINH]]: The ASINH function returns the inverse hyperbolic sine of a number.
+- [[ASIN]]: The ASIN function returns the inverse sine of a value in radians.
+- [[ACOSH]]: The ACOSH function returns the inverse hyperbolic cosine of a number.
+- [[ACOS]]: The ACOS function returns the inverse cosine of a value in radians.
+- [[DEGREES]]: The DEGREES function converts an angle value in radians to degrees.
+- [[RADIANS]]: The RADIANS function converts an angle value in degrees to radians.
+- [[PI]]: The PI function returns the value of pi to 9 decimal places.

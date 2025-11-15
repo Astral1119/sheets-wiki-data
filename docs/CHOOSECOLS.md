@@ -7,24 +7,24 @@ tags:
 
 This function creates a new array from the selected columns in the existing range.
 
-Sample Usage
-------------
+### Sample Usage
 
-`CHOOSECOLS(A1:E5, 1, 3, 1)`
+```gse
+CHOOSECOLS(A1:E5, 1, 3, 1)
+CHOOSECOLS(A1:E5, -1, -2, -3)
+```
 
-`CHOOSECOLS(A1:E5, -1, -2, -3)`
+### Syntax
 
-Syntax
-------
+```gse
+CHOOSECOLS(array, col_num1, [col_num2])
+```
 
-`CHOOSECOLS(array, col_num1, [col_num2])`
+- `array`: The array that contains the columns to be returned.
+- `col_num1`: The column number of the first column to be returned.
+- `col_num2…`: **[** OPTIONAL **]** The column number(s) of additional column(s) to be returned.
 
-* `array`: The array that contains the columns to be returned.
-* `col_num1`: The column number of the first column to be returned.
-* `col_num2…`: **[** OPTIONAL **]** The column number(s) of additional column(s) to be returned.
-
-Examples
---------
+### Examples
 
 ### Simple data extraction operation with CHOOSECOLS
 
@@ -76,7 +76,6 @@ Examples
 
 [Make a Copy](https://docs.google.com/spreadsheets/d/1rBlIiOQJDThG1KvNix1xC5OuJWO-O3lbQp7FRXgauSw/copy#gid=907400634)
 
-Related functions
------------------
+### Related functions
 
-* [[CHOOSEROWS]]
+- [[CHOOSEROWS]]

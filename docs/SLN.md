@@ -9,17 +9,20 @@ The SLN function calculates the depreciation of an asset for one period using th
 
 ### Sample Usage
 
-`SLN(100,50,10)`
-
-`SLN(A2,A3,A4)`
+```gse
+SLN(100,50,10)
+SLN(A2,A3,A4)
+```
 
 ### Syntax
 
-`SLN(cost, salvage, life)`
+```gse
+SLN(cost, salvage, life)
+```
 
-* `cost` - The initial cost of the asset.
-* `salvage` - The value of the asset at the end of depreciation.
-* `life` - The number of periods over which the asset is depreciated.
+- `cost` - The initial cost of the asset.
+- `salvage` - The value of the asset at the end of depreciation.
+- `life` - The number of periods over which the asset is depreciated.
 
 ### See Also
 

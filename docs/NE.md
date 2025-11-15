@@ -9,16 +9,19 @@ Returns "TRUE" if two specified values are not equal and "FALSE" otherwise. Equi
 
 ### Sample Usage
 
-`NE(A2,A3)`
-
-`NE(2,3)`
+```gse
+NE(A2,A3)
+NE(2,3)
+```
 
 ### Syntax
 
-`NE(value1, value2)`
+```gse
+NE(value1, value2)
+```
 
-* `value1` - The first value.
-* `value2` - The value to test against `value1` for inequality.
+- `value1` - The first value.
+- `value2` - The value to test against `value1` for inequality.
 
 ### See Also
 

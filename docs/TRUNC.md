@@ -9,25 +9,27 @@ Truncates a number to a certain number of significant digits by omitting less si
 
 ### Sample Usage
 
-`TRUNC(3.141592654,2)`
-
-`TRUNC(A2,0)`
-
-`TRUNC(1.23)`
+```gse
+TRUNC(3.141592654,2)
+TRUNC(A2,0)
+TRUNC(1.23)
+```
 
 ### Syntax
 
-`TRUNC(value, [places])`
+```gse
+TRUNC(value, [places])
+```
 
-* `value` - The value to be truncated.
-* `places` - **[** OPTIONAL - `0` by default **]** - The number of significant digits to the right of the decimal point to retain.
+- `value` - The value to be truncated.
+- `places` - **[** OPTIONAL - `0` by default **]** - The number of significant digits to the right of the decimal point to retain.
 
   + If `places` is greater than the number of significant digits in `value`, value is returned without modification.
   + `places` may be negative, in which case the specified number of digits to the left of the decimal place are changed to zero. All digits to the right of the decimal place are discarded. If all digits of `value` are changed to zero, `TRUNC` simply returns `0`.
 
 ### Notes
 
-* `TRUNC` performs no rounding, simply discarding unwanted digits.
+- `TRUNC` performs no rounding, simply discarding unwanted digits.
 
 ### See Also
 

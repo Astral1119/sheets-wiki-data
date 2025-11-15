@@ -9,22 +9,25 @@ Returns one number divided by another. Equivalent to the `/` operator.
 
 ### Sample Usage
 
-`DIVIDE(4,2)`
-
-`DIVIDE(A2,B2)`
+```gse
+DIVIDE(4,2)
+DIVIDE(A2,B2)
+```
 
 ### Syntax
 
-`DIVIDE(dividend, divisor)`
+```gse
+DIVIDE(dividend, divisor)
+```
 
-* `dividend` - The number to be divided.
-* `divisor` - The number to divide by.
+- `dividend` - The number to be divided.
+- `divisor` - The number to divide by.
 
   + `divisor` cannot equal `0`.
 
 ### Notes
 
-* `DIVIDE` is equivalent to `QUOTIENT`.
+- `DIVIDE` is equivalent to `QUOTIENT`.
 
 ### See Also
 

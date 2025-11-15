@@ -9,22 +9,25 @@ The ROUNDDOWN function rounds a number to a certain number of decimal places, al
 
 ### Sample Usage
 
-`ROUNDDOWN(99.44,1)`
-
-`ROUNDDOWN(A2)`
+```gse
+ROUNDDOWN(99.44,1)
+ROUNDDOWN(A2)
+```
 
 ### Syntax
 
-`ROUNDDOWN(value,[places])`
+```gse
+ROUNDDOWN(value,[places])
+```
 
-* `value` - The value to round to `places` number of places, always rounding down.
-* `places` - **[** OPTIONAL - `0` by default **]** - The number of decimal places to which to round.
+- `value` - The value to round to `places` number of places, always rounding down.
+- `places` - **[** OPTIONAL - `0` by default **]** - The number of decimal places to which to round.
 
   + `places` may be negative, in which case `value` is rounded at the specified number of digits to the left of the decimal point.
 
 ### Notes
 
-* `ROUNDDOWN` operates like `ROUND` except that it always rounds down.
+- `ROUNDDOWN` operates like `ROUND` except that it always rounds down.
 
 ### See Also
 

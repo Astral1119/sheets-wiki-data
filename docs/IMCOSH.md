@@ -7,31 +7,29 @@ tags:
 
 The IMCOSH function returns the hyperbolic cosine of the given complex number.  For example, a given complex number "x+yi" returns "cosh(x+yi)."
 
-Parts of an IMCOSH formula
---------------------------
+### Parts of an IMCOSH formula
 
-`IMCOSH(number)`
+```gse
+IMCOSH(number)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | `number` | The complex number for which you want the hyperbolic cosine. | This can be either the result of the COMPLEX function, a real number interpreted as a complex number with imaginary parts equal to 0, or a string in the format “x+yi” where x and y are numeric. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`IMCOSH(COMPLEX(4, 6))`
+```gse
+IMCOSH(COMPLEX(4, 6))
+IMCOSH(4)
+IMCOSH("2+3i")
+```
 
-`IMCOSH(4)`
-
-`IMCOSH("2+3i")`
-
-Notes
------
+### Notes
 
 The `IMCOSH` function returns an error if the given number isn't a valid complex number.
 
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |
@@ -40,8 +38,7 @@ Examples
 | **3** | `=IMCOSH(3.5)` | 16.5728246710573 |
 | **4** | `=IMCOSH("3+2i")` | -4.18962569096881+9.10922789375534i |
 
-Related function
-----------------
+### Related function
 
 [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
 

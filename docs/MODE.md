@@ -9,20 +9,23 @@ Returns the most commonly occurring value in a dataset.
 
 ### Sample Usage
 
-`MODE(A2:A100,B2:B100,4,26)`
-
-`MODE(1,2,3,4,5,C6:C20)`
+```gse
+MODE(A2:A100,B2:B100,4,26)
+MODE(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`MODE(value1, [value2, ...])`
+```gse
+MODE(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating mode.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating mode.
+- `value1` - The first value or range to consider when calculating mode.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating mode.
 
 ### Notes
 
-* Although `MODE` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Although `MODE` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
 
 ### See Also
 

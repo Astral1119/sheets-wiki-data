@@ -9,25 +9,28 @@ Calculates the inverse of the right-tailed chi-squared distribution.
 
 ### Sample Usage
 
-`CHIINV(0.42, 2)`
-
-`CHIINV(A2, B2)`
+```gse
+CHIINV(0.42, 2)
+CHIINV(A2, B2)
+```
 
 ### Syntax
 
-`CHIINV(probability, degrees_freedom)`
+```gse
+CHIINV(probability, degrees_freedom)
+```
 
-* `probability` - The probability associated with the right-tailed chi-squared distribution.
+- `probability` - The probability associated with the right-tailed chi-squared distribution.
 
   + Must be greater than `0` and less than `1`.
-* `degrees_freedom` - The number of degrees of freedom of the distribution.
+- `degrees_freedom` - The number of degrees of freedom of the distribution.
 
 ### Notes
 
-* `degrees_freedom` is truncated to an integer if a non-integer is provided.
-* `degrees_freedom` must be at least `1`.
-* All arguments must be numeric.
-* `CHIINV` is synonymous with `CHISQ.INV.RT`.
+- `degrees_freedom` is truncated to an integer if a non-integer is provided.
+- `degrees_freedom` must be at least `1`.
+- All arguments must be numeric.
+- `CHIINV` is synonymous with `CHISQ.INV.RT`.
 
 ### See Also
 

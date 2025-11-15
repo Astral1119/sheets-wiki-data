@@ -7,21 +7,22 @@ tags:
 
 This function appends arrays horizontally and in sequence to return a larger array.
 
-Sample Usage
-------------
+### Sample Usage
 
-`HSTACK(A1:E2; A3:E4)`
+```gse
+HSTACK(A1:E2; A3:E4)
+```
 
-Syntax
-------
+### Syntax
 
-`HSTACK(range1; [range2, …])`
+```gse
+HSTACK(range1; [range2, …])
+```
 
-* `range1`: The first range to append.
-* `range2, …`: **[** OPTIONAL **]** Additional ranges to add to range1.
+- `range1`: The first range to append.
+- `range2, …`: **[** OPTIONAL **]** Additional ranges to add to range1.
 
-Examples
---------
+### Examples
 
 ### Simple append operation with HSTACK
 
@@ -44,7 +45,6 @@ Examples
 
 [Make a Copy](https://docs.google.com/spreadsheets/d/1vSVR0L7_QAPj_tAwpmDAeWpkEckudt_DYGZ9TUSzAHA/copy)
 
-Related functions
------------------
+### Related functions
 
-* [[VSTACK]]
+- [[VSTACK]]

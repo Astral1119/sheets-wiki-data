@@ -15,22 +15,25 @@ The ROUND function rounds a number to a certain number of decimal places accordi
 
 ### Sample Usage
 
-`ROUND(99.44,1)`
-
-`ROUND(A2)`
+```gse
+ROUND(99.44,1)
+ROUND(A2)
+```
 
 ### Syntax
 
-`ROUND(value, [places])`
+```gse
+ROUND(value, [places])
+```
 
-* `value` - The value to round to `places` number of places.
-* `places` - **[** OPTIONAL - `0` by default **]** - The number of decimal places to which to round.
+- `value` - The value to round to `places` number of places.
+- `places` - **[** OPTIONAL - `0` by default **]** - The number of decimal places to which to round.
 
   + `places` may be negative, in which case `value` is rounded at the specified number of digits to the left of the decimal point.
 
 ### Notes
 
-* Standard rules indicate that when rounding to a particular place, the next most significant digit (the digit to the right) is considered. If this digit is greater than or equal to 5, the digit is rounded up, otherwise it is rounded down. This occurs irrespective of sign; that is, 'up' and 'down' are in terms of magnitude.
+- Standard rules indicate that when rounding to a particular place, the next most significant digit (the digit to the right) is considered. If this digit is greater than or equal to 5, the digit is rounded up, otherwise it is rounded down. This occurs irrespective of sign; that is, 'up' and 'down' are in terms of magnitude.
 
 ### See Also
 

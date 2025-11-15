@@ -7,36 +7,35 @@ tags:
 
 This function groups an array by rows by application of a `LAMBDA` function to each row.
 
-Sample Usage
-------------
+### Sample Usage
 
-`BYROW(A1:C3,LAMBDA(row,MAX(row)))`
+```gse
+BYROW(A1:C3,LAMBDA(row,MAX(row)))
+BYROW(A1:C3,LAMBDA(row,SUM(row)))
+```
 
-`BYROW(A1:C3,LAMBDA(row,SUM(row)))`
+### Syntax
 
-Syntax
-------
+```gse
+BYROW(array_or_range,LAMBDA)
+```
 
-`BYROW(array_or_range,LAMBDA)`
-
-* `array_or_range`: The array or range to group by rows.
-* `LAMBDA`: A `LAMBDA` that’s applied to each row in the given array or range to obtain its grouped value.
+- `array_or_range`: The array or range to group by rows.
+- `LAMBDA`: A `LAMBDA` that’s applied to each row in the given array or range to obtain its grouped value.
   + **Syntax:** `LAMBDA(name,formula_expression)`
   + **Requirements:**
     - The `LAMBDA` must have exactly 1 `name` argument along with a `formula_expression` which uses that `name`. The `name` resolves to the current row being grouped when the `LAMBDA` is applied.
 
-Notes
------
+### Notes
 
-* The passed `LAMBDA` should accept exactly 1 `name` argument, otherwise an `#N/A` error is returned. This argument corresponds to a row in the input array.
-* Every row should be grouped to a single value. Array results for grouped values aren’t supported.
+- The passed `LAMBDA` should accept exactly 1 `name` argument, otherwise an `#N/A` error is returned. This argument corresponds to a row in the input array.
+- Every row should be grouped to a single value. Array results for grouped values aren’t supported.
 
-* A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` in this case. [Learn more about named functions](https://support.google.com/docs/answer/12504534).
+- A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` in this case. [Learn more about named functions](https://support.google.com/docs/answer/12504534).
   + There should be exactly 1 argument placeholder defined for it.
   + Parenthesis shouldn't follow the `named function`.
 
-Examples
---------
+### Examples
 
 ### Sum row-wise
 
@@ -104,8 +103,7 @@ Examples
 | 2 |
 | 3 |
 
-Common Errors
--------------
+### Common Errors
 
 The passed LAMBDA doesn’t have exactly 1 name argument
 
@@ -143,13 +141,12 @@ If the application of `LAMBDA` on the input array doesn’t group each row to a 
 
 **Example:** `=BYROW(C1:E1,LAMBDA(row,row))`
 
-Related functions
------------------
+### Related functions
 
-* [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
-* [[MAP]]: This function maps each value in the given arrays to a new value.
-* [[REDUCE]]: This function reduces an array to an accumulated result.
-* [[BYCOL]]: This function groups an array by columns.
-* [[SCAN]]: This function scans an array and produces intermediate values.
-* [[MAKEARRAY]]: This function creates a calculated array of specified dimensions.
-* [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets you create and store custom functions, similar to `LAMBDA`.
+- [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
+- [[MAP]]: This function maps each value in the given arrays to a new value.
+- [[REDUCE]]: This function reduces an array to an accumulated result.
+- [[BYCOL]]: This function groups an array by columns.
+- [[SCAN]]: This function scans an array and produces intermediate values.
+- [[MAKEARRAY]]: This function creates a calculated array of specified dimensions.
+- [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets you create and store custom functions, similar to `LAMBDA`.

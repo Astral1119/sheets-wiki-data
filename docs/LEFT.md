@@ -9,20 +9,23 @@ Returns a substring from the beginning of a specified string.
 
 ### Sample Usage
 
-`LEFT(A2,2)`
-
-`LEFT("lorem ipsum")`
+```gse
+LEFT(A2,2)
+LEFT("lorem ipsum")
+```
 
 ### Syntax
 
-`LEFT(string, [number_of_characters])`
+```gse
+LEFT(string, [number_of_characters])
+```
 
-* `string` - The string from which the left portion will be returned.
-* `number_of_characters` - **[** OPTIONAL - `1` by default **]** - The number of characters to return from the left side of `string`.
+- `string` - The string from which the left portion will be returned.
+- `number_of_characters` - **[** OPTIONAL - `1` by default **]** - The number of characters to return from the left side of `string`.
 
 ### Notes
 
-* `0` is a valid input for `number_of_characters` and will cause `LEFT` to return the empty string.
+- `0` is a valid input for `number_of_characters` and will cause `LEFT` to return the empty string.
 
 ### See Also
 

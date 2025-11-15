@@ -9,39 +9,41 @@ Returns the first n items in a data set after performing a sort.
 
 ### Sample Usage
 
-`SORTN(A1:A10, 2)`
-
-`SORTN(A2:C20, 2, 2, B2:B20, TRUE)`
-
-`SORTN(A2:C20, 2, 3, B2:B20, TRUE, 3, FALSE)`
+```gse
+SORTN(A1:A10, 2)
+SORTN(A2:C20, 2, 2, B2:B20, TRUE)
+SORTN(A2:C20, 2, 3, B2:B20, TRUE, 3, FALSE)
+```
 
 ### Syntax
 
-`SORTN(range, [n], [display_ties_mode], [sort_column1, is_ascending1], ...)`
+```gse
+SORTN(range, [n], [display_ties_mode], [sort_column1, is_ascending1], ...)
+```
 
-* `range` - The data to be sorted to find the first `n` items.
-* `n` - [OPTIONAL - 1 by default] The number of items to return. Must be greater than 0.
-* `display_ties_mode` - [OPTIONAL - 0 by default] A number representing the way to display ties.
+- `range` - The data to be sorted to find the first `n` items.
+- `n` - [OPTIONAL - 1 by default] The number of items to return. Must be greater than 0.
+- `display_ties_mode` - [OPTIONAL - 0 by default] A number representing the way to display ties.
   + 0: Show at most the first `n` rows in the sorted range.
   + 1: Show at most the first `n` rows, plus any additional rows that are identical to the `nth` row.
   + 2: Show at most the first `n` rows after removing duplicate rows.
   + 3: Show at most the first `n` unique rows, but show every duplicate of these rows.
-* `sort_column1` - [OPTIONAL] - The index of the column in `range` or a range outside of `range` containing the values to sort by. A range specified as a `sort_column1` must be a single column with the same number of rows as `range`.
-* `is_ascending1` - [OPTIONAL] - `TRUE` or `FALSE` indicates how to sort sort\_column1. `TRUE` sorts in ascending order. `FALSE` sorts in descending order.
-* `sort_column2, is_ascending2, ...` - [OPTIONAL] - Additional columns and sort order flags used if a tie happens, in order of precedence.
+- `sort_column1` - [OPTIONAL] - The index of the column in `range` or a range outside of `range` containing the values to sort by. A range specified as a `sort_column1` must be a single column with the same number of rows as `range`.
+- `is_ascending1` - [OPTIONAL] - `TRUE` or `FALSE` indicates how to sort sort\_column1. `TRUE` sorts in ascending order. `FALSE` sorts in descending order.
+- `sort_column2, is_ascending2, ...` - [OPTIONAL] - Additional columns and sort order flags used if a tie happens, in order of precedence.
 
 ### Notes
 
-* `range` is sorted *only* by the specified columns. Other columns are returned in the order they originally appear.
-* If `sort_column1` and `is_ascending1` aren't included, the sort is performed on the lowest-index column in `range`, with subsequent columns used to sort if there are ties.
+- `range` is sorted *only* by the specified columns. Other columns are returned in the order they originally appear.
+- If `sort_column1` and `is_ascending1` aren't included, the sort is performed on the lowest-index column in `range`, with subsequent columns used to sort if there are ties.
 
 ### See Also
 
-* [[SORT]]: Sorts the rows of a given array or range by the values in one or more columns.
-* [[FILTER]]: Returns a filtered version of the source range, returning only rows or columns that meet the specified conditions.
-* [[MAX]]: Returns the maximum value in a numeric dataset.
-* [[INDEX]]: Returns the content of a cell, specified by row and column offset.
-* [[LARGE]]: Returns the nth largest element from a data set, where n is user-defined.
+- [[SORT]]: Sorts the rows of a given array or range by the values in one or more columns.
+- [[FILTER]]: Returns a filtered version of the source range, returning only rows or columns that meet the specified conditions.
+- [[MAX]]: Returns the maximum value in a numeric dataset.
+- [[INDEX]]: Returns the content of a cell, specified by row and column offset.
+- [[LARGE]]: Returns the nth largest element from a data set, where n is user-defined.
 
 ### Examples
 

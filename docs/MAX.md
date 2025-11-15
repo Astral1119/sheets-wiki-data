@@ -13,34 +13,40 @@ Returns the maximum value in a data column.
 
 ### Sample Usage
 
-`MAX(table_name!price)`
+```gse
+MAX(table_name!price)
+```
 
-Syntax
-------
+### Syntax
 
-`MAX(column)`
+```gse
+MAX(column)
+```
 
-* `column`: The data column to consider when calculating the maximum value.
+- `column`: The data column to consider when calculating the maximum value.
 
 **Tip:** Returning maximum value across multiple columns is not supported.
 
 ### Sample Usage
 
-`MAX(A2:A100,B2:B100,4,26)`
-
-`MAX(1,2,3,4,5,C6:C20)`
+```gse
+MAX(A2:A100,B2:B100,4,26)
+MAX(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`MAX(value1, [value2, ...])`
+```gse
+MAX(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the maximum value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the maximum value.
+- `value1` - The first value or range to consider when calculating the maximum value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the maximum value.
 
 ### Notes
 
-* Although `MAX` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Each `value` argument must be a cell, a number, or a range containing numbers. Cells without numbers or ranges are ignored. Entering text values will cause `MAX` to return the `#VALUE!` error. To allow text values, use `MAXA`.
+- Although `MAX` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Each `value` argument must be a cell, a number, or a range containing numbers. Cells without numbers or ranges are ignored. Entering text values will cause `MAX` to return the `#VALUE!` error. To allow text values, use `MAXA`.
 
 ### See Also
 

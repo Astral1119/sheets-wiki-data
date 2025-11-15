@@ -9,17 +9,19 @@ Rounds a number up to the nearest odd integer.
 
 ### Sample Usage
 
-`ODD(2)`
-
-`ODD(-0.6)`
-
-`ODD(A2)`
+```gse
+ODD(2)
+ODD(-0.6)
+ODD(A2)
+```
 
 ### Syntax
 
-`ODD(value)`
+```gse
+ODD(value)
+```
 
-* `value` - The value to round to the next greatest odd number.
+- `value` - The value to round to the next greatest odd number.
 
   + If `value` is negative, it will be rounded down to the next negative odd number with greater absolute value.
 

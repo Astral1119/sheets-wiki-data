@@ -9,23 +9,26 @@ Calculates the modified internal rate of return on an investment based on a seri
 
 ### Sample Usage
 
-`MIRR(A2:A25,B2,B3)`
-
-`MIRR({-4000,200,250,300,350},0.08,0.11)`
+```gse
+MIRR(A2:A25,B2,B3)
+MIRR({-4000,200,250,300,350},0.08,0.11)
+```
 
 ### Syntax
 
-`MIRR(cashflow_amounts, financing_rate, reinvestment_return_rate)`
+```gse
+MIRR(cashflow_amounts, financing_rate, reinvestment_return_rate)
+```
 
-* `cashflow_amounts` - An array or range containing the income or payments associated with the investment.
+- `cashflow_amounts` - An array or range containing the income or payments associated with the investment.
 
   + `cashflow_amounts` must contain at least one negative and one positive cash flow to calculate rate of return.
-* `financing_rate` - The interest rate paid on funds invested.
-* `reinvestment_return_rate` - The return (as a percentage) earned on reinvestment of income received from the investment.
+- `financing_rate` - The interest rate paid on funds invested.
+- `reinvestment_return_rate` - The return (as a percentage) earned on reinvestment of income received from the investment.
 
 ### Notes
 
-* Each cell in `cashflow_amounts` should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
+- Each cell in `cashflow_amounts` should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
 
 ### See Also
 

@@ -9,15 +9,18 @@ Returns the number of columns in a specified array or range.
 
 ### Sample Usage
 
-`COLUMNS(A9:W62)`
-
-`COLUMNS({1,2,3,4,5})`
+```gse
+COLUMNS(A9:W62)
+COLUMNS({1,2,3,4,5})
+```
 
 ### Syntax
 
-`COLUMNS(range)`
+```gse
+COLUMNS(range)
+```
 
-* `range` - The range whose column count will be returned
+- `range` - The range whose column count will be returned
 
 ### See Also
 

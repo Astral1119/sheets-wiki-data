@@ -9,19 +9,22 @@ Returns the value of the standard normal cumulative distribution function for a 
 
 ### Sample Usage
 
-`NORMSDIST(2.4)`
-
-`NORMSDIST(A2)`
+```gse
+NORMSDIST(2.4)
+NORMSDIST(A2)
+```
 
 ### Syntax
 
-`NORMSDIST(x)`
+```gse
+NORMSDIST(x)
+```
 
-* `x` - The input to the standard normal cumulative distribution function.
+- `x` - The input to the standard normal cumulative distribution function.
 
 ### Notes
 
-* The "standard" normal distribution function is the normal distribution function with mean of `0` and variance (and therefore standard deviation) of `1`.
+- The "standard" normal distribution function is the normal distribution function with mean of `0` and variance (and therefore standard deviation) of `1`.
 
 ### See Also
 

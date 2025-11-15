@@ -9,22 +9,25 @@ Returns the logarithm of a number, base 10.
 
 ### Sample Usage
 
-`LOG10(100)`
-
-`LOG10(A2)`
+```gse
+LOG10(100)
+LOG10(A2)
+```
 
 ### Syntax
 
-`LOG10(value)`
+```gse
+LOG10(value)
+```
 
-* `value` - The value for which to calculate the logarithm, base 10.
+- `value` - The value for which to calculate the logarithm, base 10.
 
   + `value` must be positive.
 
 ### Notes
 
-* Google Sheets does not support complex or imaginary values.
-* `LOG10` is equivalent to `LOG` given `base` of 10.
+- Google Sheets does not support complex or imaginary values.
+- `LOG10` is equivalent to `LOG` given `base` of 10.
 
 ### See Also
 

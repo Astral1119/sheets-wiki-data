@@ -7,29 +7,28 @@ tags:
 
 This function assigns a name with the `value_expression` results and returns the result of the `formula_expression`.
 
-Sample Usage
-------------
+### Sample Usage
 
 `LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor")))`: Categorize an average value.
 
 `LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range)))`: Filter data and replace blank cell with dash.
 
-Syntax
-------
+### Syntax
 
-`LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_expression )`
+```gse
+LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_expression )
+```
 
-* `name1`: A name used inside the next `value_expressions` and the `formula_expression`. This must be an identifier (details below), and usage is case-insensitive.
-* `value_expression1`: Formula whose result can be referred to later with the name that was declared before. It can use names declared in the previous parameters.
+- `name1`: A name used inside the next `value_expressions` and the `formula_expression`. This must be an identifier (details below), and usage is case-insensitive.
+- `value_expression1`: Formula whose result can be referred to later with the name that was declared before. It can use names declared in the previous parameters.
   + For example, `AVERAGE(B2:D2)`.
-* `name2…`: [ OPTIONAL ] Repeatable, additional `names` to be assigned.
-* `value_expression2…`: [ OPTIONAL ] Repeatable, additional `value_expressions` to be evaluated.
-* `formula_expression`: Formula to be calculated. It uses `names` declared in the `LET` function.
+- `name2…`: [ OPTIONAL ] Repeatable, additional `names` to be assigned.
+- `value_expression2…`: [ OPTIONAL ] Repeatable, additional `value_expressions` to be evaluated.
+- `formula_expression`: Formula to be calculated. It uses `names` declared in the `LET` function.
 
 **Tip:** You can use `formula_expression` as the `names` defined in the scope of the `LET` function. The `value_expressions` evaluates only once in the `LET` function, even if the next `value_expressions` or the `formula_expression` uses them multiple times.
 
-Examples
---------
+### Examples
 
 ### Categorize the average value of product ratings with LET
 
@@ -43,11 +42,15 @@ Examples
 
 **With LET:** Input this formula in `E2` and drag the blue box around the cell down to fill `E3` and `E4`.
 
-`=LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor")))`
+```gse
+=LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor")))
+```
 
 **Without LET:** Input this formula in `E2` and drag the blue box around the cell down to fill `E3` and `E4`.
 
-`=IF(AVERAGE(B2:D2)>=4, "Great", IF(AVERAGE(B2:D2)>=3, "Good", "Poor"))`
+```gse
+=IF(AVERAGE(B2:D2)>=4, "Great", IF(AVERAGE(B2:D2)>=3, "Good", "Poor"))
+```
 
 **Result:**
 
@@ -77,11 +80,15 @@ Return all data for “Fred” and replace blank cells with dash.
 
 **With LET:** Input this formula in `E2`:
 
-`=LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range)))`
+```gse
+=LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range)))
+```
 
 **Without LET:** Input this formula in `E2`:
 
-`=ARRAYFORMULA(IF(ISBLANK(FILTER(A2:D8, A2:A8="Fred")), "-", FILTER(A2:D8, A2:A8="Fred")))`
+```gse
+=ARRAYFORMULA(IF(ISBLANK(FILTER(A2:D8, A2:A8="Fred")), "-", FILTER(A2:D8, A2:A8="Fred")))
+```
 
 **Result:**
 
@@ -94,8 +101,7 @@ Return all data for “Fred” and replace blank cells with dash.
 
 [Make a Copy](https://docs.google.com/spreadsheets/d/1sclstxZjPEXkFA-qxxRH8VGCJlpoBSdCKOAcsrLt9Z0/copy#gid=1949536067)
 
-Common Errors
--------------
+### Common Errors
 
 The name argument isn’t an identifier
 
@@ -107,9 +113,9 @@ If the argument isn’t an identifier, this error occurs:
 
 Identifier requirements:
 
-* Can’t be ranges, like “A1” or “A2”
-* Can’t have spaces or special characters
-* Can’t start with numbers, like “9hello”
+- Can’t be ranges, like “A1” or “A2”
+- Can’t have spaces or special characters
+- Can’t start with numbers, like “9hello”
 
 Left-to-right scoping problem
 
@@ -126,7 +132,6 @@ If you use an argument before it’s declared, this error occurs:
 
 ![](https://storage.googleapis.com/support-kms-prod/DHQoeQ3IHh7o5eVwOOiVNp06Mh8si28IUAIR)
 
-Related functions
------------------
+### Related functions
 
-* [[LAMBDA]]
+- [[LAMBDA]]

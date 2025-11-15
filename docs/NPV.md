@@ -9,25 +9,28 @@ Calculates the net present value of an investment based on a series of periodic 
 
 ### Sample Usage
 
-`NPV(0.08,200,250,300)`
-
-`NPV(A2,A3,A4,A5)`
+```gse
+NPV(0.08,200,250,300)
+NPV(A2,A3,A4,A5)
+```
 
 ### Syntax
 
-`NPV(discount, cashflow1, [cashflow2, ...])`
+```gse
+NPV(discount, cashflow1, [cashflow2, ...])
+```
 
-* `discount` - The discount rate of the investment over one period.
-* `cashflow1` - The first future cash flow.
-* `cashflow2, ...` - **[** OPTIONAL **]** - Additional future cash flows.
+- `discount` - The discount rate of the investment over one period.
+- `cashflow1` - The first future cash flow.
+- `cashflow2, ...` - **[** OPTIONAL **]** - Additional future cash flows.
 
 ### Notes
 
-* `NPV` is similar to `PV` except that `NPV` allows variable-value cash flows.
-* Each `cashflow` argument should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
-* Each `cashflow` argument may be either a value, a reference to a value, or a range containing values. Cashflows are considered in the order they are referenced.
-* `IRR` under the same conditions calculates the internal rate of return for which the net present value is zero.
-* If the cash flows of an investment are irregularly spaced, use `XNPV` instead.
+- `NPV` is similar to `PV` except that `NPV` allows variable-value cash flows.
+- Each `cashflow` argument should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
+- Each `cashflow` argument may be either a value, a reference to a value, or a range containing values. Cashflows are considered in the order they are referenced.
+- `IRR` under the same conditions calculates the internal rate of return for which the net present value is zero.
+- If the cash flows of an investment are irregularly spaced, use `XNPV` instead.
 
 ### See Also
 

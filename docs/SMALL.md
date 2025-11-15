@@ -9,16 +9,19 @@ Returns the nth smallest element from a data set, where n is user-defined.
 
 ### Sample Usage
 
-`SMALL(A2:B100,4)`
-
-`SMALL(A2:B100,C2)`
+```gse
+SMALL(A2:B100,4)
+SMALL(A2:B100,C2)
+```
 
 ### Syntax
 
-`SMALL(data, n)`
+```gse
+SMALL(data, n)
+```
 
-* `data` - The array or range containing the dataset to consider.
-* `n` - The rank from smallest to largest of the element to return.
+- `data` - The array or range containing the dataset to consider.
+- `n` - The rank from smallest to largest of the element to return.
 
   + E.g. setting `n` to `4` will cause `SMALL` to return the 4th smallest element from `data`.
 

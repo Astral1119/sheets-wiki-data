@@ -9,23 +9,26 @@ Calculates the accrued interest of a security that has periodic payments.
 
 ### Sample Usage
 
-`ACCRINT(DATE(2010,01,01),DATE(2010,02,01),DATE(2012,12,31),0.05,100,4)`
-
-`ACCRINT(A2,B2,C2,D2,E2,F2,2)`
+```gse
+ACCRINT(DATE(2010,01,01),DATE(2010,02,01),DATE(2012,12,31),0.05,100,4)
+ACCRINT(A2,B2,C2,D2,E2,F2,2)
+```
 
 ### Syntax
 
-`ACCRINT(issue, first_payment, settlement, rate, redemption, frequency, [day_count_convention])`
+```gse
+ACCRINT(issue, first_payment, settlement, rate, redemption, frequency, [day_count_convention])
+```
 
-* `issue` - The date the security was initially issued.
-* `first_payment` - The first date interest will be paid.
-* `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
+- `issue` - The date the security was initially issued.
+- `first_payment` - The first date interest will be paid.
+- `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
 
   + `settlement` is the maturity date of the security if it is held until maturity rather than sold.
-* `rate` - The annualized rate of interest.
-* `redemption` - The redemption amount per 100 face value, or par.
-* `frequency` - The number of interest or coupon payments per year (1, 2, or 4).
-* `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
+- `rate` - The annualized rate of interest.
+- `redemption` - The redemption amount per 100 face value, or par.
+- `frequency` - The number of interest or coupon payments per year (1, 2, or 4).
+- `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
 
   + 0 indicates US (NASD) 30/360 - This assumes 30 day months and 360 day years as per the National Association of Securities Dealers standard, and performs specific adjustments to entered dates which fall at the end of months.
   + 1 indicates Actual/Actual - This calculates based upon the actual number of days between the specified dates, and the actual number of days in the intervening years. Used for US Treasury Bonds and Bills, but also the most relevant for non-financial use.
@@ -35,7 +38,7 @@ Calculates the accrued interest of a security that has periodic payments.
 
 ### Notes
 
-* `issue`, `first_payment` and `settlement` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
+- `issue`, `first_payment` and `settlement` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
 
 ### See Also
 

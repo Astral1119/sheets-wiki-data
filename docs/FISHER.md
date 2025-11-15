@@ -9,15 +9,18 @@ Returns the Fisher transformation of a specified value.
 
 ### Sample Usage
 
-`FISHER(0.962)`
-
-`FISHER(A2)`
+```gse
+FISHER(0.962)
+FISHER(A2)
+```
 
 ### Syntax
 
-`FISHER(value)`
+```gse
+FISHER(value)
+```
 
-* `value` - The value for which to calculate the Fisher transformation.
+- `value` - The value for which to calculate the Fisher transformation.
 
 ### See Also
 

@@ -9,19 +9,22 @@ Returns the numeric Unicode map value of the first character in the string provi
 
 ### Sample Usage
 
-`CODE("a")`
-
-`CODE(A1)`
+```gse
+CODE("a")
+CODE(A1)
+```
 
 ### Syntax
 
-`CODE(string)`
+```gse
+CODE(string)
+```
 
-* `string` - The string whose first character's Unicode map value will be returned.
+- `string` - The string whose first character's Unicode map value will be returned.
 
 ### Notes
 
-* Only the first character in `string` will be evaluated; others will be ignored.
+- Only the first character in `string` will be evaluated; others will be ignored.
 
 ### See Also
 

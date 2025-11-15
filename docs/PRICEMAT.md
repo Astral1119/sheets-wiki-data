@@ -9,20 +9,23 @@ Calculates the price of a security paying interest at maturity, based on expecte
 
 ### Sample Usage
 
-`PRICEMAT(DATE(2010,01,02),DATE(2039,12,31),DATE(2010,01,01),3,1.2)`
-
-`PRICEMAT(A2,B2,C2,D2,E2,1)`
+```gse
+PRICEMAT(DATE(2010,01,02),DATE(2039,12,31),DATE(2010,01,01),3,1.2)
+PRICEMAT(A2,B2,C2,D2,E2,1)
+```
 
 ### Syntax
 
-`PRICEMAT(settlement, maturity, issue, rate, yield, [day_count_convention])`
+```gse
+PRICEMAT(settlement, maturity, issue, rate, yield, [day_count_convention])
+```
 
-* `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
-* `maturity` - The maturity or end date of the security, when it can be redeemed at face or par value.
-* `issue` - The date the security was initially issued.
-* `rate` - The annualized rate of interest.
-* `yield` - The expected annual yield of the security.
-* `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
+- `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
+- `maturity` - The maturity or end date of the security, when it can be redeemed at face or par value.
+- `issue` - The date the security was initially issued.
+- `rate` - The annualized rate of interest.
+- `yield` - The expected annual yield of the security.
+- `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
 
   + 0 indicates US (NASD) 30/360 - This assumes 30 day months and 360 day years as per the National Association of Securities Dealers standard, and performs specific adjustments to entered dates which fall at the end of months.
   + 1 indicates Actual/Actual - This calculates based upon the actual number of days between the specified dates, and the actual number of days in the intervening years. Used for US Treasury Bonds and Bills, but also the most relevant for non-financial use.
@@ -32,7 +35,7 @@ Calculates the price of a security paying interest at maturity, based on expecte
 
 ### Notes
 
-* `settlement`, `maturity`, and `issue` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
+- `settlement`, `maturity`, and `issue` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
 
 ### See Also
 

@@ -7,24 +7,24 @@ tags:
 
 This function creates a new array from the selected rows in the existing range.
 
-Sample Usage
-------------
+### Sample Usage
 
-`CHOOSEROWS(A2:B5, 1, 3, 1)`
+```gse
+CHOOSEROWS(A2:B5, 1, 3, 1)
+CHOOSEROWS(A2:B5, -1, -2, -3)
+```
 
-`CHOOSEROWS(A2:B5, -1, -2, -3)`
+### Syntax
 
-Syntax
-------
+```gse
+CHOOSEROWS(array, row_num1, [row_num2])
+```
 
-`CHOOSEROWS(array, row_num1, [row_num2])`
+- `array`: The array that contains the rows to be returned.
+- `row_num1`: The row number of the first row to be returned.
+- `row_num2…`: **[** OPTIONAL **]** The row number(s) of additional row(s) to be returned.
 
-* `array`: The array that contains the rows to be returned.
-* `row_num1`: The row number of the first row to be returned.
-* `row_num2…`: **[** OPTIONAL **]** The row number(s) of additional row(s) to be returned.
-
-Examples
---------
+### Examples
 
 ### Simple data extraction operation with CHOOSEROWS
 
@@ -74,7 +74,6 @@ Examples
 
 **[Make a Copy](https://docs.google.com/spreadsheets/d/1r_WASEs19y3Ybu_YEjz5FA782esbxbdDApbspIlBqSM/copy#gid=350337179)**
 
-Related functions
------------------
+### Related functions
 
-* [[CHOOSECOLS]]
+- [[CHOOSECOLS]]

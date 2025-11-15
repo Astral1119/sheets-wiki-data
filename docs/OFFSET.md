@@ -9,28 +9,31 @@ Returns a range reference shifted a specified number of rows and columns from a 
 
 ### Sample Usage
 
-`OFFSET(A2,3,4,2,2)`
-
-`OFFSET(A2,1,1)`
+```gse
+OFFSET(A2,3,4,2,2)
+OFFSET(A2,1,1)
+```
 
 ### Syntax
 
-`OFFSET(cell_reference, offset_rows, offset_columns, [height], [width])`
+```gse
+OFFSET(cell_reference, offset_rows, offset_columns, [height], [width])
+```
 
-* `cell_reference` - The starting point from which to count the offset rows and columns.
-* `offset_rows` - The number of rows to shift by.
+- `cell_reference` - The starting point from which to count the offset rows and columns.
+- `offset_rows` - The number of rows to shift by.
 
   + `offset_rows` must be an integer, but may be negative. If a decimal value is provided, the decimal part will be truncated.
-* `offset_columns` - The number of columns to shift by.
+- `offset_columns` - The number of columns to shift by.
 
   + `offset_columns` must be an integer, but may be negative. If a decimal value is provided, the decimal part will be truncated.
-* `height` - **[** OPTIONAL **]** - The height of the range to return starting at the offset target.
-* `width` - **[** OPTIONAL **]** - The width of the range to return starting at the offset target.
+- `height` - **[** OPTIONAL **]** - The height of the range to return starting at the offset target.
+- `width` - **[** OPTIONAL **]** - The width of the range to return starting at the offset target.
 
 ### Notes
 
-* If `offset_rows` or `offset_columns` is negative, it is possible for the offset target to to be outside the upper or left edge of the spreadsheet. If this occurs, the `#REF!` error will be returned.
-* If `OFFSET` is used as an array formula, it is possible for the value returned by the array formula to overwrite part of the offset target, causing a circular reference. If this occurs, the `#REF!` error will be returned.
+- If `offset_rows` or `offset_columns` is negative, it is possible for the offset target to to be outside the upper or left edge of the spreadsheet. If this occurs, the `#REF!` error will be returned.
+- If `OFFSET` is used as an array formula, it is possible for the value returned by the array formula to overwrite part of the offset target, causing a circular reference. If this occurs, the `#REF!` error will be returned.
 
 ### Examples
 

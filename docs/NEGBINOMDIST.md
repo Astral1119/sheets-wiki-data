@@ -9,21 +9,24 @@ Calculates the probability of drawing a certain number of failures before a cert
 
 ### Sample Usage
 
-`NEGBINOMDIST(4,2,0.1)`
-
-`NEGBINOMDIST(A2,A3,A4)`
+```gse
+NEGBINOMDIST(4,2,0.1)
+NEGBINOMDIST(A2,A3,A4)
+```
 
 ### Syntax
 
-`NEGBINOMDIST(num_failures, num_successes, prob_success)`
+```gse
+NEGBINOMDIST(num_failures, num_successes, prob_success)
+```
 
-* `num_failures` - The number of failures to model.
-* `num_successes` - The number of successes to model.
-* `prob_success` - The probability of success in any given trial.
+- `num_failures` - The number of failures to model.
+- `num_successes` - The number of successes to model.
+- `prob_success` - The probability of success in any given trial.
 
 ### Notes
 
-* `NEGBINOMDIST` models the negative binomial distribution, which is related to the binomial distribution except that the number of trials is variable whereas the number of successes is fixed.
+- `NEGBINOMDIST` models the negative binomial distribution, which is related to the binomial distribution except that the number of trials is variable whereas the number of successes is fixed.
 
 ### See Also
 

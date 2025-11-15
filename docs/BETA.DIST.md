@@ -7,10 +7,11 @@ tags:
 
 The BETA.DIST function returns the probability of a given value as defined by the beta distribution function.
 
-Parts of a BETA.DIST function
------------------------------
+### Parts of a BETA.DIST function
 
-`BETA.DIST(value, alpha, beta, lower_bound, upper_bound)`
+```gse
+BETA.DIST(value, alpha, beta, lower_bound, upper_bound)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
@@ -20,24 +21,20 @@ Parts of a BETA.DIST function
 | `lower_bound` | The lower boundary of the function. | * The default lower boundary is 0. |
 | `upper-bound` | The upper boundary of the function. | * The default upper boundary is 1. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`BETA.DIST(0.65, 1.234, 7, 0.5, 3)`
+```gse
+BETA.DIST(0.65, 1.234, 7, 0.5, 3)
+BETA.DIST(0.42, 3, 8)
+BETA.DIST(0.92, 0.5, 0.7)
+BETA.DIST(A5, 0.5, 0.7, -1, 1)
+```
 
-`BETA.DIST(0.42, 3, 8)`
+### Note
 
-`BETA.DIST(0.92, 0.5, 0.7)`
+- You can use `BETADIST` or `BETA.DIST` to perform this function.
 
-`BETA.DIST(A5, 0.5, 0.7, -1, 1)`
-
-Note
-----
-
-* You can use `BETADIST` or `BETA.DIST` to perform this function.
-
-Example
--------
+### Example
 
 In this example, the cumulative probability of beta distribution at 0.3 is parameterized by an alpha of 5 and a beta of 1, defined over [-1, 1]:
 
@@ -48,7 +45,6 @@ In this example, the cumulative probability of beta distribution at 0.3 is param
 | **3** | 0.3 | 5 | 1 | -1 | 1 | =BETA.DIST(0.3, 5, 1, -1, 1) |
 | **4** | 0.3 | 5 | 1 | -1 | 1 | =BETA.DIST(A4, B4, C4, D4, E4) |
 
-Related function
-----------------
+### Related function
 
 [[BETAINV]]: The BETA.INV function returns the value of the inverse beta distribution function for a given probability.

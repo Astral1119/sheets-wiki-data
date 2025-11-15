@@ -9,17 +9,19 @@ The TAN function returns the tangent of an angle provided in radians.
 
 ### Sample Usage
 
-`TAN(PI())`
-
-`TAN(A2)`
-
-`TAN(1)`
+```gse
+TAN(PI())
+TAN(A2)
+TAN(1)
+```
 
 ### Syntax
 
-`TAN(angle)`
+```gse
+TAN(angle)
+```
 
-* `angle` - The angle to find the tangent of, in radians.
+- `angle` - The angle to find the tangent of, in radians.
 
 ### See Also
 

@@ -9,15 +9,18 @@ Checks whether a value is non-textual.
 
 ### Sample Usage
 
-`ISNONTEXT(A2)`
-
-`ISNONTEXT("cat")`
+```gse
+ISNONTEXT(A2)
+ISNONTEXT("cat")
+```
 
 ### Syntax
 
-`ISNONTEXT(value)`
+```gse
+ISNONTEXT(value)
+```
 
-* `value` - The text to be checked.
+- `value` - The text to be checked.
 
   + `ISNONTEXT` returns `FALSE` if this is a text value or a reference to a cell containing a text value and `TRUE` otherwise.
   + When `value` is a reference to an empty cell, `ISNONTEXT` will return `TRUE`.
@@ -25,10 +28,10 @@ Checks whether a value is non-textual.
 
 ### Notes
 
-* Nonprinting characters and whitespace count as text, so when `ISNONTEXT` is called on a cell containing such characters, the function will return `FALSE` even though the cell appears empty.
-* Numbers input as text, e.g. `"1234"` count as text, and will cause `ISNONTEXT` to return `FALSE`.
-* `ISNONTEXT(value)` is the logical equivalent of `NOT(ISTEXT(value))`
-* This function is most often used in conjunction with `IF` in conditional statements.
+- Nonprinting characters and whitespace count as text, so when `ISNONTEXT` is called on a cell containing such characters, the function will return `FALSE` even though the cell appears empty.
+- Numbers input as text, e.g. `"1234"` count as text, and will cause `ISNONTEXT` to return `FALSE`.
+- `ISNONTEXT(value)` is the logical equivalent of `NOT(ISTEXT(value))`
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

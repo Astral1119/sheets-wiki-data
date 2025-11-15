@@ -9,24 +9,26 @@ The COMPLEX function creates a complex number, given real and imaginary coeffici
 
 ### Sample Usage
 
-`COMPLEX(3, 4)`
-
-`COMPLEX(3, -1, "j")`
-
-`COMPLEX(3, 0)`
+```gse
+COMPLEX(3, 4)
+COMPLEX(3, -1, "j")
+COMPLEX(3, 0)
+```
 
 ### Syntax
 
-`COMPLEX(real_part, imaginary_part, [suffix])`
+```gse
+COMPLEX(real_part, imaginary_part, [suffix])
+```
 
-* `real_part` - The real coefficient.
-* `imaginary_part` - The imaginary coefficient.
-* `suffix` - [ OPTIONAL "`i`" by default] The suffix for the imaginary coefficient.
+- `real_part` - The real coefficient.
+- `imaginary_part` - The imaginary coefficient.
+- `suffix` - [ OPTIONAL "`i`" by default] The suffix for the imaginary coefficient.
 
 ### See Also
 
-* [[IMREAL]]: Returns the real coefficient of a complex number.
-* [[IMAGINARY]]: Returns the imaginary coefficient of a complex number.
+- [[IMREAL]]: Returns the real coefficient of a complex number.
+- [[IMAGINARY]]: Returns the imaginary coefficient of a complex number.
 
 ### ​Examples
 

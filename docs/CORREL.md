@@ -9,19 +9,23 @@ Calculates r, the Pearson product-moment correlation coefficient of a dataset.
 
 ### Sample Usage
 
-`CORREL(A2:A100,B2:B100)`
+```gse
+CORREL(A2:A100,B2:B100)
+```
 
 ### Syntax
 
-`CORREL(data_y, data_x)`
+```gse
+CORREL(data_y, data_x)
+```
 
-* `data_y` - The range representing the array or matrix of dependent data.
-* `data_x` - The range representing the array or matrix of independent data.
+- `data_y` - The range representing the array or matrix of dependent data.
+- `data_x` - The range representing the array or matrix of independent data.
 
 ### Notes
 
-* Any text encountered in the `value` arguments will be ignored.
-* `CORREL` is synonymous with `PEARSON`.
+- Any text encountered in the `value` arguments will be ignored.
+- `CORREL` is synonymous with `PEARSON`.
 
 ### See Also
 

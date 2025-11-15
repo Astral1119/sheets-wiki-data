@@ -9,19 +9,23 @@ Calculates the covariance of a dataset.
 
 ### Sample Usage
 
-`COVAR(A2:A100,B2:B100)`
+```gse
+COVAR(A2:A100,B2:B100)
+```
 
 ### Syntax
 
-`COVAR(data_y, data_x)`
+```gse
+COVAR(data_y, data_x)
+```
 
-* `data_y` - The range representing the array or matrix of dependent data.
-* `data_x` - The range representing the array or matrix of independent data.
+- `data_y` - The range representing the array or matrix of dependent data.
+- `data_x` - The range representing the array or matrix of independent data.
 
 ### Notes
 
-* Any text encountered in the `value` arguments will be ignored.
-* Positive covariance indicates that the independent data and dependent data tend to change together in the same direction; negative indicates that they tend to change together in the opposite direction (i.e. increase in one leads to decrease in the other). The magnitude of covariance is difficult to interpret - use `CORREL` or `PEARSON`, the normalized version of `COVAR`, to gauge strength of linear correlation.
+- Any text encountered in the `value` arguments will be ignored.
+- Positive covariance indicates that the independent data and dependent data tend to change together in the same direction; negative indicates that they tend to change together in the opposite direction (i.e. increase in one leads to decrease in the other). The magnitude of covariance is difficult to interpret - use `CORREL` or `PEARSON`, the normalized version of `COVAR`, to gauge strength of linear correlation.
 
 ### See Also
 

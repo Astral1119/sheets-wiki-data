@@ -9,24 +9,27 @@ Calculates the probability of drawing a certain number of successes (or a maximu
 
 ### Sample Usage
 
-`BINOMDIST(4,100,0.005,FALSE)`
-
-`BINOMDIST(A2,A3,A4,TRUE)`
+```gse
+BINOMDIST(4,100,0.005,FALSE)
+BINOMDIST(A2,A3,A4,TRUE)
+```
 
 ### Syntax
 
-`BINOMDIST(num_successes, num_trials, prob_success, cumulative)`
+```gse
+BINOMDIST(num_successes, num_trials, prob_success, cumulative)
+```
 
-* `num_successes` - The number of successes for which to calculate the probability in `num_trials` trials.
+- `num_successes` - The number of successes for which to calculate the probability in `num_trials` trials.
 
   + If `cumulative` is `TRUE` then `BINOMDIST` returns the probability of `num_successes` or fewer successes, otherwise the probability of exactly `num_successes` successes.
-* `num_trials` - The number of independent trials.
-* `prob_success` - The probability of success in any given trial.
-* `cumulative` - **[** `FALSE` by default **]** - Whether to use the binomial cumulative distribution.
+- `num_trials` - The number of independent trials.
+- `prob_success` - The probability of success in any given trial.
+- `cumulative` - **[** `FALSE` by default **]** - Whether to use the binomial cumulative distribution.
 
 ### Notes
 
-* `HYPGEOMDIST` describes the probability of drawing a certain number of successes in a certain number of tries given a population of a certain size containing a certain number of successes, *without* replacement of draws.
+- `HYPGEOMDIST` describes the probability of drawing a certain number of successes in a certain number of tries given a population of a certain size containing a certain number of successes, *without* replacement of draws.
 
 ### See Also
 

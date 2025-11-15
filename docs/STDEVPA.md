@@ -9,24 +9,27 @@ Calculates the standard deviation based on an entire population, setting text to
 
 ### Sample Usage
 
-`STDEVPA(1,2,3,4,5,6,7,8,9,10)`
-
-`STDEVPA(A2:A100)`
+```gse
+STDEVPA(1,2,3,4,5,6,7,8,9,10)
+STDEVPA(A2:A100)
+```
 
 ### Syntax
 
-`STDEVPA(value1, [value2, ...])`
+```gse
+STDEVPA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the population.
-* `value2, ...` - Additional values or ranges to include in the population.
+- `value1` - The first value or range of the population.
+- `value2, ...` - Additional values or ranges to include in the population.
 
 ### Notes
 
-* Although `STDEVPA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `STDEVPA` will return the `#DIV/0!` error.
-* `STDEVPA` sets each text value encountered to `0` for the purpose of calculation. To return an error upon encountering text, use `STDEVP`.
-* `STDEVPA` calculates standard deviation for an entire population. To calculate standard deviation across a sample, use `STDEV`.
-* `STDEVPA` is equivalent to the square root of the variance, or `SQRT(VARPA(...))` using the same dataset.
+- Although `STDEVPA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `STDEVPA` will return the `#DIV/0!` error.
+- `STDEVPA` sets each text value encountered to `0` for the purpose of calculation. To return an error upon encountering text, use `STDEVP`.
+- `STDEVPA` calculates standard deviation for an entire population. To calculate standard deviation across a sample, use `STDEV`.
+- `STDEVPA` is equivalent to the square root of the variance, or `SQRT(VARPA(...))` using the same dataset.
 
 ### See Also
 

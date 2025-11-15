@@ -9,19 +9,22 @@ The ATANH function returns the inverse hyperbolic tangent of a number.
 
 ### Sample Usage
 
-`ATANH(0.9)`
-
-`ATANH(A1)`
+```gse
+ATANH(0.9)
+ATANH(A1)
+```
 
 ### Syntax
 
-`ATANH(value)`
+```gse
+ATANH(value)
+```
 
-* `value` - The value for which to calculate the inverse hyperbolic tangent. Must be between -1 and 1, *exclusive*.
+- `value` - The value for which to calculate the inverse hyperbolic tangent. Must be between -1 and 1, *exclusive*.
 
 ### Notes
 
-* Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
+- Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
 
 ### See Also
 

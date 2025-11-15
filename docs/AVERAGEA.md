@@ -9,22 +9,25 @@ Returns the numerical average value in a dataset.
 
 ### Sample Usage
 
-`AVERAGEA(A2:A100,B2:B100,4,26)`
-
-`AVERAGEA(1,2,3,4,5,C6:C20)`
+```gse
+AVERAGEA(A2:A100,B2:B100,4,26)
+AVERAGEA(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`AVERAGEA(value1, [value2, ...])`
+```gse
+AVERAGEA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the average value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the average value.
+- `value1` - The first value or range to consider when calculating the average value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the average value.
 
 ### Notes
 
-* Although `AVERAGEA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Any text encountered in the `value` arguments will be set to `0` and included in calculation. To have text values ignored, use `AVERAGE`.
-* `AVERAGEA` returns the mean of the combined `value` arguments; that is, the sum of the values in the `value` arguments divided by the number of such values. To calculate the median use `MEDIAN`.
+- Although `AVERAGEA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Any text encountered in the `value` arguments will be set to `0` and included in calculation. To have text values ignored, use `AVERAGE`.
+- `AVERAGEA` returns the mean of the combined `value` arguments; that is, the sum of the values in the `value` arguments divided by the number of such values. To calculate the median use `MEDIAN`.
 
 ### See Also
 

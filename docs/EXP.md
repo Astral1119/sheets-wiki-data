@@ -9,15 +9,18 @@ Returns Euler's number, e (~2.718) raised to a power.
 
 ### Sample Usage
 
-`EXP(2)`
-
-`EXP(A2)`
+```gse
+EXP(2)
+EXP(A2)
+```
 
 ### Syntax
 
-`EXP(exponent)`
+```gse
+EXP(exponent)
+```
 
-* `exponent` - The exponent to raise e to.
+- `exponent` - The exponent to raise e to.
 
 ### See Also
 

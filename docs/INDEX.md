@@ -42,21 +42,25 @@ Returns the cell(s) found by index value into the referenced range.
 
 ### Sample Usage
 
-`INDEX(A1:C20, 5, 1)`
+```gse
+INDEX(A1:C20, 5, 1)
+```
 
 ### Syntax
 
-`INDEX(reference, [row], [column])`
+```gse
+INDEX(reference, [row], [column])
+```
 
-* `reference` - The range of cells from which the values are returned.
-* `row` - **[**OPTIONAL - 0 by default**]** - The index of the row to be returned from within the reference range of cells.
-* `column` - **[**OPTIONAL - `0` by default**]** - The index of the column to be returned from within the reference range of cells.
+- `reference` - The range of cells from which the values are returned.
+- `row` - **[**OPTIONAL - 0 by default**]** - The index of the row to be returned from within the reference range of cells.
+- `column` - **[**OPTIONAL - `0` by default**]** - The index of the column to be returned from within the reference range of cells.
 
 ### Using INDEX and Match
 
 INDEX and MATCH can be used together to perform more advanced and dynamic lookups.
 
-* **Tip:** [[VLOOKUP]] can be used when the lookup value is to the left of the desired attribute to return. [[INDEX]] and [[MATCH]] can be used regardless of where the lookup value is located in the dataset.
+- **Tip:** [[VLOOKUP]] can be used when the lookup value is to the left of the desired attribute to return. [[INDEX]] and [[MATCH]] can be used regardless of where the lookup value is located in the dataset.
 
 | Guest Name | Dietary Restriction | Sent Invitation | Table Number |
 | --- | --- | --- | --- |
@@ -82,4 +86,4 @@ INDEX and MATCH can be used together to perform more advanced and dynamic lookup
 
 ### Notes
 
-* If you set row or column to 0, `INDEX` returns the array of values for the entire column or row, respectively.
+- If you set row or column to 0, `INDEX` returns the array of values for the entire column or row, respectively.

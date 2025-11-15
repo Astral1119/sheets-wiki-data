@@ -7,8 +7,7 @@ tags:
 
 Returns the first argument if it is not an error value, otherwise returns the second argument if present, or a blank if the second argument is absent.
 
-Examples
---------
+### Examples
 
 [Make a copy](https://docs.google.com/spreadsheets/d/1caTrAGwfvNVVS-ig0ATtUIpIYlJve59o3qorg6cJC3M/copy)
 
@@ -16,9 +15,10 @@ Examples
 
 ### Sample Usage
 
-`IFERROR(A1,"Error in cell A1")`
-
-`IFERROR(A2)`
+```gse
+IFERROR(A1,"Error in cell A1")
+IFERROR(A2)
+```
 
 ### General usage
 
@@ -40,14 +40,16 @@ Returns the specified error message when searching the student `Grade` where `St
 
 ### Syntax
 
-`IFERROR(value, [value_if_error])`
+```gse
+IFERROR(value, [value_if_error])
+```
 
-* `value` - The value to return if `value` itself is not an error.
-* `value_if_error` - **[** OPTIONAL - blank by default **]** - The value the function returns if `value` is an error.
+- `value` - The value to return if `value` itself is not an error.
+- `value_if_error` - **[** OPTIONAL - blank by default **]** - The value the function returns if `value` is an error.
 
 ### Notes
 
-* `IFERROR(exp1,exp2)` is logically equivalent to `IF(NOT(ISERROR(exp1)),exp1,exp2)`. Ensure that this is the desired behavior.
+- `IFERROR(exp1,exp2)` is logically equivalent to `IF(NOT(ISERROR(exp1)),exp1,exp2)`. Ensure that this is the desired behavior.
 
 ### See Also
 

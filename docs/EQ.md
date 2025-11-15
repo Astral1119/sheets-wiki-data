@@ -9,16 +9,19 @@ Returns "TRUE" if two specified values are equal and "FALSE" otherwise. Equivale
 
 ### Sample Usage
 
-`EQ(A2,A3)`
-
-`EQ(2,3)`
+```gse
+EQ(A2,A3)
+EQ(2,3)
+```
 
 ### Syntax
 
-`EQ(value1, value2)`
+```gse
+EQ(value1, value2)
+```
 
-* `value1` - The first value.
-* `value2` - The value to test against `value1` for equality.
+- `value1` - The first value.
+- `value2` - The value to test against `value1` for equality.
 
 ### See Also
 

@@ -9,21 +9,24 @@ Returns the logarithm of a number, base e (Euler's number).
 
 ### Sample Usage
 
-`LN(100)`
-
-`LN(A2)`
+```gse
+LN(100)
+LN(A2)
+```
 
 ### Syntax
 
-`LN(value)`
+```gse
+LN(value)
+```
 
-* `value` - The value for which to calculate the logarithm, base e.
+- `value` - The value for which to calculate the logarithm, base e.
 
   + `value` must be positive.
 
 ### Notes
 
-* `LN` is equivalent to `LOG` given `base` of e, or `EXP(1)`.
+- `LN` is equivalent to `LOG` given `base` of e, or `EXP(1)`.
 
 ### See Also
 

@@ -7,35 +7,34 @@ tags:
 
 This function groups an array by columns by application of a `LAMBDA` function to each column.
 
-Sample Usage
-------------
+### Sample Usage
 
-`BYCOL(A1:C3,LAMBDA(column,MAX(column)))`
+```gse
+BYCOL(A1:C3,LAMBDA(column,MAX(column)))
+BYCOL(A1:C3,LAMBDA(column,SUM(column)))
+```
 
-`BYCOL(A1:C3,LAMBDA(column,SUM(column)))`
+### Syntax
 
-Syntax
-------
+```gse
+BYCOL(array_or_range,LAMBDA)
+```
 
-`BYCOL(array_or_range,LAMBDA)`
-
-* `array_or_range`: An array or range to be grouped by columns.
-* `LAMBDA`: A `LAMBDA` that’s applied to each column in the given array or range to obtain its grouped value.
+- `array_or_range`: An array or range to be grouped by columns.
+- `LAMBDA`: A `LAMBDA` that’s applied to each column in the given array or range to obtain its grouped value.
   + **Syntax:** `LAMBDA(name,formula_expression)`
   + **Requirements:**
     - The `LAMBDA` must have exactly 1 `name` argument along with a `formula_expression` which uses that `name`. The `name` resolves to the current column being grouped when the `LAMBDA` is applied.
 
-Notes
------
+### Notes
 
-* The passed `LAMBDA` should accept exactly 1 `name` argument, otherwise an `#N/A` error is returned. This argument corresponds to a column in the input array.
-* Every column should be grouped to a single value. Array results for grouped values aren’t supported.
-* A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` in this case. [Learn more about named functions](https://support.google.com/docs/answer/12504534).
+- The passed `LAMBDA` should accept exactly 1 `name` argument, otherwise an `#N/A` error is returned. This argument corresponds to a column in the input array.
+- Every column should be grouped to a single value. Array results for grouped values aren’t supported.
+- A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` in this case. [Learn more about named functions](https://support.google.com/docs/answer/12504534).
   + There should be exactly 1 argument placeholder defined for it.
   + Parenthesis shouldn't follow the `named function`.
 
-Examples
---------
+### Examples
 
 ### Returns a 1x3 row-array with max of each column
 
@@ -97,8 +96,7 @@ Examples
 | --- | --- | --- |
 | 3 | 3 | 3 |
 
-Common Errors
--------------
+### Common Errors
 
 The passed LAMBDA doesn’t have exactly 1 name argument
 
@@ -136,13 +134,12 @@ If the application of `LAMBDA` on the input array doesn’t group each column to
 
 **Example:** `=BYCOL(C1:C3,LAMBDA(col,col))`
 
-Related functions
------------------
+### Related functions
 
-* [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
-* [[MAP]]: This function maps each value in the given arrays to a new value.
-* [[REDUCE]]: This function reduces an array to an accumulated result.
-* [[BYROW]]: This function groups an array by rows.
-* [[SCAN]]: This function scans an array and produces intermediate values.
-* [[MAKEARRAY]]: This function creates a calculated array of specified dimensions.
-* [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets you create and store custom functions, similar to `LAMBDA`.
+- [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
+- [[MAP]]: This function maps each value in the given arrays to a new value.
+- [[REDUCE]]: This function reduces an array to an accumulated result.
+- [[BYROW]]: This function groups an array by rows.
+- [[SCAN]]: This function scans an array and produces intermediate values.
+- [[MAKEARRAY]]: This function creates a calculated array of specified dimensions.
+- [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets you create and store custom functions, similar to `LAMBDA`.

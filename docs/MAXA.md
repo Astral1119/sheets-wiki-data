@@ -9,22 +9,25 @@ Returns the maximum numeric value in a dataset.
 
 ### Sample Usage
 
-`MAXA(A2:A100,B2:B100,4,26)`
-
-`MAXA(1,2,3,4,5,C6:C20)`
+```gse
+MAXA(A2:A100,B2:B100,4,26)
+MAXA(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`MAXA(value1, [value2, ...])`
+```gse
+MAXA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the maximum value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the maximum value.
+- `value1` - The first value or range to consider when calculating the maximum value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the maximum value.
 
 ### Notes
 
-* Although `MAXA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Any referenced text value in any of the `value` arguments will be assigned the numeric value `0` for the purpose of this function.
-* If an argument contains error values or text that can't be changed into numbers, it will cause an error.
+- Although `MAXA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Any referenced text value in any of the `value` arguments will be assigned the numeric value `0` for the purpose of this function.
+- If an argument contains error values or text that can't be changed into numbers, it will cause an error.
 
 ### See Also
 

@@ -9,17 +9,20 @@ Returns the value of the inverse normal distribution function for a specified va
 
 ### Sample Usage
 
-`NORMINV(.75,1,4)`
-
-`NORMINV(A2,A3,A4)`
+```gse
+NORMINV(.75,1,4)
+NORMINV(A2,A3,A4)
+```
 
 ### Syntax
 
-`NORMINV(x, mean, standard_deviation)`
+```gse
+NORMINV(x, mean, standard_deviation)
+```
 
-* `x` - The input to the normal distribution function.
-* `mean` - The mean (mu) of the normal distribution function.
-* `standard_deviation` - The standard deviation (sigma) of the normal distribution function.
+- `x` - The input to the normal distribution function.
+- `mean` - The mean (mu) of the normal distribution function.
+- `standard_deviation` - The standard deviation (sigma) of the normal distribution function.
 
 ### See Also
 

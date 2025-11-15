@@ -9,15 +9,18 @@ The BIN2DEC function converts a signed binary number to decimal format.
 
 ### Sample Usage
 
-`BIN2DEC(101)`
-
-`BIN2DEC(A2)`
+```gse
+BIN2DEC(101)
+BIN2DEC(A2)
+```
 
 ### Syntax
 
-`BIN2DEC(signed_binary_number)`
+```gse
+BIN2DEC(signed_binary_number)
+```
 
-* `signed_binary_number` - The signed 10-bit binary value to be converted to decimal, provided as a string.
+- `signed_binary_number` - The signed 10-bit binary value to be converted to decimal, provided as a string.
 
   + The most significant bit of `signed_binary_number` is the sign bit; that is, negative numbers are represented in two's complement format.
   + For this function, the input value has a maximum of 0111111111 if positive, and a minimum of 1000000000 if negative.
@@ -25,7 +28,7 @@ The BIN2DEC function converts a signed binary number to decimal format.
 
 ### Notes
 
-* As with any binary value, only the digits `0` and `1` are valid. Digits other than these will cause `BIN2DEC` to return a `#NUM!` error.
+- As with any binary value, only the digits `0` and `1` are valid. Digits other than these will cause `BIN2DEC` to return a `#NUM!` error.
 
 ### See Also
 

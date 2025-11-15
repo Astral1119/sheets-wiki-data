@@ -9,21 +9,24 @@ Returns the probability associated with an F-test for equality of variances. Det
 
 ### Sample Usage
 
-`FTEST(A1:A5, B1:B5)`
-
-`FTEST(A1:D3, A5:D7)`
+```gse
+FTEST(A1:A5, B1:B5)
+FTEST(A1:D3, A5:D7)
+```
 
 ### Syntax
 
-`FTEST(range1, range2)`
+```gse
+FTEST(range1, range2)
+```
 
-* `range1` - The first sample of data or group of cells to consider for the F-test.
-* `range2` - The second sample of data or group of cells to consider for the F-test.
+- `range1` - The first sample of data or group of cells to consider for the F-test.
+- `range2` - The second sample of data or group of cells to consider for the F-test.
 
 ### Notes
 
-* Any non-numeric cells in either range are ignored in the calculation.
-* You can use `FTEST` or `F.TEST` to perform this function.
+- Any non-numeric cells in either range are ignored in the calculation.
+- You can use `FTEST` or `F.TEST` to perform this function.
 
 ### See Also
 

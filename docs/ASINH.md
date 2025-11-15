@@ -9,19 +9,22 @@ The ASINH function returns the inverse hyperbolic sine of a number.
 
 ### Sample Usage
 
-`ASINH(0.9)`
-
-`ASINH(A1)`
+```gse
+ASINH(0.9)
+ASINH(A1)
+```
 
 ### Syntax
 
-`ASINH(value)`
+```gse
+ASINH(value)
+```
 
-* `value` - The value for which to calculate the inverse hyperbolic sine.
+- `value` - The value for which to calculate the inverse hyperbolic sine.
 
 ### Notes
 
-* Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
+- Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
 
 ### See Also
 

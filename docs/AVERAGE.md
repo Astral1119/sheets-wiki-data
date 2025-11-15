@@ -15,20 +15,23 @@ The AVERAGE function returns the numerical average value in a dataset, ignoring 
 
 AVERAGE for BigQuery
 
-Sample Usage
-------------
+### Sample Usage
 
 Returns the numerical average value in a data column.
 
 ### Sample Usage
 
-`AVERAGE(table_name!price)`
+```gse
+AVERAGE(table_name!price)
+```
 
 ### Syntax
 
-`AVERAGE(column)`
+```gse
+AVERAGE(column)
+```
 
-* `column`: The data column to consider when calculating the average value.
+- `column`: The data column to consider when calculating the average value.
 
 **Tip:** Averaging multiple columns is not supported.
 
@@ -36,22 +39,25 @@ Returns the numerical average value in a data column.
 
 ### Sample Usage
 
-`AVERAGE(A2:A100,B2:B100,4,26)`
-
-`AVERAGE(1,2,3,4,5,C6:C20)`
+```gse
+AVERAGE(A2:A100,B2:B100,4,26)
+AVERAGE(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`AVERAGE(value1, [value2, ...])`
+```gse
+AVERAGE(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the average value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the average value.
+- `value1` - The first value or range to consider when calculating the average value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the average value.
 
 ### Notes
 
-* Although `AVERAGE` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Any text encountered in the `value` arguments will be ignored. To have text values considered as `0` values, use `AVERAGEA`.
-* `AVERAGE` returns the mean of the combined `value` arguments; that is, the sum of the values in the `value` arguments divided by the number of such values. To calculate the median use `MEDIAN`.
+- Although `AVERAGE` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Any text encountered in the `value` arguments will be ignored. To have text values considered as `0` values, use `AVERAGEA`.
+- `AVERAGE` returns the mean of the combined `value` arguments; that is, the sum of the values in the `value` arguments divided by the number of such values. To calculate the median use `MEDIAN`.
 
 ### See Also
 

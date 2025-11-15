@@ -9,21 +9,24 @@ Returns the value of the log-normal cumulative distribution with given mean and 
 
 ### Sample Usage
 
-`LOGNORMDIST(4,4,6)`
-
-`LOGNORMDIST(A2,A3,A4)`
+```gse
+LOGNORMDIST(4,4,6)
+LOGNORMDIST(A2,A3,A4)
+```
 
 ### Syntax
 
-`LOGNORMDIST(x, mean, standard_deviation)`
+```gse
+LOGNORMDIST(x, mean, standard_deviation)
+```
 
-* `x` - The input to the log-normal cumulative distribution function.
-* `mean` - The mean (mu) of the log-normal cumulative distribution function.
-* `standard_deviation` - The standard deviation (sigma) of the log-normal cumulative distribution function.
+- `x` - The input to the log-normal cumulative distribution function.
+- `mean` - The mean (mu) of the log-normal cumulative distribution function.
+- `standard_deviation` - The standard deviation (sigma) of the log-normal cumulative distribution function.
 
 ### Notes
 
-* A log-normal distribution function is a probability distribution function of a random variable whose logarithm is normally distributed.
+- A log-normal distribution function is a probability distribution function of a random variable whose logarithm is normally distributed.
 
 ### See Also
 

@@ -9,22 +9,24 @@ The ASIN function returns the inverse sine of a value in radians.
 
 ### Sample Usage
 
-`ASIN(0)`
-
-`ASIN(A2)`
-
-`ASIN(1)`
+```gse
+ASIN(0)
+ASIN(A2)
+ASIN(1)
+```
 
 ### Syntax
 
-`ASIN(value)`
+```gse
+ASIN(value)
+```
 
-* `value` - The value for which to calculate the inverse sine. Must be between `-1` and `1`, inclusive.
+- `value` - The value for which to calculate the inverse sine. Must be between `-1` and `1`, inclusive.
 
 ### Notes
 
-* Use the `DEGREES` function to convert the result of `ASIN` into degrees.
-* Sine is periodic, therefore there are many solutions to the inverse. `ASIN` returns the solution between -Pi/2 and Pi/2.
+- Use the `DEGREES` function to convert the result of `ASIN` into degrees.
+- Sine is periodic, therefore there are many solutions to the inverse. `ASIN` returns the solution between -Pi/2 and Pi/2.
 
 ### See Also
 

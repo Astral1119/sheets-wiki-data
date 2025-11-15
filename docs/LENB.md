@@ -7,22 +7,21 @@ tags:
 
 The LENB function returns the length of a string in bytes.
 
-Parts of a LENB function
-------------------------
+### Parts of a LENB function
 
-`LENB(string)`
+```gse
+LENB(string)
+```
 
 | Part | Description |
 | --- | --- |
 | `string` | The string to get the length in bytes |
 
-Notes
------
+### Notes
 
 `LENB` returns the same value as `LEN` if the input string has only single byte characters.
 
-Examples
---------
+### Examples
 
 | A | B | C |
 | --- | --- | --- |
@@ -32,9 +31,8 @@ Examples
 | **4** | `熊本` | `=LENB(A4)` | 4 |
 | **5** | `熊本` | `=LEN(A5)` | 2 |
 
-Related functions
------------------
+### Related functions
 
-* [[MIDB]]: ​The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
-* [[LEFTB]]: The LEFTB function returns the left portion of a string up to a certain number of bytes.
-* [[RIGHTB]]: The RIGHTB function returns the right portion of a string up to a certain number of bytes.
+- [[MIDB]]: ​The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
+- [[LEFTB]]: The LEFTB function returns the left portion of a string up to a certain number of bytes.
+- [[RIGHTB]]: The RIGHTB function returns the right portion of a string up to a certain number of bytes.

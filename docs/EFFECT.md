@@ -9,16 +9,19 @@ Calculates the annual effective interest rate given the nominal rate and number 
 
 ### Sample Usage
 
-`EFFECT(0.99,12)`
-
-`EFFECT(A2,A3)`
+```gse
+EFFECT(0.99,12)
+EFFECT(A2,A3)
+```
 
 ### Syntax
 
-`EFFECT(nominal_rate, periods_per_year)`
+```gse
+EFFECT(nominal_rate, periods_per_year)
+```
 
-* `nominal_rate` - The nominal interest rate per year.
-* `periods_per_year` - The number of compounding periods per year.
+- `nominal_rate` - The nominal interest rate per year.
+- `periods_per_year` - The number of compounding periods per year.
 
 ### See Also
 

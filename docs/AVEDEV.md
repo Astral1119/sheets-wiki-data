@@ -9,21 +9,24 @@ Calculates the average of the magnitudes of deviations of data from a dataset's 
 
 ### Sample Usage
 
-`AVEDEV(1,2,3,4,5,6,7,8,9,10)`
-
-`AVEDEV(A2:A100)`
+```gse
+AVEDEV(1,2,3,4,5,6,7,8,9,10)
+AVEDEV(A2:A100)
+```
 
 ### Syntax
 
-`AVEDEV(value1, [value2, ...])`
+```gse
+AVEDEV(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the sample.
-* `value2, ...` - Additional values or ranges to include in the sample.
+- `value1` - The first value or range of the sample.
+- `value2, ...` - Additional values or ranges to include in the sample.
 
 ### Notes
 
-* `AVEDEV` will ignore any text values in `value` arguments.
-* The average deviation is the sum of the absolute values of the difference of each data point and the mean of the dataset, divided by the number of elements in the dataset.
+- `AVEDEV` will ignore any text values in `value` arguments.
+- The average deviation is the sum of the absolute values of the difference of each data point and the mean of the dataset, divided by the number of elements in the dataset.
 
 ### See Also
 

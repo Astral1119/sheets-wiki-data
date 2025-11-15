@@ -7,10 +7,11 @@ tags:
 
 The VDB function returns the depreciation of an asset for a particular period (or partial period).
 
-Parts of a VDB function
------------------------
+### Parts of a VDB function
 
-`VDB(cost, salvage, life, start_period, end_period, [factor], [no_switch])`
+```gse
+VDB(cost, salvage, life, start_period, end_period, [factor], [no_switch])
+```
 
 | Part | Description |
 | --- | --- |
@@ -22,16 +23,14 @@ Parts of a VDB function
 | `factor` | [OPTIONAL] - Rate of balance decline (the default is 2: the double-declining balance method). |
 | `no_switch` | [OPTIONAL] - Whether to switch to straight-line depreciation when the depreciation is greater than the declining balance calculation. |
 
-Examples
---------
+### Examples
 
 | 1 | Formula | Result |
 | --- | --- | --- |
 | **2** | `=VDB(100, 10, 20, 10, 11, 2, TRUE)` | $3.49 |
 | **3** | `=VDB(100, 33, 20, 10, 11, 2, FALSE)` | $1.87 |
 
-Related functions
------------------
+### Related functions
 
-* [[DB]]: The DB function calculates the depreciation of an asset for a specified period using the arithmetic declining balance method.
-* [[DDB]]: The DDB function calculates the depreciation of an asset for a specified period using the double-declining balance method.
+- [[DB]]: The DB function calculates the depreciation of an asset for a specified period using the arithmetic declining balance method.
+- [[DDB]]: The DDB function calculates the depreciation of an asset for a specified period using the double-declining balance method.

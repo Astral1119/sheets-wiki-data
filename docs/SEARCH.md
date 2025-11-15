@@ -9,23 +9,26 @@ Returns the position at which a string is first found within text, ignoring case
 
 ### Sample Usage
 
-`SEARCH("n",A2)`
-
-`SEARCH("wood","How much wood can a woodchuck chuck",14)`
+```gse
+SEARCH("n",A2)
+SEARCH("wood","How much wood can a woodchuck chuck",14)
+```
 
 ### Syntax
 
-`SEARCH(search_for, text_to_search, [starting_at])`
+```gse
+SEARCH(search_for, text_to_search, [starting_at])
+```
 
-* `search_for` - The string to look for within `text_to_search`.
-* `text_to_search` - The text to search for the first occurrence of `search_for`.
-* `starting_at` - **[** OPTIONAL - `1` by default **]** - The character within `text_to_search` at which to start the search.
+- `search_for` - The string to look for within `text_to_search`.
+- `text_to_search` - The text to search for the first occurrence of `search_for`.
+- `starting_at` - **[** OPTIONAL - `1` by default **]** - The character within `text_to_search` at which to start the search.
 
 ### Notes
 
-* `SEARCH` is **not** case-sensitive, meaning that uppercase and lowercase letters do not matter. For example, "abc" will match "ABC". To compare text where case matters, use the [[FIND]] function.
-* Ensure that `search_for` and `text_to_search` are not supplied in reverse order, or the `#VALUE!` error will likely be returned. The arguments are supplied in a different order than other text functions such as [[SPLIT]] and [[SUBSTITUTE]].
-* It's recommended to use a function such as [[IFERROR]] to check for cases when there aren't matches to the search.
+- `SEARCH` is **not** case-sensitive, meaning that uppercase and lowercase letters do not matter. For example, "abc" will match "ABC". To compare text where case matters, use the [[FIND]] function.
+- Ensure that `search_for` and `text_to_search` are not supplied in reverse order, or the `#VALUE!` error will likely be returned. The arguments are supplied in a different order than other text functions such as [[SPLIT]] and [[SUBSTITUTE]].
+- It's recommended to use a function such as [[IFERROR]] to check for cases when there aren't matches to the search.
 
 ### See Also
 

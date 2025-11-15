@@ -9,26 +9,29 @@ The F.DIST.RT function calculates the right-tailed F probability distribution (d
 
 ### Sample Usage
 
-`F.DIST.RT(15.35, 7, 6)`
-
-`F.DIST.RT(A2, B2, C2)`
+```gse
+F.DIST.RT(15.35, 7, 6)
+F.DIST.RT(A2, B2, C2)
+```
 
 ### Syntax
 
-`F.DIST.RT(x, degrees_freedom1, degrees_freedom2)`
+```gse
+F.DIST.RT(x, degrees_freedom1, degrees_freedom2)
+```
 
-* `x` - The input to the F probability distribution function. The value at which to evaluate the function.
+- `x` - The input to the F probability distribution function. The value at which to evaluate the function.
 
   + Must be a positive number.
-* `degrees_freedom1` - The numerator of the number of degrees of freedom.
-* `degrees_freedom2` - The denominator of the number of degrees of freedom.
+- `degrees_freedom1` - The numerator of the number of degrees of freedom.
+- `degrees_freedom2` - The denominator of the number of degrees of freedom.
 
 ### Notes
 
-* Both `degrees_freedom1` and `degrees_freedom2` are truncated to an integer in the calculation if a non-integer is provided as an argument.
-* Both `degrees_freedom1` and `degrees_freedom2` must be greater than `1` and may not exceed `10^10`.
-* All arguments must be numeric.
-* `F.DIST.RT` is synonymous with `FDIST`.
+- Both `degrees_freedom1` and `degrees_freedom2` are truncated to an integer in the calculation if a non-integer is provided as an argument.
+- Both `degrees_freedom1` and `degrees_freedom2` must be greater than `1` and may not exceed `10^10`.
+- All arguments must be numeric.
+- `F.DIST.RT` is synonymous with `FDIST`.
 
 ### See Also
 

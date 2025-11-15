@@ -9,22 +9,24 @@ The ACOS function returns the inverse cosine of a value in radians.
 
 ### Sample Usage
 
-`ACOS(0)`
-
-`ACOS(A2)`
-
-`ACOS(1)`
+```gse
+ACOS(0)
+ACOS(A2)
+ACOS(1)
+```
 
 ### Syntax
 
-`ACOS(value)`
+```gse
+ACOS(value)
+```
 
-* `value` - The value for which to calculate the inverse cosine. Must be between `-1` and `1`, inclusive.
+- `value` - The value for which to calculate the inverse cosine. Must be between `-1` and `1`, inclusive.
 
 ### Notes
 
-* Use the `DEGREES` function to convert the result of `ACOS` into degrees.
-* Cosine is periodic, therefore there are many solutions to the inverse. `ACOS` returns the solution between 0 and Pi.
+- Use the `DEGREES` function to convert the result of `ACOS` into degrees.
+- Cosine is periodic, therefore there are many solutions to the inverse. `ACOS` returns the solution between 0 and Pi.
 
 ### See Also
 

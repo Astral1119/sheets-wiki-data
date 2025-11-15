@@ -7,10 +7,11 @@ tags:
 
 The T.DIST function returns the right tailed Student distribution for a value x. Along with `T.DIST.2T`, this function replaces `TDIST` and is equivalent to calling `TDIST` with the tails argument set to 1.
 
-Parts of a T.DIST function
---------------------------
+### Parts of a T.DIST function
 
-`T.DIST(x, degrees_freedom, cumulative)`
+```gse
+T.DIST(x, degrees_freedom, cumulative)
+```
 
 | Part | Description |
 | --- | --- |
@@ -18,21 +19,18 @@ Parts of a T.DIST function
 | `degrees_freedom` | Required. The degrees of freedom. |
 | `cumulative` | Required. True/false value field. If true, returns the cumulative probability for x. If false, returns the probability density function for x. |
 
-Sample formulas
----------------
+### Sample formulas
 
-* `Example 1: A1 has T.DIST(1.96, 60, false)`
-* `Example 2: A1 has T.DIST(-1.98, 2, false)`
-* `Example 3: A1 has T.DIST(1.96, 60, true)`
-* `Example 4: A1 has T.DIST(-1.98, 2, true)`
+- `Example 1: A1 has T.DIST(1.96, 60, false)`
+- `Example 2: A1 has T.DIST(-1.98, 2, false)`
+- `Example 3: A1 has T.DIST(1.96, 60, true)`
+- `Example 4: A1 has T.DIST(-1.98, 2, true)`
 
-Notes
------
+### Notes
 
-If deg\_freedom is less than 1, returns as `#NUM` error.
+If deg\_freedom is less than 1, returns as #NUM error.
 
-Examples
---------
+### Examples
 
 Result for A1=`T.DIST(1.96, 60, false)`
 
@@ -62,9 +60,8 @@ Result for A1=`T.DIST(-1.98, 2, true)`
 | **1** | 0.09312625192178947 |  |
 | **2** |  |  |
 
-Related functions
------------------
+### Related functions
 
-* [[TDIST]]: Calculates the probability for Student's t-distribution with a given input (x).
-* [[T.DIST.2T]]: The T.DIST.2T function returns the two tailed Student distribution for a value x.
-* [[T.DIST.RT]]: Returns the right tailed Student distribution for a value x.
+- [[TDIST]]: Calculates the probability for Student's t-distribution with a given input (x).
+- [[T.DIST.2T]]: The T.DIST.2T function returns the two tailed Student distribution for a value x.
+- [[T.DIST.RT]]: Returns the right tailed Student distribution for a value x.

@@ -23,13 +23,14 @@ The `YIELDMAT` formula is formatted as `=YIELDMAT(settlement, maturity, issue,
 
 ### Sample formulas
 
-`YIELDMAT(DATE(2010,01,02),DATE(2039,12,31),DATE(2010,01,01),3,100.47)`
-
-`YIELDMAT(A2,B2,C2,D2,E2,1)`
+```gse
+YIELDMAT(DATE(2010,01,02),DATE(2039,12,31),DATE(2010,01,01),3,100.47)
+YIELDMAT(A2,B2,C2,D2,E2,1)
+```
 
 ### Notes
 
-* `settlement`, `maturity`, and `issue` should be entered using `DATE`, `TO_DATE`, or other date parsing functions rather than by entering text.
+- `settlement`, `maturity`, and `issue` should be entered using `DATE`, `TO_DATE`, or other date parsing functions rather than by entering text.
 
 ### Examples
 

@@ -9,20 +9,23 @@ Calculates the geometric mean of a dataset.
 
 ### Sample Usage
 
-`GEOMEAN(1,2,3,4,5,6,7,8,9,10)`
-
-`GEOMEAN(A2:A100)`
+```gse
+GEOMEAN(1,2,3,4,5,6,7,8,9,10)
+GEOMEAN(A2:A100)
+```
 
 ### Syntax
 
-`GEOMEAN(value1, [value2, ...])`
+```gse
+GEOMEAN(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the population.
-* `value2, ...` - Additional values or ranges to include in the population.
+- `value1` - The first value or range of the population.
+- `value2, ...` - Additional values or ranges to include in the population.
 
 ### Notes
 
-* The geometric mean of a population is the nth root of the product of all the data points, where n is the size of the population.
+- The geometric mean of a population is the nth root of the product of all the data points, where n is the size of the population.
 
 ### See Also
 

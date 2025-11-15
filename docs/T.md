@@ -9,15 +9,18 @@ Returns string arguments as text.
 
 ### Sample Usage
 
-`T(A2)`
-
-`T("cat")`
+```gse
+T(A2)
+T("cat")
+```
 
 ### Syntax
 
-`T(value)`
+```gse
+T(value)
+```
 
-* `value` - The argument to be converted to text.
+- `value` - The argument to be converted to text.
 
   + If `value` is text, `T` returns `value`.
   + If `value` is a reference to a cell containing text, `T` returns the contents of `value`.
@@ -26,7 +29,7 @@ Returns string arguments as text.
 
 ### Notes
 
-* This function is rarely necessary as Google Sheets automatically converts between most formats appropriately. It is provided primarily for compatibility with formulas used in other spreadsheet packages.
+- This function is rarely necessary as Google Sheets automatically converts between most formats appropriately. It is provided primarily for compatibility with formulas used in other spreadsheet packages.
 
 ### See Also
 

@@ -9,22 +9,25 @@ Removes leading, trailing, and repeated spaces in text.
 
 ### Sample Usage
 
-`TRIM(" lorem ipsum")`
-
-`TRIM(A2)`
+```gse
+TRIM(" lorem ipsum")
+TRIM(A2)
+```
 
 ### Syntax
 
-`TRIM(text)`
+```gse
+TRIM(text)
+```
 
-* `text` - The string or reference to a cell containing a string to be trimmed.
+- `text` - The string or reference to a cell containing a string to be trimmed.
 
 ### Notes
 
-* Google Sheets trims text input into cells by default.
-* It is important to use `TRIM` when text is used in formulas or data validation because spaces in front of or after the text are significant.
-* `TRIM` removes all spaces in a text string, leaving just a single space between words.
-* Whitespace or non-breaking space will not be trimmed.
+- Google Sheets trims text input into cells by default.
+- It is important to use `TRIM` when text is used in formulas or data validation because spaces in front of or after the text are significant.
+- `TRIM` removes all spaces in a text string, leaving just a single space between words.
+- Whitespace or non-breaking space will not be trimmed.
 
 ### See Also
 

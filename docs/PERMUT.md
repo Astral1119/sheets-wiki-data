@@ -9,20 +9,23 @@ Returns the number of ways to choose some number of objects from a pool of a giv
 
 ### Sample Usage
 
-`PERMUT(4,2)`
-
-`PERMUT(A2,B2)`
+```gse
+PERMUT(4,2)
+PERMUT(A2,B2)
+```
 
 ### Syntax
 
-`PERMUT(n, k)`
+```gse
+PERMUT(n, k)
+```
 
-* `n` - The size of the pool of objects to choose from.
-* `k` - The number of objects to choose.
+- `n` - The size of the pool of objects to choose from.
+- `k` - The number of objects to choose.
 
 ### Notes
 
-* `PERMUT` is the standard combinatorics function typically notated nPk. This is similar to `COMBIN` except in permutations, the order of selection is considered rather than simply the resultant selected subset.
+- `PERMUT` is the standard combinatorics function typically notated nPk. This is similar to `COMBIN` except in permutations, the order of selection is considered rather than simply the resultant selected subset.
 
 ### See Also
 

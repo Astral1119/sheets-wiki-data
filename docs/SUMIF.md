@@ -17,42 +17,47 @@ SUMIF for BigQuery
 
 Returns a conditional sum of a data column.
 
-Sample Usage
-------------
+### Sample Usage
 
-`=SUMIF(table_name!price, ">5", table_name!inventory)`
+```gse
+=SUMIF(table_name!price, ">5", table_name!inventory)
+```
 
-Syntax
-------
+### Syntax
 
-`SUMIF(criteria_column, criterion, sum_column)`
+```gse
+SUMIF(criteria_column, criterion, sum_column)
+```
 
-* `criteria_column` - The data column which is tested against criterion.
-* `criterion` - The pattern or test to apply to criteria\_column.
-* `sum_column` - The data column to be summed, if different from `criteria\_column`.
+- `criteria_column` - The data column which is tested against criterion.
+- `criterion` - The pattern or test to apply to criteria\_column.
+- `sum_column` - The data column to be summed, if different from `criteria\_column`.
 
 **Tip:** Returning sum across multiple columns is not supported.
 
 ### Sample Usage
 
-`SUMIF(A1:A10,">20")`
-
-`SUMIF(A1:A10,"Paid",B1:B10)`
+```gse
+SUMIF(A1:A10,">20")
+SUMIF(A1:A10,"Paid",B1:B10)
+```
 
 ### Syntax
 
-`SUMIF(range, criterion, [sum_range])`
+```gse
+SUMIF(range, criterion, [sum_range])
+```
 
-* `range` - The range which is tested against `criterion`.
-* `criterion` - The pattern or test to apply to `range`.
+- `range` - The range which is tested against `criterion`.
+- `criterion` - The pattern or test to apply to `range`.
 
   + If `range` contains text to check against, `criterion` must be a string. `criterion` can contain wildcards including `?` to match any single character or `*` to match zero or more contiguous characters. To match an actual question mark or asterisk, prefix the character with the tilde (`~`) character (i.e. `~?` and `~*`). A string criterion must be enclosed in quotation marks. Each cell in `range` is then checked against `criterion` for equality (or match, if wildcards are used).
   + If `range` contains numbers to check against, `criterion` may be either a string or a number. If a number is provided, each cell in `range` is checked for equality with `criterion`. Otherwise, `criterion` may be a string containing a number (which also checks for equality), or a number prefixed with any of the following operators: `=` (checks for equality), `>` (checks that the range cell value is greater than the criterion value), or `<` (checks that the range cell value is less than the criterion value)
-* `sum_range` - The range to be summed, if different from `range`.
+- `sum_range` - The range to be summed, if different from `range`.
 
 ### Notes
 
-* `SUMIF` can only perform conditional sums with a single criterion. To use multiple criteria, use the database function `DSUM`.
+- `SUMIF` can only perform conditional sums with a single criterion. To use multiple criteria, use the database function `DSUM`.
 
 ### See Also
 

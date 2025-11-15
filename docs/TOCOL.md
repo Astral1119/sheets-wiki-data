@@ -7,35 +7,34 @@ tags:
 
 This function transforms an array or range of cells into a single column. TOCOL can scan values:
 
-* By column, top to bottom
-* By row, left to right
+- By column, top to bottom
+- By row, left to right
 
 The `scan_by_column` argument is a boolean value that controls how TOCOL reads values from the source array.
 
-Sample Usage
-------------
+### Sample Usage
 
 `TOCOL(A1:C3)`: A `TOCOL` function that keeps all values and scans by row.
 
 `TOCOL(A1:C3, 1, TRUE)`: A `TOCOL` function that ignores blanks and scans by column.
 
-Syntax
-------
+### Syntax
 
-`TOCOL(array_or_range, [ignore], [scan_by_column])`
+```gse
+TOCOL(array_or_range, [ignore], [scan_by_column])
+```
 
-* `array_or_range`: The array or range of cells to return as a column.
-* `[ignore]`: By default, no values are ignored. Specify one of these values:
+- `array_or_range`: The array or range of cells to return as a column.
+- `[ignore]`: By default, no values are ignored. Specify one of these values:
   + **0:** Keep all values
   + **1:** Ignore blanks
   + **2:** Ignore errors
   + **3:** Ignore blanks and errors
-* `[scan_by_column]`: The boolean value of `scan_by_column` determines how the array is scanned. By default, the `TOCOL` function scans the array by row.
+- `[scan_by_column]`: The boolean value of `scan_by_column` determines how the array is scanned. By default, the `TOCOL` function scans the array by row.
   + **True:** Scans the array by column
   + **False:** Scans the array by row
 
-Examples
---------
+### Examples
 
 ### Use simple data transformation operation with TOCOL
 
@@ -120,7 +119,6 @@ Examples
 
 [Make a Copy](https://docs.google.com/spreadsheets/d/1yAEE7SWpVHfhhO5Z0mv5p843DPBvu_ge0WTYOIdnINI/copy#gid=2044216832)
 
-Related functions
------------------
+### Related functions
 
-* [[TOROW]]: This function transforms an array or range of cells into a single row.
+- [[TOROW]]: This function transforms an array or range of cells into a single row.

@@ -9,19 +9,22 @@ The COSH function returns the hyperbolic cosine of any real number.
 
 ### Sample Usage
 
-`COSH(A2)`
-
-`COSH(1)`
+```gse
+COSH(A2)
+COSH(1)
+```
 
 ### Syntax
 
-`COSH(value)`
+```gse
+COSH(value)
+```
 
-* `value` - Any real value to calculate the hyperbolic cosine of.
+- `value` - Any real value to calculate the hyperbolic cosine of.
 
 ### Notes
 
-* Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
+- Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
 
 ### See Also
 

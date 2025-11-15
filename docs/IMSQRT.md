@@ -16,14 +16,15 @@ The `IMSQRT` formula is formatted as `=IMSQRT(complex_number).`
 
 ### Sample formulas
 
-`IMSQRT(2)`
-
-`IMSQRT("3+2i")`
+```gse
+IMSQRT(2)
+IMSQRT("3+2i")
+```
 
 ### Notes
 
-* This function is equivalent to using `IMPOWER(complex_number, 0.5).`
-* While it is not possible to use the `SQRT` function to take the square root of a negative real number, it is possible to use `IMSQRT` to take the square root of a complex number with a negative real number component.
+- This function is equivalent to using `IMPOWER(complex_number, 0.5).`
+- While it is not possible to use the `SQRT` function to take the square root of a negative real number, it is possible to use `IMSQRT` to take the square root of a complex number with a negative real number component.
 
 ### Examples
 

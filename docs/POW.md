@@ -9,24 +9,26 @@ Returns a number raised to a power.
 
 ### Sample Usage
 
-`POW(4,0.5)`
-
-`POW(A2,B2)`
-
-`POW(2,5)`
+```gse
+POW(4,0.5)
+POW(A2,B2)
+POW(2,5)
+```
 
 ### Syntax
 
-`POW(base, exponent)`
+```gse
+POW(base, exponent)
+```
 
-* `base` - The number to raise to the `exponent` power.
+- `base` - The number to raise to the `exponent` power.
 
   + If `base` is negative, `exponent` must be an integer.
-* `exponent` - The exponent to raise `base` to.
+- `exponent` - The exponent to raise `base` to.
 
 ### Notes
 
-* `POW` is equivalent to the `POWER` function.
+- `POW` is equivalent to the `POWER` function.
 
 ### See Also
 

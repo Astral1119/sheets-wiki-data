@@ -9,19 +9,22 @@ Returns the relative position of an item in a range that matches a specified val
 
 ### Sample Usage
 
-`MATCH("Sunday",A2:A9,0)`
-
-`MATCH(DATE(2012,1,1),A2:F2)`
+```gse
+MATCH("Sunday",A2:A9,0)
+MATCH(DATE(2012,1,1),A2:F2)
+```
 
 ### Syntax
 
-`MATCH(search_key, range, [search_type])`
+```gse
+MATCH(search_key, range, [search_type])
+```
 
-* `search_key` - The value to search for. For example, `42`, `"Cats"`, or `I24`.
-* `range` - The one-dimensional array to be searched.
+- `search_key` - The value to search for. For example, `42`, `"Cats"`, or `I24`.
+- `range` - The one-dimensional array to be searched.
 
   + If a range with both height and width greater than 1 is used, `MATCH` will return `#N/A!`.
-* `search_type` - **[** OPTIONAL - `1` by default **]** - The manner in which to search.
+- `search_type` - **[** OPTIONAL - `1` by default **]** - The manner in which to search.
 
   + `1`, the default, causes `MATCH` to assume that the range is sorted in ascending order and return the largest value less than or equal to `search_key`.
   + `0` indicates exact match, and is required in situations where `range` is not sorted.
@@ -29,7 +32,7 @@ Returns the relative position of an item in a range that matches a specified val
 
 ### Notes
 
-* `MATCH` returns the position in an array or range of a matched value rather than the value itself. To return the value itself or another value corresponding to the row or column the match is found in, use [[INDEX]], [[HLOOKUP]], or [[VLOOKUP]].
+- `MATCH` returns the position in an array or range of a matched value rather than the value itself. To return the value itself or another value corresponding to the row or column the match is found in, use [[INDEX]], [[HLOOKUP]], or [[VLOOKUP]].
 
 ### See Also
 

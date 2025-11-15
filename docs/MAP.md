@@ -7,8 +7,7 @@ tags:
 
 This function maps each value in the given arrays to a new value by application of a `LAMBDA` function to each value.
 
-Sample Usage
-------------
+### Sample Usage
 
 `MAP(A1:A5, LAMBDA(cell, cell*2))`: `MAP` function with range as input.
 
@@ -16,29 +15,28 @@ Sample Usage
 
 `MAP(UNIQUE(A1:A10), LAMBDA(number, number + 1))`: `MAP` function with array as input.
 
-Syntax
-------
+### Syntax
 
-`MAP(array1, [array2, ...], LAMBDA)`
+```gse
+MAP(array1, [array2, ...], LAMBDA)
+```
 
-* `array1`: An array or range to be mapped.
-* `array2, …`: [OPTIONAL] Additional arrays or ranges to be mapped.
-* `LAMBDA`: A `LAMBDA` function that’s mapped to each value in the given arrays to obtain a new mapped value.
+- `array1`: An array or range to be mapped.
+- `array2, …`: [OPTIONAL] Additional arrays or ranges to be mapped.
+- `LAMBDA`: A `LAMBDA` function that’s mapped to each value in the given arrays to obtain a new mapped value.
   + **Syntax:** `LAMBDA(name1, [name2, …], formula_expression)`
   + **Requirements:**
     - The `LAMBDA` must have exactly 1 `name` argument for each array passed, along with a `formula_expression` which uses those names. When `LAMBDA` is applied, the names resolve to the current values being mapped in the passed arrays.
 
-Notes
------
+### Notes
 
-* The passed `LAMBDA` function should accept exactly as many `name` arguments as the number of input arrays given to `MAP`, otherwise an `#N/A` error is returned. These arguments correspond to the values in the input arrays which are being mapped to a new value.
-* Values in the input arrays should map to a single value. Array results for mapped values aren’t supported.
-* A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` in this case. [Learn more about named functions](https://support.google.com/docs/answer/12504534).
+- The passed `LAMBDA` function should accept exactly as many `name` arguments as the number of input arrays given to `MAP`, otherwise an `#N/A` error is returned. These arguments correspond to the values in the input arrays which are being mapped to a new value.
+- Values in the input arrays should map to a single value. Array results for mapped values aren’t supported.
+- A `named function` can be passed for the `LAMBDA` parameter and behaves like a `LAMBDA` in this case. [Learn more about named functions](https://support.google.com/docs/answer/12504534).
   + There should be exactly as many argument placeholders defined for it as the number of input arrays passed to `MAP`.
   + The `named function` shouldn't be followed by parenthesis.
 
-Examples
---------
+### Examples
 
 ### Simple doubling operation with MAP
 
@@ -109,8 +107,7 @@ Examples
 | --- |
 | 3 |
 
-Common Errors
--------------
+### Common Errors
 
 The dimensions of the input arrays don’t match
 
@@ -160,13 +157,12 @@ If the application of `LAMBDA` on the input array(s) maps each value to multiple
 
 In this example, we try to map the text in the cell to an array of words.
 
-Related functions
------------------
+### Related functions
 
-* [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
-* [[REDUCE]]: This function reduces an array to an accumulated result.
-* [[BYROW]]: This function groups an array by rows.
-* [[BYCOL]]: This function groups an array by columns.
-* [[SCAN]]: This function scans an array and produces intermediate values.
-* [[MAKEARRAY]]: This function creates a calculated array of specified dimensions.
-* [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets users create and store custom functions, similar to `LAMBDA`.
+- [[LAMBDA]]: This function lets you create and return a custom function with a set of `names` and a `formula_expression` that uses them.
+- [[REDUCE]]: This function reduces an array to an accumulated result.
+- [[BYROW]]: This function groups an array by rows.
+- [[BYCOL]]: This function groups an array by columns.
+- [[SCAN]]: This function scans an array and produces intermediate values.
+- [[MAKEARRAY]]: This function creates a calculated array of specified dimensions.
+- [Create & use named functions](https://support.google.com/docs/answer/12504534): This function lets users create and store custom functions, similar to `LAMBDA`.

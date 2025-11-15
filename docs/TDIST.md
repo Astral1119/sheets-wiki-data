@@ -9,17 +9,20 @@ Calculates the probability for Student's t-distribution with a given input (x).
 
 ### Sample Usage
 
-`TDIST(A2, 30, 1)`
-
-`TDIST(0.5, 1, 2)`
+```gse
+TDIST(A2, 30, 1)
+TDIST(0.5, 1, 2)
+```
 
 ### Syntax
 
-`TDIST(x, degrees_freedom, tails)`
+```gse
+TDIST(x, degrees_freedom, tails)
+```
 
-* `x` - The input to the t-distribution function.
-* `degrees_freedom` - The number of degrees of freedom.
-* `tails` - Specifies whether the calculated distribution will be one- or two-sided. (1 for one-tailed distributions, 2 for two-tailed distributions).
+- `x` - The input to the t-distribution function.
+- `degrees_freedom` - The number of degrees of freedom.
+- `tails` - Specifies whether the calculated distribution will be one- or two-sided. (1 for one-tailed distributions, 2 for two-tailed distributions).
 
 ### See Also
 

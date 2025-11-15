@@ -9,15 +9,18 @@ Returns the absolute value of a number.
 
 ### Sample Usage
 
-`ABS(-2)`
-
-`ABS(A2)`
+```gse
+ABS(-2)
+ABS(A2)
+```
 
 ### Syntax
 
-`ABS(value)`
+```gse
+ABS(value)
+```
 
-* `value` - The number of which to return the absolute value.
+- `value` - The number of which to return the absolute value.
 
 ### Examples
 

@@ -9,23 +9,26 @@ Returns the standard deviation of a population sample selected from a database t
 
 ### Sample Usage
 
-`DSTDEV(A2:F20,G2,A22:D23)`
-
-`DSTDEV(A2:F20,"price",{"Ticker";"Google"})`
+```gse
+DSTDEV(A2:F20,G2,A22:D23)
+DSTDEV(A2:F20,"price",{"Ticker";"Google"})
+```
 
 ### Syntax
 
-`DSTDEV(database, field, criteria)`
+```gse
+DSTDEV(database, field, criteria)
+```
 
-* `database` - The array or range containing the data to consider, structured in such a way that the first row contains the labels for each column's values.
-* `field` - Indicates which column in `database` contains the values to be extracted and operated on.
+- `database` - The array or range containing the data to consider, structured in such a way that the first row contains the labels for each column's values.
+- `field` - Indicates which column in `database` contains the values to be extracted and operated on.
 
   + `field` may either be a text label corresponding to a column header in the first row of `database` or a numeric index indicating which column to consider, where the first column has the value `1`.
-* `criteria` - An array or range containing zero or more criteria to filter the `database` values by before operating.
+- `criteria` - An array or range containing zero or more criteria to filter the `database` values by before operating.
 
 ### Notes
 
-* Detailed information about database functions and constructing queries around criteria can be found in the [Database Functions help article](https://support.google.com/docs/answer/173497).
+- Detailed information about database functions and constructing queries around criteria can be found in the [Database Functions help article](https://support.google.com/docs/answer/173497).
 
 ### See Also
 

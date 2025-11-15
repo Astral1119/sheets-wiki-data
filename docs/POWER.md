@@ -7,25 +7,24 @@ tags:
 
 Returns a number raised to a power.
 
-Sample Usage
-------------
+### Sample Usage
 
-`POWER(4,0.5)`
+```gse
+POWER(4,0.5)
+POWER(A2,B2)
+POWER(2,5)
+```
 
-`POWER(A2,B2)`
+### Syntax
 
-`POWER(2,5)`
+```gse
+POWER(base, exponent)
+```
 
-Syntax
-------
+- `base` - The number to raise to the `exponent` power.
+- `exponent` - The exponent to raise `base` to.
 
-`POWER(base, exponent)`
-
-* `base` - The number to raise to the `exponent` power.
-* `exponent` - The exponent to raise `base` to.
-
-See Also
---------
+### See Also
 
 [[SQRTPI]]: Returns the positive square root of the product of Pi and the given positive number.
 
@@ -41,8 +40,7 @@ See Also
 
 [[EXP]]: Returns Euler's number, e (~2.718) raised to a power.
 
-Examples
---------
+### Examples
 
 ### 
 

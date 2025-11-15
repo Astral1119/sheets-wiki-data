@@ -9,23 +9,26 @@ Calculates the kurtosis of a dataset, which describes the shape, and in particul
 
 ### Sample Usage
 
-`KURT(1,2,3,4,5,6,7,8,9,10)`
-
-`KURT(A2:A100)`
+```gse
+KURT(1,2,3,4,5,6,7,8,9,10)
+KURT(A2:A100)
+```
 
 ### Syntax
 
-`KURT(value1, [value2, ...])`
+```gse
+KURT(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the dataset.
-* `value2, ...` - Additional values or ranges to include in the dataset.
+- `value1` - The first value or range of the dataset.
+- `value2, ...` - Additional values or ranges to include in the dataset.
 
 ### Notes
 
-* Although `KURT` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `KURT` will return the `#DIV/0!` error.
-* Any text encountered in the `value` arguments will be ignored.
-* Positive kurtosis indicates a more "peaked" distribution in the dataset, while negative kurtosis indicates a flatter distribution.
+- Although `KURT` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `KURT` will return the `#DIV/0!` error.
+- Any text encountered in the `value` arguments will be ignored.
+- Positive kurtosis indicates a more "peaked" distribution in the dataset, while negative kurtosis indicates a flatter distribution.
 
 ### See Also
 

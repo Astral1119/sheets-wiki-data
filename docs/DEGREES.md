@@ -9,17 +9,19 @@ The DEGREES function converts an angle value in radians to degrees.
 
 ### Sample Usage
 
-`DEGREES(PI())`
-
-`DEGREES(6)`
-
-`DEGREES(A2)`
+```gse
+DEGREES(PI())
+DEGREES(6)
+DEGREES(A2)
+```
 
 ### Syntax
 
-`DEGREES(angle)`
+```gse
+DEGREES(angle)
+```
 
-* `angle` - The angle to convert from radians to degrees.
+- `angle` - The angle to convert from radians to degrees.
 
 ### See Also
 

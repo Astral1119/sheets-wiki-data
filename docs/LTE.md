@@ -9,16 +9,19 @@ Returns `TRUE` if the first argument is less than or equal to the second, and `F
 
 ### Sample Usage
 
-`LTE(A2,A3)`
-
-`LTE(2,3)`
+```gse
+LTE(A2,A3)
+LTE(2,3)
+```
 
 ### Syntax
 
-`LTE(value1, value2)`
+```gse
+LTE(value1, value2)
+```
 
-* `value1` - The value to test as being less than or equal to `value2`.
-* `value2` - The second value.
+- `value1` - The value to test as being less than or equal to `value2`.
+- `value2` - The second value.
 
 ### See Also
 

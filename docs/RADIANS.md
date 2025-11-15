@@ -9,17 +9,19 @@ The RADIANS function converts an angle value in degrees to radians.
 
 ### Sample Usage
 
-`RADIANS(180)`
-
-`RADIANS(6)`
-
-`RADIANS(A2)`
+```gse
+RADIANS(180)
+RADIANS(6)
+RADIANS(A2)
+```
 
 ### Syntax
 
-`RADIANS(angle)`
+```gse
+RADIANS(angle)
+```
 
-* `angle` - The angle to convert from degrees to radians.
+- `angle` - The angle to convert from degrees to radians.
 
 ### See Also
 

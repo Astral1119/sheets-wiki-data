@@ -9,28 +9,30 @@ The IPMT function calculates the payment on interest for an investment based on 
 
 ### Sample Usage
 
-`IPMT(0.05/12, 1, 30*12, 100000)`
-
-`IPMT(2,5,12,100)`
-
-`IPMT(A2,B2,C2,D2,E2,1)`
+```gse
+IPMT(0.05/12, 1, 30*12, 100000)
+IPMT(2,5,12,100)
+IPMT(A2,B2,C2,D2,E2,1)
+```
 
 ### Syntax
 
-`IPMT(rate, period, number_of_periods, present_value, [future_value], [end_or_beginning])`
+```gse
+IPMT(rate, period, number_of_periods, present_value, [future_value], [end_or_beginning])
+```
 
-* `rate` - The interest rate.
-* `period` - The amortization period, in terms of number of periods.
+- `rate` - The interest rate.
+- `period` - The amortization period, in terms of number of periods.
 
   + `period` must be at least `1` and at most `number_of_periods`.
-* `number_of_periods` - The number of payments to be made.
-* `present_value` - The current value of the annuity.
-* `future_value` - **[** OPTIONAL **]** - The future value remaining after the final payment has been made.
-* `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
+- `number_of_periods` - The number of payments to be made.
+- `present_value` - The current value of the annuity.
+- `future_value` - **[** OPTIONAL **]** - The future value remaining after the final payment has been made.
+- `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
 
 ### Notes
 
-* Ensure that consistent units are used for `rate` and `number_of_periods`. For example, a car loan for 36 months may be paid monthly, in which case the annual percentage rate should be divided by 12 and the number of payments is 36. On the other hand, a different type of loan of the same length might be paid quarterly, in which case the annual percentage rate should be divided by 4 and the number of payments would be 12.
+- Ensure that consistent units are used for `rate` and `number_of_periods`. For example, a car loan for 36 months may be paid monthly, in which case the annual percentage rate should be divided by 12 and the number of payments is 36. On the other hand, a different type of loan of the same length might be paid quarterly, in which case the annual percentage rate should be divided by 4 and the number of payments would be 12.
 
 ### See Also
 

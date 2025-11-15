@@ -7,25 +7,49 @@ tags:
 
 Returns the sum of a series of numbers and/or cells.
 
+### 
+
+SUM for BigQuery
+
+Returns the sum of a data column.
+
 ### Sample Usage
 
-`SUM(A2:A100)`
-
-`SUM(1,2,3,4,5)`
-
-`SUM(1,2,A2:A50)`
+```gse
+=SUM(table_name!inventory)
+```
 
 ### Syntax
 
-`SUM(value1, [value2, ...])`
+```gse
+SUM(column)
+```
 
-* `value1` - The first number or range to add together.
-* `value2, ...` - **[** OPTIONAL **]** - Additional numbers or ranges to add to `value1`.
+- `column`- The data column to consider when calculating the sum.
+
+**Tip:** Returning sum across multiple columns is not supported.
+
+### Sample Usage
+
+```gse
+SUM(A2:A100)
+SUM(1,2,3,4,5)
+SUM(1,2,A2:A50)
+```
+
+### Syntax
+
+```gse
+SUM(value1, [value2, ...])
+```
+
+- `value1` - The first number or range to add together.
+- `value2, ...` - **[** OPTIONAL **]** - Additional numbers or ranges to add to `value1`.
 
 ### Notes
 
-* If only a single number for `value1` is supplied, `SUM` returns `value1`.
-* Although `SUM` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If only a single number for `value1` is supplied, `SUM` returns `value1`.
+- Although `SUM` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
 
 ### See Also
 

@@ -7,29 +7,28 @@ tags:
 
 Returns the probability associated with a Pearson’s chi-squared test on the two ranges of data. Determines the likelihood that the observed categorical data is drawn from an expected distribution.
 
-Sample Usage
-------------
+### Sample Usage
 
-`CHITEST(A1:A5, B1:B5)`
+```gse
+CHITEST(A1:A5, B1:B5)
+CHITEST(A1:D3, A5:D7)
+```
 
-`CHITEST(A1:D3, A5:D7)`
+### Syntax
 
-Syntax
-------
+```gse
+CHITEST(observed_range, expected_range)
+```
 
-`CHITEST(observed_range, expected_range)`
+- `observed_range` - The counts associated with each category of data.
+- `expected_range` - The expected counts for each category under the null hypothesis.
 
-* `observed_range` - The counts associated with each category of data.
-* `expected_range` - The expected counts for each category under the null hypothesis.
+### Notes
 
-Notes
------
+- `observed_range` and `expected_range` must both be ranges with the same number of rows and columns.
+- If any cell in either range is non-numeric, it and the corresponding cell in the other range do not count toward the calculation.
 
-* `observed_range` and `expected_range` must both be ranges with the same number of rows and columns.
-* If any cell in either range is non-numeric, it and the corresponding cell in the other range do not count toward the calculation.
-
-See Also
---------
+### See Also
 
 [[CHIDIST]]: Calculates the right-tailed chi-squared distribution, often used in hypothesis testing.
 
@@ -43,8 +42,7 @@ See Also
 
 [[TTEST]]: Returns the probability associated with t-test. Determines whether two samples are likely to have come from the same two underlying populations that have the same mean.
 
-Example
--------
+### Example
 
 Suppose you want to test the fairness of a 6-sided die. You count the number of times each side is rolled for 60 trials, and compare it to an expected distribution where each side is rolled 10 times. There is only a 5.1% chance that the die is actually fair.
 

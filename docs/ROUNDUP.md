@@ -9,22 +9,25 @@ Rounds a number to a certain number of decimal places, always rounding up to the
 
 ### Sample Usage
 
-`ROUNDUP(99.44,1)`
-
-`ROUNDUP(A2)`
+```gse
+ROUNDUP(99.44,1)
+ROUNDUP(A2)
+```
 
 ### Syntax
 
-`ROUNDUP(value,[places])`
+```gse
+ROUNDUP(value,[places])
+```
 
-* `value` - The value to round to `places` number of places, always rounding up.
-* `places` - **[** OPTIONAL - `0` by default **]** - The number of decimal places to which to round.
+- `value` - The value to round to `places` number of places, always rounding up.
+- `places` - **[** OPTIONAL - `0` by default **]** - The number of decimal places to which to round.
 
   + `places` may be negative, in which case `value` is rounded at the specified number of digits to the left of the decimal point.
 
 ### Notes
 
-* `ROUNDUP` operates like `ROUND` except that it always rounds up.
+- `ROUNDUP` operates like `ROUND` except that it always rounds up.
 
 ### See Also
 

@@ -9,13 +9,17 @@ Returns a subtotal for a vertical range of cells using a specified aggregation f
 
 ### Sample Usage
 
-`SUBTOTAL(1,A2:A5,B2:B8)`
+```gse
+SUBTOTAL(1,A2:A5,B2:B8)
+```
 
 ### Syntax
 
-`SUBTOTAL(function_code, range1, [range2, ...])`
+```gse
+SUBTOTAL(function_code, range1, [range2, ...])
+```
 
-* `function_code` - The function to use in subtotal aggregation.
+- `function_code` - The function to use in subtotal aggregation.
 
   + `1` is `AVERAGE`
   + `2` is `COUNT`
@@ -29,16 +33,16 @@ Returns a subtotal for a vertical range of cells using a specified aggregation f
   + `10` is `VAR`
   + `11` is `VARP`
   + Hidden values can be skipped for any of these codes by prepending `10` (to the single-digit codes) or `1` (to the 2-digit codes). e.g. 102 for `COUNT` while skipping hidden cells, and `110` for `VAR` while doing so.
-* `range1` - The first range over which to calculate a subtotal.
-* `range2, ...` - Additional ranges over which to calculate subtotals.
+- `range1` - The first range over which to calculate a subtotal.
+- `range2, ...` - Additional ranges over which to calculate subtotals.
 
 ### Notes
 
-* Cells that are hidden due to autofilter criteria are never included in `SUBTOTAL`, irrespective of the `function_code` used.
-* Cells within any of the specified `range` arguments that contain `SUBTOTAL` calls are ignored to prevent double-counting.
-* `SUBTOTAL` can be used to created dynamic dashboards by having the function code argument refer to another cell. When combined with list-based data validation, this cell can become a drop-down list that instantly updates the entire dashboard.
-* `SUBTOTAL` can be used for quick analysis of different subsets of data by building a subtotal dashboard above a filtered region. Each time the filter criteria change, the dashboard will automatically update with new aggregations.
-* Using `SUBTOTAL` helps prevent double-counting associated with simple `SUM` formulas.
+- Cells that are hidden due to autofilter criteria are never included in `SUBTOTAL`, irrespective of the `function_code` used.
+- Cells within any of the specified `range` arguments that contain `SUBTOTAL` calls are ignored to prevent double-counting.
+- `SUBTOTAL` can be used to created dynamic dashboards by having the function code argument refer to another cell. When combined with list-based data validation, this cell can become a drop-down list that instantly updates the entire dashboard.
+- `SUBTOTAL` can be used for quick analysis of different subsets of data by building a subtotal dashboard above a filtered region. Each time the filter criteria change, the dashboard will automatically update with new aggregations.
+- Using `SUBTOTAL` helps prevent double-counting associated with simple `SUM` formulas.
 
 ### See Also
 

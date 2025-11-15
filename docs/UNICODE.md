@@ -9,7 +9,9 @@ The `UNICODE` function returns the decimal Unicode value of the first character 
 
 ### Parts of a UNICODE function
 
-`UNICODE(text)`
+```gse
+UNICODE(text)
+```
 
 | Part | Description |
 | --- | --- |
@@ -25,8 +27,8 @@ UNICODE(😀😀😄)
 
 ### Notes
 
-* The UNICODE function will only work properly if the input string is not empty and the first character has a Unicode representation.
-* Numbers may be passed directly into the UNICODE function and will be parsed as a string.
+- The UNICODE function will only work properly if the input string is not empty and the first character has a Unicode representation.
+- Numbers may be passed directly into the UNICODE function and will be parsed as a string.
 
 ### Examples
 

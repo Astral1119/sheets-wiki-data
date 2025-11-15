@@ -9,24 +9,26 @@ Returns a date representing the last day of a month which falls a specified numb
 
 ### Sample Usage
 
-`EOMONTH(DATE(1969, 7, 20), 1)`
-
-`EOMONTH(A2, 1)`
-
-`EOMONTH(40909, -2)`
+```gse
+EOMONTH(DATE(1969, 7, 20), 1)
+EOMONTH(A2, 1)
+EOMONTH(40909, -2)
+```
 
 ### Syntax
 
-`EOMONTH(start_date, months)`
+```gse
+EOMONTH(start_date, months)
+```
 
-* `start_date` - The date from which to calculate the result.
-* `months` - The number of months before (negative) or after (positive) `start_date` to consider. The last calendar day of the calculated month is returned.
+- `start_date` - The date from which to calculate the result.
+- `months` - The number of months before (negative) or after (positive) `start_date` to consider. The last calendar day of the calculated month is returned.
 
 ### Notes
 
-* Ensure that the `start_date` input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
-* `EOMONTH` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `EOMONTH(10/10/2000,1)` is interpreted as `EOMONTH(0.0005,1)`, the quotient of 10 divided by 10 divided by 2000.
-* Non-integer arguments to `months` will have their decimal components truncated. Therefore, `EOMONTH(A2,2.6)` is equivalent to `EOMONTH(A2,2)`.
+- Ensure that the `start_date` input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+- `EOMONTH` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `EOMONTH(10/10/2000,1)` is interpreted as `EOMONTH(0.0005,1)`, the quotient of 10 divided by 10 divided by 2000.
+- Non-integer arguments to `months` will have their decimal components truncated. Therefore, `EOMONTH(A2,2.6)` is equivalent to `EOMONTH(A2,2)`.
 
 ### See Also
 

@@ -9,21 +9,24 @@ Returns the number of values in a dataset.
 
 ### Sample Usage
 
-`COUNTA(A2:A100,B2:B100,4,26)`
-
-`COUNTA(1,2,3,4,5,C6:C20)`
+```gse
+COUNTA(A2:A100,B2:B100,4,26)
+COUNTA(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`COUNTA(value1, [value2, ...])`
+```gse
+COUNTA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when counting.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when counting.
+- `value1` - The first value or range to consider when counting.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when counting.
 
 ### Notes
 
-* Although `COUNTA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* `COUNTA` counts all values in a dataset, including those which appear more than once and text values (including zero-length strings and whitespace). To count unique values, use `COUNTUNIQUE`. To count only numeric values use `COUNT`.
+- Although `COUNTA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- `COUNTA` counts all values in a dataset, including those which appear more than once and text values (including zero-length strings and whitespace). To count unique values, use `COUNTUNIQUE`. To count only numeric values use `COUNT`.
 
 ### See Also
 

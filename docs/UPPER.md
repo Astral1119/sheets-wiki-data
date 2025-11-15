@@ -9,15 +9,18 @@ Converts a specified string to uppercase.
 
 ### Sample Usage
 
-`UPPER("lorem ipsum")`
-
-`UPPER(A2)`
+```gse
+UPPER("lorem ipsum")
+UPPER(A2)
+```
 
 ### Syntax
 
-`UPPER(text)`
+```gse
+UPPER(text)
+```
 
-* `text` - The string to convert to uppercase.
+- `text` - The string to convert to uppercase.
 
 ### See Also
 

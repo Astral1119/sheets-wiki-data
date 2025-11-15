@@ -9,20 +9,23 @@ The COMBIN function returns the number of ways to choose some number of objects 
 
 ### Sample Usage
 
-`COMBIN(4,2)`
-
-`COMBIN(A2,B2)`
+```gse
+COMBIN(4,2)
+COMBIN(A2,B2)
+```
 
 ### Syntax
 
-`COMBIN(n, k)`
+```gse
+COMBIN(n, k)
+```
 
-* `n` - The size of the pool of objects to choose from.
-* `k` - The number of objects to choose.
+- `n` - The size of the pool of objects to choose from.
+- `k` - The number of objects to choose.
 
 ### Notes
 
-* `COMBIN` is the standard combinatorics function typically notated nCk and read "n choose k". This is equivalent to `FACT(n)/(FACT(k)*FACT(n-k))`.
+- `COMBIN` is the standard combinatorics function typically notated nCk and read "n choose k". This is equivalent to `FACT(n)/(FACT(k)*FACT(n-k))`.
 
 ### See Also
 

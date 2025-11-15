@@ -9,26 +9,29 @@ The F.INV.RT function calculates the inverse of the right-tailed F probability d
 
 ### Sample Usage
 
-`F.INV.RT(0.42, 2, 3)`
-
-`F.INV.RT(A2, B2, C2)`
+```gse
+F.INV.RT(0.42, 2, 3)
+F.INV.RT(A2, B2, C2)
+```
 
 ### Syntax
 
-`F.INV.RT(probability, degrees_freedom1, degrees_freedom2)`
+```gse
+F.INV.RT(probability, degrees_freedom1, degrees_freedom2)
+```
 
-* `probability` - The probability associated with the right-tailed F-distribution.
+- `probability` - The probability associated with the right-tailed F-distribution.
 
   + Must be greater than `0` and less than `1`.
-* `degrees_freedom1` - The number of degrees of freedom of the numerator of the test statistic.
-* `degrees_freedom2` - The number of degrees of freedom of the denominator of the test statistic.
+- `degrees_freedom1` - The number of degrees of freedom of the numerator of the test statistic.
+- `degrees_freedom2` - The number of degrees of freedom of the denominator of the test statistic.
 
 ### Notes
 
-* Both `degrees_freedom1` and `degrees_freedom2` are truncated to an integer in the calculation if a non-integer is provided as an argument.
-* Both `degrees_freedom1` and `degrees_freedom2` must be at least `1`.
-* All arguments must be numeric.
-* `F.INV.RT` is synonymous with `FINV`.
+- Both `degrees_freedom1` and `degrees_freedom2` are truncated to an integer in the calculation if a non-integer is provided as an argument.
+- Both `degrees_freedom1` and `degrees_freedom2` must be at least `1`.
+- All arguments must be numeric.
+- `F.INV.RT` is synonymous with `FINV`.
 
 ### See Also
 

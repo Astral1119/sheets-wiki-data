@@ -9,19 +9,22 @@ The TANH function returns the hyperbolic tangent of any real number.
 
 ### Sample Usage
 
-`TANH(A2)`
-
-`TANH(1)`
+```gse
+TANH(A2)
+TANH(1)
+```
 
 ### Syntax
 
-`TANH(value)`
+```gse
+TANH(value)
+```
 
-* `value` - Any real value to calculate the hyperbolic tangent of.
+- `value` - Any real value to calculate the hyperbolic tangent of.
 
 ### Notes
 
-* Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
+- Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
 
 ### See Also
 

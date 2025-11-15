@@ -9,24 +9,27 @@ Calculates the variance based on a sample, setting text to the value `0`.
 
 ### Sample Usage
 
-`VARA(1,2,3,4,5,6,7,8,9,10)`
-
-`VARA(A2:A100)`
+```gse
+VARA(1,2,3,4,5,6,7,8,9,10)
+VARA(A2:A100)
+```
 
 ### Syntax
 
-`VARA(value1, [value2, ...])`
+```gse
+VARA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the sample.
-* `value2, ...` - Additional values or ranges to include in the sample.
+- `value1` - The first value or range of the sample.
+- `value2, ...` - Additional values or ranges to include in the sample.
 
 ### Notes
 
-* Although `VARA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `VARA` will return the `#DIV/0!` error.
-* `VARA` sets each text value encountered to `0` for the purpose of calculation. To return an error upon encountering text, use `VAR`.
-* `VARA` calculates variance for a sample. To calculate variance across an entire population, use `VARPA`.
-* `VARA` takes the sum of the squares of each value's deviation from the mean and divides by the number of such values minus one. This differs from the calculation of variance across an entire population in that the latter divides by the size of the dataset without subtracting one.
+- Although `VARA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `VARA` will return the `#DIV/0!` error.
+- `VARA` sets each text value encountered to `0` for the purpose of calculation. To return an error upon encountering text, use `VAR`.
+- `VARA` calculates variance for a sample. To calculate variance across an entire population, use `VARPA`.
+- `VARA` takes the sum of the squares of each value's deviation from the mean and divides by the number of such values minus one. This differs from the calculation of variance across an entire population in that the latter divides by the size of the dataset without subtracting one.
 
 ### See Also
 

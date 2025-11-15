@@ -9,20 +9,23 @@ Returns the "double factorial" of a number.
 
 ### Sample Usage
 
-`FACTDOUBLE(6)`
-
-`FACTDOUBLE(A2)`
+```gse
+FACTDOUBLE(6)
+FACTDOUBLE(A2)
+```
 
 ### Syntax
 
-`FACTDOUBLE(value)`
+```gse
+FACTDOUBLE(value)
+```
 
-* `value` - The number or reference to a number whose double factorial will be calculated and returned.
+- `value` - The number or reference to a number whose double factorial will be calculated and returned.
 
 ### Notes
 
-* The double factorial is similar to the factorial, except instead of multiplying by each integer value less than or equal to the provided value, it decrements by 2. Thus the double factorial of 8 is 384 and the double factorial of 7 is 105.
-* If a number or reference to a number with a decimal part is provided to `FACTDOUBLE`, the decimal part will be silently truncated before calculation.
+- The double factorial is similar to the factorial, except instead of multiplying by each integer value less than or equal to the provided value, it decrements by 2. Thus the double factorial of 8 is 384 and the double factorial of 7 is 105.
+- If a number or reference to a number with a decimal part is provided to `FACTDOUBLE`, the decimal part will be silently truncated before calculation.
 
 ### See Also
 

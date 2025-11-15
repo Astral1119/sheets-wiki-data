@@ -9,18 +9,21 @@ Returns the logarithm of a number given a base.
 
 ### Sample Usage
 
-`LOG(128,2)`
-
-`LOG(A2,3)`
+```gse
+LOG(128,2)
+LOG(A2,3)
+```
 
 ### Syntax
 
-`LOG(value, [base])`
+```gse
+LOG(value, [base])
+```
 
-* `value` - The value for which to calculate the logarithm given `base`.
+- `value` - The value for which to calculate the logarithm given `base`.
 
   + `value` must be positive.
-* `base` - [10 by default] The base to use for calculation of the logarithm.
+- `base` - [10 by default] The base to use for calculation of the logarithm.
 
 ### See Also
 

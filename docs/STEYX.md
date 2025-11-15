@@ -9,18 +9,22 @@ Calculates the standard error of the predicted y-value for each x in the regress
 
 ### Sample Usage
 
-`STEYX(A2:A100,B2:B100)`
+```gse
+STEYX(A2:A100,B2:B100)
+```
 
 ### Syntax
 
-`STEYX(data_y, data_x)`
+```gse
+STEYX(data_y, data_x)
+```
 
-* `data_y` - The range representing the array or matrix of dependent data.
-* `data_x` - The range representing the array or matrix of independent data.
+- `data_y` - The range representing the array or matrix of dependent data.
+- `data_x` - The range representing the array or matrix of independent data.
 
 ### Notes
 
-* Any text encountered in the `value` arguments will be ignored.
+- Any text encountered in the `value` arguments will be ignored.
 
 ### See Also
 

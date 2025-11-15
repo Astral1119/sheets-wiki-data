@@ -15,46 +15,52 @@ Returns the number of numeric values in a dataset.
 
 COUNT for BigQuery
 
-Sample Usage
-------------
+### Sample Usage
 
 Returns the number of non null rows in a data column.
 
 ### Sample Usage
 
-`COUNT(table_name!fruits)`
+```gse
+COUNT(table_name!fruits)
+```
 
 ### Syntax
 
-`COUNT(column)`
+```gse
+COUNT(column)
+```
 
-* `column`: The data column to consider when counting.
+- `column`: The data column to consider when counting.
 
 **Tip:**
 
-* COUNT for BigQuery counts both numeric and non-numeric values.
-* Counting multiple columns is not supported
+- COUNT for BigQuery counts both numeric and non-numeric values.
+- Counting multiple columns is not supported
 
 [Learn more about numeric columns in BigQuery](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#numeric_types)
 
 ### Sample Usage
 
-`COUNT(A2:A100,B2:B100,4,26)`
-
-`COUNT(1,2,3,4,5,C6:C20)`
+```gse
+COUNT(A2:A100,B2:B100,4,26)
+COUNT(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`COUNT(value1, [value2, ...])`
+```gse
+COUNT(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when counting.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when counting.
+- `value1` - The first value or range to consider when counting.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when counting.
 
 ### Notes
 
-* Although `COUNT` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* `COUNT` counts all numeric values in a dataset, including those which appear more than once. To count unique values, use `COUNTUNIQUE`.
-* `COUNT` counts *only* numeric values; text values are ignored.
+- Although `COUNT` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- `COUNT` counts all numeric values in a dataset, including those which appear more than once. To count unique values, use `COUNTUNIQUE`.
+- `COUNT` counts *only* numeric values; text values are ignored.
 
 ### See Also
 

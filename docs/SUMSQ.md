@@ -9,23 +9,25 @@ Returns the sum of the squares of a series of numbers and/or cells.
 
 ### Sample Usage
 
-`SUMSQ(A2:A100)`
-
-`SUMSQ(1,2,3,4,5)`
-
-`SUMSQ(1,2,A2:A50)`
+```gse
+SUMSQ(A2:A100)
+SUMSQ(1,2,3,4,5)
+SUMSQ(1,2,A2:A50)
+```
 
 ### Syntax
 
-`SUMSQ(value1, [value2, ...])`
+```gse
+SUMSQ(value1, [value2, ...])
+```
 
-* `value1` - The first number or range whose squares to add together.
-* `value2, ...` - **[** OPTIONAL **]** - Additional numbers or ranges whose squares to add to the square(s) of `value1`.
+- `value1` - The first number or range whose squares to add together.
+- `value2, ...` - **[** OPTIONAL **]** - Additional numbers or ranges whose squares to add to the square(s) of `value1`.
 
 ### Notes
 
-* If only a single number for `value1` is supplied, `SUMSQ` returns `value1` squared.
-* Although `SUMSQ` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If only a single number for `value1` is supplied, `SUMSQ` returns `value1` squared.
+- Although `SUMSQ` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
 
 ### See Also
 

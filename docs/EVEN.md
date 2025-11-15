@@ -9,17 +9,19 @@ Rounds a number up to the nearest even integer.
 
 ### Sample Usage
 
-`EVEN(3)`
-
-`EVEN(-0.6)`
-
-`EVEN(A2)`
+```gse
+EVEN(3)
+EVEN(-0.6)
+EVEN(A2)
+```
 
 ### Syntax
 
-`EVEN(value)`
+```gse
+EVEN(value)
+```
 
-* `value` - The value to round to the next greatest even number.
+- `value` - The value to round to the next greatest even number.
 
   + If `value` is negative, it will be rounded down to the next negative even number with greater absolute value.
 

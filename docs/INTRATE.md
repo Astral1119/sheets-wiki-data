@@ -9,19 +9,22 @@ Calculates the effective interest rate generated when an investment is purchased
 
 ### Sample Usage
 
-`INTRATE(DATE(2010,01,02),DATE(2019,12,31),90,140,2)`
-
-`INTRATE(A2,B2,C2,D2,1)`
+```gse
+INTRATE(DATE(2010,01,02),DATE(2019,12,31),90,140,2)
+INTRATE(A2,B2,C2,D2,1)
+```
 
 ### Syntax
 
-`INTRATE(buy_date, sell_date, buy_price, sell_price, [day_count_convention])`
+```gse
+INTRATE(buy_date, sell_date, buy_price, sell_price, [day_count_convention])
+```
 
-* `buy_date` - The date of purchase of the investment.
-* `sell_date` - The date of sale of the investment.
-* `buy_price` - The price at which the investment was purchased.
-* `sell_price` - The price at which the investment was sold.
-* `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
+- `buy_date` - The date of purchase of the investment.
+- `sell_date` - The date of sale of the investment.
+- `buy_price` - The price at which the investment was purchased.
+- `sell_price` - The price at which the investment was sold.
+- `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
 
   + 0 indicates US (NASD) 30/360 - This assumes 30 day months and 360 day years as per the National Association of Securities Dealers standard, and performs specific adjustments to entered dates which fall at the end of months.
   + 1 indicates Actual/Actual - This calculates based upon the actual number of days between the specified dates, and the actual number of days in the intervening years. Used for US Treasury Bonds and Bills, but also the most relevant for non-financial use.
@@ -31,7 +34,7 @@ Calculates the effective interest rate generated when an investment is purchased
 
 ### Notes
 
-* `buy_date` and `sell_date` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
+- `buy_date` and `sell_date` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
 
 ### See Also
 

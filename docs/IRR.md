@@ -9,24 +9,27 @@ Calculates the internal rate of return on an investment based on a series of per
 
 ### Sample Usage
 
-`IRR(A2:A25)`
-
-`IRR({-4000,200,250,300,350},0.1)`
+```gse
+IRR(A2:A25)
+IRR({-4000,200,250,300,350},0.1)
+```
 
 ### Syntax
 
-`IRR(cashflow_amounts, [rate_guess])`
+```gse
+IRR(cashflow_amounts, [rate_guess])
+```
 
-* `cashflow_amounts` - An array or range containing the income or payments associated with the investment.
+- `cashflow_amounts` - An array or range containing the income or payments associated with the investment.
 
   + `cashflow_amounts` must contain at least one negative and one positive cash flow to calculate rate of return.
-* `rate_guess` - **[** OPTIONAL - 0.1 by default **]** - An estimate for what the internal rate of return will be.
+- `rate_guess` - **[** OPTIONAL - 0.1 by default **]** - An estimate for what the internal rate of return will be.
 
 ### Notes
 
-* Each cell in `cashflow_amounts` should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
-* `NPV` will return zero if `discount` is set to the result of `IRR` using the same cash flow amounts.
-* If the cash flows of an investment are irregularly spaced, use `XIRR` instead.
+- Each cell in `cashflow_amounts` should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
+- `NPV` will return zero if `discount` is set to the result of `IRR` using the same cash flow amounts.
+- If the cash flows of an investment are irregularly spaced, use `XIRR` instead.
 
 ### See Also
 

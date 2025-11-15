@@ -11,40 +11,44 @@ SUMIFS for BigQuery
 
 Returns a conditional sum of a data column depending on multiple criteria.
 
-Sample Usage
-------------
+### Sample Usage
 
-`=SUMIFS(table_name!inventory, table_name!fruits, "Apple", table_name!price, ">5")`
+```gse
+=SUMIFS(table_name!inventory, table_name!fruits, "Apple", table_name!price, ">5")
+```
 
-Syntax
-------
+### Syntax
 
-`SUMIFS(sum_column, criteria_column1, criterion1, criteria_column2, criterion2)`
+```gse
+SUMIFS(sum_column, criteria_column1, criterion1, criteria_column2, criterion2)
+```
 
-* `sum_column` - The data column to sum.
-* `criteria_column1`: The data column to check against criterion1.
-* `criterion1` - The pattern or test to apply to criteria\_column1.
-* `criteria_column2` - Additional data columns to check.
-* `criterion2` - Additional criteria to check.
+- `sum_column` - The data column to sum.
+- `criteria_column1`: The data column to check against criterion1.
+- `criterion1` - The pattern or test to apply to criteria\_column1.
+- `criteria_column2` - Additional data columns to check.
+- `criterion2` - Additional criteria to check.
 
 **Tip:** Returning sum across multiple columns is not supported.
 
 ### Sample Usage
 
-`SUMIFS(A1:A10, B1:B10, ">20")`
-
-`SUMIFS(A1:A10, B1:B10, ">20", C1:C10, "<30")`
-
-`SUMIFS(C1:C100, E1:E100, "Yes")`
+```gse
+SUMIFS(A1:A10, B1:B10, ">20")
+SUMIFS(A1:A10, B1:B10, ">20", C1:C10, "<30")
+SUMIFS(C1:C100, E1:E100, "Yes")
+```
 
 ### Syntax
 
-`SUMIFS(sum_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])`
+```gse
+SUMIFS(sum_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])
+```
 
-* `sum_range` - The range to be summed.
-* `criteria_range1` - The range to check against `criterion1`.
-* `criterion1` - The pattern or test to apply to `criteria_range1`.
-* `criteria_range2, criterion2, ...` - **[** OPTIONAL **]** - Additional ranges and criteria to check.
+- `sum_range` - The range to be summed.
+- `criteria_range1` - The range to check against `criterion1`.
+- `criterion1` - The pattern or test to apply to `criteria_range1`.
+- `criteria_range2, criterion2, ...` - **[** OPTIONAL **]** - Additional ranges and criteria to check.
 
 ### See Also
 

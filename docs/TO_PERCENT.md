@@ -9,23 +9,26 @@ Converts a provided number to a percentage.
 
 ### Sample Usage
 
-`TO_PERCENT(A2)`
-
-`TO_PERCENT(0.40826)`
+```gse
+TO_PERCENT(A2)
+TO_PERCENT(0.40826)
+```
 
 ### Syntax
 
-`TO_PERCENT(value)`
+```gse
+TO_PERCENT(value)
+```
 
-* `value` - The argument or reference to a cell to be converted to a percentage.
+- `value` - The argument or reference to a cell to be converted to a percentage.
 
   + If `value` is a number or a reference to a cell containing a numeric value, `TO_PERCENT` returns `value` converted to a percentage, with the standard interpretation that 1 = 100%.
   + If `value` is not a number or a reference to a cell containing a numeric value, `TO_PERCENT` returns `value` without modification.
 
 ### Notes
 
-* Because dates and percentages are both numbers, `TO_PERCENT` will convert dates to percentages successfully. However, these conversions are not typically meaningful.
-* `TO_PERCENT` is equivalent to clicking **Format** ![and then](https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h36) **Number** ![and then](https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h36) **Percent** from the menu bar.
+- Because dates and percentages are both numbers, `TO_PERCENT` will convert dates to percentages successfully. However, these conversions are not typically meaningful.
+- `TO_PERCENT` is equivalent to clicking **Format** ![and then](https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h36) **Number** ![and then](https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h36) **Percent** from the menu bar.
 
 ### See Also
 

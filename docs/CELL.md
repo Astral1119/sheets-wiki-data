@@ -9,20 +9,23 @@ Returns the requested information about the specified cell.
 
 ### Sample Usage
 
-`CELL("type", C2)`
-
-`CELL("width", A10)`
+```gse
+CELL("type", C2)
+CELL("width", A10)
+```
 
 ### Syntax
 
-`CELL(info_type, reference)`
+```gse
+CELL(info_type, reference)
+```
 
-* `info_type` - The type of information requested.
-* `reference` - The reference to the cell.
+- `info_type` - The type of information requested.
+- `reference` - The reference to the cell.
 
 ### Notes
 
-* `info_type` can be one of the following values:
+- `info_type` can be one of the following values:
   + "address" - returns an absolute reference as plain text of the top left cell in `reference`.
   + "col" - returns the column number of the cell in `reference`.
   + "color" - returns 1 if the top left cell in `reference` is formatted in red for negative values. For example, when the custom number format is #,##0\_);[Red](#,##0), otherwise return 0.

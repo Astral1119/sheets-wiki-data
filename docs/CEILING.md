@@ -9,24 +9,27 @@ The CEILING function rounds a number up to the nearest integer multiple of speci
 
 ### Sample Usage
 
-`CEILING(23.25,0.1)`
-
-`CEILING(A2,1)`
+```gse
+CEILING(23.25,0.1)
+CEILING(A2,1)
+```
 
 ### Syntax
 
-`CEILING(value, [factor])`
+```gse
+CEILING(value, [factor])
+```
 
-* `value` - The value to round up to the nearest integer multiple of `factor`.
-* `factor` - **[**OPTIONAL: `1` by default**]** - The number to whose multiples `value` will be rounded.
+- `value` - The value to round up to the nearest integer multiple of `factor`.
+- `factor` - **[**OPTIONAL: `1` by default**]** - The number to whose multiples `value` will be rounded.
 
   + `factor` may not be equal to `0`.
 
 ### Notes
 
-* When `value` is positive, `factor` must also be positive.
-* When `value` is negative, `factor` can be either negative or positive to determine which direction to round.
-* `CEILING` is most often used with `factor` set to a "round" number, such as `0.1` or `0.01,` in order to round to a particular decimal place.
+- When `value` is positive, `factor` must also be positive.
+- When `value` is negative, `factor` can be either negative or positive to determine which direction to round.
+- `CEILING` is most often used with `factor` set to a "round" number, such as `0.1` or `0.01,` in order to round to a particular decimal place.
 
 ### See Also
 

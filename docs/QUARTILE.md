@@ -9,16 +9,19 @@ Returns a value nearest to a specified quartile of a dataset.
 
 ### Sample Usage
 
-`QUARTILE(A2:A100,3)`
-
-`QUARTILE(A2:A100,B2)`
+```gse
+QUARTILE(A2:A100,3)
+QUARTILE(A2:A100,B2)
+```
 
 ### Syntax
 
-`QUARTILE(data, quartile_number)`
+```gse
+QUARTILE(data, quartile_number)
+```
 
-* `data` - The array or range containing the dataset to consider.
-* `quartile_number` - Which quartile value to return.
+- `data` - The array or range containing the dataset to consider.
+- `quartile_number` - Which quartile value to return.
 
   + `0` returns the minimum value in `data` (0% mark).
   + `1` returns the value in `data` closest to the first quartile (25% mark).

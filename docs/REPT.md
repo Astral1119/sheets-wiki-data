@@ -9,22 +9,25 @@ Returns specified text repeated a number of times.
 
 ### Sample Usage
 
-`REPT("ha",4)`
-
-`REPT(A2,3)`
+```gse
+REPT("ha",4)
+REPT(A2,3)
+```
 
 ### Syntax
 
-`REPT(text_to_repeat, number_of_repetitions)`
+```gse
+REPT(text_to_repeat, number_of_repetitions)
+```
 
-* `text_to_repeat` - The character or string to repeat.
-* `number_of_repetitions` - The number of times `text_to_repeat` should appear in the value returned.
+- `text_to_repeat` - The character or string to repeat.
+- `number_of_repetitions` - The number of times `text_to_repeat` should appear in the value returned.
 
   + The `number_of_repetitions` can’t exceed the character limit of a cell, 32,000 characters. If `number_of_repetitions` is greater than 32,000 characters, REPT will return a `#VALUE!` error.
 
 ### Notes
 
-* `REPT` does not insert spaces between repetitions of `text_to_repeat`. If spaces are desired, a space must be appended to the end of the value of `text_to_repeat`. The resulting return value from `REPT` will have at least one trailing space, which may be removed with [[TRIM]].
+- `REPT` does not insert spaces between repetitions of `text_to_repeat`. If spaces are desired, a space must be appended to the end of the value of `text_to_repeat`. The resulting return value from `REPT` will have at least one trailing space, which may be removed with [[TRIM]].
 
 ### See Also
 

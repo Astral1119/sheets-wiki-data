@@ -9,24 +9,27 @@ Returns the position at which a string is first found within text, case-sensitiv
 
 ### Sample Usage
 
-`FIND("n",A2)`
-
-`FIND("wood","How much wood can a woodchuck chuck",14)`
+```gse
+FIND("n",A2)
+FIND("wood","How much wood can a woodchuck chuck",14)
+```
 
 ### Syntax
 
-`FIND(search_for, text_to_search, [starting_at])`
+```gse
+FIND(search_for, text_to_search, [starting_at])
+```
 
-* `search_for` - The string to look for within `text_to_search`.
-* `text_to_search` - The text to search for the first occurrence of `search_for`.
-* `starting_at` - **[** OPTIONAL - `1` by default **]** - The character within `text_to_search` at which to start the search.
+- `search_for` - The string to look for within `text_to_search`.
+- `text_to_search` - The text to search for the first occurrence of `search_for`.
+- `starting_at` - **[** OPTIONAL - `1` by default **]** - The character within `text_to_search` at which to start the search.
 
 ### Notes
 
-* `FIND` is case-sensitive, meaning that uppercase and lowercase letters matter. For example, "abc" will not match "ABC". To ignore case, use the [[SEARCH]] function.
-* Ensure that `search_for` and `text_to_search` are not supplied in reverse order, or the `#VALUE!` error will likely be returned. The arguments are supplied in a different order than other text functions such as [[SPLIT]] and [[SUBSTITUTE]].
-* It's recommended to use a function such as [[IFERROR]] to check for cases when there aren't matches to the search.
-* If the pattern you're searching for isn't found, `#VALUE!` is returned.
+- `FIND` is case-sensitive, meaning that uppercase and lowercase letters matter. For example, "abc" will not match "ABC". To ignore case, use the [[SEARCH]] function.
+- Ensure that `search_for` and `text_to_search` are not supplied in reverse order, or the `#VALUE!` error will likely be returned. The arguments are supplied in a different order than other text functions such as [[SPLIT]] and [[SUBSTITUTE]].
+- It's recommended to use a function such as [[IFERROR]] to check for cases when there aren't matches to the search.
+- If the pattern you're searching for isn't found, `#VALUE!` is returned.
 
 ### See Also
 

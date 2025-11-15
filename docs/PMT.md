@@ -9,25 +9,27 @@ The PMT function calculates the periodic payment for an annuity investment based
 
 ### Sample Usage
 
-`PMT(0.05/12, 30*12, 100000)`
-
-`PMT(2,12,100)`
-
-`PMT(A2,B2,C2,D2,1)`
+```gse
+PMT(0.05/12, 30*12, 100000)
+PMT(2,12,100)
+PMT(A2,B2,C2,D2,1)
+```
 
 ### Syntax
 
-`PMT(rate, number_of_periods, present_value, [future_value, end_or_beginning])`
+```gse
+PMT(rate, number_of_periods, present_value, [future_value, end_or_beginning])
+```
 
-* `rate` - The interest rate.
-* `number_of_periods` - The number of payments to be made.
-* `present_value` - The current value of the annuity.
-* `future_value` - **[** OPTIONAL **]** - The future value remaining after the final payment has been made.
-* `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
+- `rate` - The interest rate.
+- `number_of_periods` - The number of payments to be made.
+- `present_value` - The current value of the annuity.
+- `future_value` - **[** OPTIONAL **]** - The future value remaining after the final payment has been made.
+- `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
 
 ### Notes
 
-* Ensure that consistent units are used for `rate` and `number_of_periods`. For example, a car loan for 36 months may be paid monthly, in which case the annual percentage rate should be divided by 12 and the number of payments is 36. On the other hand, a different type of loan of the same length might be paid quarterly, in which case the annual percentage rate should be divided by 4 and the number of payments would be 12.
+- Ensure that consistent units are used for `rate` and `number_of_periods`. For example, a car loan for 36 months may be paid monthly, in which case the annual percentage rate should be divided by 12 and the number of payments is 36. On the other hand, a different type of loan of the same length might be paid quarterly, in which case the annual percentage rate should be divided by 4 and the number of payments would be 12.
 
 ### See Also
 

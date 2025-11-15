@@ -9,19 +9,22 @@ Returns a value interpreted as a percentage; that is, `UNARY\_PERCENT(100)` equa
 
 ### Sample Usage
 
-`UNARY_PERCENT(A2)`
-
-`UNARY_PERCENT(93)`
+```gse
+UNARY_PERCENT(A2)
+UNARY_PERCENT(93)
+```
 
 ### Syntax
 
-`UNARY_PERCENT(percentage)`
+```gse
+UNARY_PERCENT(percentage)
+```
 
-* `percentage` - The value to interpret as a percentage.
+- `percentage` - The value to interpret as a percentage.
 
 ### Notes
 
-* `UNARY_PERCENT` is roughly equivalent to the inverse of `TO_PERCENT`.
+- `UNARY_PERCENT` is roughly equivalent to the inverse of `TO_PERCENT`.
 
 ### See Also
 

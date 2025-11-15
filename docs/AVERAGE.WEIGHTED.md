@@ -7,10 +7,11 @@ tags:
 
 The AVERAGE.WEIGHTED function finds the weighted average of a set of values, given the values and the corresponding weights.
 
-Parts of an AVERAGE.WEIGHTED function
--------------------------------------
+### Parts of an AVERAGE.WEIGHTED function
 
-`AVERAGE.WEIGHTED(values, weights, [additional values], [additional weights])`
+```gse
+AVERAGE.WEIGHTED(values, weights, [additional values], [additional weights])
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
@@ -19,17 +20,15 @@ Parts of an AVERAGE.WEIGHTED function
 | `[additional_values]` | Additional values to average. | * Additional values are optional. |
 | `[additional_weights]` | Additional weights to apply. | * Additional weights are optional, but each `additional_value` must be followed by exactly one `additional_weight`. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`AVERAGE.WEIGHTED(10, 1, 20, 3)`
+```gse
+AVERAGE.WEIGHTED(10, 1, 20, 3)
+AVERAGE.WEIGHTED(A1:A2, B1:B2)
+AVERAGE.WEIGHTED(A1:A2, B1:B2, C1, C2)
+```
 
-`AVERAGE.WEIGHTED(A1:A2, B1:B2)`
-
-`AVERAGE.WEIGHTED(A1:A2, B1:B2, C1, C2)`
-
-Examples
---------
+### Examples
 
 This example shows the weighted averages of different numbers and weights:
 
@@ -53,8 +52,7 @@ This example of weighted average calculates someone's grade in a school course:
 | **7** |  | **Formula** | **Result** |
 | **8** | Final grade | =AVERAGE.WEIGHTED(B2:B6, C2:C6) | 87.7 |
 
-Related functions
------------------
+### Related functions
 
-* [[SUMPRODUCT]]: The SUMPRODUCT function calculates the sum of the products of corresponding entries in 2 equally sized arrays or ranges.
-* [[AVERAGE]]: The AVERAGE function returns the numerical average value in a dataset, ignoring text.
+- [[SUMPRODUCT]]: The SUMPRODUCT function calculates the sum of the products of corresponding entries in 2 equally sized arrays or ranges.
+- [[AVERAGE]]: The AVERAGE function returns the numerical average value in a dataset, ignoring text.

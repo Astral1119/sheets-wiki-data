@@ -7,21 +7,22 @@ tags:
 
 This function appends ranges vertically and in sequence to return a larger array.
 
-Sample Usage
-------------
+### Sample Usage
 
-`VSTACK(A2:C4; A6:C8)`
+```gse
+VSTACK(A2:C4; A6:C8)
+```
 
-Syntax
-------
+### Syntax
 
-`VSTACK(range1; [range2, …])`
+```gse
+VSTACK(range1; [range2, …])
+```
 
-* `range1`: The first range to append.
-* `range2, …`: **[** OPTIONAL **]** Additional ranges to add to range1.
+- `range1`: The first range to append.
+- `range2, …`: **[** OPTIONAL **]** Additional ranges to add to range1.
 
-Examples
---------
+### Examples
 
 ### Simple append operation with VSTACK
 
@@ -41,18 +42,17 @@ Examples
 
 **Result:**
 
-| 1     | Warehouse Item | Warehouse Color | Warehouse Quantity |
-| ----- | -------------- | --------------- | ------------------ |
-| **2** | Jeans          | Blue            | 100                |
-| **3** | T-shirt        | Pink            | 110                |
-| **4** | Shorts         | Red             | 120                |
-| **5** | Skirt          | Pink            | 150                |
-| **6** | T-shirt        | Black           | 100                |
-| **7** | Shoes          | Grey            | 50                 |
+| 1 | Warehouse Item | Warehouse Color | Warehouse Quantity |
+| --- | --- | --- | --- |
+| **2** | Jeans | Blue | 100 |
+| **3** | T-shirt | Pink | 110 |
+| **4** | Shorts | Red | 120 |
+| **5** | Skirt | Pink | 150 |
+| **6** | T-shirt | Black | 100 |
+| **7** | Shoes | Grey | 50 |
 
 [Make a Copy](https://docs.google.com/spreadsheets/d/1ziuOJPL93SxBq0aF5KiQ4vhntnqg2BgvdUYWOedjdnE/copy)
 
-Related functions
------------------
+### Related functions
 
-* [[HSTACK]]
+- [[HSTACK]]

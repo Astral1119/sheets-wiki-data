@@ -9,23 +9,25 @@ Translates text from one language into another.
 
 ### Sample Usage
 
-`GOOGLETRANSLATE("Hello World","en","es")`
-
-`GOOGLETRANSLATE(A2,B2,C2)`
-
-`GOOGLETRANSLATE(A2)`
+```gse
+GOOGLETRANSLATE("Hello World","en","es")
+GOOGLETRANSLATE(A2,B2,C2)
+GOOGLETRANSLATE(A2)
+```
 
 ### Syntax
 
-`GOOGLETRANSLATE(text, [source_language, target_language])`
+```gse
+GOOGLETRANSLATE(text, [source_language, target_language])
+```
 
-* `text` - The text to translate.
+- `text` - The text to translate.
 
   + The value for `text` must either be enclosed in quotation marks or be a reference to a cell containing the appropriate text.
-* `source_language` - **[** OPTIONAL - `"auto"` by default **]** - The two-letter language code of the source language, e.g. "en" for English or "ko" for Korean, or "auto" to auto-detect the language.
+- `source_language` - **[** OPTIONAL - `"auto"` by default **]** - The two-letter language code of the source language, e.g. "en" for English or "ko" for Korean, or "auto" to auto-detect the language.
 
   + If `source_language` is omitted, target\_language must also be omitted.
-* `target_language` - **[** OPTIONAL - system language by default **]** - The two-letter language code of the target language, e.g. "en" for English or "ja" for Japanese.
+- `target_language` - **[** OPTIONAL - system language by default **]** - The two-letter language code of the target language, e.g. "en" for English or "ja" for Japanese.
 
 ### See Also
 

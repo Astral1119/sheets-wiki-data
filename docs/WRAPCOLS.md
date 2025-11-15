@@ -7,24 +7,23 @@ tags:
 
 This function wraps the provided row or column of cells by columns after a specified number of elements to form a new array.
 
-Sample Usage
-------------
+### Sample Usage
 
 `WRAPCOLS(A1:E1, 2)`: A `WRAPCOLS` function that wraps the range with 2 values per column.
 
 `WRAPCOLS(A1:E1, 2, “No value”)`: A `WRAPCOLS` function that wraps the range with 2 values per column and fills the extra cells with “No value.”
 
-Syntax
-------
+### Syntax
 
-`WRAPCOLS(range, wrap_count, [pad_with])`
+```gse
+WRAPCOLS(range, wrap_count, [pad_with])
+```
 
-* `range`: The range to wrap.
-* `wrap_count`: The maximum number of cells for each column. If the value isn’t a whole number, it’s rounded down to the nearest whole number.
-* `[pad_with]`: The value with which to fill the extra cells in the range. By default, the WRAPCOLS function fills the extra cells with `#N/A`.
+- `range`: The range to wrap.
+- `wrap_count`: The maximum number of cells for each column. If the value isn’t a whole number, it’s rounded down to the nearest whole number.
+- `[pad_with]`: The value with which to fill the extra cells in the range. By default, the WRAPCOLS function fills the extra cells with `#N/A`.
 
-Examples
---------
+### Examples
 
 ### Wrap simple data with WRAPCOLS
 
@@ -64,7 +63,6 @@ Examples
 
 [Make a Copy](https://docs.google.com/spreadsheets/d/1ZSTYWGVXiCHkLAS-Kmh1J6V3QEXBeWwVBS2FDLJGK5w/copy#gid=907400634)
 
-Related functions
------------------
+### Related functions
 
-* [[WRAPROWS]]: This function wraps the provided row or column of cells by rows after a specified number of elements to form a new array.
+- [[WRAPROWS]]: This function wraps the provided row or column of cells by rows after a specified number of elements to form a new array.

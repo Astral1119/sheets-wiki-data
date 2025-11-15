@@ -9,27 +9,30 @@ The DEC2BIN function converts a decimal number to signed binary format.
 
 ### Sample Usage
 
-`DEC2BIN("100",8)`
-
-`DEC2BIN(A2)`
+```gse
+DEC2BIN("100",8)
+DEC2BIN(A2)
+```
 
 ### Syntax
 
-`DEC2BIN(decimal_number, [significant_digits])`
+```gse
+DEC2BIN(decimal_number, [significant_digits])
+```
 
-* `decimal_number` - The decimal value to be converted to signed binary, provided as a string.
+- `decimal_number` - The decimal value to be converted to signed binary, provided as a string.
 
   + For this function, this value has a maximum of 511 if positive, and a minimum of -512 if negative.
   + If `decimal_number` is provided as a valid decimal number, it will automatically be converted to the appropriate string input. For example, `DEC2BIN(199)` and `DEC2BIN("199")` yield the same result: `11000111`.
-* `significant_digits` - **[** OPTIONAL **]** The number of significant digits to ensure in the result.
+- `significant_digits` - **[** OPTIONAL **]** The number of significant digits to ensure in the result.
 
   + If this is greater than the number of significant digits in the result, the result is left-padded with zeros until the total number of digits reaches `significant_digits`.
   + This value is ignored if `decimal_number` is negative.
 
 ### Notes
 
-* If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
-* Ensure that any calculations using the result of DEC2BIN take into account that it is in binary. Results will be silently converted by Google Sheets; thus if cell `A2` contains `11111`, the binary equivalent of the decimal value `31`, and `B2` contains a formula such as `=A2+9`, the result will be `11120`, which is incorrect in binary calculation.
+- If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
+- Ensure that any calculations using the result of DEC2BIN take into account that it is in binary. Results will be silently converted by Google Sheets; thus if cell `A2` contains `11111`, the binary equivalent of the decimal value `31`, and `B2` contains a formula such as `=A2+9`, the result will be `11120`, which is incorrect in binary calculation.
 
 ### See Also
 

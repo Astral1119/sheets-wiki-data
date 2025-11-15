@@ -9,22 +9,25 @@ Given parameters `x`, `n`, `m`, and `a`, returns the power series sum a1xn + a2x
 
 ### Sample Usage
 
-`SERIESSUM(1,0,1,{FACT(0),FACT(1),FACT(2),FACT(3),FACT(4)})`
-
-`SERIESSUM(A2,0,2,B2:B10)`
+```gse
+SERIESSUM(1,0,1,{FACT(0),FACT(1),FACT(2),FACT(3),FACT(4)})
+SERIESSUM(A2,0,2,B2:B10)
+```
 
 ### Syntax
 
-`SERIESSUM(x, n, m, a)`
+```gse
+SERIESSUM(x, n, m, a)
+```
 
-* `x` - The input to the power series. Varies depending on the type of approximation, may be angle, exponent, or some other value.
-* `n` - The initial power to which to raise `x` in the power series.
-* `m` - The additive increment by which to increase `x`.
-* `a` - The array or range containing the coefficients of the power series.
+- `x` - The input to the power series. Varies depending on the type of approximation, may be angle, exponent, or some other value.
+- `n` - The initial power to which to raise `x` in the power series.
+- `m` - The additive increment by which to increase `x`.
+- `a` - The array or range containing the coefficients of the power series.
 
 ### Notes
 
-* Power series may be used to approximate various constants and functions, including e (Euler's number), logarithms, integrals, trigonometric functions, etc. However, this function is usually used for custom user-defined models.
+- Power series may be used to approximate various constants and functions, including e (Euler's number), logarithms, integrals, trigonometric functions, etc. However, this function is usually used for custom user-defined models.
 
 ### See Also
 

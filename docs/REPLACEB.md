@@ -7,10 +7,11 @@ tags:
 
 The REPLACEB function replaces part of a text string, based on a number of bytes, with a different text string.
 
-Parts of a REPLACEB function
-----------------------------
+### Parts of a REPLACEB function
 
-`REPLACEB(text, position, num_bytes, new_text)`
+```gse
+REPLACEB(text, position, num_bytes, new_text)
+```
 
 | Part | Description |
 | --- | --- |
@@ -19,14 +20,12 @@ Parts of a REPLACEB function
 | `num_bytes` | The number of bytes in the text to be replaced. |
 | `new_text` | The text which will be inserted into the original text. |
 
-Notes
------
+### Notes
 
-* `REPLACEB` returns the same value as `REPLACE` if the input `text` has only single byte characters
-* This function returns text as the output. If a number is desired, try using the `VALUE` function in conjunction with this function.
+- `REPLACEB` returns the same value as `REPLACE` if the input `text` has only single byte characters
+- This function returns text as the output. If a number is desired, try using the `VALUE` function in conjunction with this function.
 
-Examples
---------
+### Examples
 
 | A | B | C |
 | --- | --- | --- |
@@ -36,10 +35,9 @@ Examples
 | **4** | `熊本=熊本` | `=REPLACEB(A4, 2, 3,"new")` | 熊new熊本 |
 | **5** | `熊本=熊本` | `=REPLACE(A5, 2, 3,"new")` | 熊new本 |
 
-Related functions
------------------
+### Related functions
 
-* [[LENB]]: The LENB function returns the length of a string in bytes.
-* [[LEFTB]]: The LEFTB function returns the left portion of a string up to a certain number of bytes.
-* [[RIGHTB]]: The RIGHTB function returns the right portion of a string up to a certain number of bytes.
-* [[MIDB]]:The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
+- [[LENB]]: The LENB function returns the length of a string in bytes.
+- [[LEFTB]]: The LEFTB function returns the left portion of a string up to a certain number of bytes.
+- [[RIGHTB]]: The RIGHTB function returns the right portion of a string up to a certain number of bytes.
+- [[MIDB]]:The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.

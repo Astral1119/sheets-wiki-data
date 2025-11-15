@@ -9,23 +9,26 @@ The FV function calculates the future value of an annuity investment based on co
 
 ### Sample Usage
 
-`FV(2,12,100,400)`
-
-`FV(A2,B2,C2,D2,1)`
+```gse
+FV(2,12,100,400)
+FV(A2,B2,C2,D2,1)
+```
 
 ### Syntax
 
-`FV(rate, number_of_periods, payment_amount, [present_value], [end_or_beginning])`
+```gse
+FV(rate, number_of_periods, payment_amount, [present_value], [end_or_beginning])
+```
 
-* `rate` - The interest rate.
-* `number_of_periods` - The number of payments to be made.
-* `payment_amount` - The amount per period to be paid.
-* `present_value` - **[** OPTIONAL - `0` by default **]** - The current value of the annuity.
-* `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
+- `rate` - The interest rate.
+- `number_of_periods` - The number of payments to be made.
+- `payment_amount` - The amount per period to be paid.
+- `present_value` - **[** OPTIONAL - `0` by default **]** - The current value of the annuity.
+- `end_or_beginning` - **[** OPTIONAL - `0` by default **]** - Whether payments are due at the end (`0`) or beginning (`1`) of each period.
 
 ### Notes
 
-* Ensure that consistent units are used for `rate`, `number_of_periods`, and `payment_amount`. For example, a car loan for 36 months may be paid monthly, in which case the annual percentage rate should be divided by 12 and the number of payments is 36. On the other hand, a different type of loan of the same length might be paid quarterly, in which case the annual percentage rate should be divided by 4 and the number of payments would be 12.
+- Ensure that consistent units are used for `rate`, `number_of_periods`, and `payment_amount`. For example, a car loan for 36 months may be paid monthly, in which case the annual percentage rate should be divided by 12 and the number of payments is 36. On the other hand, a different type of loan of the same length might be paid quarterly, in which case the annual percentage rate should be divided by 4 and the number of payments would be 12.
 
 ### See Also
 

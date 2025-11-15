@@ -16,17 +16,17 @@ The `IMLN` formula is formatted as `=IIMLN(number).`
 
 ### Sample formulas
 
-`IMLN("3+4i")`
-
-`IMLN(A2)`
-
-`IMLN("4+2j")`
+```gse
+IMLN("3+4i")
+IMLN(A2)
+IMLN("4+2j")
+```
 
 ### Notes
 
-* `IMLN` is equivalent to `LN` for all non-complex values that are greater than zero.
-* `IMLN` is equivalent to `LOG` given base of `e`, or `EXP(1)`, for all non-complex values that are greater than zero.
-* The natural logarithm of a complex number is defined as follows:
+- `IMLN` is equivalent to `LN` for all non-complex values that are greater than zero.
+- `IMLN` is equivalent to `LOG` given base of `e`, or `EXP(1)`, for all non-complex values that are greater than zero.
+- The natural logarithm of a complex number is defined as follows:
   + ln(x+yi) = √(x2+y2) + i tan-1(y/x)
 
 ### Examples

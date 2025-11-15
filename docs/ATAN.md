@@ -9,22 +9,24 @@ The ATAN function returns the inverse tangent of a value in radians.
 
 ### Sample Usage
 
-`ATAN(0)`
-
-`ATAN(A2)`
-
-`ATAN(1)`
+```gse
+ATAN(0)
+ATAN(A2)
+ATAN(1)
+```
 
 ### Syntax
 
-`ATAN(value)`
+```gse
+ATAN(value)
+```
 
-* `value` - The value for which to calculate the inverse tangent.
+- `value` - The value for which to calculate the inverse tangent.
 
 ### Notes
 
-* Use the `DEGREES` function to convert the result of `ATAN` into degrees.
-* Tangent is periodic, therefore there are many solutions to the inverse. `ATAN` returns the solution between -Pi/2 and Pi/2.
+- Use the `DEGREES` function to convert the result of `ATAN` into degrees.
+- Tangent is periodic, therefore there are many solutions to the inverse. `ATAN` returns the solution between -Pi/2 and Pi/2.
 
 ### See Also
 

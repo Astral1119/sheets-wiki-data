@@ -9,7 +9,9 @@ Checks whether a provided number is between two other numbers either inclusivel
 
 ### Parts of a ISBETWEEN function
 
-`ISBETWEEN(value_to_compare, lower_value, upper_value, lower_value_is_inclusive, upper_value_is_inclusive)`
+```gse
+ISBETWEEN(value_to_compare, lower_value, upper_value, lower_value_is_inclusive, upper_value_is_inclusive)
+```
 
 | Part | Description |
 | --- | --- |
@@ -34,7 +36,7 @@ Short description of the example being shown below. Feel free to add more rows a
 
 ### Related functions
 
-* [[GT]]
-* [[GTE]]
-* [[LT]]
-* [[LTE]]
+- [[GT]]
+- [[GTE]]
+- [[LT]]
+- [[LTE]]

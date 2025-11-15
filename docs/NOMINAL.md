@@ -9,16 +9,19 @@ Calculates the annual nominal interest rate given the effective rate and number 
 
 ### Sample Usage
 
-`NOMINAL(0.85,12)`
-
-`NOMINAL(A2,A3)`
+```gse
+NOMINAL(0.85,12)
+NOMINAL(A2,A3)
+```
 
 ### Syntax
 
-`NOMINAL(effective_rate, periods_per_year)`
+```gse
+NOMINAL(effective_rate, periods_per_year)
+```
 
-* `effective_rate` - The effective interest rate per year.
-* `periods_per_year` - The number of compounding periods per year.
+- `effective_rate` - The effective interest rate per year.
+- `periods_per_year` - The number of compounding periods per year.
 
 ### See Also
 

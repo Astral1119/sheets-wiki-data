@@ -9,25 +9,28 @@ Given partial data about a linear trend, calculates various parameters about the
 
 ### Sample Usage
 
-`LINEST(B2:B10, A2:A10)`
-
-`LINEST(B2:B10, A2:A10, FALSE, TRUE)`
+```gse
+LINEST(B2:B10, A2:A10)
+LINEST(B2:B10, A2:A10, FALSE, TRUE)
+```
 
 ### Syntax
 
-`LINEST(known_data_y, [known_data_x], [calculate_b], [verbose])`
+```gse
+LINEST(known_data_y, [known_data_x], [calculate_b], [verbose])
+```
 
-* `known_data_y` - The array or range containing dependent (y) values that are already known, used to curve fit an ideal linear trend.
+- `known_data_y` - The array or range containing dependent (y) values that are already known, used to curve fit an ideal linear trend.
 
   + If `known_data_y` is a two-dimensional array or range, `known_data_x` must have the same dimensions or be omitted.
   + If `known_data_y` is a one-dimensional array or range, `known_data_x` may represent multiple independent variables in a two-dimensional array or range. I.e. if `known_data_y` is a single row, each row in `known_data_x` is interpreted as a separated independent value, and analogously if `known_data_y` is a single column.
-* `known_data_x` - **[** OPTIONAL - `{1,2,3,...}` with same length as `known_data_y` by default **]** - The values of the independent variable(s) corresponding with `known_data_y`.
+- `known_data_x` - **[** OPTIONAL - `{1,2,3,...}` with same length as `known_data_y` by default **]** - The values of the independent variable(s) corresponding with `known_data_y`.
 
   + If `known_data_y` is a one-dimensional array or range, `known_data_x` may represent multiple independent variables in a two-dimensional array or range. I.e. if `known_data_y` is a single row, each row in `known_data_x` is interpreted as a separated independent value, and analogously if `known_data_y` is a single column.
 
     **Note**: For multiple independent variables, the order of the output parameters are corresponding to the input variables in reverse.
-* `calculate_b` - **[** OPTIONAL - `TRUE` by default **]** - Given a linear form of `y = m*x+b`, calculates the y-intercept (`b`) if `TRUE`. Otherwise, forces `b` to be `0` and only calculates the `m` values if `FALSE`, i.e. forces the curve fit to pass through the origin.
-* `verbose` - **[** OPTIONAL - `FALSE` by default **]** - A flag specifying whether to return additional regression statistics or only the linear coefficients and the y-intercept (default).
+- `calculate_b` - **[** OPTIONAL - `TRUE` by default **]** - Given a linear form of `y = m*x+b`, calculates the y-intercept (`b`) if `TRUE`. Otherwise, forces `b` to be `0` and only calculates the `m` values if `FALSE`, i.e. forces the curve fit to pass through the origin.
+- `verbose` - **[** OPTIONAL - `FALSE` by default **]** - A flag specifying whether to return additional regression statistics or only the linear coefficients and the y-intercept (default).
 
   + If `verbose` is `TRUE`, in addition to the set of linear coefficients for each independent variable and the `y`-intercept, `LINEST` returns
 

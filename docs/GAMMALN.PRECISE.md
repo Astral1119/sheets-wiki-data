@@ -9,21 +9,24 @@ Returns the logarithm of a specified Gamma function, base e (Euler's number).
 
 ### Sample Usage
 
-`GAMMALN(4)`
-
-`GAMMALN(A2)`
+```gse
+GAMMALN(4)
+GAMMALN(A2)
+```
 
 ### Syntax
 
-`GAMMALN(value)`
+```gse
+GAMMALN(value)
+```
 
-* `value` - The input to the Gamma function. The natural logarithm of Gamma (`value`) will be returned.
+- `value` - The input to the Gamma function. The natural logarithm of Gamma (`value`) will be returned.
 
   + `value` must be positive.
 
 ### Notes
 
-* `GAMMALN` is used for certain types of analysis or as a component to other functions and is rarely used by itself.
+- `GAMMALN` is used for certain types of analysis or as a component to other functions and is rarely used by itself.
 
 ### See Also
 

@@ -9,15 +9,18 @@ Returns a number with the sign reversed.
 
 ### Sample Usage
 
-`UMINUS(-4)`
-
-`UMINUS(A2)`
+```gse
+UMINUS(-4)
+UMINUS(A2)
+```
 
 ### Syntax
 
-`UMINUS(value)`
+```gse
+UMINUS(value)
+```
 
-* `value` - The number to have its sign reversed. Equivalently, the number to multiply by `-1`.
+- `value` - The number to have its sign reversed. Equivalently, the number to multiply by `-1`.
 
 ### See Also
 

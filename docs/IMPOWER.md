@@ -17,17 +17,17 @@ The `IMPOWER` formula is formatted as `=IMPOWER(complex_base, exponent).`
 
 ### Sample formulas
 
-`IMPOWER("4-3i",0.5)`
-
-`IMPOWER(A2,B2)`
-
-`IMPOWER("2j",-7)`
+```gse
+IMPOWER("4-3i",0.5)
+IMPOWER(A2,B2)
+IMPOWER("2j",-7)
+```
 
 
 
 ### Notes
 
-* The exponentiation of a complex number is defined as follows:
+- The exponentiation of a complex number is defined as follows:
   + (a+bi)n = rn(cosθ + isinθ), where
   + r = √(x2 + y2) and θ = arctan(b/a)
 

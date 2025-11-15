@@ -9,20 +9,24 @@ Checks whether a value is an error other than `#N/A`.
 
 ### Sample Usage
 
-`ISERR(A2)`
+```gse
+ISERR(A2)
+```
 
 ### Syntax
 
-`ISERR(value)`
+```gse
+ISERR(value)
+```
 
-* `value` - The value to be verified as an error type other than `#N/A`.
+- `value` - The value to be verified as an error type other than `#N/A`.
 
   + `ISERR` returns `TRUE` if `value` is any error other than `#N/A`,including `#DIV/0!`, `#NAME?`, `#NULL!`, `#NUM!`, `#VALUE!`, and `#REF!`. This is useful in certain applications where `#N/A` may be a valid outcome, whereas the other error types always indicate a fundamental problem.
 
 ### Notes
 
-* `ISERR` returns `FALSE` on `#N/A`, unlike [[ISERROR]], which returns `TRUE` on all errors. Ensure that the correct call is used.
-* This function is most often used in conjunction with `IF` in conditional statements.
+- `ISERR` returns `FALSE` on `#N/A`, unlike [[ISERROR]], which returns `TRUE` on all errors. Ensure that the correct call is used.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

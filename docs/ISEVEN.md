@@ -9,21 +9,24 @@ Checks whether the provided value is even.
 
 ### Sample Usage
 
-`ISEVEN(4)`
-
-`ISEVEN(A2)`
+```gse
+ISEVEN(4)
+ISEVEN(A2)
+```
 
 ### Syntax
 
-`ISEVEN(value)`
+```gse
+ISEVEN(value)
+```
 
-* `value` - The value to be verified as even.
+- `value` - The value to be verified as even.
 
   + `ISEVEN` returns `TRUE` if `value` is an even integer or a reference to a cell containing an even integer, and `FALSE` otherwise.
 
 ### Notes
 
-* This function is most often used in conjunction with `IF` in conditional statements.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

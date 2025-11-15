@@ -9,25 +9,26 @@ Returns the day of the month that a specific date falls on, in numeric format.
 
 ### Sample Usage
 
-`DAY(DATE(1969,7,20))`
-
-`DAY(A2)`
-
-`DAY(40909)`
-
-`DAY("7/20/1969")`
+```gse
+DAY(DATE(1969,7,20))
+DAY(A2)
+DAY(40909)
+DAY("7/20/1969")
+```
 
 ### Syntax
 
-`DAY(date)`
+```gse
+DAY(date)
+```
 
-* `date` - The date from which to extract the day. Must be a reference to a cell containing a date, a function returning a date type, or a number.
+- `date` - The date from which to extract the day. Must be a reference to a cell containing a date, a function returning a date type, or a number.
 
 ### Notes
 
-* Ensure that the input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
-* `DAY` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `DAY(10/10/2000)` is interpreted as `DAY(0.005)`, the quotient of 10 divided by 10 divided by 2000.
-* `DAY` returns the intuitive understanding of the day of the month, and is useful primarily in other calculations rather than to extract the day of month from a known date, as that value is easily known from reading the entire date.
+- Ensure that the input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+- `DAY` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `DAY(10/10/2000)` is interpreted as `DAY(0.005)`, the quotient of 10 divided by 10 divided by 2000.
+- `DAY` returns the intuitive understanding of the day of the month, and is useful primarily in other calculations rather than to extract the day of month from a known date, as that value is easily known from reading the entire date.
 
 ### See Also
 

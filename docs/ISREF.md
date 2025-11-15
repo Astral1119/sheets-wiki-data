@@ -9,13 +9,17 @@ Checks whether a value is a valid cell reference.
 
 ### Sample Usage
 
-`ISREF(A2)`
+```gse
+ISREF(A2)
+```
 
 ### Syntax
 
-`ISREF(value)`
+```gse
+ISREF(value)
+```
 
-* `value` - The value to be verified as a cell reference.
+- `value` - The value to be verified as a cell reference.
 
   \*`ISREF` returns `TRUE` if this is a valid cell reference, and `FALSE` otherwise.
 
@@ -23,7 +27,7 @@ Checks whether a value is a valid cell reference.
 
 ### Notes
 
-* This function is most often used in conjunction with `IF` in conditional statements.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

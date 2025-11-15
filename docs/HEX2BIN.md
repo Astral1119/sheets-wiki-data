@@ -9,31 +9,34 @@ The HEX2BIN function converts a signed hexadecimal number to signed binary forma
 
 ### Sample Usage
 
-`HEX2BIN("f3",8)`
-
-`HEX2BIN(A2)`
+```gse
+HEX2BIN("f3",8)
+HEX2BIN(A2)
+```
 
 ### Syntax
 
-`HEX2BIN(signed_hexadecimal_number, [significant_digits])`
+```gse
+HEX2BIN(signed_hexadecimal_number, [significant_digits])
+```
 
-* `signed_hexadecimal_number` - The signed 40-bit hexadecimal value to be converted to signed binary, provided as a string.
+- `signed_hexadecimal_number` - The signed 40-bit hexadecimal value to be converted to signed binary, provided as a string.
 
   + The most significant bit of `signed_hexadecimal_number` is the sign bit; that is, negative numbers are represented in two's complement format.
   + For this function, this value has a maximum of 1FF if positive, and a minimum of FFFFFFFE00 if negative.
   + If `signed_hexadecimal_number` is provided as a valid hexadecimal number, it will automatically be converted to the appropriate string input. For example, `HEX2BIN(199)` and `HEX2BIN("199")` yield the same result: `110011001`.
-* `significant_digits` - **[** OPTIONAL **]** The number of significant digits to ensure in the result.
+- `significant_digits` - **[** OPTIONAL **]** The number of significant digits to ensure in the result.
 
   + If this is greater than the number of significant digits in the result, the result is left-padded with zeros until the total number of digits reaches `significant_digits`.
   + This value is ignored if the most significant bit of `signed_hexadecimal_number` is `1`; that is, if the expressed `signed_hexadecimal_number` is greater than or equal to 8000000000.
 
 ### Notes
 
-* As with any hexadecimal value, only the digits `0-9` and the letters `A-F` are valid. Digits other than these will cause `HEX2BIN` to return a `#NUM!` error.
+- As with any hexadecimal value, only the digits `0-9` and the letters `A-F` are valid. Digits other than these will cause `HEX2BIN` to return a `#NUM!` error.
 
   + Hexadecimal digits are not case-sensitive; `a-f` and `A-F` are equivalent.
-* If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
-* Ensure that any calculations using the result of HEX2BIN take into account that it is in binary. Results will be silently converted by Google Sheets; thus if cell `A2` contains `11111`, the binary equivalent of hexadecimal `1F`, and `B2` contains a formula such as `=A2+9`, the result will be `11120`, which is incorrect in binary calculation.
+- If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
+- Ensure that any calculations using the result of HEX2BIN take into account that it is in binary. Results will be silently converted by Google Sheets; thus if cell `A2` contains `11111`, the binary equivalent of hexadecimal `1F`, and `B2` contains a formula such as `=A2+9`, the result will be `11120`, which is incorrect in binary calculation.
 
 ### See Also
 

@@ -9,28 +9,31 @@ Returns the value of the Weibull distribution function (or Weibull cumulative di
 
 ### Sample Usage
 
-`WEIBULL(2.4, 2, 3, TRUE)`
-
-`WEIBULL(A2,A3,A4,TRUE)`
+```gse
+WEIBULL(2.4, 2, 3, TRUE)
+WEIBULL(A2,A3,A4,TRUE)
+```
 
 ### Syntax
 
-`WEIBULL(x, shape, scale, cumulative)`
+```gse
+WEIBULL(x, shape, scale, cumulative)
+```
 
-* `x` - The input to the Weibull distribution function.
-* `shape` - The shape parameter of the Weibull distribution function.
+- `x` - The input to the Weibull distribution function.
+- `shape` - The shape parameter of the Weibull distribution function.
 
   + `shape` is usually denoted k, and denoted as alpha in other spreadsheet packages.
   + `shape` must be greater than `0`.
-* `scale` - The scale parameter of the Weibull distribution function.
+- `scale` - The scale parameter of the Weibull distribution function.
 
   + `scale` is usually denoted lambda in texts, and denoted as beta in other spreadsheet packages.
   + `scale` must be greater than `0`.
-* `cumulative` - `TRUE` to use the cumulative distribution function, `FALSE` to use the probability density function.
+- `cumulative` - `TRUE` to use the cumulative distribution function, `FALSE` to use the probability density function.
 
 ### Notes
 
-* If `shape` is `1`, `WEIBULL` is equivalent to `EXPONDIST` with `lambda` set to `1/scale`.
+- If `shape` is `1`, `WEIBULL` is equivalent to `EXPONDIST` with `lambda` set to `1/scale`.
 
 ### See Also
 

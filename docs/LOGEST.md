@@ -9,23 +9,26 @@ Given partial data about an exponential growth curve, calculates various paramet
 
 ### Sample Usage
 
-`LOGEST(B2:B10,A2:A10)`
-
-`LOGEST(B2:B10, A2:A10, TRUE, TRUE)`
+```gse
+LOGEST(B2:B10,A2:A10)
+LOGEST(B2:B10, A2:A10, TRUE, TRUE)
+```
 
 ### Syntax
 
-`LOGEST(known_data_y, [known_data_x], [b], [verbose])`
+```gse
+LOGEST(known_data_y, [known_data_x], [b], [verbose])
+```
 
-* `known_data_y` - The array or range containing dependent (y) values that are already known, used to curve fit an ideal exponential growth curve.
+- `known_data_y` - The array or range containing dependent (y) values that are already known, used to curve fit an ideal exponential growth curve.
 
   + If `known_data_y` is a two-dimensional array or range, `known_data_x` must have the same dimensions or be omitted.
   + If `known_data_y` is a one-dimensional array or range, `known_data_x` may represent multiple independent variables in a two-dimensional array or range. I.e. if `known_data_y` is a single row, each row in `known_data_x` is interpreted as a separated independent value, and analogously if `known_data_y` is a single column.
-* `known_data_x` - **[** OPTIONAL - `{1,2,3,...}` with same length as `known_data_y` by default **]** - The values of the independent variable(s) corresponding with `known_data_y`.
+- `known_data_x` - **[** OPTIONAL - `{1,2,3,...}` with same length as `known_data_y` by default **]** - The values of the independent variable(s) corresponding with `known_data_y`.
 
   + If `known_data_y` is a one-dimensional array or range, `known_data_x` may represent multiple independent variables in a two-dimensional array or range. I.e. if `known_data_y` is a single row, each row in `known_data_x` is interpreted as a separated independent value, and analogously if `known_data_y` is a single column.
-* `b` - **[** OPTIONAL - `TRUE` by default **]** - Given a general exponential form of `y = b*m^x` for a curve fit, calculates `b` if `TRUE` or forces `b` to be `1` and only calculates the `m` values if `FALSE`.
-* `verbose` - **[** OPTIONAL - `FALSE` by default **]** - A flag specifying whether to return additional regression statistics or only the calculated coefficient and exponents.
+- `b` - **[** OPTIONAL - `TRUE` by default **]** - Given a general exponential form of `y = b*m^x` for a curve fit, calculates `b` if `TRUE` or forces `b` to be `1` and only calculates the `m` values if `FALSE`.
+- `verbose` - **[** OPTIONAL - `FALSE` by default **]** - A flag specifying whether to return additional regression statistics or only the calculated coefficient and exponents.
 
   + If `verbose` is `TRUE`, in addition to the set of exponents for each independent variable and the coefficient `b`, `LOGEST` returns
 
@@ -39,7 +42,7 @@ Given partial data about an exponential growth curve, calculates various paramet
 
 ### Notes
 
-* The statistics calculated by `LOGEST` are similar to `LINEST` but use the linear model `ln y = x1 ln m1 + ... + xn ln mn + ln b` for each independent variable `x1 ... xn`. Therefore additional statistics such as the standard error must be compared to the natural logarithms of the `m` and `b` values rather than the values themselves.
+- The statistics calculated by `LOGEST` are similar to `LINEST` but use the linear model `ln y = x1 ln m1 + ... + xn ln mn + ln b` for each independent variable `x1 ... xn`. Therefore additional statistics such as the standard error must be compared to the natural logarithms of the `m` and `b` values rather than the values themselves.
 
 ### See Also
 

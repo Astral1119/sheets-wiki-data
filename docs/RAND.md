@@ -3,18 +3,21 @@ tags:
   - function
   - generated
   - math
-  - volatile
 ---
 
 Returns a random number between 0 inclusive and 1 exclusive.
 
 ### Sample Usage
 
-`RAND()`
+```gse
+RAND()
+```
 
 ### Syntax
 
-`RAND()`
+```gse
+RAND()
+```
 
 ### See Also
 

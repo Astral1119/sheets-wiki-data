@@ -9,19 +9,22 @@ Calculates the accrued interest of a security that pays interest at maturity.
 
 ### Sample Usage
 
-`ACCRINTM(DATE(1969,12,31),DATE(1999,12,31),0.05,100,0)`
-
-`ACCRINTM(A2,B2,C2,D2,2)`
+```gse
+ACCRINTM(DATE(1969,12,31),DATE(1999,12,31),0.05,100,0)
+ACCRINTM(A2,B2,C2,D2,2)
+```
 
 ### Syntax
 
-`ACCRINTM(issue, maturity, rate, [redemption], [day_count_convention])`
+```gse
+ACCRINTM(issue, maturity, rate, [redemption], [day_count_convention])
+```
 
-* `issue` - The date the security was initially issued.
-* `maturity` - The maturity date of the security.
-* `rate` - The annualized rate of interest.
-* `redemption` - [OPTIONAL] - The redemption value of the security.
-* `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
+- `issue` - The date the security was initially issued.
+- `maturity` - The maturity date of the security.
+- `rate` - The annualized rate of interest.
+- `redemption` - [OPTIONAL] - The redemption value of the security.
+- `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
 
   + 0 indicates US (NASD) 30/360 - This assumes 30 day months and 360 day years as per the National Association of Securities Dealers standard, and performs specific adjustments to entered dates which fall at the end of months.
   + 1 indicates Actual/Actual - This calculates based upon the actual number of days between the specified dates, and the actual number of days in the intervening years. Used for US Treasury Bonds and Bills, but also the most relevant for non-financial use.
@@ -31,7 +34,7 @@ Calculates the accrued interest of a security that pays interest at maturity.
 
 ### Notes
 
-* `issue` and `maturity` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
+- `issue` and `maturity` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
 
 ### See Also
 

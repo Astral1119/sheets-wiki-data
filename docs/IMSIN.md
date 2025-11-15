@@ -7,31 +7,29 @@ tags:
 
 The IMSIN function returns the sine of the given complex number. For example, a given complex number "x+yi" returns "sin(x+yi)."
 
-Parts of an IMSIN function
---------------------------
+### Parts of an IMSIN function
 
-`IMSIN (number)`
+```gse
+IMSIN (number)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
 | `number` | The complex number for which you want the sine. | This can be either the result of the COMPLEX function, a real number (which will be interpreted as a complex number with imaginary part equal to 0), or a string in the format "x+ yi" where x and y are numeric. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`IMSIN(COMPLEX(4,6))`
+```gse
+IMSIN(COMPLEX(4,6))
+IMSIN(4)
+IMSIN("2+3i")
+```
 
-`IMSIN(4)`
-
-`IMSIN("2+3i")`
-
-Notes
------
+### Notes
 
 The IMSIN function returns an error if the given number isn't a valid complex number.
 
-Examples
---------
+### Examples
 
 | 1 | Formula | Result |
 | --- | --- | --- |
@@ -39,8 +37,7 @@ Examples
 | **3** | =IMSIN(3.5) | -0.35078322768962 |
 | **4** | IMSIN=("3+2i") | 0.53092108624852-3.59056458998578i |
 
-Related functions
------------------
+### Related functions
 
-* [[IMCOS]]:  The IMCOS function returns the cosine of the given complex number.
-* [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
+- [[IMCOS]]:  The IMCOS function returns the cosine of the given complex number.
+- [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.

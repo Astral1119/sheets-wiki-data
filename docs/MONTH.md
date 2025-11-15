@@ -9,25 +9,26 @@ Returns the month of the year a specific date falls in, in numeric format.
 
 ### Sample Usage
 
-`MONTH(DATE(1969, 7, 20))`
-
-`MONTH(A2)`
-
-`MONTH(40909)`
-
-`MONTH("7/20/1969")`
+```gse
+MONTH(DATE(1969, 7, 20))
+MONTH(A2)
+MONTH(40909)
+MONTH("7/20/1969")
+```
 
 ### Syntax
 
-`MONTH(date)`
+```gse
+MONTH(date)
+```
 
-* `date` - The date from which to extract the month. Must be a reference to a cell containing a date, a function returning a date type, or a number.
+- `date` - The date from which to extract the month. Must be a reference to a cell containing a date, a function returning a date type, or a number.
 
 ### Notes
 
-* Ensure that the input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
-* `MONTH` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `MONTH(10/10/2000)` is interpreted as `MONTH(0.005)`, the quotient of 10 divided by 10 divided by 2000.
-* `MONTH` returns the intuitive understanding of the month of the year, and is useful primarily in other calculations rather than to extract the month from a known date, as that value is easily known from a plain reading of the entire date.
+- Ensure that the input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+- `MONTH` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `MONTH(10/10/2000)` is interpreted as `MONTH(0.005)`, the quotient of 10 divided by 10 divided by 2000.
+- `MONTH` returns the intuitive understanding of the month of the year, and is useful primarily in other calculations rather than to extract the month from a known date, as that value is easily known from a plain reading of the entire date.
 
 ### See Also
 

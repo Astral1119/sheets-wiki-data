@@ -9,24 +9,26 @@ Convert a number into a character according to the current Unicode table.
 
 ### Sample Usage
 
-`CHAR(97)`
-
-`CHAR(HEX2DEC("A3"))`
-
-`CHAR(A1)`
+```gse
+CHAR(97)
+CHAR(HEX2DEC("A3"))
+CHAR(A1)
+```
 
 ### Syntax
 
-`CHAR(table_number)`
+```gse
+CHAR(table_number)
+```
 
-* `table_number` - The number of the character to look up from the current Unicode table in decimal format.
+- `table_number` - The number of the character to look up from the current Unicode table in decimal format.
 
   + `table_number` must be a number in decimal format (base 10). Many tables provide Unicode values in hexadecimal format (base 16). In this case, use the [[HEX2DEC]] function to convert.
 
 ### Notes
 
-* The current Unicode table can be found online at the [unicode website](http://www.unicode.org/charts/) or on [Wikipedia](http://en.wikipedia.org/wiki/List_of_Unicode_characters).
-* Not all Unicode characters will display properly on all computers and devices. Special fonts or languages may have to be installed or enabled on your computer.
+- The current Unicode table can be found online at the [unicode website](http://www.unicode.org/charts/) or on [Wikipedia](http://en.wikipedia.org/wiki/List_of_Unicode_characters).
+- Not all Unicode characters will display properly on all computers and devices. Special fonts or languages may have to be installed or enabled on your computer.
 
 ### See Also
 

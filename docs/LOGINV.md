@@ -9,17 +9,20 @@ Returns the value of the inverse log-normal cumulative distribution with given m
 
 ### Sample Usage
 
-`LOGINV(0.4,4,6)`
-
-`LOGINV(A2,A3,A4)`
+```gse
+LOGINV(0.4,4,6)
+LOGINV(A2,A3,A4)
+```
 
 ### Syntax
 
-`LOGINV(x, mean, standard_deviation)`
+```gse
+LOGINV(x, mean, standard_deviation)
+```
 
-* `x` - The input to the inverse log-normal cumulative distribution function.
-* `mean` - The mean (mu) of the inverse log-normal cumulative distribution function.
-* `standard_deviation` - The standard deviation (sigma) of the inverse log-normal cumulative distribution function.
+- `x` - The input to the inverse log-normal cumulative distribution function.
+- `mean` - The mean (mu) of the inverse log-normal cumulative distribution function.
+- `standard_deviation` - The standard deviation (sigma) of the inverse log-normal cumulative distribution function.
 
 ### See Also
 

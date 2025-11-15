@@ -9,19 +9,23 @@ Calculates the expected y-value for a specified x based on a linear regression o
 
 ### Sample Usage
 
-`FORECAST(A1,A2:A100,B2:B100)`
+```gse
+FORECAST(A1,A2:A100,B2:B100)
+```
 
 ### Syntax
 
-`FORECAST(x, data_y, data_x)`
+```gse
+FORECAST(x, data_y, data_x)
+```
 
-* `x` - The value on the x-axis to forecast.
-* `data_y` - The range representing the array or matrix of dependent data.
-* `data_x` - The range representing the array or matrix of independent data.
+- `x` - The value on the x-axis to forecast.
+- `data_y` - The range representing the array or matrix of dependent data.
+- `data_x` - The range representing the array or matrix of independent data.
 
 ### Notes
 
-* Any text encountered in the `value` arguments will be ignored.
+- Any text encountered in the `value` arguments will be ignored.
 
 ### See Also
 

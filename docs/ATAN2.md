@@ -9,20 +9,23 @@ The ATAN2 function returns the angle between the x-axis and a line segment from 
 
 ### Sample Usage
 
-`ATAN2(4,3)`
-
-`ATAN2(A2)`
+```gse
+ATAN2(4,3)
+ATAN2(A2)
+```
 
 ### Syntax
 
-`ATAN2(x,y)`
+```gse
+ATAN2(x,y)
+```
 
-* `x` - The x coordinate of the endpoint of the line segment for which to calculate the angle from the x-axis.
-* `y` - The y coordinate of the endpoint of the line segment for which to calculate the angle from the x-axis.
+- `x` - The x coordinate of the endpoint of the line segment for which to calculate the angle from the x-axis.
+- `y` - The y coordinate of the endpoint of the line segment for which to calculate the angle from the x-axis.
 
 ### Notes
 
-* Use the `DEGREES` function to convert the result of `ATAN` into degrees.
+- Use the `DEGREES` function to convert the result of `ATAN` into degrees.
 
 ### See Also
 

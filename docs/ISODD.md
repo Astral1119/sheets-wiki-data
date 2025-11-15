@@ -9,21 +9,24 @@ Checks whether the provided value is odd.
 
 ### Sample Usage
 
-`ISODD(4)`
-
-`ISODD(A2)`
+```gse
+ISODD(4)
+ISODD(A2)
+```
 
 ### Syntax
 
-`ISODD(value)`
+```gse
+ISODD(value)
+```
 
-* `value` - The value to be verified as odd.
+- `value` - The value to be verified as odd.
 
   + `ISODD` returns `TRUE` if `value` is an odd integer or a reference to a cell containing an odd integer, and `FALSE` otherwise.
 
 ### Notes
 
-* This function is most often used in conjunction with `IF` in conditional statements.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

@@ -9,20 +9,23 @@ Returns the imaginary coefficient of a complex number.
 
 ### Sample Usage
 
-`IMAGINARY("4+5i")`
-
-`IMAGINARY("2j")`
+```gse
+IMAGINARY("4+5i")
+IMAGINARY("2j")
+```
 
 ### Syntax
 
-`IMAGINARY(complex_number)`
+```gse
+IMAGINARY(complex_number)
+```
 
-* `complex_number` - The complex number, in the a+bi or a+bj format.
+- `complex_number` - The complex number, in the a+bi or a+bj format.
 
 ### See also
 
-* [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
-* [[IMREAL]]: Returns the real coefficient of a complex number.
+- [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
+- [[IMREAL]]: Returns the real coefficient of a complex number.
 
 ### Examples
 

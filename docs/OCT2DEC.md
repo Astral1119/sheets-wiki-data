@@ -9,15 +9,18 @@ The OCT2DEC function converts a signed octal number to decimal format.
 
 ### Sample Usage
 
-`OCT2DEC(37)`
-
-`OCT2DEC(A2)`
+```gse
+OCT2DEC(37)
+OCT2DEC(A2)
+```
 
 ### Syntax
 
-`OCT2DEC(signed_octal_number)`
+```gse
+OCT2DEC(signed_octal_number)
+```
 
-* `signed_octal_number` - The signed 30-bit octal value to be converted to decimal, provided as a string.
+- `signed_octal_number` - The signed 30-bit octal value to be converted to decimal, provided as a string.
 
   + The most significant bit of `signed_octal_number` is the sign bit; that is, negative numbers are represented in two's complement format.
   + For this function, this value has a maximum of 3777777777 if positive, and a minimum of 4000000000 if negative.
@@ -25,7 +28,7 @@ The OCT2DEC function converts a signed octal number to decimal format.
 
 ### Notes
 
-* As with any octal value, only the digits 0-7 are valid. Digits outside of this will cause `OCT2DEC` to return a `#NUM!` error.
+- As with any octal value, only the digits 0-7 are valid. Digits outside of this will cause `OCT2DEC` to return a `#NUM!` error.
 
 ### See Also
 

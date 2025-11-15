@@ -9,7 +9,9 @@ The IMTAN function returns the tangent of the given complex number. For example,
 
 ### Parts of an IMTAN formula
 
-`IMTAN(number)`
+```gse
+IMTAN(number)
+```
 
 | **Part** | **Description** | **Notes** |
 | --- | --- | --- |
@@ -17,11 +19,11 @@ The IMTAN function returns the tangent of the given complex number. For example,
 
 ### Sample formulas
 
-`IMTAN(COMPLEX(4, 6))`
-
-`IMTAN(4)`
-
-`IMTAN("2+3i")`
+```gse
+IMTAN(COMPLEX(4, 6))
+IMTAN(4)
+IMTAN("2+3i")
+```
 
 ### Notes
 
@@ -37,6 +39,6 @@ The IMTAN function returns an error if the given number isn’t a valid complex 
 
 ### Related functions
 
-* [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
-* [[IMSIN]]: The IMSIN function returns the sine of the given complex number.
-* [[IMCOS]]: The IMCOS function returns the cosine of the given complex number.
+- [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
+- [[IMSIN]]: The IMSIN function returns the sine of the given complex number.
+- [[IMCOS]]: The IMCOS function returns the cosine of the given complex number.

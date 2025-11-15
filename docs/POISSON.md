@@ -9,23 +9,26 @@ Returns the value of the Poisson distribution function (or Poisson cumulative di
 
 ### Sample Usage
 
-`POISSON.DIST(2.4,1,FALSE)`
-
-`POISSON.DIST(A2,A3,TRUE)`
+```gse
+POISSON.DIST(2.4,1,FALSE)
+POISSON.DIST(A2,A3,TRUE)
+```
 
 ### Syntax
 
-`POISSON.DIST(x, mean, cumulative)`
+```gse
+POISSON.DIST(x, mean, cumulative)
+```
 
-* `x` - The input to the Poisson distribution function.
-* `mean` - The mean (mu) of the Poisson distribution function.
-* `cumulative` - Whether to use the Poisson cumulative distribution function rather than the distribution function..
+- `x` - The input to the Poisson distribution function.
+- `mean` - The mean (mu) of the Poisson distribution function.
+- `cumulative` - Whether to use the Poisson cumulative distribution function rather than the distribution function..
 
 ### Notes
 
-* The Poisson distribution function is typically used to calculate the number of 'arrivals' or 'events' over a period of time, such as the number of network packets or login attempts given some mean.
-* If `cumulative` is `TRUE` then `POISSON.DIST` returns the probability of `x` or fewer events, otherwise the probability of exactly `x` events.
-* You can use `POISSON` or `POISSON.DIST` to perform this function.
+- The Poisson distribution function is typically used to calculate the number of 'arrivals' or 'events' over a period of time, such as the number of network packets or login attempts given some mean.
+- If `cumulative` is `TRUE` then `POISSON.DIST` returns the probability of `x` or fewer events, otherwise the probability of exactly `x` events.
+- You can use `POISSON` or `POISSON.DIST` to perform this function.
 
 ### See Also
 

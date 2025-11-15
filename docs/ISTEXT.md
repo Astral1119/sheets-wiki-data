@@ -9,22 +9,25 @@ Checks whether a value is text.
 
 ### Sample Usage
 
-`ISTEXT(A2)`
-
-`ISTEXT("cat")`
+```gse
+ISTEXT(A2)
+ISTEXT("cat")
+```
 
 ### Syntax
 
-`ISTEXT(value)`
+```gse
+ISTEXT(value)
+```
 
-* `value` - The value to be verified as text.
+- `value` - The value to be verified as text.
 
   + `ISTEXT` returns `TRUE` if this is a text value or a reference to a cell containing a text value and `FALSE` otherwise.
 
 ### Notes
 
-* This function is most often used in conjunction with `IF` in conditional statements.
-* Note that supplying the empty string to this function (e.g. `ISTEXT("")`) will cause it to return `TRUE` whereas a reference to a blank cell will return `FALSE`.
+- This function is most often used in conjunction with `IF` in conditional statements.
+- Note that supplying the empty string to this function (e.g. `ISTEXT("")`) will cause it to return `TRUE` whereas a reference to a blank cell will return `FALSE`.
 
 ### See Also
 

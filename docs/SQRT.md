@@ -9,21 +9,24 @@ Returns the positive square root of a positive number.
 
 ### Sample Usage
 
-`SQRT(9)`
-
-`SQRT(A2)`
+```gse
+SQRT(9)
+SQRT(A2)
+```
 
 ### Syntax
 
-`SQRT(value)`
+```gse
+SQRT(value)
+```
 
-* `value` - The number for which to calculate the positive square root.
+- `value` - The number for which to calculate the positive square root.
 
   + `value` must be positive; if it is negative, `SQRT` will return the `#NUM!` error.
 
 ### Notes
 
-* To find the negative root of `value`, simply multiply the result of the `SQRT` function call by `-1`.
+- To find the negative root of `value`, simply multiply the result of the `SQRT` function call by `-1`.
 
 ### See Also
 

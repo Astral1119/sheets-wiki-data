@@ -7,31 +7,29 @@ tags:
 
 The IMLOG10 function returns the logarithm of a complex number with base 10.
 
-Parts of an IMLOG10 formula
----------------------------
+### Parts of an IMLOG10 formula
 
-`IMLOG10(value)`
+```gse
+IMLOG10(value)
+```
 
 | Part | Desription | Notes |
 | --- | --- | --- |
 | `value` | The input value of the logarithm function. | * The number can be written as plain numbers, for example 1, to be interpreted as a real number. * The number can be written as quoted text in order to specify both the real and complex coefficients. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`IMLOG10("1+i", 3.5)`
+```gse
+IMLOG10("1+i", 3.5)
+IMLOG10(COMPLEX(25, 34), 2.3)
+IMLOG10(100, 10)
+```
 
-`IMLOG10(COMPLEX(25, 34), 2.3)`
-
-`IMLOG10(100, 10)`
-
-Note
-----
+### Note
 
 `IMLOG10` is equivalent to `IMLOG` given base of 10 for all numbers.
 
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |
@@ -40,8 +38,7 @@ Examples
 | **3** | `=IMLOG10(COMPLEX(25, 34))` | 1.62533195973162+0.406835608369804i |
 | **4** | `=IMLOG10(100)` | 2 |
 
-Related functions
------------------
+### Related functions
 
 [[IMLOG]]: The IMLOG function returns the logarithm of a complex number for a specified base.
 

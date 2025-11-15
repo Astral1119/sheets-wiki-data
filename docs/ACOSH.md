@@ -9,19 +9,22 @@ The ACOSH function returns the inverse hyperbolic cosine of a number.
 
 ### Sample Usage
 
-`ACOSH(2)`
-
-`ACOSH(A1)`
+```gse
+ACOSH(2)
+ACOSH(A1)
+```
 
 ### Syntax
 
-`ACOSH(value)`
+```gse
+ACOSH(value)
+```
 
-* `value` - The value for which to calculate the inverse hyperbolic cosine. Must be greater than or equal to `1`.
+- `value` - The value for which to calculate the inverse hyperbolic cosine. Must be greater than or equal to `1`.
 
 ### Notes
 
-* Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
+- Google Sheets does not support imaginary or complex numbers, so these are not valid inputs or outputs from hyperbolic functions.
 
 ### See Also
 

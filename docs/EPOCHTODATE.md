@@ -7,38 +7,36 @@ tags:
 
 Converts a Unix epoch timestamp in seconds, milliseconds, or microseconds to a datetime in Universal Time Coordinated(UTC).
 
-Sample Usage
-------------
+### Sample Usage
 
-`EPOCHTODATE(A1,1)`
+```gse
+EPOCHTODATE(A1,1)
+EPOCHTODATE(1655908429662,2)
+EPOCHTODATE(1655906710)
+```
 
-`EPOCHTODATE(1655908429662,2)`
+### Syntax
 
-`EPOCHTODATE(1655906710)`
+```gse
+EPOCHTODATE(timestamp, [unit])
+```
 
-Syntax
-------
+- `Timestamp`: A Unix epoch timestamp, in seconds, milliseconds, or microseconds.
+- `Unit` [OPTIONAL `– 1` by default]: The unit of time in which the timestamp is expressed.
 
-`EPOCHTODATE(timestamp, [unit])`
+- `1` indicates the time unit is seconds.
+- `2` indicates the time unit is milliseconds.
+- `3` indicates the time unit is microseconds.
 
-* `Timestamp`: A Unix epoch timestamp, in seconds, milliseconds, or microseconds.
-* `Unit` [OPTIONAL `– 1` by default]: The unit of time in which the timestamp is expressed.
+### Notes
 
-* `1` indicates the time unit is seconds.
-* `2` indicates the time unit is milliseconds.
-* `3` indicates the time unit is microseconds.
+- Seconds is the default unit of time.
+- Fractional amounts of milliseconds are shortened.
+- The result will be in UTC, not the local time zone of your spreadsheet.
+- Negative timestamps aren’t accepted.
+- The result is computed by dividing the timestamp (converted to milliseconds) by the number of milliseconds in a day and adding 25,568. [Learn more about dates in Sheets](https://support.google.com/docs/answer/3092969).
 
-Notes
------
-
-* Seconds is the default unit of time.
-* Fractional amounts of milliseconds are shortened.
-* The result will be in UTC, not the local time zone of your spreadsheet.
-* Negative timestamps aren’t accepted.
-* The result is computed by dividing the timestamp (converted to milliseconds) by the number of milliseconds in a day and adding 25,568. [Learn more about dates in Sheets](https://support.google.com/docs/answer/3092969).
-
-Examples
---------
+### Examples
 
 `EPOCHTODATE` general usage.
 
@@ -50,8 +48,7 @@ Examples
 | **5** | 1584033897 | 3/12/2020 17:24:57 | `=EPOCHTODATE(A5)` |
 | **6** | 1656356678000410 | 6/27/2022 19:04:38 | `=EPOCHTODATE(A6,3)` |
 
-Related functions
------------------
+### Related functions
 
-* [[DATE]]: Converts a year, month, and day into a date.
-* [[TIME]]: Converts an hour, minute, and second into a time.
+- [[DATE]]: Converts a year, month, and day into a date.
+- [[TIME]]: Converts an hour, minute, and second into a time.

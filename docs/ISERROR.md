@@ -9,24 +9,26 @@ Checks whether a value is an error.
 
 ### Sample Usage
 
-`ISERROR(A2)`
-
-`ISERROR(A1/A2)`
-
-`IF(ISERROR(VLOOKUP(B1, A1:A100, 1, FALSE)), "Result not found", VLOOKUP(B1, A1:A100, 1, FALSE))`
+```gse
+ISERROR(A2)
+ISERROR(A1/A2)
+IF(ISERROR(VLOOKUP(B1, A1:A100, 1, FALSE)), "Result not found", VLOOKUP(B1, A1:A100, 1, FALSE))
+```
 
 ### Syntax
 
-`ISERROR(value)`
+```gse
+ISERROR(value)
+```
 
-* `value` - The value to be verified as an error type.
+- `value` - The value to be verified as an error type.
 
   + `ISERROR` returns `TRUE` if `value` is any error, including `#DIV/0!`, `#N/A`, `#NAME?`,`#NULL!`, `#NUM!`, `#VALUE!`, and `#REF!`.
 
 ### Notes
 
-* `ISERROR` returns `TRUE` on any error, unlike [[ISERR]], which returns `TRUE` on all errors except for `#N/A`. Ensure that the correct call is used.
-* This function is most often used in conjunction with `IF` in conditional statements.
+- `ISERROR` returns `TRUE` on any error, unlike [[ISERR]], which returns `TRUE` on all errors except for `#N/A`. Ensure that the correct call is used.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

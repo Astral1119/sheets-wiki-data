@@ -9,16 +9,19 @@ Returns the difference of two numbers. Equivalent to the `-` operator.
 
 ### Sample Usage
 
-`MINUS(A2,A3)`
-
-`MINUS(3,4)`
+```gse
+MINUS(A2,A3)
+MINUS(3,4)
+```
 
 ### Syntax
 
-`MINUS(value1, value2)`
+```gse
+MINUS(value1, value2)
+```
 
-* `value1` - The minuend, or number to be subtracted from.
-* `value2` - The subtrahend, or number to subtract from `value1`.
+- `value1` - The minuend, or number to be subtracted from.
+- `value2` - The subtrahend, or number to subtract from `value1`.
 
 ### See Also
 

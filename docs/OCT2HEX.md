@@ -9,28 +9,31 @@ The OCT2HEX function converts a signed octal number to signed hexadecimal format
 
 ### Sample Usage
 
-`OCT2HEX(37,8)`
-
-`OCT2HEX(A2)`
+```gse
+OCT2HEX(37,8)
+OCT2HEX(A2)
+```
 
 ### Syntax
 
-`OCT2HEX(signed_octal_number, [significant_digits])`
+```gse
+OCT2HEX(signed_octal_number, [significant_digits])
+```
 
-* `signed_octal_number` - The signed 30-bit octal value to be converted to signed hexadecimal, provided as a string.
+- `signed_octal_number` - The signed 30-bit octal value to be converted to signed hexadecimal, provided as a string.
 
   + The most significant bit of `signed_octal_number` is the sign bit; that is, negative numbers are represented in two's complement format.
   + For this function, this value has a maximum of 3777777777 if positive, and a minimum of 4000000000 if negative.
   + If `signed_octal_number` is provided as a valid octal number, it will automatically be converted to the appropriate string input. For example, `OCT2HEX(177)` and `OCT2HEX("177")` yield the same result: `7F`.
-* `significant_digits` - **[** OPTIONAL **]** - The number of significant digits to ensure in the result.
+- `significant_digits` - **[** OPTIONAL **]** - The number of significant digits to ensure in the result.
 
   + If this is greater than the number of significant digits in the result, the result is left-padded with zeros until the total number of digits reaches `significant_digits`.
   + This value is ignored if the most significant bit of `signed_octal_number` is `1`; that is, if the expressed `signed_octal_number` is greater than or equal to 4000000000.
 
 ### Notes
 
-* As with any octal value, only the digits 0-7 are valid. Digits outside of this will cause `OCT2HEX` to return a `#NUM!` error.
-* If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
+- As with any octal value, only the digits 0-7 are valid. Digits outside of this will cause `OCT2HEX` to return a `#NUM!` error.
+- If the number of digits required is greater than the specified `significant_digits`, the `#NUM!` error is returned.
 
 ### See Also
 

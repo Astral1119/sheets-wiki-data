@@ -9,24 +9,27 @@ Calculates the variance based on an entire population, setting text to the value
 
 ### Sample Usage
 
-`VARPA(1,2,3,4,5,6,7,8,9,10)`
-
-`VARPA(A2:A100)`
+```gse
+VARPA(1,2,3,4,5,6,7,8,9,10)
+VARPA(A2:A100)
+```
 
 ### Syntax
 
-`VARPA(value1, [value2, ...])`
+```gse
+VARPA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the population.
-* `value2, ...` - Additional values or ranges to include in the population.
+- `value1` - The first value or range of the population.
+- `value2, ...` - Additional values or ranges to include in the population.
 
 ### Notes
 
-* Although `VARPA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `VARPA` will return the `#NUM!` error.
-* `VARPA` sets each text value encountered to `0` for the purpose of calculation. To return an error upon encountering text, use `VARP`.
-* `VARPA` calculates variance for an entire population. To calculate variance across a sample, use `VARA`.
-* `VARPA` takes the sum of the squares of each value's deviation from the mean and divides by the number of such values. This differs from the calculation of variance across a sample in that the latter divides by the size of the dataset minus one.
+- Although `VARPA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `VARPA` will return the `#NUM!` error.
+- `VARPA` sets each text value encountered to `0` for the purpose of calculation. To return an error upon encountering text, use `VARP`.
+- `VARPA` calculates variance for an entire population. To calculate variance across a sample, use `VARA`.
+- `VARPA` takes the sum of the squares of each value's deviation from the mean and divides by the number of such values. This differs from the calculation of variance across a sample in that the latter divides by the size of the dataset minus one.
 
 ### See Also
 

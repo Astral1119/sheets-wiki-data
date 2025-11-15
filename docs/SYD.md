@@ -9,22 +9,25 @@ The SYD function calculates the depreciation of an asset for a specified period 
 
 ### Sample Usage
 
-`SYD(100,50,10,2)`
-
-`SYD(A2,A3,A4,A5)`
+```gse
+SYD(100,50,10,2)
+SYD(A2,A3,A4,A5)
+```
 
 ### Syntax
 
-`SYD(cost, salvage, life, period)`
+```gse
+SYD(cost, salvage, life, period)
+```
 
-* `cost` - The initial cost of the asset.
-* `salvage` - The value of the asset at the end of depreciation.
-* `life` - The number of periods over which the asset is depreciated.
-* `period` - The single period within `life` for which to calculate depreciation.
+- `cost` - The initial cost of the asset.
+- `salvage` - The value of the asset at the end of depreciation.
+- `life` - The number of periods over which the asset is depreciated.
+- `period` - The single period within `life` for which to calculate depreciation.
 
 ### Notes
 
-* `life` and `period` must be measured in the same units.
+- `life` and `period` must be measured in the same units.
 
 ### See Also
 

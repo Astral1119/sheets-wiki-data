@@ -9,17 +9,20 @@ Calculates the smallest value for which the cumulative binomial distribution is 
 
 ### Sample Usage
 
-`CRITBINOM(100,0.005,0.8)`
-
-`CRITBINOM(A2,A3,A4)`
+```gse
+CRITBINOM(100,0.005,0.8)
+CRITBINOM(A2,A3,A4)
+```
 
 ### Syntax
 
-`CRITBINOM(num_trials, prob_success, target_prob)`
+```gse
+CRITBINOM(num_trials, prob_success, target_prob)
+```
 
-* `num_trials` - The number of independent trials.
-* `prob_success` - The probability of success in any given trial.
-* `target_prob` - The desired threshold probability.
+- `num_trials` - The number of independent trials.
+- `prob_success` - The probability of success in any given trial.
+- `target_prob` - The desired threshold probability.
 
 ### See Also
 

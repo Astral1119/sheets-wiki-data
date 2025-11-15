@@ -9,16 +9,19 @@ Returns `TRUE` if the first argument is strictly greater than the second, and `F
 
 ### Sample Usage
 
-`GT(A2,A3)`
-
-`GT(2,3)`
+```gse
+GT(A2,A3)
+GT(2,3)
+```
 
 ### Syntax
 
-`GT(value1, value2)`
+```gse
+GT(value1, value2)
+```
 
-* `value1` - The value to test as being greater than `value2`.
-* `value2` - The second value.
+- `value1` - The value to test as being greater than `value2`.
+- `value2` - The second value.
 
 ### See Also
 

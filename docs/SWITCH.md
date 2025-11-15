@@ -9,19 +9,22 @@ Tests an expression against a list of cases and returns the corresponding value 
 
 ### Sample Usage
 
-`SWITCH(A1:A10, 0, “No”, 1, “Other”)`
-
-`SWITCH(A3:A8, 4, “Four”, 8, “Eight”)`
+```gse
+SWITCH(A1:A10, 0, “No”, 1, “Other”)
+SWITCH(A3:A8, 4, “Four”, 8, “Eight”)
+```
 
 ### Syntax
 
-`SWITCH(expression, case1, value1, [case2, value2, ...], [default])`
+```gse
+SWITCH(expression, case1, value1, [case2, value2, ...], [default])
+```
 
-* `expression` - Any valid values.
-* `case1` - The first case to be checked against `expression`.
-* `value1` - The corresponding value to be returned if `case1` matches `expression`.
-* `case2, value2, … -` **Optional:** Additional cases and values if the first one doesn’t match the expression.
-* `default -` **Optional:**An optional value, specified as the last parameter, to be returned if none of the cases match the expression.
+- `expression` - Any valid values.
+- `case1` - The first case to be checked against `expression`.
+- `value1` - The corresponding value to be returned if `case1` matches `expression`.
+- `case2, value2, … -` **Optional:** Additional cases and values if the first one doesn’t match the expression.
+- `default -` **Optional:**An optional value, specified as the last parameter, to be returned if none of the cases match the expression.
 
 ### See Also
 

@@ -9,17 +9,19 @@ The SIN function returns the sine of an angle provided in radians.
 
 ### Sample Usage
 
-`SIN(PI())`
-
-`SIN(1)`
-
-`SIN(A2)`
+```gse
+SIN(PI())
+SIN(1)
+SIN(A2)
+```
 
 ### Syntax
 
-`SIN(angle)`
+```gse
+SIN(angle)
+```
 
-* `angle` - The angle to find the sine of, in radians.
+- `angle` - The angle to find the sine of, in radians.
 
 ### See Also
 

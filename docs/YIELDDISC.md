@@ -9,19 +9,22 @@ Calculates the annual yield of a discount (non-interest-bearing) security, based
 
 ### Sample Usage
 
-`YIELDDISC(DATE(2010,01,02),DATE(2010,12,31),98.45,100)`
-
-`YIELDDISC(A2,B2,C2,D2,2)`
+```gse
+YIELDDISC(DATE(2010,01,02),DATE(2010,12,31),98.45,100)
+YIELDDISC(A2,B2,C2,D2,2)
+```
 
 ### Syntax
 
-`YIELDDISC(settlement, maturity, price, redemption, [day_count_convention])`
+```gse
+YIELDDISC(settlement, maturity, price, redemption, [day_count_convention])
+```
 
-* `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
-* `maturity` - The maturity or end date of the security, when it can be redeemed at face, or par value.
-* `price` - The price at which the security is bought.
-* `redemption` - The redemption value of the security.
-* `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
+- `settlement` - The settlement date of the security, the date after issuance when the security is delivered to the buyer.
+- `maturity` - The maturity or end date of the security, when it can be redeemed at face, or par value.
+- `price` - The price at which the security is bought.
+- `redemption` - The redemption value of the security.
+- `day_count_convention` - **[** OPTIONAL - `0` by default **]** - An indicator of what day count method to use.
 
   + 0 indicates US (NASD) 30/360 - This assumes 30 day months and 360 day years as per the National Association of Securities Dealers standard, and performs specific adjustments to entered dates which fall at the end of months.
   + 1 indicates Actual/Actual - This calculates based upon the actual number of days between the specified dates, and the actual number of days in the intervening years. Used for US Treasury Bonds and Bills, but also the most relevant for non-financial use.
@@ -31,7 +34,7 @@ Calculates the annual yield of a discount (non-interest-bearing) security, based
 
 ### Notes
 
-* `settlement` and `maturity` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
+- `settlement` and `maturity` should be entered using `DATE`, `TO_DATE` or other date parsing functions rather than by entering text.
 
 ### See Also
 

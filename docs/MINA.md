@@ -9,21 +9,24 @@ Returns the minimum numeric value in a dataset.
 
 ### Sample Usage
 
-`MINA(A2:A100,B2:B100,4,26)`
-
-`MINA(1,2,3,4,5,C6:C20)`
+```gse
+MINA(A2:A100,B2:B100,4,26)
+MINA(1,2,3,4,5,C6:C20)
+```
 
 ### Syntax
 
-`MINA(value1, [value2, ...])`
+```gse
+MINA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider when calculating the minimum value.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the minimum value.
+- `value1` - The first value or range to consider when calculating the minimum value.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider when calculating the minimum value.
 
 ### Notes
 
-* Although `MINA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* Any text value in any of the `value` arguments will be assigned the numeric value `0` for the purpose of this function; ensure that the actual minimum value is either less than 0 or remove text from `data` to calculate the correct answer.
+- Although `MINA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Any text value in any of the `value` arguments will be assigned the numeric value `0` for the purpose of this function; ensure that the actual minimum value is either less than 0 or remove text from `data` to calculate the correct answer.
 
 ### See Also
 

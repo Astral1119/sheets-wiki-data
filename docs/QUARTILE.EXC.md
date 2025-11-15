@@ -7,32 +7,31 @@ tags:
 
 The QUARTILE.EXC function returns value nearest to a given quartile of a dataset, exclusive of 0 and 4.
 
-Parts of a QUARTILE.EXC function
---------------------------------
+### Parts of a QUARTILE.EXC function
 
-`QUARTILE.EXC(data, quartile_number)`
+```gse
+QUARTILE.EXC(data, quartile_number)
+```
 
 | Part | Description |
 | --- | --- |
 | `data` | The array or range containing the dataset to consider. |
 | `quartile_number` | This is which quartile value to return  * 1 returns the value in data closest to the first quartile (25% mark) * 2 returns the value in data closest to the median (50% mark) * 3 returns the value in data closest to the third quartile (75% mark) |
 
-Sample formulas
----------------
+### Sample formulas
 
-`QUARTILE.EXC(A2:A100, 3)`
+```gse
+QUARTILE.EXC(A2:A100, 3)
+QUARTILE.EXC(A2:A100, B2)
+```
 
-`QUARTILE.EXC(A2:A100, B2)`
+### Notes
 
-Notes
------
+- If the `quartile_number` is not an integer, the number is truncated.
+- The `quartile_number` must be between 0 and 4, exclusive.
+- Different from `QUARTILE.INC`, `QUARTILE.EXC` calculates quartile based on a quartile range exclusive of 0th and 4th quartile.
 
-* If the `quartile_number` is not an integer, the number is truncated.
-* The `quartile_number` must be between 0 and 4, exclusive.
-* Different from `QUARTILE.INC`, `QUARTILE.EXC` calculates quartile based on a quartile range exclusive of 0th and 4th quartile.
-
-Examples
---------
+### Examples
 
 | A |
 | --- |
@@ -56,10 +55,9 @@ Examples
 | **3** | 2 | 40 | `=QUARTILE.EXC(A2:A12, 2)` |
 | **4** | 3 | 43 | `=QUARTILE.EXC(A2:A12, 3)` |
 
-Related functions
------------------
+### Related functions
 
-* [[PERCENTILE]]: Returns the value at a given percentile of a dataset.
-* [[PERCENTILE.EXC]]: The PERCENTILE.EXC function returns the value at a given percentile of a dataset, exclusive of 0 and 1.
-* [[MEDIAN]]: Returns the median value in a numeric dataset.
-* [[QUARTILE]]: Returns a value nearest to a specified quartile of a dataset.
+- [[PERCENTILE]]: Returns the value at a given percentile of a dataset.
+- [[PERCENTILE.EXC]]: The PERCENTILE.EXC function returns the value at a given percentile of a dataset, exclusive of 0 and 1.
+- [[MEDIAN]]: Returns the median value in a numeric dataset.
+- [[QUARTILE]]: Returns a value nearest to a specified quartile of a dataset.

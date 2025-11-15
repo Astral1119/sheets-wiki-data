@@ -9,20 +9,24 @@ Checks whether a formula is in the referenced cell.
 
 ### Sample Usage
 
-`ISFORMULA(A2)`
+```gse
+ISFORMULA(A2)
+```
 
 ### Syntax
 
-`ISFORMULA(cell)`
+```gse
+ISFORMULA(cell)
+```
 
-* `cell` - The cell to check for a formula.
+- `cell` - The cell to check for a formula.
 
   + `ISFORMULA` returns `TRUE` if `cell` is a cell that contains a formula. If `cell` contains a range of cells then `TRUE` will be returned if the first cell in the range contains a formula. All other values will return `FALSE`.
 
 ### Notes
 
-* `cell` can refer to a cell, a name associated with a cell, or a range (multiple cells).
-* This function is most often used in conjunction with `IF` in conditional statements.
+- `cell` can refer to a cell, a name associated with a cell, or a range (multiple cells).
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

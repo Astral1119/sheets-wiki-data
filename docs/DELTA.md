@@ -9,24 +9,26 @@ Compare two numeric values, returning 1 if they're equal.
 
 ### Sample Usage
 
-`DELTA(2, 1)`
-
-`DELTA(A2)`
-
-`DELTA(B3, 2)`
+```gse
+DELTA(2, 1)
+DELTA(A2)
+DELTA(B3, 2)
+```
 
 ### Syntax
 
-`DELTA(number1, [number2])`
+```gse
+DELTA(number1, [number2])
+```
 
-* `number1` - the first number to compare.
-* `number2` - **[** OPTIONAL - `0` by default **]** - the second number to compare.
+- `number1` - the first number to compare.
+- `number2` - **[** OPTIONAL - `0` by default **]** - the second number to compare.
 
 ### Notes
 
-* If the second argument is not provided then `number1` will be compared to zero.
-* A blank cell is treated the same as zero.
-* This function only compares numbers. To compare other types of values, use the `EQ` function.
+- If the second argument is not provided then `number1` will be compared to zero.
+- A blank cell is treated the same as zero.
+- This function only compares numbers. To compare other types of values, use the `EQ` function.
 
 ### See Also
 

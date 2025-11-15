@@ -13,28 +13,34 @@ Returns the number of rows in a data column.
 
 ### Sample Usage
 
-`ROWS(table_name!fruits)`
+```gse
+ROWS(table_name!fruits)
+```
 
-Syntax
-------
+### Syntax
 
-`ROWS(column)`
+```gse
+ROWS(column)
+```
 
-* `column` - The data column whose row count will be returned.
+- `column` - The data column whose row count will be returned.
 
 **Tip:** Null values are counted as well.
 
 ### Sample Usage
 
-`ROWS(A9:A62)`
-
-`ROWS({1;2;3;4;5})`
+```gse
+ROWS(A9:A62)
+ROWS({1;2;3;4;5})
+```
 
 ### Syntax
 
-`ROWS(range)`
+```gse
+ROWS(range)
+```
 
-* `range` - The range whose row count will be returned
+- `range` - The range whose row count will be returned
 
 ### See Also
 

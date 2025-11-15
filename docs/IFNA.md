@@ -7,31 +7,30 @@ tags:
 
 The IFNA function evaluates a value. If the value is an `#N/A` error, return the specified value.
 
-Parts of an IFNA function
--------------------------
+### Parts of an IFNA function
 
-`IFNA(value, value_if_na)`
+```gse
+IFNA(value, value_if_na)
+```
 
 | Part | Description |
 | --- | --- |
 | `value` | Required. The value to check if it is a `#N/A` error. |
 | `value_if_na` | Required. The value to return if the first argument is an `#N/A` error. |
 
-Sample formulas
----------------
+### Sample formulas
 
-`IFNA(205, “Na error”)`
+```gse
+IFNA(205, “Na error”)
+IFNA(#N/A, “Na error”)
+```
 
-`IFNA(#N/A, “Na error”)`
+### Notes
 
-Notes
------
+- If value or value\_if\_na is an empty cell, IFNA treats the cell’s value as an empty string (“”).
+- If value is a range reference, IFNA returns an array formula result with one entry for in-the-range reference.
 
-* If value or value\_if\_na is an empty cell, IFNA treats the cell’s value as an empty string (“”).
-* If value is a range reference, IFNA returns an array formula result with one entry for in-the-range reference.
-
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |
@@ -51,7 +50,6 @@ Examples
 | 4 | 100/0 | `#ERROR` |
 | 5 | 45 | 45 |
 
-Related functions
------------------
+### Related functions
 
-* [[IFERROR]]: Returns the first argument if it is not an error value, otherwise returns the second argument if present, or a blank if the second argument is absent.
+- [[IFERROR]]: Returns the first argument if it is not an error value, otherwise returns the second argument if present, or a blank if the second argument is absent.

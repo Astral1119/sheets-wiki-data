@@ -9,9 +9,10 @@ The QUERY function allows the user to make SQL-like queries using the [Google Vi
 
 ### Sample Usage
 
-`QUERY(A2:E6,"select avg(A) pivot B")`
-
-`QUERY(A2:E6,F2,FALSE)`
+```gse
+QUERY(A2:E6,"select avg(A) pivot B")
+QUERY(A2:E6,F2,FALSE)
+```
 
 ### Syntax
 

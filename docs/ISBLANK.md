@@ -9,22 +9,25 @@ Checks whether the referenced cell is empty.
 
 ### Sample Usage
 
-`ISBLANK(A2)`
-
-`IF(ISBLANK(B1),,A1/B1)`
+```gse
+ISBLANK(A2)
+IF(ISBLANK(B1),,A1/B1)
+```
 
 ### Syntax
 
-`ISBLANK(value)`
+```gse
+ISBLANK(value)
+```
 
-* `value` - Reference to the cell that will be checked for emptiness.
+- `value` - Reference to the cell that will be checked for emptiness.
 
   + `ISBLANK` returns `TRUE` if `value` is empty or a reference to an empty cell, and `FALSE` if it contains data or a reference to data.
 
 ### Notes
 
-* `ISBLANK` returns `FALSE` if the referenced cell has *any* content, including spaces, the empty string (`""`), and hidden characters. In case of unexpected `FALSE` results, try clearing the cell again to remove any hidden characters.
-* This function is most often used in conjunction with `IF` in conditional statements.
+- `ISBLANK` returns `FALSE` if the referenced cell has *any* content, including spaces, the empty string (`""`), and hidden characters. In case of unexpected `FALSE` results, try clearing the cell again to remove any hidden characters.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

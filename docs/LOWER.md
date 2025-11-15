@@ -9,15 +9,18 @@ Converts a specified string to lowercase.
 
 ### Sample Usage
 
-`LOWER("LOREM IPSUM")`
-
-`LOWER(A2)`
+```gse
+LOWER("LOREM IPSUM")
+LOWER(A2)
+```
 
 ### Syntax
 
-`LOWER(text)`
+```gse
+LOWER(text)
+```
 
-* `text` - The string to convert to lowercase.
+- `text` - The string to convert to lowercase.
 
 ### See Also
 

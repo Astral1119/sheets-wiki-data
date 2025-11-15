@@ -9,19 +9,22 @@ The FACT function returns the factorial of a number.
 
 ### Sample Usage
 
-`FACT(3)`
-
-`FACT(A2)`
+```gse
+FACT(3)
+FACT(A2)
+```
 
 ### Syntax
 
-`FACT(value)`
+```gse
+FACT(value)
+```
 
-* `value` - The number or reference to a number whose factorial will be calculated and returned.
+- `value` - The number or reference to a number whose factorial will be calculated and returned.
 
 ### Notes
 
-* If a number or reference to a number with a decimal part is provided to `FACT`, the decimal part will be silently truncated before calculation.
+- If a number or reference to a number with a decimal part is provided to `FACT`, the decimal part will be silently truncated before calculation.
 
 ### See Also
 

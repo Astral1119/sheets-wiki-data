@@ -9,15 +9,18 @@ Imports data at a given url in .csv (comma-separated value) or .tsv (tab-separat
 
 ### Sample Usage
 
-`IMPORTDATA("https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-popchg2010_2019.csv")`
-
-`IMPORTDATA(A2)`
+```gse
+IMPORTDATA("https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-popchg2010_2019.csv")
+IMPORTDATA(A2)
+```
 
 ### Syntax
 
-`IMPORTDATA(url)`
+```gse
+IMPORTDATA(url)
+```
 
-* `url` - The url from which to fetch the .csv or .tsv-formatted data, including protocol (e.g. `http://`).
+- `url` - The url from which to fetch the .csv or .tsv-formatted data, including protocol (e.g. `http://`).
 
   + The value for `url` must either be enclosed in quotation marks or be a reference to a cell containing the appropriate text.
 

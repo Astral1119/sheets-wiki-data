@@ -9,22 +9,26 @@ Returns the position at which a string is first found within text counting each 
 
 ### Sample Usage
 
-`FINDB("新", "农历新年", 2)`
+```gse
+FINDB("新", "农历新年", 2)
+```
 
 ### Syntax
 
-`FINDB(search_for, text_to_search, [starting_at])`
+```gse
+FINDB(search_for, text_to_search, [starting_at])
+```
 
-* `search_for` - The string to look for within `text_to_search`.
-* - The text to search for the first occurrence of `search_for`.
-* `starting_at` - **[** OPTIONAL - `1` by default **]** - The character position within `text_to_search` at which to start the search.
+- `search_for` - The string to look for within `text_to_search`.
+- - The text to search for the first occurrence of `search_for`.
+- `starting_at` - **[** OPTIONAL - `1` by default **]** - The character position within `text_to_search` at which to start the search.
 
 ### Notes
 
-* If `search_for` is not found, the `#VALUE!` error value is returned.
-* Ensure that `search_for` and `text_to_search` are not supplied in reverse order, or the `#VALUE!` error will likely be returned. The arguments are supplied in a different order than other text functions such as `SPLIT` and `SUBSTITUTE`.
-* It's recommended to use a function such as `IFERROR` to check for cases when there aren't matches to the search.
-* Use `FIND` for standard character sets, and `FINDB` for double-byte character sets such as Japanese, Chinese (Simplified), Chinese (Traditional), and Korean.
+- If `search_for` is not found, the `#VALUE!` error value is returned.
+- Ensure that `search_for` and `text_to_search` are not supplied in reverse order, or the `#VALUE!` error will likely be returned. The arguments are supplied in a different order than other text functions such as `SPLIT` and `SUBSTITUTE`.
+- It's recommended to use a function such as `IFERROR` to check for cases when there aren't matches to the search.
+- Use `FIND` for standard character sets, and `FINDB` for double-byte character sets such as Japanese, Chinese (Simplified), Chinese (Traditional), and Korean.
 
 ### See Also
 

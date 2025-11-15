@@ -9,23 +9,26 @@ Returns the value of the exponential distribution function with a specified lamb
 
 ### Sample Usage
 
-`EXPON.DIST(4,0.5,FALSE)`
-
-`EXPON.DIST(A2,A3,A4)`
+```gse
+EXPON.DIST(4,0.5,FALSE)
+EXPON.DIST(A2,A3,A4)
+```
 
 ### Syntax
 
-`EXPON.DIST(x, lambda, cumulative)`
+```gse
+EXPON.DIST(x, lambda, cumulative)
+```
 
-* `x` - The input to the exponential distribution function.
+- `x` - The input to the exponential distribution function.
 
   + If `cumulative` is `TRUE` then `EXPON.DIST` returns the cumulative probability of all values up to `x`.
-* `lambda` - The lambda to specify the exponential distribution function.
-* `cumulative` - Whether to use the exponential cumulative distribution.
+- `lambda` - The lambda to specify the exponential distribution function.
+- `cumulative` - Whether to use the exponential cumulative distribution.
 
 ### Note
 
-* You can use `EXPONDIST` or `EXPON.DIST` to perform this function.
+- You can use `EXPONDIST` or `EXPON.DIST` to perform this function.
 
 ### See Also
 

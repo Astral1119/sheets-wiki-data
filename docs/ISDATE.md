@@ -7,29 +7,27 @@ tags:
 
 The ISDATE function returns whether a value is a date.
 
-Parts of an ISDATE function
----------------------------
+### Parts of an ISDATE function
 
-`ISDATE(value)`
+```gse
+ISDATE(value)
+```
 
 | Part | Description |
 | --- | --- |
 | `value` | The value to be verified as a date. |
 
-Sample formulas
----------------
+### Sample formulas
 
 `ISDATE("7/20/1969")  
 ISDATE(“July 20”)  
 ISDATE(A1)`
 
-Notes
------
+### Notes
 
 Ensure your date has quotation marks around it, unless it’s a reference to a cell.
 
-Examples
---------
+### Examples
 
 | A | B |
 | --- | --- |

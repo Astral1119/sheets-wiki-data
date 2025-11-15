@@ -9,26 +9,27 @@ Returns the second component of a specific time, in numeric format.
 
 ### Sample Usage
 
-`SECOND(TIME(11,40,59))`
-
-`SECOND(A2)`
-
-`SECOND(40909.0004)`
-
-`SECOND("20:49:59")`
+```gse
+SECOND(TIME(11,40,59))
+SECOND(A2)
+SECOND(40909.0004)
+SECOND("20:49:59")
+```
 
 ### Syntax
 
-`SECOND(time)`
+```gse
+SECOND(time)
+```
 
-* `time` - The time from which to calculate the second component. Must be a reference to a cell containing a date/time, a function returning a date/time type, or a number.
+- `time` - The time from which to calculate the second component. Must be a reference to a cell containing a date/time, a function returning a date/time type, or a number.
 
 ### Notes
 
-* Ensure that the input to the function is either a reference to a cell containing a date/time, a function which returns a date/time object such as [[TIME]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
-* `SECOND` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `SECOND(12:00:00)` will return an error.
-* `SECOND` returns the intuitive understanding of seconds, and is useful primarily in other calculations rather than to extract the second component of a known time, as that value is easily known from a plain reading of the entire time.
-* Note that date objects that are created with the [[DATE]] function or by entry of a date without a time component will have a time of 0:00:00.
+- Ensure that the input to the function is either a reference to a cell containing a date/time, a function which returns a date/time object such as [[TIME]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+- `SECOND` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `SECOND(12:00:00)` will return an error.
+- `SECOND` returns the intuitive understanding of seconds, and is useful primarily in other calculations rather than to extract the second component of a known time, as that value is easily known from a plain reading of the entire time.
+- Note that date objects that are created with the [[DATE]] function or by entry of a date without a time component will have a time of 0:00:00.
 
 ### See Also
 

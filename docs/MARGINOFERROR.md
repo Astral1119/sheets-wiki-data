@@ -7,36 +7,32 @@ tags:
 
 This function calculates the margin of error from a range of values and a confidence level.
 
-Sample Usage
-------------
+### Sample Usage
 
 MARGINOFERROR(A1:A7, 0.95)
 
 MARGINOFERROR(A1:C3, 0.99)
 
-Syntax
-------
+### Syntax
 
 MARGINOFERROR(range, confidence)
 
-* Range- The range of values used to calculate the margin of error.
-* Confidence- The desired confidence level between (0, 1).
+- Range- The range of values used to calculate the margin of error.
+- Confidence- The desired confidence level between (0, 1).
 
-Notes
------
+### Notes
 
-* The margin of error is a statistical measurement used to determine the amount of error due to chance in a random sample of a population.
+- The margin of error is a statistical measurement used to determine the amount of error due to chance in a random sample of a population.
   + A large margin of error indicates that the estimate of the parameter of a given sample may not represent the parameter of the entire population.
   + The margin of error decreases when the sample size is greater.
   + Surveys with less differences in responses between participants also have smaller margins of error.
-* The confidence level is the likelihood that the true mean of the population lies in the margin of error above or below the sample mean.
-* MARGINOFERROR(range, confidence) is equal to CONFIDENCE.T(1 - confidence, STDEV(range), COUNT(range)).
-* The margin of error calculation is appropriate for:
+- The confidence level is the likelihood that the true mean of the population lies in the margin of error above or below the sample mean.
+- MARGINOFERROR(range, confidence) is equal to CONFIDENCE.T(1 - confidence, STDEV(range), COUNT(range)).
+- The margin of error calculation is appropriate for:
   + Continuous data normally distributed.
   + Surveys with large sample sizes.
 
-Examples
---------
+### Examples
 
 | A |
 | --- |
@@ -51,8 +47,7 @@ Examples
 | **Lower Bound**  **(Mean - MARGINOFERROR)** | 1.722 |
 | **Upper Bound**  **(Mean - MARGINOFERROR)** | 8.778 |
 
-Related resources
------------------
+### Related resources
 
-* [[CONFIDENCE.T]]
-* [[CONFIDENCE.NORM]]
+- [[CONFIDENCE.T]]
+- [[CONFIDENCE.NORM]]

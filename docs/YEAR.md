@@ -9,22 +9,24 @@ Returns the year specified by a given date.
 
 ### Sample Usage
 
-`YEAR(DATE(1969,7,20))`
-
-`YEAR(A2)`
-
-`YEAR(40909)`
+```gse
+YEAR(DATE(1969,7,20))
+YEAR(A2)
+YEAR(40909)
+```
 
 ### Syntax
 
-`YEAR(date)`
+```gse
+YEAR(date)
+```
 
-* `date` - The date from which to calculate the year. Must be a cell reference to a cell containing a date, a function returning a date type, or a number.
+- `date` - The date from which to calculate the year. Must be a cell reference to a cell containing a date, a function returning a date type, or a number.
 
 ### Notes
 
-* Ensure that the input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
-* `YEAR` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `YEAR(10/10/2000)` is interpreted as `YEAR(0.005)`, the quotient of 10 divided by 10 divided by 2000.
+- Ensure that the input to the function is either a reference to a cell containing a date, a function which returns a date object such as [[DATE]], [[DATEVALUE]] or [[TO_DATE]], or a date serial number of the type returned by the [[N]] function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+- `YEAR` does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, `YEAR(10/10/2000)` is interpreted as `YEAR(0.005)`, the quotient of 10 divided by 10 divided by 2000.
 
 ### See Also
 

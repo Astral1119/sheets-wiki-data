@@ -9,24 +9,27 @@ Returns a segment of a string.
 
 ### Sample Usage
 
-`MID("get this",5,4)`
-
-`MID(A2,3,5)`
+```gse
+MID("get this",5,4)
+MID(A2,3,5)
+```
 
 ### Syntax
 
-`MID(string, starting_at, extract_length)`
+```gse
+MID(string, starting_at, extract_length)
+```
 
-* `string` - The string to extract a segment from.
-* `starting_at` - The index from the left of `string` from which to begin extracting. The first character in `string` has the index 1.
-* `extract_length` - The length of the segment to extract.
+- `string` - The string to extract a segment from.
+- `starting_at` - The index from the left of `string` from which to begin extracting. The first character in `string` has the index 1.
+- `extract_length` - The length of the segment to extract.
 
   + If the end of `string` is reached before `extract_length` characters are encountered, `MID` returns the characters from `starting_at` to the end of `string`.
 
 ### Notes
 
-* To return the contents from `starting_at` to the end of `string`, use [[LEN]] to calculate the length of the string that will be returned rather than simply specifying a large number for `extract_length`.
-* To return the contents of `string` beginning with a particular character or sub-string, use [[SEARCH]] to locate the index of the desired point.
+- To return the contents from `starting_at` to the end of `string`, use [[LEN]] to calculate the length of the string that will be returned rather than simply specifying a large number for `extract_length`.
+- To return the contents of `string` beginning with a particular character or sub-string, use [[SEARCH]] to locate the index of the desired point.
 
 ### See Also
 

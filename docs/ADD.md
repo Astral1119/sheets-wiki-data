@@ -9,20 +9,23 @@ Returns the sum of two numbers. Equivalent to the `+` operator.
 
 ### Sample Usage
 
-`ADD(A2,A3)`
-
-`ADD(3,4)`
+```gse
+ADD(A2,A3)
+ADD(3,4)
+```
 
 ### Syntax
 
-`ADD(value1, value2)`
+```gse
+ADD(value1, value2)
+```
 
-* `value1` - The first addend.
-* `value2` - The second addend.
+- `value1` - The first addend.
+- `value2` - The second addend.
 
 ### Notes
 
-* Unlike `SUM`, `ADD` only supports the addition of two scalar values and takes neither ranges nor more than two arguments.
+- Unlike `SUM`, `ADD` only supports the addition of two scalar values and takes neither ranges nor more than two arguments.
 
 ### See Also
 

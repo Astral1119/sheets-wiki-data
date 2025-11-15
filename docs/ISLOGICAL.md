@@ -9,19 +9,23 @@ Checks whether a value is `TRUE` or `FALSE`.
 
 ### Sample Usage
 
-`ISLOGICAL(A2)`
+```gse
+ISLOGICAL(A2)
+```
 
 ### Syntax
 
-`ISLOGICAL(value)`
+```gse
+ISLOGICAL(value)
+```
 
-* `value` - The value to be verified as a logical `TRUE` or `FALSE`.
+- `value` - The value to be verified as a logical `TRUE` or `FALSE`.
 
   \*`ISLOGICAL` returns `TRUE` if `value` is either `TRUE` or `FALSE` or a reference to a cell whose value is either `TRUE` or `FALSE`.
 
 ### Notes
 
-* This function is most often used in conjunction with `IF` in conditional statements.
+- This function is most often used in conjunction with `IF` in conditional statements.
 
 ### See Also
 

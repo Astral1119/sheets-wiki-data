@@ -13,37 +13,43 @@ Calculates the sample standard deviation of a data column.
 
 ### Sample Usage
 
-`STDEV(table_name!price)`
+```gse
+STDEV(table_name!price)
+```
 
-Syntax
-------
+### Syntax
 
-`STDEV(column)`
+```gse
+STDEV(column)
+```
 
-* `column` - The data column of the sample.
+- `column` - The data column of the sample.
 
 **Tip:** Returning sample standard deviation across multiple columns is not supported
 
 ### Sample Usage
 
-`STDEV(1,2,3,4,5,6,7,8,9,10)`
-
-`STDEV(A2:A100)`
+```gse
+STDEV(1,2,3,4,5,6,7,8,9,10)
+STDEV(A2:A100)
+```
 
 ### Syntax
 
-`STDEV(value1, [value2, ...])`
+```gse
+STDEV(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the sample.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to include in the sample.
+- `value1` - The first value or range of the sample.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to include in the sample.
 
 ### Notes
 
-* Although `STDEV` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `STDEV` will return the `#DIV/0!` error.
-* `STDEV` will return an error if any of the `value` arguments include text. If any of the `value` arguments reference a cell that contains text, those cells are ignored. To calculate standard deviation while interpreting text values as `0`, use `STDEVA`.
-* `STDEV` calculates standard deviation for a sample. To calculate standard deviation across an entire population, use `STDEVP`.
-* `STDEV` is equivalent to the square root of the variance, or `SQRT(VAR(...))` using the same dataset.
+- Although `STDEV` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `STDEV` will return the `#DIV/0!` error.
+- `STDEV` will return an error if any of the `value` arguments include text. If any of the `value` arguments reference a cell that contains text, those cells are ignored. To calculate standard deviation while interpreting text values as `0`, use `STDEVA`.
+- `STDEV` calculates standard deviation for a sample. To calculate standard deviation across an entire population, use `STDEVP`.
+- `STDEV` is equivalent to the square root of the variance, or `SQRT(VAR(...))` using the same dataset.
 
 ### See Also
 

@@ -9,19 +9,22 @@ Returns the rank of a specified value in a dataset.
 
 ### Sample Usage
 
-`RANK(A2,A2:A100)`
-
-`RANK(4,A2:A100,1)`
+```gse
+RANK(A2,A2:A100)
+RANK(4,A2:A100,1)
+```
 
 ### Syntax
 
-`RANK(value, data, [is_ascending])`
+```gse
+RANK(value, data, [is_ascending])
+```
 
-* `value` - The value whose rank will be determined.
+- `value` - The value whose rank will be determined.
 
   + If `data` does not contain `value` in any cell or element, `RANK` will return the `#N/A` error.
-* `data` - The array or range containing the dataset to consider.
-* `is_ascending` - **[** OPTIONAL - `0` by default **]** Whether to consider the values in `data` in descending or ascending order.
+- `data` - The array or range containing the dataset to consider.
+- `is_ascending` - **[** OPTIONAL - `0` by default **]** Whether to consider the values in `data` in descending or ascending order.
 
   + If this is `0`, the greatest value in `data` will have rank `1`; if this is `1`, the least value in `data` will have rank `1`.
 

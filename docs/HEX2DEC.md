@@ -9,15 +9,18 @@ The HEX2DEC function converts a signed hexadecimal number to decimal format.
 
 ### Sample Usage
 
-`HEX2DEC("f3")`
-
-`HEX2DEC(A2)`
+```gse
+HEX2DEC("f3")
+HEX2DEC(A2)
+```
 
 ### Syntax
 
-`HEX2DEC(signed_hexadecimal_number)`
+```gse
+HEX2DEC(signed_hexadecimal_number)
+```
 
-* `signed_hexadecimal_number` - The signed 40-bit hexadecimal value to be converted to decimal, provided as a string.
+- `signed_hexadecimal_number` - The signed 40-bit hexadecimal value to be converted to decimal, provided as a string.
 
   + The most significant bit of `signed_hexadecimal_number` is the sign bit; that is, negative numbers are represented in two's complement format.
   + For this function, this value has a maximum of 7fffffffff if positive, and a minimum of 8000000000 if negative.
@@ -25,7 +28,7 @@ The HEX2DEC function converts a signed hexadecimal number to decimal format.
 
 ### Notes
 
-* As with any hexadecimal value, only the digits `0-9` and the letters `A-F` are valid. Digits other than these will cause `HEX2DEC` to return a `#NUM!` error.
+- As with any hexadecimal value, only the digits `0-9` and the letters `A-F` are valid. Digits other than these will cause `HEX2DEC` to return a `#NUM!` error.
 
   + Hexadecimal digits are not case-sensitive; `a-f` and `A-F` are equivalent.
 

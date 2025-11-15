@@ -9,24 +9,27 @@ Calculates the inverse of the left-tailed chi-squared distribution.
 
 ### Sample Usage
 
-`CHISQ.INV(0.42, 2)`
-
-`CHISQ.INV(A2, B2)`
+```gse
+CHISQ.INV(0.42, 2)
+CHISQ.INV(A2, B2)
+```
 
 ### Syntax
 
-`CHISQ.INV(probability, degrees_freedom)`
+```gse
+CHISQ.INV(probability, degrees_freedom)
+```
 
-* `probability` - The probability associated with the left-tailed chi-squared distribution.
+- `probability` - The probability associated with the left-tailed chi-squared distribution.
 
   + Must be greater than `0` and less than `1`.
-* `degrees_freedom` - The number of degrees of freedom of the distribution.
+- `degrees_freedom` - The number of degrees of freedom of the distribution.
 
 ### Notes
 
-* `degrees_freedom` is truncated to an integer if a non-integer is provided.
-* `degrees_freedom` must be at least `1`.
-* All arguments must be numeric.
+- `degrees_freedom` is truncated to an integer if a non-integer is provided.
+- `degrees_freedom` must be at least `1`.
+- All arguments must be numeric.
 
 ### See Also
 

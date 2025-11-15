@@ -9,23 +9,26 @@ The FLOOR function rounds a number down to the nearest integer multiple of speci
 
 ### Sample Usage
 
-`FLOOR(23.25,0.1)`
-
-`FLOOR(A2,1)`
+```gse
+FLOOR(23.25,0.1)
+FLOOR(A2,1)
+```
 
 ### Syntax
 
-`FLOOR(value, [factor])`
+```gse
+FLOOR(value, [factor])
+```
 
-* `value` - The value to round down to the nearest integer multiple of `factor`.
-* `factor` - **[**OPTIONAL - `1` by default**]** - The number to whose multiples `value` will be rounded.
+- `value` - The value to round down to the nearest integer multiple of `factor`.
+- `factor` - **[**OPTIONAL - `1` by default**]** - The number to whose multiples `value` will be rounded.
 
   + `factor` may not be equal to `0`.
 
 ### Notes
 
-* `value` can be positive or negative, but `factor` must be positive.
-* `FLOOR` is most often used with `factor` set to a 'round' number such as `0.1` or `0.01` in order to round to a particular decimal place. However, `factor` can, in fact, be any number of the same sign as `value`, e.g. `FLOOR(23.25,0.18)` which results in `23.22`, which is 0.18 \* 129. This can be used, for instance, to round down to a particular denomination of currency (e.g. 0.25 or 0.05 USD).
+- `value` can be positive or negative, but `factor` must be positive.
+- `FLOOR` is most often used with `factor` set to a 'round' number such as `0.1` or `0.01` in order to round to a particular decimal place. However, `factor` can, in fact, be any number of the same sign as `value`, e.g. `FLOOR(23.25,0.18)` which results in `23.22`, which is 0.18 \* 129. This can be used, for instance, to round down to a particular denomination of currency (e.g. 0.25 or 0.05 USD).
 
 ### See Also
 

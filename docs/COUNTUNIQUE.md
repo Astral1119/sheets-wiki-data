@@ -13,32 +13,39 @@ Counts the number of unique values in a data column
 
 ### Sample Usage
 
-`COUNTUNIQUE(table_name!fruits)`
+```gse
+COUNTUNIQUE(table_name!fruits)
+```
 
 ### Syntax
 
-`COUNTUNIQUE(column)`
+```gse
+COUNTUNIQUE(column)
+```
 
-* `column`: The data column to consider for uniqueness.
+- `column`: The data column to consider for uniqueness.
 
 **Tip:** Counting unique rows across multiple columns is not supported
 
 ### Sample Usage
 
-`COUNTUNIQUE(A1:C100)`
-
-`COUNTUNIQUE(1,1,2,3,5,8,13,A2,B6:B9)`
+```gse
+COUNTUNIQUE(A1:C100)
+COUNTUNIQUE(1,1,2,3,5,8,13,A2,B6:B9)
+```
 
 ### Syntax
 
-`COUNTUNIQUE(value1, [value2, ...])`
+```gse
+COUNTUNIQUE(value1, [value2, ...])
+```
 
-* `value1` - The first value or range to consider for uniqueness.
-* `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider for uniqueness.
+- `value1` - The first value or range to consider for uniqueness.
+- `value2, ...` - **[** OPTIONAL **]** - Additional values or ranges to consider for uniqueness.
 
 ### Notes
 
-* Although `COUNTUNIQUE` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- Although `COUNTUNIQUE` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
 
 ### See Also
 

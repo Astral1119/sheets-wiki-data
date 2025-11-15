@@ -9,16 +9,19 @@ Returns the nth largest element from a data set, where n is user-defined.
 
 ### Sample Usage
 
-`LARGE(A2:B100,4)`
-
-`LARGE(A2:B100,C2)`
+```gse
+LARGE(A2:B100,4)
+LARGE(A2:B100,C2)
+```
 
 ### Syntax
 
-`LARGE(data, n)`
+```gse
+LARGE(data, n)
+```
 
-* `data` - Array or range containing the dataset to consider.
-* `n` - The rank from largest to smallest of the element to return.
+- `data` - Array or range containing the dataset to consider.
+- `n` - The rank from largest to smallest of the element to return.
 
   + E.g. setting `n` to `4` will cause `LARGE` to return the 4th largest element from `data`.
 

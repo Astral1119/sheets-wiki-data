@@ -9,28 +9,31 @@ Calculates the left-tailed chi-squared distribution, often used in hypothesis te
 
 ### Sample Usage
 
-`CHISQ.DIST(3.45, 2, TRUE)`
-
-`CHISQ.DIST(A2, B2, TRUE)`
+```gse
+CHISQ.DIST(3.45, 2, TRUE)
+CHISQ.DIST(A2, B2, TRUE)
+```
 
 ### Syntax
 
-`CHISQ.DIST(x, degrees_freedom, cumulative)`
+```gse
+CHISQ.DIST(x, degrees_freedom, cumulative)
+```
 
-* `x` - The input to the chi-squared probability distribution function. The value at which to evaluate the function.
+- `x` - The input to the chi-squared probability distribution function. The value at which to evaluate the function.
 
   + Must be a positive number.
-* `degrees_freedom` - The number of degrees of freedom of the distribution.
-* `cumulative` - Logical value that determines the form of the function.
+- `degrees_freedom` - The number of degrees of freedom of the distribution.
+- `cumulative` - Logical value that determines the form of the function.
 
   + If `TRUE: CHI.DIST` returns the left-tailed cumulative distribution function.
   + If `FALSE: CHI.DIST` returns the probability density function.
 
 ### Notes
 
-* `degrees_freedom` is truncated to an integer if a non-integer is provided.
-* `degrees_freedom` must be at least `1` and may not exceed `10^10`.
-* `x` and `degrees_freedom` must be numeric.
+- `degrees_freedom` is truncated to an integer if a non-integer is provided.
+- `degrees_freedom` must be at least `1` and may not exceed `10^10`.
+- `x` and `degrees_freedom` must be numeric.
 
 ### See Also
 
@@ -48,9 +51,9 @@ Calculates the left-tailed chi-squared distribution, often used in hypothesis te
 
 Suppose you want to test the fairness of a 6-sided die:
 
-* From several rolls, you obtain a chi-squared statistic of `12.3`.
-* The number of degrees of freedom is `6 - 1 = 5`.
-* We will evaluate the chi-squared distribution with `5` degrees of freedom when x equals `12.3`.
+- From several rolls, you obtain a chi-squared statistic of `12.3`.
+- The number of degrees of freedom is `6 - 1 = 5`.
+- We will evaluate the chi-squared distribution with `5` degrees of freedom when x equals `12.3`.
 
 | 1 | x | Degrees freedom | Solution |
 | --- | --- | --- | --- |

@@ -9,15 +9,18 @@ Returns the inverse Fisher transformation of a specified value.
 
 ### Sample Usage
 
-`FISHERINV(0.962)`
-
-`FISHERINV(A2)`
+```gse
+FISHERINV(0.962)
+FISHERINV(A2)
+```
 
 ### Syntax
 
-`FISHERINV(value)`
+```gse
+FISHERINV(value)
+```
 
-* `value` - The value for which to calculate the inverse Fisher transformation.
+- `value` - The value for which to calculate the inverse Fisher transformation.
 
 ### See Also
 

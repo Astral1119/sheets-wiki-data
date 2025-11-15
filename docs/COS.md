@@ -9,17 +9,19 @@ The COS function returns the cosine of an angle provided in radians.
 
 ### Sample Usage
 
-`COS(PI())`
-
-`COS(A2)`
-
-`COS(1)`
+```gse
+COS(PI())
+COS(A2)
+COS(1)
+```
 
 ### Syntax
 
-`COS(angle)`
+```gse
+COS(angle)
+```
 
-* `angle` - The angle to find the cosine of, in radians.
+- `angle` - The angle to find the cosine of, in radians.
 
 ### See Also
 

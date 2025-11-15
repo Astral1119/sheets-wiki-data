@@ -13,37 +13,43 @@ Calculates the population standard deviation of a data column.
 
 ### Sample Usage
 
-`STDEVP(table_name!price)`
+```gse
+STDEVP(table_name!price)
+```
 
-Syntax
-------
+### Syntax
 
-`STDEVP(column)`
+```gse
+STDEVP(column)
+```
 
-* `column` - The data column of the population.
+- `column` - The data column of the population.
 
 **Tip**: Returning population standard deviation across multiple columns is not supported
 
 ### Sample Usage
 
-`STDEVP(1,2,3,4,5,6,7,8,9,10)`
-
-`STDEVP(A2:A100)`
+```gse
+STDEVP(1,2,3,4,5,6,7,8,9,10)
+STDEVP(A2:A100)
+```
 
 ### Syntax
 
-`STDEVP(value1, [value2, ...])`
+```gse
+STDEVP(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the population.
-* `value2, ...` - Additional values or ranges to include in the population.
+- `value1` - The first value or range of the population.
+- `value2, ...` - Additional values or ranges to include in the population.
 
 ### Notes
 
-* Although `STDEVP` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `STDEVP` will return the `#DIV/0!` error.
-* `STDEVP` will return an error if any of the `value` arguments include text. To calculate standard deviation while interpreting text values as `0`, use `STDEVPA`.
-* `STDEVP` calculates standard deviation for an entire population. To calculate standard deviation across a sample, use `STDEV`.
-* `STDEVP` is equivalent to the square root of the variance, or `SQRT(VARP(...))` using the same dataset.
+- Although `STDEVP` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `STDEVP` will return the `#DIV/0!` error.
+- `STDEVP` will return an error if any of the `value` arguments include text. To calculate standard deviation while interpreting text values as `0`, use `STDEVPA`.
+- `STDEVP` calculates standard deviation for an entire population. To calculate standard deviation across a sample, use `STDEV`.
+- `STDEVP` is equivalent to the square root of the variance, or `SQRT(VARP(...))` using the same dataset.
 
 ### See Also
 

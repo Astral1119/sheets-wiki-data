@@ -7,26 +7,25 @@ tags:
 
 The RIGHTB function returns the right portion of a string up to a certain number of bytes.
 
-Parts of a RIGHTB function
---------------------------
+### Parts of a RIGHTB function
 
-`RIGHTB(string, num_of_bytes)`
+```gse
+RIGHTB(string, num_of_bytes)
+```
 
 | Part | Description |
 | --- | --- |
 | `string` | The string from which the right portion will be returned. |
 | `num_of_bytes` | (Optional) The number of bytes to return from the right side of `string`. |
 
-Notes
------
+### Notes
 
-* `RIGHTB` returns the same value as `RIGHT` if the input string has only single byte characters
-* `num_of_bytes` must be greater than or equal to zero.
-* If `num_of_bytes` is greater than the length of text in bytes, `RIGHTB` returns all of text.
-* If `num_of_bytes` is omitted, it is assumed to be 1.
+- `RIGHTB` returns the same value as `RIGHT` if the input string has only single byte characters
+- `num_of_bytes` must be greater than or equal to zero.
+- If `num_of_bytes` is greater than the length of text in bytes, `RIGHTB` returns all of text.
+- If `num_of_bytes` is omitted, it is assumed to be 1.
 
-Examples
---------
+### Examples
 
 | A | B | C |
 | --- | --- | --- |
@@ -36,9 +35,8 @@ Examples
 | **4** | `熊本` | `=RIGHTB(A4, 2)` | 本 |
 | **5** | `熊本` | `=RIGHT(A5,2)` | 熊本 |
 
-Related functions
------------------
+### Related functions
 
-* [[MIDB]]:The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
-* [[LEFTB]]: The LEFTB function returns the left portion of a string up to a certain number of bytes.
-* [[LENB]]: The LENB function returns the length of a string in bytes.
+- [[MIDB]]:The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
+- [[LEFTB]]: The LEFTB function returns the left portion of a string up to a certain number of bytes.
+- [[LENB]]: The LENB function returns the length of a string in bytes.

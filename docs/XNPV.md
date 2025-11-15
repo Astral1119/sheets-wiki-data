@@ -9,24 +9,27 @@ Calculates the net present value of an investment based on a specified series of
 
 ### Sample Usage
 
-`XNPV(A2,B2:B25,C2:C25)`
-
-`XNPV(0.08,{200,250,300},{DATE(2012,06,23),DATE(2013,05,12),DATE(2014,02,09)})`
+```gse
+XNPV(A2,B2:B25,C2:C25)
+XNPV(0.08,{200,250,300},{DATE(2012,06,23),DATE(2013,05,12),DATE(2014,02,09)})
+```
 
 ### Syntax
 
-`XNPV(discount, cashflow_amounts, cashflow_dates)`
+```gse
+XNPV(discount, cashflow_amounts, cashflow_dates)
+```
 
-* `discount` - The discount rate of the investment over one period.
-* `cashflow_amounts` - A range of cells containing the income or payments associated with the investment.
-* `cashflow_dates` - A range of cells with dates corresponding to the cash flows in `cashflow_amounts`.
+- `discount` - The discount rate of the investment over one period.
+- `cashflow_amounts` - A range of cells containing the income or payments associated with the investment.
+- `cashflow_dates` - A range of cells with dates corresponding to the cash flows in `cashflow_amounts`.
 
 ### Notes
 
-* `XNPV` is similar to `PV` except that `XNPV` allows variable-value cash flows and cash flow intervals.
-* If the days specified in `cashflow_dates` are at a regular interval, use `NPV` instead.
-* Each cell in `cashflow_amounts` should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
-* `XIRR` under the same conditions calculates the internal rate of return for which the net present value is zero.
+- `XNPV` is similar to `PV` except that `XNPV` allows variable-value cash flows and cash flow intervals.
+- If the days specified in `cashflow_dates` are at a regular interval, use `NPV` instead.
+- Each cell in `cashflow_amounts` should be positive if it represents income from the perspective of the owner of the investment (e.g. coupons) or negative if it represents payments (e.g. loan repayment).
+- `XIRR` under the same conditions calculates the internal rate of return for which the net present value is zero.
 
 ### See Also
 

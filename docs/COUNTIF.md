@@ -21,37 +21,44 @@ Returns a conditional count of rows across a data column.
 
 ### Sample Usage
 
-`COUNTIF(table_name!score, “>90”)`
+```gse
+COUNTIF(table_name!score, “>90”)
+```
 
 ### Syntax
 
-`COUNTIF(criteria_column, criterion)`
+```gse
+COUNTIF(criteria_column, criterion)
+```
 
-* `criteria_column`: The data column that is tested against `criterion`.
-* `criterion`: The pattern or test to apply to `column`.
+- `criteria_column`: The data column that is tested against `criterion`.
+- `criterion`: The pattern or test to apply to `column`.
 
 **Tip:** Counting unique rows across multiple columns is not supported
 
 ### Sample Usage
 
-`COUNTIF(A1:A10,">20")`
-
-`COUNTIF(A1:A10,"Paid")`
+```gse
+COUNTIF(A1:A10,">20")
+COUNTIF(A1:A10,"Paid")
+```
 
 ### Syntax
 
-`COUNTIF(range, criterion)`
+```gse
+COUNTIF(range, criterion)
+```
 
-* `range` - The range that is tested against `criterion`.
-* `criterion` - The pattern or test to apply to `range`.
+- `range` - The range that is tested against `criterion`.
+- `criterion` - The pattern or test to apply to `range`.
 
   + If `range` contains text to check against, `criterion` must be a string. `criterion` can contain wildcards including `?` to match any single character or `*` to match zero or more contiguous characters. To match an actual question mark or asterisk, prefix the character with the tilde (`~`) character (i.e. `~?` and `~*`). A string criterion must be enclosed in quotation marks. Each cell in `range` is then checked against `criterion` for equality (or match, if wildcards are used).
   + If `range` contains numbers to check against, `criterion` may be either a string or a number. If a number is provided, each cell in `range` is checked for equality with `criterion`. Otherwise, `criterion` may be a string containing a number (which also checks for equality), or a number prefixed with any of the following operators: `=`, `>`, `>=`, `<`, or `<=`, which check whether the range cell is equal to, greater than, greater than or equal to, less than, or less than or equal to the criterion value, respectively.
 
 ### Notes
 
-* `COUNTIF` can only perform conditional counts with a single criterion. To use multiple criteria, use `COUNTIFS` or the database functions `DCOUNT` or `DCOUNTA`.
-* `COUNTIF` is not case sensitive.
+- `COUNTIF` can only perform conditional counts with a single criterion. To use multiple criteria, use `COUNTIFS` or the database functions `DCOUNT` or `DCOUNTA`.
+- `COUNTIF` is not case sensitive.
 
 ### Examples
 

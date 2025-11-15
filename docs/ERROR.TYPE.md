@@ -9,19 +9,20 @@ Returns a number corresponding to the error value in a different cell.
 
 ### Sample Usage
 
-`ERROR.TYPE(A3)`
-
-`ERROR.TYPE(NA())`
+```gse
+ERROR.TYPE(A3)
+ERROR.TYPE(NA())
+```
 
 ### Syntax
 
 ERROR.TYPE(reference)
 
-* `reference` - The cell to find the error number for - you can also provide the error value directly.
+- `reference` - The cell to find the error number for - you can also provide the error value directly.
 
 ### Notes
 
-* `ERROR.TYPE` will return the following numbers for the corresponding error values:
+- `ERROR.TYPE` will return the following numbers for the corresponding error values:
   + `1` for `#NULL!`
   + `2` for `#DIV/0!`
   + `3` for `#VALUE!`

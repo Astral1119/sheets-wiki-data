@@ -9,7 +9,9 @@ Returns unique rows in the provided source range, discarding duplicates. Rows ar
 
 ### Parts of a UNIQUE function
 
-`UNIQUE(range, by_column, exactly_once)`
+```gse
+UNIQUE(range, by_column, exactly_once)
+```
 
 | **Part** | **Description** |
 | --- | --- |
@@ -19,8 +21,8 @@ Returns unique rows in the provided source range, discarding duplicates. Rows ar
 
 ### Notes
 
-* If rows are returned which appear to be duplicates, ensure that cells including text do not have differing hidden text such as trailing spaces.
-* Ensure that numeric values are formatted in the same way - percentages as percentages, currency values as currency values, etc.
+- If rows are returned which appear to be duplicates, ensure that cells including text do not have differing hidden text such as trailing spaces.
+- Ensure that numeric values are formatted in the same way - percentages as percentages, currency values as currency values, etc.
 
 ### Examples
 
@@ -51,7 +53,7 @@ Returns unique rows in the provided source range, discarding duplicates. Rows ar
 
 ### Related functions
 
-* [[GT]]
-* [[GTE]]
-* [[LT]]
-* [[LTE]]
+- [[GT]]
+- [[GTE]]
+- [[LT]]
+- [[LTE]]

@@ -9,16 +9,19 @@ Calculates the mean of a dataset excluding some proportion of data from the high
 
 ### Sample Usage
 
-`TRIMMEAN(A2:A100,0.1)`
-
-`TRIMMEAN({1,1,2,3,5,8,13,21,34,55},0.05)`
+```gse
+TRIMMEAN(A2:A100,0.1)
+TRIMMEAN({1,1,2,3,5,8,13,21,34,55},0.05)
+```
 
 ### Syntax
 
-`TRIMMEAN(data, exclude_proportion)`
+```gse
+TRIMMEAN(data, exclude_proportion)
+```
 
-* `data` - Array or range containing the dataset to consider.
-* `exclude_proportion` - The proportion of the dataset to exclude, from the extremities of the set.
+- `data` - Array or range containing the dataset to consider.
+- `exclude_proportion` - The proportion of the dataset to exclude, from the extremities of the set.
 
   + `exclude_proportion` must be greater than or equal to `0` and less than `1`.
 

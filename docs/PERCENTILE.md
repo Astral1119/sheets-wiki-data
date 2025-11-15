@@ -9,21 +9,24 @@ Returns the value at a given percentile of a dataset.
 
 ### Sample Usage
 
-`PERCENTILE(A2:A100,A2)`
-
-`PERCENTILE(A2:A100,0.67)`
+```gse
+PERCENTILE(A2:A100,A2)
+PERCENTILE(A2:A100,0.67)
+```
 
 ### Syntax
 
-`PERCENTILE(data, percentile)`
+```gse
+PERCENTILE(data, percentile)
+```
 
-* `data` - The array or range containing the dataset to consider.
-* `percentile` - The percentile whose value within `data` will be calculated and returned.
+- `data` - The array or range containing the dataset to consider.
+- `percentile` - The percentile whose value within `data` will be calculated and returned.
 
 ### Notes
 
-* The value returned by `PERCENTILE` is not necessarily a member of `data` as this function interpolates between values to calculate the alpha percentile.
-* The 50th percentile, that is setting `percentile` to `0.5` is equivalent to using `MEDIAN` with the same dataset.
+- The value returned by `PERCENTILE` is not necessarily a member of `data` as this function interpolates between values to calculate the alpha percentile.
+- The 50th percentile, that is setting `percentile` to `0.5` is equivalent to using `MEDIAN` with the same dataset.
 
 ### See Also
 

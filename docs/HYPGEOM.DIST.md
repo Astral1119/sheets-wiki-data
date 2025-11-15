@@ -9,22 +9,25 @@ Calculates the probability of drawing a certain number of successes in a certain
 
 ### Sample Usage
 
-`HYPGEOMDIST(4,12,20,40)`
-
-`HYPGEOMDIST(A2,A3,A4,A5)`
+```gse
+HYPGEOMDIST(4,12,20,40)
+HYPGEOMDIST(A2,A3,A4,A5)
+```
 
 ### Syntax
 
-`HYPGEOMDIST(num_successes, num_draws, successes_in_pop, pop_size)`
+```gse
+HYPGEOMDIST(num_successes, num_draws, successes_in_pop, pop_size)
+```
 
-* `num_successes` - The desired number of successes.
-* `num_draws` - The number of permitted draws.
-* `successes_in_pop` - The total number of successes in the population.
-* `pop_size` - The total size of the population
+- `num_successes` - The desired number of successes.
+- `num_draws` - The number of permitted draws.
+- `successes_in_pop` - The total number of successes in the population.
+- `pop_size` - The total size of the population
 
 ### Notes
 
-* `BINOMDIST` describes the probability of drawing a certain number of successes in a certain number of tries given a population of a certain size containing a certain number of successes, *with* replacement of draws.
+- `BINOMDIST` describes the probability of drawing a certain number of successes in a certain number of tries given a population of a certain size containing a certain number of successes, *with* replacement of draws.
 
 ### See Also
 

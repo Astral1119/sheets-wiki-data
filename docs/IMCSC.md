@@ -9,7 +9,9 @@ The IMCSC function returns the cosecant of the given complex number. For example
 
 ### Parts of an IMCSC formula
 
-`IMCSC(number)`
+```gse
+IMCSC(number)
+```
 
 | Part | Description | Notes |
 | --- | --- | --- |
@@ -17,11 +19,11 @@ The IMCSC function returns the cosecant of the given complex number. For example
 
 ### Sample formulas
 
-`IMCSC(COMPLEX(4, 6))`
-
-`IMCSC(4)`
-
-`IMCSC("2+3i")`
+```gse
+IMCSC(COMPLEX(4, 6))
+IMCSC(4)
+IMCSC("2+3i")
+```
 
 ### Notes
 
@@ -37,4 +39,4 @@ The IMCSC function returns an error if the given number isn’t a valid complex 
 
 ### Related functions
 
-* [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.
+- [[COMPLEX]]: The COMPLEX function creates a complex number, given real and imaginary coefficients.

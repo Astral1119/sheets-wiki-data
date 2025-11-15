@@ -9,24 +9,27 @@ Calculates the standard deviation based on a sample, setting text to the value `
 
 ### Sample Usage
 
-`STDEVA(1,2,3,4,5,6,7,8,9,10)`
-
-`STDEVA(A2:A100)`
+```gse
+STDEVA(1,2,3,4,5,6,7,8,9,10)
+STDEVA(A2:A100)
+```
 
 ### Syntax
 
-`STDEVA(value1, [value2, ...])`
+```gse
+STDEVA(value1, [value2, ...])
+```
 
-* `value1` - The first value or range of the sample.
-* `value2, ...` - Additional values or ranges to include in the sample.
+- `value1` - The first value or range of the sample.
+- `value2, ...` - Additional values or ranges to include in the sample.
 
 ### Notes
 
-* Although `STDEVA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
-* If the total number of values supplied as `value` arguments is not at least two, `STDEVA` will return the `#DIV/0!` error.
-* `STDEVA` sets each text value encountered to `0` for the purpose of calculation.
-* `STDEVA` calculates standard deviation for a sample. To calculate standard deviation across an entire population, use `STDEVPA`.
-* `STDEVA` is equivalent to the square root of the variance, or `SQRT(VARA(...))` using the same dataset.
+- Although `STDEVA` is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+- If the total number of values supplied as `value` arguments is not at least two, `STDEVA` will return the `#DIV/0!` error.
+- `STDEVA` sets each text value encountered to `0` for the purpose of calculation.
+- `STDEVA` calculates standard deviation for a sample. To calculate standard deviation across an entire population, use `STDEVPA`.
+- `STDEVA` is equivalent to the square root of the variance, or `SQRT(VARA(...))` using the same dataset.
 
 ### See Also
 

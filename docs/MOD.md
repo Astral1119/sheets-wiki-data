@@ -9,16 +9,19 @@ Returns the result of the modulo operator, the remainder after a division operat
 
 ### Sample Usage
 
-`MOD(10,4)`
-
-`MOD(A2,B2)`
+```gse
+MOD(10,4)
+MOD(A2,B2)
+```
 
 ### Syntax
 
-`MOD(dividend, divisor)`
+```gse
+MOD(dividend, divisor)
+```
 
-* `dividend` - The number to be divided to find the remainder.
-* `divisor` - The number to divide by.
+- `dividend` - The number to be divided to find the remainder.
+- `divisor` - The number to divide by.
 
 ### Notes
 

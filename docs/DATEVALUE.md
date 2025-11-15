@@ -17,26 +17,28 @@ Converts a provided date string in a known format to a date value.
 
 ### Sample Usage
 
-`DATEVALUE("1969-7-20")`
-
-`DATEVALUE("7/20/1969")`
-
-`DATEVALUE(A2)`
+```gse
+DATEVALUE("1969-7-20")
+DATEVALUE("7/20/1969")
+DATEVALUE(A2)
+```
 
 ### Syntax
 
-`DATEVALUE(date_string)`
+```gse
+DATEVALUE(date_string)
+```
 
-* `date_string` - The string representing the date.
+- `date_string` - The string representing the date.
 
   + Understood formats include any date format which is normally autoconverted when entered, without quotation marks, directly into a cell. Understood formats may depend on region and language settings.
 
 ### Notes
 
-* The input to `DATEVALUE` must be a string - if a number or cell reference to a cell containing a number is provided, the `#VALUE!` error will be returned.
-* `DATEVALUE` returns integers that can be used in formulas. To get dates, [change the cell format to Date](https://support.google.com/docs/answer/56470).
-* If providing an explicit string input to `DATEVALUE` rather than a cell reference, surrounding quotation marks are required.
-* Some date formats are not understood by Google Sheets. To quickly ensure that the desired date format is understood, type an example of it into an empty cell, without quotation marks.
+- The input to `DATEVALUE` must be a string - if a number or cell reference to a cell containing a number is provided, the `#VALUE!` error will be returned.
+- `DATEVALUE` returns integers that can be used in formulas. To get dates, [change the cell format to Date](https://support.google.com/docs/answer/56470).
+- If providing an explicit string input to `DATEVALUE` rather than a cell reference, surrounding quotation marks are required.
+- Some date formats are not understood by Google Sheets. To quickly ensure that the desired date format is understood, type an example of it into an empty cell, without quotation marks.
 
 ### See Also
 

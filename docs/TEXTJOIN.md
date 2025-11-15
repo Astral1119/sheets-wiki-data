@@ -9,18 +9,21 @@ Combines the text from multiple strings and/or arrays, with a specifiable delimi
 
 ### Sample Usage
 
-`TEXTJOIN(“ “, TRUE, “hello”, “world”)`
-
-`TEXTJOIN(“, ”, FALSE, A1:A5)`
+```gse
+TEXTJOIN(“ “, TRUE, “hello”, “world”)
+TEXTJOIN(“, ”, FALSE, A1:A5)
+```
 
 ### Syntax
 
-`TEXTJOIN(delimiter, ignore_empty, text1, [text2, ...])`
+```gse
+TEXTJOIN(delimiter, ignore_empty, text1, [text2, ...])
+```
 
-* `delimiter` - A string, possibly empty, or a reference to a valid string. If empty, text will be simply concatenated.
-* `ignore_empty` - A boolean; if `TRUE`, empty cells selected in the text arguments won't be included in the result.
-* `text1` - Any text item. This could be a string, or an array of strings in a range.
-* `text2, ... [OPTIONAL]` - Additional text item(s).
+- `delimiter` - A string, possibly empty, or a reference to a valid string. If empty, text will be simply concatenated.
+- `ignore_empty` - A boolean; if `TRUE`, empty cells selected in the text arguments won't be included in the result.
+- `text1` - Any text item. This could be a string, or an array of strings in a range.
+- `text2, ... [OPTIONAL]` - Additional text item(s).
 
 ### See Also
 

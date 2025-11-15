@@ -9,15 +9,19 @@ Returns the logical value `TRUE`.
 
 ### Sample Usage
 
-`TRUE()`
+```gse
+TRUE()
+```
 
 ### Syntax
 
-`TRUE()`
+```gse
+TRUE()
+```
 
 ### Notes
 
-* In most cases, Google Sheets will automatically convert the `TRUE` literal to the logical `TRUE` value, equivalent to this function.
+- In most cases, Google Sheets will automatically convert the `TRUE` literal to the logical `TRUE` value, equivalent to this function.
 
 ### See Also
 

@@ -9,20 +9,23 @@ Calculates the matrix product of two matrices specified as arrays or ranges.
 
 ### Sample Usage
 
-`MMULT(A1:B3,C1:F2)`
-
-`MMULT({1,2,3;4,5,6},{7;8;9})`
+```gse
+MMULT(A1:B3,C1:F2)
+MMULT({1,2,3;4,5,6},{7;8;9})
+```
 
 ### Syntax
 
-`MMULT(matrix1, matrix2)`
+```gse
+MMULT(matrix1, matrix2)
+```
 
-* `matrix1` - The first matrix in the matrix multiplication operation, represented as an array or range.
-* `matrix2` - The second matrix in the matrix multiplication operation, represented as an array or range.
+- `matrix1` - The first matrix in the matrix multiplication operation, represented as an array or range.
+- `matrix2` - The second matrix in the matrix multiplication operation, represented as an array or range.
 
 ### Notes
 
-* As standard in matrix multiplication, the number of columns for `matrix1` must equal the number of rows for `matrix2`
+- As standard in matrix multiplication, the number of columns for `matrix1` must equal the number of rows for `matrix2`
 
 ### See Also
 
