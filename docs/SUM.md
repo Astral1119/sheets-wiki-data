@@ -3,31 +3,10 @@ tags:
   - function
   - generated
   - math
+  - modified
 ---
 
 Returns the sum of a series of numbers and/or cells.
-
-### 
-
-SUM for BigQuery
-
-Returns the sum of a data column.
-
-### Sample Usage
-
-```gse
-=SUM(table_name!inventory)
-```
-
-### Syntax
-
-```gse
-SUM(column)
-```
-
-- `column`- The data column to consider when calculating the sum.
-
-**Tip:** Returning sum across multiple columns is not supported.
 
 ### Sample Usage
 
