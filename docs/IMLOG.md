@@ -7,8 +7,7 @@ tags:
 
 The IMLOG function returns the logarithm of a complex number for a specified base.
 
-### Parts of an IMLOG formula
-
+### Syntax
 The `IMLOG` formula is formatted as `=IMLOG(value, base)`.
 
 | Part | Description | Notes |

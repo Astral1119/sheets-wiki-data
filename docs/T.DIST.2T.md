@@ -7,8 +7,7 @@ tags:
 
 The T.DIST.2T function returns the two tailed Student distribution for a value x. Along with `T.DIST.RT`, this function replaces `TDIST` and is equivalent to calling `TDIST` with the tails argument set to 2.
 
-### Parts of a T.DIST.2T function
-
+### Syntax
 ```gse
 T.DIST.2T(x, degrees_freedom)
 ```

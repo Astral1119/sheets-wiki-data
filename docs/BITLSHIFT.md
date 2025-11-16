@@ -7,8 +7,7 @@ tags:
 
 The BITLSHIFT function shifts the bits of the input a certain number of places to the left. Bits on the right are filled with zeroes (0s).
 
-### Parts of a BITLSHIFT function
-
+### Syntax
 ```gse
 BITLSHIFT(value,shift_amount)
 ```

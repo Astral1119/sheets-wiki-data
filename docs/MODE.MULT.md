@@ -7,8 +7,7 @@ tags:
 
 The MODE.MULT function returns the most commonly occurring values in a dataset.
 
-### Parts of a MODE.MULT function
-
+### Syntax
 ```gse
 MODE.MULT(value1, value2)
 ```

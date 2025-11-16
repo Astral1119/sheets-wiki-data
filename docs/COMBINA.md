@@ -7,8 +7,7 @@ tags:
 
 The COMBINA function returns the number of ways to choose some number of objects from a pool of a given size of objects, including ways to choose the same object multiple times (also known as choosing with replacement).
 
-### Parts of a COMBINA function
-
+### Syntax
 ```gse
 COMBINA(n, k)
 ```

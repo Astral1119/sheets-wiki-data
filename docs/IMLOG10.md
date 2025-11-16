@@ -7,8 +7,7 @@ tags:
 
 The IMLOG10 function returns the logarithm of a complex number with base 10.
 
-### Parts of an IMLOG10 formula
-
+### Syntax
 ```gse
 IMLOG10(value)
 ```

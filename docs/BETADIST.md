@@ -7,8 +7,7 @@ tags:
 
 The BETA.DIST function returns the probability of a given value as defined by the beta distribution function.
 
-### Parts of a BETA.DIST function
-
+### Syntax
 ```gse
 BETA.DIST(value, alpha, beta, lower_bound, upper_bound)
 ```

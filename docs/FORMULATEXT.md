@@ -7,8 +7,7 @@ tags:
 
 The FORMULATEXT function returns a formula as a string.
 
-### Parts of a FORMULATEXT function
-
+### Syntax
 ```gse
 FORMULATEXT(cell)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The RANDARRAY function generates an array of random numbers between 0 and 1. The size of the array is determined by the provided rows and columns arguments.
 
-### Parts of a RANDARRAY function
-
+### Syntax
 ```gse
 RANDARRAY(rows, columns)
 ```

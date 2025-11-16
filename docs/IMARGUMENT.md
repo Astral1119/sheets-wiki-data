@@ -7,8 +7,7 @@ tags:
 
 The IMARGUMENT function returns the angle (also known as the argument, or theta) of the given complex number in radians. This is the angle θ such that, for any complex number in Cartesian form x + yi, x + yi = reiθ where r is the magnitude of the number.
 
-### Parts of an IMARGUMENT formula
-
+### Syntax
 ```gse
 =IMARGUMENT(number)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The FLOOR.MATH function rounds a number down to the nearest integer or a multiple of specified significance, with negative numbers rounding toward or away from zero depending on the mode.
 
-### Parts of a FLOOR.MATH function
-
+### Syntax
 ```gse
 FLOOR.MATH(number, [significance], [mode])
 ```

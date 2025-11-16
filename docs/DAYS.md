@@ -7,8 +7,7 @@ tags:
 
 The DAYS function returns the number of days between two dates.
 
-### Parts of a DAYS function
-
+### Syntax
 ```gse
 DAYS(end_date,start_date)
 ```

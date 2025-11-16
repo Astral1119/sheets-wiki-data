@@ -7,8 +7,7 @@ tags:
 
 The FLOOR.PRECISE functions rounds a number down to the nearest integer or multiple of specified significance.
 
-### Parts of a FLOOR.PRECISE formula
-
+### Syntax
 ```gse
 FLOOR.PRECISE(number, [significance])
 ```

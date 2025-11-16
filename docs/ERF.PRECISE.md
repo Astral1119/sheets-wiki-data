@@ -7,8 +7,7 @@ tags:
 
 The ERF function returns the integral of the Gauss error function over an interval of values.
 
-### Parts of an ERF formula
-
+### Syntax
 ```gse
 ERF(lower_bound, [upper_bound])
 ```

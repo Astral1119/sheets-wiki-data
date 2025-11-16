@@ -7,8 +7,7 @@ tags:
 
 The IMCOS function returns the cosine of the given complex number. For example, a given complex number "x+yi" returns "cos(x+yi)."
 
-### Parts of an IMCOS formula
-
+### Syntax
 ```gse
 IMCOS(number)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The PDURATION function returns the number of periods for an investment to reach a specific value at a given rate. Mathematically, `PDURATION` = (log(futureValue) - log (currentValue))/(log(1 + rate)).
 
-### Parts of a PDURATION function
-
+### Syntax
 ```gse
 PDURATION(rate, present_value, future_value)
 ```

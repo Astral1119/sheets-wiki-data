@@ -7,8 +7,7 @@ tags:
 
 The PERMUTATIONA function returns the number of permutations for selecting a group of objects (with replacement) from a total number of objects. Mathematically, it is equivalent to raising the total number of objects to the number of objects being chosen.
 
-### Parts of a PERMUTATIONA function
-
+### Syntax
 ```gse
 PERMUTATIONA(number, number_chosen)
 ```

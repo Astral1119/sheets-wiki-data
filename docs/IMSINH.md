@@ -8,8 +8,7 @@ tags:
 The IMSINH function returns the hyperbolic sine of the given complex number.
  For example, a given complex number "x+yi" returns "sinh(x+yi)."
 
-### Parts of an IMSINH function
-
+### Syntax
 ```gse
 IMSINH(number)
 ```

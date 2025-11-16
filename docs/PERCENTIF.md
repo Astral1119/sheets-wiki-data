@@ -7,8 +7,7 @@ tags:
 
 Returns the percentage of a range that meets a condition.
 
-### Parts of a PERCENTIF function
-
+### Syntax
 PERCENTIF(range, criterion)
 
 | Part | Description |

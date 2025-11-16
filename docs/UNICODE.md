@@ -7,8 +7,7 @@ tags:
 
 The `UNICODE` function returns the decimal Unicode value of the first character of the text.
 
-### Parts of a UNICODE function
-
+### Syntax
 ```gse
 UNICODE(text)
 ```

@@ -7,8 +7,7 @@ tags:
 
 Returns unique rows in the provided source range, discarding duplicates. Rows are returned in the order in which they first appear in the source range.
 
-### Parts of a UNIQUE function
-
+### Syntax
 ```gse
 UNIQUE(range, by_column, exactly_once)
 ```

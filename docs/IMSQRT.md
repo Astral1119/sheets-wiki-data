@@ -7,8 +7,7 @@ tags:
 
 The `IMSQRT` function computes the square root of a complex number.
 
-### Parts of a IMSQRT function
-
+### Syntax
 The `IMSQRT` formula is formatted as `=IMSQRT(complex_number).`
 
 | **Part** | **Description** | **Notes** |

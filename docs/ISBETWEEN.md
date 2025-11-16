@@ -7,8 +7,7 @@ tags:
 
 Checks whether a provided number is between two other numbers either inclusively or exclusively.
 
-### Parts of a ISBETWEEN function
-
+### Syntax
 ```gse
 ISBETWEEN(value_to_compare, lower_value, upper_value, lower_value_is_inclusive, upper_value_is_inclusive)
 ```

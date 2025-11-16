@@ -7,8 +7,7 @@ tags:
 
 The AMORLINC function returns the depreciation for an accounting period, or the prorated depreciation if the asset was purchased in the middle of a period.This function is available for users of the French accounting system.
 
-### Parts of an AMORLINC function
-
+### Syntax
 ```gse
 AMORLINC(cost, purchase_date, first_period_end, salvage, period, rate, [basis])
 ```

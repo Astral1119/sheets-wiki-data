@@ -7,8 +7,7 @@ tags:
 
 The DECIMAL function converts the text representation of a number in another base, to base 10 (decimal).
 
-### Parts of a DECIMAL formula
-
+### Syntax
 ```gse
 DECIMAL(value, base)
 ```

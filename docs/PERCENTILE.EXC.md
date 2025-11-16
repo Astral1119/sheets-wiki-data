@@ -7,8 +7,7 @@ tags:
 
 The PERCENTILE.EXC function returns the value at a given percentile of a dataset, exclusive of 0 and 1.
 
-### Parts of a PERCENTILE.EXC function
-
+### Syntax
 ```gse
 PERCENTILE.EXC(data, percentile)
 ```

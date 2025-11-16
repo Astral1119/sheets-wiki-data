@@ -7,8 +7,7 @@ tags:
 
 The COTH function returns the hyperbolic cotangent of any real number.
 
-### Parts of a COTH function
-
+### Syntax
 ```gse
 COTH(value)
 ```

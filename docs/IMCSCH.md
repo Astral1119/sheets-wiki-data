@@ -8,8 +8,7 @@ tags:
 The IMCSCH function returns the hyperbolic cosecant of the given complex number.
  For example, a given complex number "x+yi" returns "csch(x+yi)."
 
-### Parts of an IMCSCH function
-
+### Syntax
 ```gse
 IMCSCH(number)
 ```

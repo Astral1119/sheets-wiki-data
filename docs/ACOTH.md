@@ -7,8 +7,7 @@ tags:
 
 The ACOTH function returns the inverse hyperbolic cotangent of a value in radians.
 
-### Parts of an ACOTH function
-
+### Syntax
 ```gse
 ACOTH(value)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The `IMPOWER` function returns a complex number raised to a power.
 
-### Parts of a IMPOWER formula
-
+### Syntax
 The `IMPOWER` formula is formatted as `=IMPOWER(complex_base, exponent).`
 
 | **Part** | **Description** | **Notes** |

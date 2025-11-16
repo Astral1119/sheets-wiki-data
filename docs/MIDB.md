@@ -7,8 +7,7 @@ tags:
 
 The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
 
-### Parts of a MIDB function
-
+### Syntax
 ```gse
 MIDB(string, starting_at, extract_length_bytes)
 ```

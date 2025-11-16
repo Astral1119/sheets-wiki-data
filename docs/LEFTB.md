@@ -7,8 +7,7 @@ tags:
 
 The LEFTB function returns the left portion of a string up to a certain number of bytes.
 
-### Parts of a LEFTB function
-
+### Syntax
 ```gse
 LEFTB(string, num_of_bytes)
 ```

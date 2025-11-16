@@ -7,8 +7,7 @@ tags:
 
 Encodes text so it can be used in the query string of a URL.
 
-### Parts of an ENCODEURL function
-
+### Syntax
 ```gse
 ENCODEURL(text)
 ```

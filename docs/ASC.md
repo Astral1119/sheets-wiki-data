@@ -7,8 +7,7 @@ tags:
 
 The ASC function converts full-width ASCII and Katakana characters to their half-width counterparts.  All standard-width characters remain unchanged by the ASC function.
 
-### Parts of a ASC function
-
+### Syntax
 ```gse
 =ASC(text)
 ```

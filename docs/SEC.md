@@ -7,8 +7,7 @@ tags:
 
 The SEC function returns the secant of an angle measured in radians.
 
-### Parts of a SEC formula
-
+### Syntax
 ```gse
 SEC(angle)
 ```

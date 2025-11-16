@@ -7,8 +7,7 @@ tags:
 
 The BASE function converts a decimal number into a text representation in another base. For example, base 2 for binary.
 
-### Parts of a BASE function
-
+### Syntax
 ```gse
 BASE(value, base, [min_length])
 ```

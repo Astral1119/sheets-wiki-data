@@ -7,8 +7,7 @@ tags:
 
 The COT function returns the cotangent of an angle provided in radians.
 
-### Parts of a COT function
-
+### Syntax
 ```gse
 COT(angle)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The IMSEC function returns the secant of the given complex number. For example, a given complex number "x+yi" returns "sec(x+yi)."
 
-### Parts of an IMSEC function
-
+### Syntax
 ```gse
 IMSEC(number)
 ```

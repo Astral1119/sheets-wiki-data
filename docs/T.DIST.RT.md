@@ -7,8 +7,7 @@ tags:
 
 Returns the right tailed Student distribution for a value x. Along with `T.DIST.2T,` this function replaces `TDIST` and is equivalent to calling `TDIST` with the tails argument set to 1.
 
-### Parts of a T.DIST.RT function
-
+### Syntax
 ```gse
 T.DIST.2T(x, degrees_freedom)
 ```

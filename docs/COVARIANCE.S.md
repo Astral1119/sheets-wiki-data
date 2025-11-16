@@ -7,8 +7,7 @@ tags:
 
 The COVARIANCE.S function calculates the covariance of a dataset, where the dataset is a sample of the total population.
 
-### Parts of a COVARIANCE.S function
-
+### Syntax
 ```gse
 COVARIANCE.S(data_y, data_x)
 ```

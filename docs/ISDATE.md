@@ -7,8 +7,7 @@ tags:
 
 The ISDATE function returns whether a value is a date.
 
-### Parts of an ISDATE function
-
+### Syntax
 ```gse
 ISDATE(value)
 ```

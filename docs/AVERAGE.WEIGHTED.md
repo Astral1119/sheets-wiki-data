@@ -7,8 +7,7 @@ tags:
 
 The AVERAGE.WEIGHTED function finds the weighted average of a set of values, given the values and the corresponding weights.
 
-### Parts of an AVERAGE.WEIGHTED function
-
+### Syntax
 ```gse
 AVERAGE.WEIGHTED(values, weights, [additional values], [additional weights])
 ```

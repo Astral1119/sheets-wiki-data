@@ -7,8 +7,7 @@ tags:
 
 The CEILING.PRECISE function rounds a number up to the nearest integer or multiple of specified significance. If the number is positive or negative, it's rounded up.
 
-### Parts of a CEILING.PRECISE formula
-
+### Syntax
 ```gse
 CEILING.PRECISE(number, [significance])
 ```

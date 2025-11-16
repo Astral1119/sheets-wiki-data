@@ -7,8 +7,7 @@ tags:
 
 The IMLOG2 function returns the logarithm of a complex number with base 2.
 
-### Parts of an IMLOG2 formula
-
+### Syntax
 ```gse
 IMLOG2(value)
 ```

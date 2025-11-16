@@ -15,8 +15,7 @@ The BITAND function returns the bitwise boolean AND of two numbers. [Learn more.
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-### Parts of a BITAND function
-
+### Syntax
 ```gse
 BITAND(value1,value2)
 ```

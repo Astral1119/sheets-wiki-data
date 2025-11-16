@@ -7,8 +7,7 @@ tags:
 
 The `YIELDMAT` function calculates the annual yield of a security paying interest at maturity, based on price.
 
-### Parts of a YIELDMAT formula
-
+### Syntax
 The `YIELDMAT` formula is formatted as `=YIELDMAT(settlement, maturity, issue, rate, price, [day_count_convention]).`
 
 | **Part** | **Description** | **Notes** |

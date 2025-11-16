@@ -7,8 +7,7 @@ tags:
 
 Returns the Unicode character for a number. This method supports returning characters in both the UTF-8 and UTF-16 character set.
 
-### Parts of a UNICHAR function
-
+### Syntax
 ```gse
 UNICHAR(number)
 ```

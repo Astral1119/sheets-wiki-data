@@ -7,8 +7,7 @@ tags:
 
 The PHI function returns the value of the density function for a normal distribution with mean 0 and standard deviation 1, calculated with the formula ![](https://screenshot.googleplex.com/ic8chm1AB8s.png).
 
-### Parts of a PHI function
-
+### Syntax
 ```gse
 PHI(x)
 ```

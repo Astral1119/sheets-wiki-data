@@ -7,8 +7,7 @@ tags:
 
 The CSCH function returns the hyperbolic cosecant of any real number.
 
-### Parts of a CSCH formula
-
+### Syntax
 ```gse
 CSCH(value)
 ```

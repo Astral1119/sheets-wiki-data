@@ -7,8 +7,7 @@ tags:
 
 The BITXOR function is a bitwise XOR (exclusive or) of 2 numbers that returns a bit of “1” if 2 bits are different, and a bit of “0” otherwise. This function returns a number that's the result of performing an XOR function at each bit of the 2 given numbers.
 
-### Parts of a BITXOR function
-
+### Syntax
 ```gse
 BITXOR(value1, value2)
 ```

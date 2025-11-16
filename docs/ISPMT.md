@@ -7,8 +7,7 @@ tags:
 
 The ISPMT function calculates the interest paid during a particular period of an investment.
 
-### Parts of an ISPMT formula
-
+### Syntax
 ```gse
 ISPMT(rate, period, number_of_periods, present_value)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The VDB function returns the depreciation of an asset for a particular period (or partial period).
 
-### Parts of a VDB function
-
+### Syntax
 ```gse
 VDB(cost, salvage, life, start_period, end_period, [factor], [no_switch])
 ```

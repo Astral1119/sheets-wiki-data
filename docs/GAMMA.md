@@ -7,8 +7,7 @@ tags:
 
 The GAMMA function returns the Gamma function evaluated at the specified value.
 
-### Parts of a GAMMA function
-
+### Syntax
 ```gse
 GAMMA(number)
 ```

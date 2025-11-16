@@ -7,8 +7,7 @@ tags:
 
 The REPLACEB function replaces part of a text string, based on a number of bytes, with a different text string.
 
-### Parts of a REPLACEB function
-
+### Syntax
 ```gse
 REPLACEB(text, position, num_bytes, new_text)
 ```

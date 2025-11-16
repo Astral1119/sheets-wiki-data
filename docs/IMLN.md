@@ -7,8 +7,7 @@ tags:
 
 The `IMLN` function returns the logarithm of a complex number, base e (Euler's number).
 
-### Parts of a IMLN formula
-
+### Syntax
 The `IMLN` formula is formatted as `=IIMLN(number).`
 
 | **Part** | **Description** | **Notes** |

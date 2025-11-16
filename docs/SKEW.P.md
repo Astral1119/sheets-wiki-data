@@ -7,8 +7,7 @@ tags:
 
 The SKEW.P function calculates the skewness of a dataset that represents the entire population. Skewness describes the symmetry of that dataset about the mean.
 
-### Parts of a SKEW.P function
-
+### Syntax
 ```gse
 SKEW.P(value1, value2)
 ```

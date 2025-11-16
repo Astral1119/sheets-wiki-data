@@ -7,8 +7,7 @@ tags:
 
 The GAMMA.INV function returns the value of the inverse gamma cumulative distribution function for the specified probability, alpha, and beta parameters.
 
-### Parts of a GAMMA.INV formula
-
+### Syntax
 ```gse
 GAMMA.INV(probability, alpha, beta)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The LENB function returns the length of a string in bytes.
 
-### Parts of a LENB function
-
+### Syntax
 ```gse
 LENB(string)
 ```

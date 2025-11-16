@@ -8,8 +8,7 @@ tags:
 The IMSECH function returns the hyperbolic secant of the given complex number.
  For example, a given complex number "x+yi" returns "sech(x+yi)."
 
-### Parts of an IMSECH function
-
+### Syntax
 ```gse
 IMSECH(number)
 ```

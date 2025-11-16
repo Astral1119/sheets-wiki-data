@@ -37,8 +37,7 @@ COUNTUNIQUEIFS(A2:A10, B2:B10, ">20", C2:C10, "<30")
 COUNTUNIQUEIFS(A2:A10, D2:D10, "Yes")
 ```
 
-### Parts of a COUNTUNIQUEIFS function
-
+### Syntax
 ```gse
 COUNTUNIQUEIFS(count_unique_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])
 ```

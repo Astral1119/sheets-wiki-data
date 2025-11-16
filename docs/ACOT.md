@@ -7,8 +7,7 @@ tags:
 
 The ACOT function returns the inverse cotangent of a value in radians.
 
-### Parts of an ACOT function
-
+### Syntax
 ```gse
 ACOT(value)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The IMCOT function returns the cotangent of the given complex number. For example, a given complex number "x+yi" returns "cot(x+yi)."
 
-### Parts of an IMCOT function
-
+### Syntax
 ```gse
 IMCOT(number)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The BITRSHIFT function shifts the bits of the input a certain number of places to the right. Bits on the left are filled with zeroes.
 
-### Parts of a BITRSHIFT function
-
+### Syntax
 ```gse
 BITRSHIFT(value, shift_amount)
 ```

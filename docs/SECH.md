@@ -7,8 +7,7 @@ tags:
 
 The SECH function returns the hyperbolic secant of an angle.
 
-### Parts of a SECH formula
-
+### Syntax
 ```gse
 SECH(value)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The BETA.INV function returns the value of the inverse beta distribution function for a given probability.
 
-### Parts of a BETA.INV function
-
+### Syntax
 ```gse
 BETA.INV(probability, alpha, beta, lower_bound, upper_bound)
 ```

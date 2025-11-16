@@ -7,8 +7,7 @@ tags:
 
 The IMSIN function returns the sine of the given complex number. For example, a given complex number "x+yi" returns "sin(x+yi)."
 
-### Parts of an IMSIN function
-
+### Syntax
 ```gse
 IMSIN (number)
 ```

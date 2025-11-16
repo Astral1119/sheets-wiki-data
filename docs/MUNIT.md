@@ -15,8 +15,7 @@ The MUNIT function returns a unit matrix of size dimension x dimension. The res
 
 0 0 … 1
 
-### Parts of a MUNIT function
-
+### Syntax
 ```gse
 MUNIT(dimension)
 ```

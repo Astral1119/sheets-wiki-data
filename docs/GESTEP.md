@@ -7,8 +7,7 @@ tags:
 
 The GESTEP function returns 1 if the rate is strictly greater than or equal to the provided step value, or 0 otherwise. If no step value is provided, then the default value of 0 is used.
 
-### Parts of a GESTEP function
-
+### Syntax
 ```gse
 GESTEP(value,[step])
 ```

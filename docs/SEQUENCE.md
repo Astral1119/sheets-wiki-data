@@ -7,8 +7,7 @@ tags:
 
 The SEQUENCE function returns an array of sequential numbers, such as 1, 2, 3, 4.
 
-### Parts of a SEQUENCE function
-
+### Syntax
 ```gse
 SEQUENCE(rows, columns, start, step)
 ```

@@ -7,8 +7,7 @@ tags:
 
 The RIGHTB function returns the right portion of a string up to a certain number of bytes.
 
-### Parts of a RIGHTB function
-
+### Syntax
 ```gse
 RIGHTB(string, num_of_bytes)
 ```

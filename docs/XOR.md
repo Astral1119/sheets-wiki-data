@@ -7,8 +7,7 @@ tags:
 
 The XOR function returns TRUE if an odd number of the provided arguments are logically true, and FALSE otherwise.
 
-### Parts of a XOR formula
-
+### Syntax
 ```gse
 XOR(logical_expression1, [logical_expression2, ...])
 ```

@@ -7,8 +7,7 @@ tags:
 
 The QUARTILE.EXC function returns value nearest to a given quartile of a dataset, exclusive of 0 and 4.
 
-### Parts of a QUARTILE.EXC function
-
+### Syntax
 ```gse
 QUARTILE.EXC(data, quartile_number)
 ```

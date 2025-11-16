@@ -7,8 +7,7 @@ tags:
 
 The IMEXP function returns Euler's number, e (~2.718) raised to a complex power.
 
-### Parts of a IMEXP function
-
+### Syntax
 `IMEXP`(exponent)
 
 | Part | Description |

@@ -7,8 +7,7 @@ tags:
 
 The IFNA function evaluates a value. If the value is an `#N/A` error, return the specified value.
 
-### Parts of an IFNA function
-
+### Syntax
 ```gse
 IFNA(value, value_if_na)
 ```

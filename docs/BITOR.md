@@ -15,8 +15,7 @@ The BITOR function returns the bitwise Boolean OR of 2 numbers. The BITOR truth
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-### Parts of a BITOR function
-
+### Syntax
 ```gse
 BITOR(value1, value2)
 ```

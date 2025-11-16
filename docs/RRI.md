@@ -7,8 +7,7 @@ tags:
 
 The RRI function returns the interest rate needed for an investment to reach a specific value within a given number of periods.
 
-### Parts of a RRI function
-
+### Syntax
 ```gse
 RRI(number_of_periods, present_value, future_value)
 ```

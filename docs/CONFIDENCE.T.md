@@ -7,8 +7,7 @@ tags:
 
 The CONFIDENCE.T function calculates the width of half the confidence interval for a student's t-distribution.
 
-### Parts of a CONFIDENCE.T function
-
+### Syntax
 ```gse
 CONFIDENCE.T(alpha, standard_deviation, size)
 ```

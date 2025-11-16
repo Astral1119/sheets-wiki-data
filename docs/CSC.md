@@ -7,8 +7,7 @@ tags:
 
 The CSC function returns the cosecant of an angle provided in radians.
 
-### Parts of a CSC function
-
+### Syntax
 ```gse
 CSC(angle)
 ```

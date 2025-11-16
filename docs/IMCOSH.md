@@ -7,8 +7,7 @@ tags:
 
 The IMCOSH function returns the hyperbolic cosine of the given complex number.  For example, a given complex number "x+yi" returns "cosh(x+yi)."
 
-### Parts of an IMCOSH formula
-
+### Syntax
 ```gse
 IMCOSH(number)
 ```

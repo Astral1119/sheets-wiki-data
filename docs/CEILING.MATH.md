@@ -7,8 +7,7 @@ tags:
 
 The CEILING.MATH function rounds a number up to the nearest integer or to the nearest multiple of specified significance. It also specifies whether the number is rounded toward or away from 0 depending on the mode.
 
-### Parts of a CEILING.MATH function
-
+### Syntax
 ```gse
 CEILING.MATH(number, [significance], [mode])
 ```

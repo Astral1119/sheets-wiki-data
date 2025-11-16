@@ -7,8 +7,7 @@ tags:
 
 The IMCOTH function returns the hyperbolic cotangent of the given complex number. For example, a given complex number "x+yi" returns "coth(x+yi)."
 
-### Parts of an IMCOTH function
-
+### Syntax
 ```gse
 IMCOTH(number)
 ```
