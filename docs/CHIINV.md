@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/7003198?hl=en).
 
 Calculates the inverse of the right-tailed chi-squared distribution.
 

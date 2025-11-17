@@ -4,6 +4,8 @@ tags:
   - generated
   - info
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093354?hl=en).
 
 Checks whether a value is a valid cell reference.
 

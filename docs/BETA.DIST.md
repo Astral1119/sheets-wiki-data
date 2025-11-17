@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084228?hl=en).
 
 The BETA.DIST function returns the probability of a given value as defined by the beta distribution function.
 

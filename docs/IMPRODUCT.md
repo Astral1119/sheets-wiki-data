@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/7409679?hl=en).
 
 Returns the result of multiplying a series of complex numbers together.
 

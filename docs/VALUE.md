@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094220?hl=en).
 
 Converts a string in any of the date, time or number formats that Google Sheets understands into a number.
 

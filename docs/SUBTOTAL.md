@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093649?hl=en).
 
 Returns a subtotal for a vertical range of cells using a specified aggregation function.
 

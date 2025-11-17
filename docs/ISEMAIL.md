@@ -4,6 +4,8 @@ tags:
   - generated
   - info
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3256503?hl=en).
 
 This function checks if a value is a valid email address against certain 2-letter country or region codes and top-level domains including:
 

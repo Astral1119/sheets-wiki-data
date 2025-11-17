@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/7013992?hl=en).
 
 Combines the text from multiple strings and/or arrays, with a specifiable delimiter separating the different texts.
 

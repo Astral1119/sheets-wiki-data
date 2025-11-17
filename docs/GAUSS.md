@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116278?hl=en).
 
 The GAUSS function returns the probability that a random variable, drawn from a normal distribution, will be between the mean and *z* standard deviations above (or below) the mean. A normal distribution is also commonly known as a Gaussian distribution, from which this function gets its name.
 

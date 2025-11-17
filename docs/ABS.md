@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093459?hl=en).
 
 Returns the absolute value of a number.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084097?hl=en).
 
 The ACOTH function returns the inverse hyperbolic cotangent of a value in radians.
 

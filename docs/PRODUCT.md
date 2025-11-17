@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093502?hl=en).
 
 Returns the result of multiplying a series of numbers together.
 

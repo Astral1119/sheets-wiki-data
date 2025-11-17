@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094120?hl=en).
 
 Convert a number into a character according to the current Unicode table.
 

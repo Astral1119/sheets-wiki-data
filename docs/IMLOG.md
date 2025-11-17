@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366486?hl=en).
 
 The IMLOG function returns the logarithm of a complex number for a specified base.
 

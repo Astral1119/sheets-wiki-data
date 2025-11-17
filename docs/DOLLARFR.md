@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093217?hl=en).
 
 Converts a price quotation given as a decimal value into a decimal fraction.
 

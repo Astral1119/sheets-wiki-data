@@ -4,6 +4,8 @@ tags:
   - generated
   - unknown
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9983035?hl=en).
 
 Returns the percentage of a range that meets a condition.
 

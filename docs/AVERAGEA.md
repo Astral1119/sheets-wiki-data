@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093617?hl=en).
 
 Returns the numerical average value in a dataset.
 

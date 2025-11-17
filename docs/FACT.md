@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093412?hl=en).
 
 The FACT function returns the factorial of a number.
 

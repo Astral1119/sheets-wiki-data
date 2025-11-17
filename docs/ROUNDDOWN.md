@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093442?hl=en).
 
 The ROUNDDOWN function rounds a number to a certain number of decimal places, always rounding down to the next valid increment.
 

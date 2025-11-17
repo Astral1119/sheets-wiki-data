@@ -4,6 +4,8 @@ tags:
   - generated
   - parser
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055540?hl=en).
 
 Converts a numeric value to a different unit of measure.
 

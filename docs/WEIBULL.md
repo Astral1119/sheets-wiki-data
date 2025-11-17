@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094116?hl=en).
 
 Returns the value of the Weibull distribution function (or Weibull cumulative distribution function) for a specified shape and scale.
 

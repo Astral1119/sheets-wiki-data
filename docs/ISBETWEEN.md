@@ -4,6 +4,8 @@ tags:
   - generated
   - operator
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/10538337?hl=en).
 
 Checks whether a provided number is between two other numbers either inclusively or exclusively.
 

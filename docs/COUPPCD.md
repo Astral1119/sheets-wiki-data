@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093210?hl=en).
 
 Calculates last coupon, or interest payment, date before the settlement date.
 

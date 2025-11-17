@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093039?hl=en).
 
 Converts a provided date string in a known format to a date value.
 

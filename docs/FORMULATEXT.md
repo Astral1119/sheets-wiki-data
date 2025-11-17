@@ -4,6 +4,8 @@ tags:
   - generated
   - lookup
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365792?hl=en).
 
 The FORMULATEXT function returns a formula as a string.
 

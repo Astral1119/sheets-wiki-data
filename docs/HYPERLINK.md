@@ -4,6 +4,8 @@ tags:
   - generated
   - web
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093313?hl=en).
 
 Creates a hyperlink inside a cell.
 

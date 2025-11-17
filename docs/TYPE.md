@@ -4,6 +4,8 @@ tags:
   - generated
   - info
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3267375?hl=en).
 
 Returns a number associated with the type of data passed into the function.
 

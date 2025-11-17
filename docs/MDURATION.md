@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093178?hl=en).
 
 Calculates the modified Macaulay duration of a security paying periodic interest, such as a US Treasury Bond, based on expected yield.
 

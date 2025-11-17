@@ -5,6 +5,8 @@ tags:
   - math
   - modified
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093669?hl=en).
 
 Returns the sum of a series of numbers and/or cells.
 

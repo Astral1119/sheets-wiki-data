@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093208?hl=en).
 
 Calculates the number of coupons, or interest payments, between the settlement date and the maturity date of the investment.
 

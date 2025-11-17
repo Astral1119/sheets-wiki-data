@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/12568597?hl=en).
 
 This function reduces an array to an accumulated result by application of a `LAMBDA` function to each value.
 

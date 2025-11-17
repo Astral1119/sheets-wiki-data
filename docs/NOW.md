@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092981?hl=en).
 
 Returns the current date and time as a date value.
 

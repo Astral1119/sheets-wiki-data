@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093044?hl=en).
 
 Returns a date representing the last day of a month which falls a specified number of months before or after another date.
 

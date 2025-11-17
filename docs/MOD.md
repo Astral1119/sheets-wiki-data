@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093497?hl=en).
 
 Returns the result of the modulo operator, the remainder after a division operation.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9198277?hl=en).
 
 The IMEXP function returns Euler's number, e (~2.718) raised to a complex power.
 

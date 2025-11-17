@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094102?hl=en).
 
 Calculates the normalized equivalent of a random variable given mean and standard deviation of the distribution.
 

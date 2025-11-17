@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093438?hl=en).
 
 Returns a random number between 0 inclusive and 1 exclusive.
 

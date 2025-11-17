@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9369024?hl=en).
 
 Returns the Unicode character for a number. This method supports returning characters in both the UTF-8 and UTF-16 character set.
 

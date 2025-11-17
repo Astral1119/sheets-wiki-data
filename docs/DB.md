@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093162?hl=en).
 
 The DB function calculates the depreciation of an asset for a specified period using the arithmetic declining balance method.
 

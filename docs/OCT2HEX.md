@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093147?hl=en).
 
 The OCT2HEX function converts a signed octal number to signed hexadecimal format.
 

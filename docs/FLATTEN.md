@@ -5,6 +5,8 @@ tags:
   - modified
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/10307761?hl=en).
 
 Flattens all the values from one or more ranges into a single column.
 

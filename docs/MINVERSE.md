@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094253?hl=en).
 
 Returns the multiplicative inverse of a square matrix specified as an array or range.
 

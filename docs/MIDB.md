@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9367691?hl=en).
 
 The MIDB function returns a section of a string starting at a given character and up to a specified number of bytes.
 

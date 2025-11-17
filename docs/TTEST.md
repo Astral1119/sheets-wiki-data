@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055837?hl=en).
 
 Returns the probability associated with t-test. Determines whether two samples are likely to have come from the same two underlying populations that have the same mean.
 

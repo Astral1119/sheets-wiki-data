@@ -4,6 +4,8 @@ tags:
   - generated
   - operator
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093977?hl=en).
 
 Returns the difference of two numbers. Equivalent to the `-` operator.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094298?hl=en).
 
 Calculates the sum of the squares of differences of values in two arrays.
 

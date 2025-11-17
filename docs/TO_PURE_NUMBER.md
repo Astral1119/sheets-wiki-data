@@ -4,6 +4,8 @@ tags:
   - generated
   - parser
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094243?hl=en).
 
 Converts a provided date/time, percentage, currency or other formatted numeric value to a pure number without formatting.
 

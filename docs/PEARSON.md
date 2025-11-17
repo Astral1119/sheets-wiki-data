@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094092?hl=en).
 
 Calculates r, the Pearson product-moment correlation coefficient of a dataset.
 

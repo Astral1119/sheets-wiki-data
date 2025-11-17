@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/12569094?hl=en).
 
 This function scans an array and produces intermediate values by application of a `LAMBDA` function to each value. Returns an array of the intermediate values obtained at each step.
 

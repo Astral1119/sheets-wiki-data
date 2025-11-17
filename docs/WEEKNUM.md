@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3294949?hl=en).
 
 Returns a number representing the week of the year where the provided date falls.
 

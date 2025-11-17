@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9198962?hl=en).
 
 The IMSIN function returns the sine of the given complex number. For example, a given complex number "x+yi" returns "sin(x+yi)."
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093157?hl=en).
 
 Calculates next coupon, or interest payment, date after the settlement date.
 

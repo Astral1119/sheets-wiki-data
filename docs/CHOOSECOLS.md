@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/13197914?hl=en).
 
 This function creates a new array from the selected columns in the existing range.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092979?hl=en).
 
 Returns the number of net working days between two provided days.
 

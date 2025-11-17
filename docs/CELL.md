@@ -3,7 +3,10 @@ tags:
   - function
   - generated
   - info
+  - modified
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3267071?hl=en).
 
 Returns the requested information about the specified cell.
 
@@ -28,7 +31,7 @@ CELL(info_type, reference)
 - `info_type` can be one of the following values:
   + "address" - returns an absolute reference as plain text of the top left cell in `reference`.
   + "col" - returns the column number of the cell in `reference`.
-  + "color" - returns 1 if the top left cell in `reference` is formatted in red for negative values. For example, when the custom number format is #,##0\_);[Red](#,##0), otherwise return 0.
+  + "color" - returns 1 if the top left cell in `reference` is formatted in red for negative values. For example, when the custom number format is `(#,##0);[Red](#,##0)`, otherwise return 0.
   + "contents" - returns the value contained in the top left cell in `reference`.
   + "prefix" - returns a text value based on the horizontal text alignment in the cell in `reference`. A single quotation mark (') is used for left-aligned text, a double quotation mark (“) for right-aligned text, a carat (^) for centered text, and empty for everything else.
   + "row" - returns the row number of the top left cell in `reference`.

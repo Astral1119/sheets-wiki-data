@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/13196659?hl=en).
 
 This function creates a new array from the selected rows in the existing range.
 

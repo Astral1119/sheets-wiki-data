@@ -4,6 +4,8 @@ tags:
   - generated
   - lookup
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093318?hl=en).
 
 If you have known information on your spreadsheet, you can use `VLOOKUP` to search for related information by row. For example, if you want to buy an orange, you can use `VLOOKUP` to search for the price.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094039?hl=en).
 
 Given a set of values and corresponding probabilities, calculates the probability that a value chosen at random falls between two limits.
 

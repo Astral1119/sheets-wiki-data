@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094050?hl=en).
 
 Returns the nth smallest element from a data set, where n is user-defined.
 

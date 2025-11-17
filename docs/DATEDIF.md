@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055612?hl=en).
 
 Calculates the number of days, months, or years between two dates.
 

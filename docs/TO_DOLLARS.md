@@ -4,6 +4,8 @@ tags:
   - generated
   - parser
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094241?hl=en).
 
 Converts a provided number to a dollar value.
 

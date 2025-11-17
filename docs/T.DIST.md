@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9369014?hl=en).
 
 The T.DIST function returns the right tailed Student distribution for a value x. Along with `T.DIST.2T`, this function replaces `TDIST` and is equivalent to calling `TDIST` with the tails argument set to 1.
 

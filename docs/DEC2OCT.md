@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093138?hl=en).
 
 The DEC2OCT function converts a decimal number to signed octal format.
 

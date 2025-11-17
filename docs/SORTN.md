@@ -4,6 +4,8 @@ tags:
   - generated
   - filter
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/7354624?hl=en).
 
 Returns the first n items in a data set after performing a sort.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9003168?hl=en).
 
 The `IMSQRT` function computes the square root of a complex number.
 

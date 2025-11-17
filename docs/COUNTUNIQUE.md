@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093405?hl=en).
 
 Counts the number of unique values in a list of specified values and ranges.
 

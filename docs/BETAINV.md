@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061377?hl=en).
 
 The BETA.INV function returns the value of the inverse beta distribution function for a given probability.
 

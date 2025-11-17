@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094263?hl=en).
 
 Given partial data about a linear trend, fits an ideal linear trend using the least squares method and/or predicts further values.
 

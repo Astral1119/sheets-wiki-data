@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093517?hl=en).
 
 The SINH function returns the hyperbolic sine of any real number.
 

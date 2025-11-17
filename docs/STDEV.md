@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094054?hl=en).
 
 The STDEV function calculates the standard deviation based on a sample.
 

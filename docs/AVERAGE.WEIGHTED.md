@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084098?hl=en).
 
 The AVERAGE.WEIGHTED function finds the weighted average of a set of values, given the values and the corresponding weights.
 

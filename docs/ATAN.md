@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093395?hl=en).
 
 The ATAN function returns the inverse tangent of a value in radians.
 

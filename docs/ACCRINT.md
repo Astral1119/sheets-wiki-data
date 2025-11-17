@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093200?hl=en).
 
 Calculates the accrued interest of a security that has periodic payments.
 

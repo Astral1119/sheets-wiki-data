@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094095?hl=en).
 
 Returns the percentage rank (percentile) of a specified value in a dataset.
 

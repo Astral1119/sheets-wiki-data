@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093223?hl=en).
 
 Calculates the annual effective interest rate given the nominal rate and number of compounding periods per year.
 

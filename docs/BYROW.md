@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/12570930?hl=en).
 
 This function groups an array by rows by application of a `LAMBDA` function to each row.
 

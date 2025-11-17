@@ -4,6 +4,8 @@ tags:
   - generated
   - logical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093305?hl=en).
 
 Returns the opposite of a logical value - `NOT(TRUE)` returns `FALSE`; `NOT(FALSE)` returns `TRUE`.
 

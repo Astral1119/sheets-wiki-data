@@ -4,6 +4,8 @@ tags:
   - generated
   - filter
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093197?hl=en).
 
 Returns a filtered version of the source range, returning only rows or columns that meet the specified conditions.
 

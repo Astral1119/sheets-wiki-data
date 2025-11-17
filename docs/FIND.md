@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094126?hl=en).
 
 Returns the position at which a string is first found within text, case-sensitive.
 

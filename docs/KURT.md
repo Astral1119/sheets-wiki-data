@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093634?hl=en).
 
 Calculates the kurtosis of a dataset, which describes the shape, and in particular the "peakedness" of that dataset.
 

@@ -4,6 +4,8 @@ tags:
   - modified
   - logical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/12508718?hl=en).
 
 You can create and return a custom function with a set of names and a `formula_expression` that uses them. To calculate the `formula_expression`, you can call the returned function with as many values as the `name` declares.
 

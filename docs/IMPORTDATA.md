@@ -4,6 +4,8 @@ tags:
   - generated
   - web
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093335?hl=en).
 
 Imports data at a given url in .csv (comma-separated value) or .tsv (tab-separated value) format.
 

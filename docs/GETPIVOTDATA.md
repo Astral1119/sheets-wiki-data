@@ -4,6 +4,8 @@ tags:
   - generated
   - lookup
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/6167538?hl=en).
 
 Extracts an aggregated value from a pivot table that corresponds to the specified row and column headings.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3401147?hl=en).
 
 Compare two numeric values, returning 1 if they're equal.
 

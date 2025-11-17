@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093468?hl=en).
 
 The ATAN2 function returns the angle between the x-axis and a line segment from the origin (0,0) to the specified coordinate pair (`x`,`y`), in radians.
 

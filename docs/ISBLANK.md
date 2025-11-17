@@ -4,6 +4,8 @@ tags:
   - generated
   - info
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093290?hl=en).
 
 Checks whether the referenced cell is empty.
 

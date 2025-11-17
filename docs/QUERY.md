@@ -4,6 +4,8 @@ tags:
   - modified
   - google
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093343?hl=en).
 
 The QUERY function allows the user to make SQL-like queries using the [Google Visualization API Query Language](https://developers.google.com/chart/interactive/docs/querylanguage) on arrays.
 

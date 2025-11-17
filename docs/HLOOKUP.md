@@ -4,6 +4,8 @@ tags:
   - generated
   - lookup
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093375?hl=en).
 
 Horizontal lookup. Searches across the first row of a range for a key and returns the value of a specified cell in the column found.
 

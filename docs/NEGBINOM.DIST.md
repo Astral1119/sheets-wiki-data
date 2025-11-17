@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094031?hl=en).
 
 Calculates the probability of drawing a certain number of failures before a certain number of successes given a probability of success in independent trials.
 

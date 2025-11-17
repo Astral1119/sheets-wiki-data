@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061294?hl=en).
 
 The CEILING.PRECISE function rounds a number up to the nearest integer or multiple of specified significance. If the number is positive or negative, it's rounded up.
 

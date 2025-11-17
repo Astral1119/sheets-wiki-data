@@ -4,6 +4,8 @@ tags:
   - generated
   - lookup
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093316?hl=en).
 
 Returns the row number of a specified cell.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094000?hl=en).
 
 Calculates the expected y-value for a specified x based on a linear regression of a dataset.
 

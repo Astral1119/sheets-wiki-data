@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093411?hl=en).
 
 Returns Euler's number, e (~2.718) raised to a power.
 

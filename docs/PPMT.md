@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093187?hl=en).
 
 The PPMT function calculates the payment on the principal of an investment based on constant-amount periodic payments and a constant interest rate.
 

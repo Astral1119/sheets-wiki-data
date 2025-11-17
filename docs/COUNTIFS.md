@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3256550?hl=en).
 
 Returns the count of a range depending on multiple criteria.
 

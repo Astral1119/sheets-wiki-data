@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093429?hl=en).
 
 Returns the factorial of the sum of values divided by the product of the values' factorials.
 

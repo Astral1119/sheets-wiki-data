@@ -4,6 +4,8 @@ tags:
   - generated
   - logical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093364?hl=en).
 
 Returns one value if a logical expression is `TRUE` and another if it is `FALSE`.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3098244?hl=en).
 
 Extracts the first matching substrings according to a regular expression.
 

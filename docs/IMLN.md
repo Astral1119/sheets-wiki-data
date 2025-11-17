@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9000651?hl=en).
 
 The `IMLN` function returns the logarithm of a complex number, base e (Euler's number).
 

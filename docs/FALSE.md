@@ -4,6 +4,8 @@ tags:
   - generated
   - logical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093302?hl=en).
 
 Returns the logical value `FALSE`.
 

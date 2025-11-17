@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366258?hl=en).
 
 The IMCSCH function returns the hyperbolic cosecant of the given complex number.
  For example, a given complex number "x+yi" returns "csch(x+yi)."

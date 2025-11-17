@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9367697?hl=en).
 
 The RIGHTB function returns the right portion of a string up to a certain number of bytes.
 

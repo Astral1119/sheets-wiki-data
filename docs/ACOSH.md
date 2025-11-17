@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093391?hl=en).
 
 The ACOSH function returns the inverse hyperbolic cosine of a number.
 

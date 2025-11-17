@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9203334?hl=en).
 
 The IMTAN function returns the tangent of the given complex number. For example, a given complex number "x+yi" returns "tan(x+yi)."
 

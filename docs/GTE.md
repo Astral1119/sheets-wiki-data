@@ -4,6 +4,8 @@ tags:
   - generated
   - operator
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093975?hl=en).
 
 Returns `TRUE` if the first argument is greater than or equal to the second, and `FALSE` otherwise. Equivalent to the `>=` operator.
 

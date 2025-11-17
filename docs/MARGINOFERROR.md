@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/12487850?hl=en).
 
 This function calculates the margin of error from a range of values and a confidence level.
 

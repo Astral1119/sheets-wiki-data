@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3256534?hl=en).
 
 Returns the average of a range depending on multiple criteria.
 

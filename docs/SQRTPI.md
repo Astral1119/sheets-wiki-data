@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093579?hl=en).
 
 Returns the positive square root of the product of Pi and the given positive number.
 

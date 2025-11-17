@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116546?hl=en).
 
 The IMCOS function returns the cosine of the given complex number. For example, a given complex number "x+yi" returns "cos(x+yi)."
 

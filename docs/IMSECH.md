@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366440?hl=en).
 
 The IMSECH function returns the hyperbolic secant of the given complex number.
  For example, a given complex number "x+yi" returns "sech(x+yi)."

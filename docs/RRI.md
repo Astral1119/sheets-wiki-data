@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368238?hl=en).
 
 The RRI function returns the interest rate needed for an investment to reach a specific value within a given number of periods.
 

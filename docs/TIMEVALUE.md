@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3267350?hl=en).
 
 Returns the fraction of a 24-hour day the time represents.
 

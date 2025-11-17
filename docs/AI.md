@@ -11,7 +11,7 @@ aliases:
 > This article refers to Google Workspace Labs, which is a trusted tester program for users to try new AI features. You can sign up for Google Workspace Labs [here](https://workspace.google.com/labs-sign-up/).
 
 > [!WARNING]
-> This article, although originally generated from an official source, was not a documentation article.
+> This article, although originally generated from an [official source](https://support.google.com/docs/answer/15820999), was not a documentation article.
 
 > [!INFO]
 > The `GEMINI` function is an alias for `AI`.

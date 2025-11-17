@@ -5,6 +5,8 @@ tags:
   - logical
   - modified
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/13190535?hl=en).
 
 This function assigns a name with the `value_expression` results and returns the result of the `formula_expression`.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3294972?hl=en).
 
 Calculates the date after a specified number of workdays excluding specified weekend days and holidays.
 

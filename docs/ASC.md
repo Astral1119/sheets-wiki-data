@@ -4,6 +4,8 @@ tags:
   - generated
   - text
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061514?hl=en).
 
 The ASC function converts full-width ASCII and Katakana characters to their half-width counterparts.  All standard-width characters remain unchanged by the ASC function.
 

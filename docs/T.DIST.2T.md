@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368252?hl=en).
 
 The T.DIST.2T function returns the two tailed Student distribution for a value x. Along with `T.DIST.RT`, this function replaces `TDIST` and is equivalent to calling `TDIST` with the tails argument set to 2.
 

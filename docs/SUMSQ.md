@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093714?hl=en).
 
 Returns the sum of the squares of a series of numbers and/or cells.
 

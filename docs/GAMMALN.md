@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093416?hl=en).
 
 Returns the logarithm of a specified Gamma function, base e (Euler's number).
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9199424?hl=en).
 
 The VDB function returns the depreciation of an asset for a particular period (or partial period).
 

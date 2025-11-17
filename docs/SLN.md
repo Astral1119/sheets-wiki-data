@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093245?hl=en).
 
 The SLN function calculates the depreciation of an asset for one period using the straight-line method.
 

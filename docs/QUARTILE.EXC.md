@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368240?hl=en).
 
 The QUARTILE.EXC function returns value nearest to a given quartile of a dataset, exclusive of 0 and 4.
 

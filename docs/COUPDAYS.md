@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093204?hl=en).
 
 Calculates the number of days in the coupon, or interest payment, period that contains the specified settlement date.
 

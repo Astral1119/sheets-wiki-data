@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084100?hl=en).
 
 The BITRSHIFT function shifts the bits of the input a certain number of places to the right. Bits on the left are filled with zeroes.
 

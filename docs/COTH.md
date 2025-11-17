@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084102?hl=en).
 
 The COTH function returns the hyperbolic cotangent of any real number.
 

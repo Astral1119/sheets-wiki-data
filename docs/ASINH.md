@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093393?hl=en).
 
 The ASINH function returns the inverse hyperbolic sine of a number.
 

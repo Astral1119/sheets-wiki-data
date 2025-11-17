@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093995?hl=en).
 
 Returns the value of the exponential distribution function with a specified lambda at a specified value.
 

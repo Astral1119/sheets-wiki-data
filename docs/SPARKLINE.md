@@ -4,6 +4,8 @@ tags:
   - generated
   - google
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093289?hl=en).
 
 Creates a miniature chart contained within a single cell.
 

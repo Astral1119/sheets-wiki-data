@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/13187459?hl=en).
 
 This function transforms an array or range of cells into a single row. TOROW can scan values:
 

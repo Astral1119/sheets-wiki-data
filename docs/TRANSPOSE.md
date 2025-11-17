@@ -4,6 +4,8 @@ tags:
   - generated
   - array
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094262?hl=en).
 
 Transposes the rows and columns of an array or range of cells.
 

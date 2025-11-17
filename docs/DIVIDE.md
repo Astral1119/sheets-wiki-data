@@ -4,6 +4,8 @@ tags:
   - generated
   - operator
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093973?hl=en).
 
 Returns one number divided by another. Equivalent to the `/` operator.
 

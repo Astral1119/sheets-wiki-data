@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9003065?hl=en).
 
 The `IMPOWER` function returns a complex number raised to a power.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368165?hl=en).
 
 The PDURATION function returns the number of periods for an investment to reach a specific value at a given rate. Mathematically, `PDURATION` = (log(futureValue) - log (currentValue))/(log(1 + rate)).
 

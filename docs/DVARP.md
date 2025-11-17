@@ -4,6 +4,8 @@ tags:
   - generated
   - database
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094238?hl=en).
 
 Returns the variance of an entire population selected from a database table-like array or range using a SQL-like query.
 

@@ -4,6 +4,8 @@ tags:
   - generated
   - operator
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/10522653?hl=en).
 
 Returns unique rows in the provided source range, discarding duplicates. Rows are returned in the order in which they first appear in the source range.
 

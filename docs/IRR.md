@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093231?hl=en).
 
 Calculates the internal rate of return on an investment based on a series of periodic cash flows.
 

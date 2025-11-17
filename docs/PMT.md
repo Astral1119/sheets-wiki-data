@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093185?hl=en).
 
 The PMT function calculates the periodic payment for an annuity investment based on constant-amount periodic payments and a constant interest rate.
 

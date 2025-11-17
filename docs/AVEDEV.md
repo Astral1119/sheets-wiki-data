@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093613?hl=en).
 
 Calculates the average of the magnitudes of deviations of data from a dataset's mean.
 

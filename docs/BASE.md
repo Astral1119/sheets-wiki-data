@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084167?hl=en).
 
 The BASE function converts a decimal number into a text representation in another base. For example, base 2 for binary.
 

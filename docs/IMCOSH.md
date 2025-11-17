@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366233?hl=en).
 
 The IMCOSH function returns the hyperbolic cosine of the given complex number.  For example, a given complex number "x+yi" returns "cosh(x+yi)."
 

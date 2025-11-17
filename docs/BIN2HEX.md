@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093133?hl=en).
 
 The BIN2HEX function converts a signed binary number to signed hexadecimal format.
 

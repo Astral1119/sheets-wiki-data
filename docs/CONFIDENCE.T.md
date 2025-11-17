@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365672?hl=en).
 
 The CONFIDENCE.T function calculates the width of half the confidence interval for a student's t-distribution.
 

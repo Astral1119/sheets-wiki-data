@@ -4,6 +4,8 @@ tags:
   - generated
   - info
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093359?hl=en).
 
 Returns the "value not available" error, `#N/A`.
 

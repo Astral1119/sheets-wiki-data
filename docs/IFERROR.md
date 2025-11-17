@@ -4,6 +4,8 @@ tags:
   - generated
   - logical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093304?hl=en).
 
 Returns the first argument if it is not an error value, otherwise returns the second argument if present, or a blank if the second argument is absent.
 

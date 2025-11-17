@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9000132?hl=en).
 
 The `YIELDMAT` function calculates the annual yield of a security paying interest at maturity, based on price.
 

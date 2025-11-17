@@ -4,6 +4,8 @@ tags:
   - generated
   - operator
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093590?hl=en).
 
 Returns the sum of two numbers. Equivalent to the `+` operator.
 

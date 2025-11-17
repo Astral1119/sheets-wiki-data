@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368244?hl=en).
 
 The SEQUENCE function returns an array of sequential numbers, such as 1, 2, 3, 4.
 

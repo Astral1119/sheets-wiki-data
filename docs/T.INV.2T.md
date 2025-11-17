@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055811?hl=en).
 
 The T.INV.2T function calculates the inverse of the two-tailed TDIST function.
 

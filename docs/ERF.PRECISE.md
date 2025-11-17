@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116267?hl=en).
 
 The ERF function returns the integral of the Gauss error function over an interval of values.
 

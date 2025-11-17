@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9083934?hl=en).
 
 The BITOR function returns the bitwise Boolean OR of 2 numbers. The BITOR truth table is below:
 

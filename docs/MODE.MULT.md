@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368267?hl=en).
 
 The MODE.MULT function returns the most commonly occurring values in a dataset.
 

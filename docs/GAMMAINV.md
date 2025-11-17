@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116467?hl=en).
 
 The GAMMA.INV function returns the value of the inverse gamma cumulative distribution function for the specified probability, alpha, and beta parameters.
 

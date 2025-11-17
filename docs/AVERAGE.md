@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093615?hl=en).
 
 The AVERAGE function returns the numerical average value in a dataset, ignoring text.
 

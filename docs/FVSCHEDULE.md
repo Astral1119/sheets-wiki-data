@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093226?hl=en).
 
 The FVSCHEDULE function calculates the future value of some principal based on a specified series of potentially varying interest rates.
 

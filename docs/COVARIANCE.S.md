@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365675?hl=en).
 
 The COVARIANCE.S function calculates the covariance of a dataset, where the dataset is a sample of the total population.
 

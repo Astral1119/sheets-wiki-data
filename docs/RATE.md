@@ -4,6 +4,8 @@ tags:
   - generated
   - financial
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093257?hl=en).
 
 Calculates the interest rate of an annuity investment based on constant-amount periodic payments and the assumption of a constant interest rate.
 

@@ -6,6 +6,8 @@ tags:
   - volatile
   - modified
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093507?hl=en).
 
 Returns a uniformly random integer between two values, inclusive. `RANDBETWEEN` is [[volatile.]]
 

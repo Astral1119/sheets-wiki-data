@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061440?hl=en).
 
 The BITAND function returns the bitwise boolean AND of two numbers. [Learn more.](https://support.google.com/docs/answer/9061440) The truth table of BITAND is provided below:
 

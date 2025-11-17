@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/7013990?hl=en).
 
 The GAMMA.DIST function calculates the gamma distribution, a 2-parameter continuous probability distribution.
 

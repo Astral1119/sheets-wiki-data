@@ -5,6 +5,8 @@ tags:
   - lookup
   - modified
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/12406049?hl=en).
 
 `XMATCH` returns the relative position of an item in an array or range that matches a specified value. `XMATCH`:
 

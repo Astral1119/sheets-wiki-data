@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093988?hl=en).
 
 Calculates the width of half the confidence interval for a normal distribution.
 

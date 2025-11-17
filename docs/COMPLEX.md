@@ -4,6 +4,8 @@ tags:
   - generated
   - engineering
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/7407888?hl=en).
 
 The COMPLEX function creates a complex number, given real and imaginary coefficients.
 

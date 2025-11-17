@@ -4,6 +4,8 @@ tags:
   - generated
   - math
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093513?hl=en).
 
 Given an input number, returns `-1` if it is negative, `1` if positive, and `0` if it is zero.
 

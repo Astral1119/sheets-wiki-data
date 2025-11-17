@@ -4,6 +4,8 @@ tags:
   - generated
   - date
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092989?hl=en).
 
 Returns the number of years, including fractional years, between two dates using a specified day count convention.
 

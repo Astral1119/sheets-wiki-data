@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368324?hl=en).
 
 The PERMUTATIONA function returns the number of permutations for selecting a group of objects (with replacement) from a total number of objects. Mathematically, it is equivalent to raising the total number of objects to the number of objects being chosen.
 

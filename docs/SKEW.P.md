@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368569?hl=en).
 
 The SKEW.P function calculates the skewness of a dataset that represents the entire population. Skewness describes the symmetry of that dataset about the mean.
 

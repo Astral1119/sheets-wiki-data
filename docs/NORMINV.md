@@ -4,6 +4,8 @@ tags:
   - generated
   - statistical
 ---
+> [!INFO]
+> This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094022?hl=en).
 
 Returns the value of the inverse normal distribution function for a specified value, mean, and standard deviation.
 
