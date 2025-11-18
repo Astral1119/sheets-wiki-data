@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the minimum value in a range of cells, filtered by a set of criteria.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7014063?hl=en).

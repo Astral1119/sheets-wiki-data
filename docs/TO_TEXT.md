@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - parser
+description: Converts a provided numeric value to a text value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094285?hl=en).

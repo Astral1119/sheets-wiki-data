@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the annual yield of a security paying periodic interest, such as a US Treasury Bond, based on price.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093255?hl=en).

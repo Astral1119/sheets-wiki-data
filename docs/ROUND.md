@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The ROUND function rounds a number to a certain number of decimal places according to standard rules.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093440?hl=en).

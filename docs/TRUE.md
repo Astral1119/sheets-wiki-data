@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - logical
+description: Returns the logical value `TRUE`.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093307?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The AVERAGE function returns the numerical average value in a dataset, ignoring text.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093615?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: Returns the content of a cell, specified by row and column offset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3098242?hl=en).

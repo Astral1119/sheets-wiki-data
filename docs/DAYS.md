@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: The DAYS function returns the number of days between two dates.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061296?hl=en).

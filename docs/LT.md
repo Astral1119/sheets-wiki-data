@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns `TRUE` if the first argument is strictly less than the second, and `FALSE` otherwise.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093596?hl=en).

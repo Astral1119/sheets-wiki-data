@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Divides text around a specified character or string, and puts each fragment into a separate cell in the row.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094136?hl=en).

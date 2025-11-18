@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: The FV function calculates the future value of an annuity investment based on constant-amount periodic payments and a constant interest rate.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093224?hl=en).

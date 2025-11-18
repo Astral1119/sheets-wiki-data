@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: The REPLACEB function replaces part of a text string, based on a number of bytes, with a different text string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9367752?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Truncates a number to a certain number of significant digits by omitting less significant digits.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093588?hl=en).

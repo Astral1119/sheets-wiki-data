@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the variance based on an entire population.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094113?hl=en).

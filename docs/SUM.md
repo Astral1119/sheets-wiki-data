@@ -4,6 +4,7 @@ tags:
   - generated
   - math
   - modified
+description: Returns the sum of a series of numbers and/or cells.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093669?hl=en).

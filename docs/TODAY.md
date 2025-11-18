@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the current date as a date value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092984?hl=en).

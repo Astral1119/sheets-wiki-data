@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The ERFC function returns the complementary Gauss error function of a value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093407?hl=en).

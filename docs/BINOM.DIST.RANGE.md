@@ -4,6 +4,7 @@ tags:
   - generated
   - statistical
   - modified
+description: Returns the probability of drawing a specific number of successes or range of successes given a probability and number of tries.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9982776).

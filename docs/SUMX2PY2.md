@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Calculates the sum of the sums of the squares of values in two arrays.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094260?hl=en).

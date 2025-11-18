@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns the concatenation of two values.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093592?hl=en).

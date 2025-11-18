@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: The DDB function calculates the depreciation of an asset for a specified period using the double-declining balance method.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093163?hl=en).

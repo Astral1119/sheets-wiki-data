@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Rounds a number up to the nearest even integer.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093409?hl=en).

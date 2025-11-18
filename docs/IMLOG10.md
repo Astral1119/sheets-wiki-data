@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMLOG10 function returns the logarithm of a complex number with base 10.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366497?hl=en).

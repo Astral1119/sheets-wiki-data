@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the price of a security paying periodic interest, such as a US Treasury Bond, based on expected yield.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093188?hl=en).

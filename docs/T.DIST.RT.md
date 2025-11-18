@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the right tailed Student distribution for a value x.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9369017?hl=en).

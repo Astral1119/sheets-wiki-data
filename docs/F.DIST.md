@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the left-tailed F probability distribution (degree of diversity) for two data sets with given input x.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055706?hl=en).

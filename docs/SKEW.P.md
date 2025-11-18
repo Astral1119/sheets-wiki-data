@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The SKEW.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368569?hl=en).

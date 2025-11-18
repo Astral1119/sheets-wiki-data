@@ -4,6 +4,7 @@ tags:
   - generated
   - info
   - modified
+description: Returns the requested information about the specified cell.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3267071?hl=en).

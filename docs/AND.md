@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - logical
+description: The AND function returns true if all of the provided arguments are logically true, and false if any of the provided arguments are logically false.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093301?hl=en).

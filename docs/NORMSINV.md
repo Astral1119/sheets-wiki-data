@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the value of the inverse standard normal distribution function for a specified value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094091?hl=en).

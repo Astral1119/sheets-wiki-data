@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the value of the exponential distribution function with a specified lambda at a specified value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093995?hl=en).

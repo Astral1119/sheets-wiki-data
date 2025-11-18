@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The FLOOR.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116270?hl=en).

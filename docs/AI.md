@@ -5,6 +5,7 @@ tags:
   - function
 aliases:
   - docs/GEMINI
+description: The AI function queries Gemini given a prompt and context from a Google Sheet.
 ---
 
 > [!ATTENTION]

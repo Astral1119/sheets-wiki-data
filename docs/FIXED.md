@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Formats a number with a fixed number of decimal places.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094075?hl=en).

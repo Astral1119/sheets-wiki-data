@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - parser
+description: Converts a provided number to a percentage.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094284?hl=en).

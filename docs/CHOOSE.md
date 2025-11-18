@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: Returns an element from a list of choices based on index.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093371?hl=en).

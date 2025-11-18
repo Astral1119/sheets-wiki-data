@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Concatenates the elements of one or more one-dimensional arrays using a specified delimiter.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094077?hl=en).

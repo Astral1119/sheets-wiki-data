@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the price of a US Treasury Bill based on discount rate.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093251?hl=en).

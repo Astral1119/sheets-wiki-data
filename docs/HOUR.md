@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the hour component of a specific time, in numeric format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093045?hl=en).

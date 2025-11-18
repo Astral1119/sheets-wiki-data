@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the right-tailed chi-squared distribution, often used in hypothesis testing.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7003346?hl=en).

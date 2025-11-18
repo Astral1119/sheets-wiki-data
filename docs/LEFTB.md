@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: The LEFTB function returns the left portion of a string up to a certain number of bytes.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9367470?hl=en).

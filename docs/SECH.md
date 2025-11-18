@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The SECH function returns the hyperbolic secant of an angle.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116560?hl=en).

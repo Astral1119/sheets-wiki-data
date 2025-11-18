@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns the result of the modulo operator, the remainder after a division operation.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093497?hl=en).

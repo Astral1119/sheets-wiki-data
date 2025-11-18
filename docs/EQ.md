@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns "TRUE" if two specified values are equal and "FALSE" otherwise.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093593?hl=en).

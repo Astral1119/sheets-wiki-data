@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The TAN function returns the tangent of an angle provided in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093586?hl=en).

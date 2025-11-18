@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - database
+description: Returns the maximum value selected from a database table-like array or range using a SQL-like query.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094227?hl=en).

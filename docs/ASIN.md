@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The ASIN function returns the inverse sine of a value in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093464?hl=en).

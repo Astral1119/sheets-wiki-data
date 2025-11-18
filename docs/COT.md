@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The COT function returns the cotangent of an angle provided in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084169?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: Returns the result of multiplying a series of complex numbers together.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7409679?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: Returns the imaginary coefficient of a complex number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7408639?hl=en).

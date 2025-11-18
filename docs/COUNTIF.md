@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns a conditional count across a range.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093480?hl=en).

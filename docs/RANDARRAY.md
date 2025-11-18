@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The RANDARRAY function generates an array of random numbers between 0 and 1.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9211904?hl=en).

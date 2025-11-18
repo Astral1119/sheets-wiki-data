@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - google
+description: Enables the display of values returned from an array formula into multiple rows and/or columns and the use of non-array functions with arrays.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093275?hl=en).

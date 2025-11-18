@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the mean of a dataset excluding some proportion of data from the high and low ends of the dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094061?hl=en).

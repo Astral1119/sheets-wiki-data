@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The T.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368252?hl=en).

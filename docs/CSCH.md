@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The CSCH function returns the hyperbolic cosecant of any real number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116336?hl=en).

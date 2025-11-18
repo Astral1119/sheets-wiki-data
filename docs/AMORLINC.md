@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: The AMORLINC function returns the depreciation for an accounting period, or the prorated depreciation if the asset was purchased in the middle of a period.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9083932?hl=en).

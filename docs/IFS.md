@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - logical
+description: Evaluates multiple conditions and returns a value that corresponds to the first true condition.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7014145?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The BITXOR function is a bitwise XOR (exclusive or) of 2 numbers that returns a bit of “1” if 2 bits are different, and a bit of “0” otherwise.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9083935?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Returns the text with the non-printable ASCII characters removed.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3267340?hl=en).

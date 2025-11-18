@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: This function maps each value in the given arrays to a new value by application of a `LAMBDA` function to each value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/12568985?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Converts an hour, minute, and second into a time.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093056?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Calculates the matrix product of two matrices specified as arrays or ranges.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094292?hl=en).

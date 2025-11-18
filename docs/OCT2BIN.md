@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The OCT2BIN function converts a signed octal number to signed binary format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093144?hl=en).

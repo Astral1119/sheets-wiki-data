@@ -4,6 +4,7 @@ tags:
   - generated
   - modified
   - array
+description: Flattens all the values from one or more ranges into a single column.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/10307761?hl=en).

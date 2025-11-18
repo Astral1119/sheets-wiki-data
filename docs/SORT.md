@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - filter
+description: Sorts the rows of a given array or range by the values in one or more columns.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093150?hl=en).

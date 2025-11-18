@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The BASE function converts a decimal number into a text representation in another base.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084167?hl=en).

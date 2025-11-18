@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the value of the Poisson distribution function (or Poisson cumulative distribution function) for a specified value and mean.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094097?hl=en).

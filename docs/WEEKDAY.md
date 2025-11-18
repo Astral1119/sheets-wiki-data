@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns a number representing the day of the week of the date provided.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092985?hl=en).

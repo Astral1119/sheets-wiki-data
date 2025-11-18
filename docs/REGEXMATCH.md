@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Whether a piece of text matches a regular expression.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3098292?hl=en).

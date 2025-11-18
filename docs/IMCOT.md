@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMCOT function returns the cotangent of the given complex number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366254?hl=en).

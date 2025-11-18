@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the amount received at maturity for an investment in fixed-income securities purchased on a given date.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093244?hl=en).

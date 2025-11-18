@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Replaces part of a text string with a different text string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3098247?hl=en).

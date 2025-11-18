@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - web
+description: Imports a range of cells from a specified spreadsheet.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093340?hl=en).

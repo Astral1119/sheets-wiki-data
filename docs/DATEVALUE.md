@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Converts a provided date string in a known format to a date value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093039?hl=en).

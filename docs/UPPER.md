@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Converts a specified string to uppercase.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094219?hl=en).

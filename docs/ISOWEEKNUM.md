@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the number of the ISO (International Organization for Standardization) week of the year where the provided date falls.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7368793?hl=en).

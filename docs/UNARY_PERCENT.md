@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns a value interpreted as a percentage; that is, `UNARY\_PERCENT(100)` equals `1`.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093982?hl=en).

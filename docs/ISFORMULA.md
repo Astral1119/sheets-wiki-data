@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - info
+description: Checks whether a formula is in the referenced cell.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/6270316?hl=en).

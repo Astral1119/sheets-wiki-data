@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - web
+description: Imports data from any of various structured data types including XML, HTML, CSV, TSV, and RSS and ATOM XML feeds.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093342?hl=en).

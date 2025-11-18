@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns the sum of a range depending on multiple criteria.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3238496?hl=en).

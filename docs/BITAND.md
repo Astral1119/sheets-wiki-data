@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The BITAND function returns the bitwise boolean AND of two numbers.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061440?hl=en).

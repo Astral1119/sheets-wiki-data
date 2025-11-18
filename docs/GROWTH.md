@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Given partial data about an exponential growth trend, fits an ideal exponential growth trend and/or predicts further values.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094287?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The SIN function returns the sine of an angle provided in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093447?hl=en).

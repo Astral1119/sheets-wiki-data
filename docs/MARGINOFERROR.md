@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: This function calculates the margin of error from a range of values and a confidence level.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/12487850?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Returns the position at which a string is first found within text counting each double-character as 2.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3296009?hl=en).

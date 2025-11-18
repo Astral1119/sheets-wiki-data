@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - web
+description: Imports data from a table or list within an HTML page.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093339?hl=en).

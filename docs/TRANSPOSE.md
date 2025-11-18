@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Transposes the rows and columns of an array or range of cells.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094262?hl=en).

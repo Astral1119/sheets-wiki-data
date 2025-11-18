@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: The LENB function returns the length of a string in bytes.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9367584?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the number of numeric values in a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093620?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The ACOS function returns the inverse cosine of a value in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093461?hl=en).

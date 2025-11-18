@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMARGUMENT function returns the angle (also known as the argument, or theta) of the given complex number in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116360?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the discount rate of a security based on price.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093216?hl=en).

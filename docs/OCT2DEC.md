@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The OCT2DEC function converts a signed octal number to decimal format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093146?hl=en).

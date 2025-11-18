@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns one number divided by another.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093973?hl=en).

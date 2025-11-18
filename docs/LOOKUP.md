@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: Looks through a sorted row or column for a key and returns the value of the cell in a result range located in the same position as the search row or column.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3256570?hl=en).

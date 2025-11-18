@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the covariance of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093993?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Formats a number into the locale-specific currency format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094071?hl=en).

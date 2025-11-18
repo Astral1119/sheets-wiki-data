@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The CEILING.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061515?hl=en).

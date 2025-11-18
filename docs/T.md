@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Returns string arguments as text.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094138?hl=en).

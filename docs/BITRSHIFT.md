@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The BITRSHIFT function shifts the bits of the input a certain number of places to the right.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9084100?hl=en).

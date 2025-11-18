@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Returns the numeric Unicode map value of the first character in the string provided.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094122?hl=en).

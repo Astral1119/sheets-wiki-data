@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns a value nearest to a specified quartile of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094041?hl=en).

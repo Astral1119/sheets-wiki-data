@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the probability associated with an F-test for equality of variances.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7004183?hl=en).

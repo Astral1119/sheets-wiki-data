@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: The SUMPRODUCT function calculates the sum of the products of corresponding entries in 2 equally sized arrays or ranges.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094294?hl=en).

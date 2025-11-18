@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns unique rows in the provided source range, discarding duplicates.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/10522653?hl=en).

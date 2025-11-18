@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the modified internal rate of return on an investment based on a series of periodic cash flows and the difference between the interest rate paid on financing versus the return received on reinvested income.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093180?hl=en).

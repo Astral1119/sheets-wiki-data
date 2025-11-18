@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - logical
+description: Tests an expression against a list of cases and returns the corresponding value of the first matching case, with an optional default value if nothing else is met.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7013690?hl=en).

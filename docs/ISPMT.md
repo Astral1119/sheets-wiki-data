@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: The ISPMT function calculates the interest paid during a particular period of an investment.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116481?hl=en).

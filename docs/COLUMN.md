@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: Returns the column number of a specified cell, with `A=1`.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093373?hl=en).

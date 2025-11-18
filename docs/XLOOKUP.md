@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: The `XLOOKUP` function returns the values in the result range based on the position where a match was found in the lookup range.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/12405947?hl=en).

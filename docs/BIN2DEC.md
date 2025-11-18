@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The BIN2DEC function converts a signed binary number to decimal format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092991?hl=en).

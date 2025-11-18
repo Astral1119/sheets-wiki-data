@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns Euler's number, e (~2.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093411?hl=en).

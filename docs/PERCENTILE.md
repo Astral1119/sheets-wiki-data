@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the value at a given percentile of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094093?hl=en).

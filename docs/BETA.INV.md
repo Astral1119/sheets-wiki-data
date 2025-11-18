@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The BETA.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061377?hl=en).

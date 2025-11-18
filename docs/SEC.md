@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The SEC function returns the secant of an angle measured in radians.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116395?hl=en).

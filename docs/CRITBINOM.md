@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the smallest value for which the cumulative binomial distribution is greater than or equal to a specified criteria.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093623?hl=en).

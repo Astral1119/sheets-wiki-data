@@ -3,11 +3,12 @@ tags:
   - function
   - modified
   - logical
+description: Creates an anonymous function with a set of names and a formula_expression that uses them.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/12508718?hl=en).
 
-You can create and return a custom function with a set of names and a `formula_expression` that uses them. To calculate the `formula_expression`, you can call the returned function with as many values as the `name` declares.
+Creates an [anonymous function](https://en.wikipedia.org/wiki/Anonymous_function) with a set of names and a `formula_expression` that uses them. To calculate the `formula_expression`, you can call the returned function with as many values as the `name` declares.
 
 ### Sample Usage
 

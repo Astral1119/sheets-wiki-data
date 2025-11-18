@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Converts a number into text according to a specified format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094139?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - web
+description: Imports data at a given url in .
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093335?hl=en).

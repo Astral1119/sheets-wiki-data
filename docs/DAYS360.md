@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the difference between two days based on the 360-day year used in some financial interest calculations.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093042?hl=en).

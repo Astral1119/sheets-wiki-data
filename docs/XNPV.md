@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the net present value of an investment based on a specified series of potentially irregularly spaced cash flows and a discount rate.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093268?hl=en).

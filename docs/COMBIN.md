@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The COMBIN function returns the number of ways to choose some number of objects from a pool of a given size of objects.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093400?hl=en).

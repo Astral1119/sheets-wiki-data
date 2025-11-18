@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The DEC2HEX function converts a decimal number to signed hexadecimal format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093137?hl=en).

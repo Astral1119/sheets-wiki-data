@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: The SYD function calculates the depreciation of an asset for a specified period using the sum of years digits method.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093261?hl=en).

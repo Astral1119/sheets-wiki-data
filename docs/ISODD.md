@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Checks whether the provided value is odd.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093491?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMSINH function returns the hyperbolic sine of the given complex number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366445?hl=en).

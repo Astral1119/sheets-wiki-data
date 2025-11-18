@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - logical
+description: The XOR function returns TRUE if an odd number of the provided arguments are logically true, and FALSE otherwise.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116491?hl=en).

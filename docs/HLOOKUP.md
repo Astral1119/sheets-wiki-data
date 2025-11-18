@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: Horizontal lookup.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093375?hl=en).

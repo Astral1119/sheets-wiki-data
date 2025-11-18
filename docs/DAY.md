@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the day of the month that a specific date falls on, in numeric format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093040?hl=en).

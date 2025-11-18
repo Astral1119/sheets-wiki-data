@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the slope of the line resulting from linear regression of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094048?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Given partial data about an exponential growth curve, calculates various parameters about the best fit ideal exponential growth curve.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094251?hl=en).

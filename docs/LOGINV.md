@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the value of the inverse log-normal cumulative distribution with given mean and standard deviation at a specified value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094010?hl=en).

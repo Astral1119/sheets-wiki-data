@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: This function returns an array of specified dimensions with values calculated by application of a LAMBDA function.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/12569202?hl=en).

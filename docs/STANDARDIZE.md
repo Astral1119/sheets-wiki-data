@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the normalized equivalent of a random variable given mean and standard deviation of the distribution.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094102?hl=en).

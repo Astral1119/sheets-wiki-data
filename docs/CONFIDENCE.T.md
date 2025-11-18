@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The CONFIDENCE.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365672?hl=en).

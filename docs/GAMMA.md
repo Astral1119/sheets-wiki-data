@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The GAMMA function returns the Gamma function evaluated at the specified value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365856?hl=en).

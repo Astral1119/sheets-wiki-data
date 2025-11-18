@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: Returns the difference between two complex numbers.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7408393?hl=en).

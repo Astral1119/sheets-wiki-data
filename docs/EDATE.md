@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns a date a specified number of months before or after another date.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092974?hl=en).

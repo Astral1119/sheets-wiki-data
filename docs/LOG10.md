@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns the logarithm of a number, base 10.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093423?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: This function transforms an array or range of cells into a single row.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/13187459?hl=en).

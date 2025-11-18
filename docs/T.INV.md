@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the negative inverse of the one-tailed TDIST function.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055809?hl=en).

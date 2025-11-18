@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the number of net working days between two provided days excluding specified weekend days and holidays.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3295902?hl=en).

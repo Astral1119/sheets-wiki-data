@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the inverse of the left-tailed F probability distribution.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7004265?hl=en).

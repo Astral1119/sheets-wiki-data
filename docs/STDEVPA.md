@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the standard deviation based on an entire population, setting text to the value `0`.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094058?hl=en).

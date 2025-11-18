@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: Returns a cell reference as a string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093308?hl=en).

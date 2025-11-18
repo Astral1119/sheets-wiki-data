@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the inverse of the left-tailed chi-squared distribution.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7004181?hl=en).

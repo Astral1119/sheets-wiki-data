@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Returns a substring from the beginning of a specified string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094079?hl=en).

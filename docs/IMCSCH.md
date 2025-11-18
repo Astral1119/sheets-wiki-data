@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMCSCH function returns the hyperbolic cosecant of the given complex number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366258?hl=en).

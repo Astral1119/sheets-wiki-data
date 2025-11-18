@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The DEC2BIN function converts a decimal number to signed binary format.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3092997?hl=en).

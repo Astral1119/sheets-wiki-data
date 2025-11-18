@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Replaces existing text with new text in a string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094215?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the harmonic mean of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094003?hl=en).

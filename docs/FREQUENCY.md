@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Calculates the frequency distribution of a one-column array into specified classes.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094286?hl=en).

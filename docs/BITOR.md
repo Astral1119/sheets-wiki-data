@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The BITOR function returns the bitwise Boolean OR of 2 numbers.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9083934?hl=en).

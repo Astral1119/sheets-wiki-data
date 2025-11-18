@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The ATANH function returns the inverse hyperbolic tangent of a number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093397?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Returns the year specified by a given date.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093061?hl=en).

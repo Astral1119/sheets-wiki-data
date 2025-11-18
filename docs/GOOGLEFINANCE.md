@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - google
+description: Fetches current or historical securities information from Google Finance.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093281?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - info
+description: Returns the "value not available" error, `#N/A`.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093359?hl=en).

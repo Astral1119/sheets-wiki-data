@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMCOTH function returns the hyperbolic cotangent of the given complex number.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9366256?hl=en).

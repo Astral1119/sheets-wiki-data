@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: This function wraps the provided row or column of cells by rows after a specified number of elements to form a new array.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/13184285?hl=en).

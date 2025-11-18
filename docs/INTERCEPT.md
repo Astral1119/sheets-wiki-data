@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the y-value at which the line resulting from linear regression of a dataset will intersect the y-axis (x=0).
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093632?hl=en).

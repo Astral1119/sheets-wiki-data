@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the average of a range depending on criteria.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3256529?hl=en).

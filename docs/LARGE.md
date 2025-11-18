@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the nth largest element from a data set, where n is user-defined.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094008?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - lookup
+description: The FORMULATEXT function returns a formula as a string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365792?hl=en).

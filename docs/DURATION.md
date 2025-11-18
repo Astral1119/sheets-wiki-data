@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates the number of compounding periods required for an investment of a specified present value appreciating at a given rate to reach a target value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093169?hl=en).

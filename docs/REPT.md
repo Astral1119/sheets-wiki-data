@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Returns specified text repeated a number of times.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094134?hl=en).

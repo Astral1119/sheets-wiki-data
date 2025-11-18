@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Returns the maximum value in a numeric dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094013?hl=en).

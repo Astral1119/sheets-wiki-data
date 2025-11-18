@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns the result of multiplying a series of numbers together.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093502?hl=en).

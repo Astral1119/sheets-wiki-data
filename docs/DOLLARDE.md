@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Converts a price quotation given as a decimal fraction into a decimal value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093167?hl=en).

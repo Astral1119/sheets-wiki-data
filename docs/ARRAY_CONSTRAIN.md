@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Constrains an array result to a specified size.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3267036?hl=en).

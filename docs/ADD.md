@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - operator
+description: Returns the sum of two numbers.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093590?hl=en).

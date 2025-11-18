@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the standard error of the predicted y-value for each x in the regression of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094108?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: Returns one complex number divided by another.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7411898?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Capitalizes each word in a specified string.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094133?hl=en).

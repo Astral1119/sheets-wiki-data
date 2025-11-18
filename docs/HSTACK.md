@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: This function appends arrays horizontally and in sequence to return a larger array.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/13190756?hl=en).

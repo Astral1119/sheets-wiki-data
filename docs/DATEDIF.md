@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Calculates the number of days, months, or years between two dates.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/6055612?hl=en).

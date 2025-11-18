@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The PI function returns the value of pi to 9 decimal places.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093432?hl=en).

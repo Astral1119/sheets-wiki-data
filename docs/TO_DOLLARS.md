@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - parser
+description: Converts a provided number to a dollar value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094241?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns the least common multiple of one or more integers.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093421?hl=en).

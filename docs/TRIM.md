@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Removes leading, trailing, and repeated spaces in text.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094140?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Given parameters `x`, `n`, `m`, and `a`, returns the power series sum a1xn + a2x(n+m) + .
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093444?hl=en).

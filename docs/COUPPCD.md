@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - financial
+description: Calculates last coupon, or interest payment, date before the settlement date.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093210?hl=en).

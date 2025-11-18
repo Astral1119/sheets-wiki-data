@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the probability for Student's t-distribution with a given input (x).
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3295914?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - logical
+description: The IFNA function evaluates a value.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9365944?hl=en).

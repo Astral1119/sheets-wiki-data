@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Returns the logarithm of a number, base e (Euler's number).
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093422?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: The PHI function returns the value of the density function for a normal distribution with mean 0 and standard deviation 1, calculated with the formula ![](//screenshot.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9116365?hl=en).

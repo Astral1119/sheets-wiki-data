@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - info
+description: Checks whether the referenced cell is empty.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093290?hl=en).

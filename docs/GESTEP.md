@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The GESTEP function returns 1 if the rate is strictly greater than or equal to the provided step value, or 0 otherwise.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9061379?hl=en).

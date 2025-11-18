@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: The IMEXP function returns Euler's number, e (~2.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9198277?hl=en).

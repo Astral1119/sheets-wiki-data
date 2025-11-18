@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Returns the matrix determinant of a square matrix specified as an array or range.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094290?hl=en).

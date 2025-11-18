@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - database
+description: Returns the sum of values selected from a database table-like array or range using a SQL-like query.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094281?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The MUNIT function returns a unit matrix of size dimension x dimension.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9368156?hl=en).

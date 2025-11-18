@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - date
+description: Calculates the date after a specified number of workdays excluding specified weekend days and holidays.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3294972?hl=en).

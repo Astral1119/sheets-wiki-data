@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - web
+description: Encodes text so it can be used in the query string of a URL.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/9199778?hl=en).

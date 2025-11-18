@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - engineering
+description: Returns the sum of a series of complex numbers or cells or both.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/7408295?hl=en).

@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the skewness of a dataset, which describes the symmetry of that dataset about the mean.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094101?hl=en).

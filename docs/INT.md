@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: Rounds a number down to the nearest integer that is less than or equal to it.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093490?hl=en).

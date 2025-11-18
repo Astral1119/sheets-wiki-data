@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - text
+description: Formats a number in Roman numerals.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094153?hl=en).

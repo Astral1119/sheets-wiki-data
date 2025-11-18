@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - array
+description: Given partial data about a linear trend, calculates various parameters about the ideal linear trend using the least-squares method.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094249?hl=en).

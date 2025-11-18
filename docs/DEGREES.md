@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+description: The DEGREES function converts an angle value in radians to degrees.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093481?hl=en).

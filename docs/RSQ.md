@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - statistical
+description: Calculates the square of r, the Pearson product-moment correlation coefficient of a dataset.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3094099?hl=en).
