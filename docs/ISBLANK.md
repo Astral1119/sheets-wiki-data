@@ -3,12 +3,16 @@ tags:
   - function
   - generated
   - info
-description: Checks whether the referenced cell is empty.
+description: Checks whether a value is null.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093290?hl=en).
 
-Checks whether the referenced cell is empty.
+> [!INFO]
+> Official documentation uses the following description for `ISBLANK`:
+> > Checks whether the referenced cell is empty.
+
+Checks whether a value is [[Null|null]].
 
 ### Sample Usage
 

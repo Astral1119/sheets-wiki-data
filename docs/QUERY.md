@@ -236,7 +236,7 @@ The arithmetic operators `+`, `-`, `*`, and `/` all function as if [[Array opera
 
 ### Identifiers
 
-Identifiers refer to columns. There are only two valid identifier constructions in Google Sheets, which depend on whether the input is a [[virtual array]] or [[range]].
+Identifiers refer to columns. There are only two valid identifier constructions in Google Sheets, which depend on whether the input is a [[Array#Virtual array|virtual array]] or [[Array#Range|range]].
 
 |Input Type|Format|Description|
 |---|---|---|

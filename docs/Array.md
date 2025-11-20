@@ -9,7 +9,7 @@ All rows of an array must share the same number of columns, and all columns must
 
 ### Array subtypes
 
-#### Ranges
+#### Range
 
 Arrays fall into two primary categories: **ranges** and **virtual arrays**.  
 
