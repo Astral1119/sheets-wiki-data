@@ -70,7 +70,7 @@ formulary install hash
 Multiple packages:
 
 ```bash
-formulary install hash repr dict
+formulary install hash repr container
 ```
 
 ## Commands
