@@ -57,7 +57,7 @@ These may be considered compound types, though Sheets does not support type intr
 If a value cannot be coerced into the expected type, evaluation produces an error such as #VALUE! or #N/A.
 
 ### See Also
-- [[Type Coercion]] — conversion rules between types.
+- [[Type coercion]] — conversion rules between types.
 - [[Number]], [[String]], [[Boolean]], [[Null]], [[Array]], [[Lambda]] — type-specific behavior.
 - [[LAMBDA data structures]] — compound types built from LAMBDA.
 
