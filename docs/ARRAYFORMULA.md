@@ -2,13 +2,14 @@
 tags:
   - function
   - generated
+  - modified
   - google
-description: Enables the display of values returned from an array formula into multiple rows and/or columns and the use of non-array functions with arrays.
+description: The primary array-enabling function. Enables the use of non-array functions with arrays.
 ---
 > [!INFO]
 > This page was originally generated from [official documentation](https://support.google.com/docs/answer/3093275?hl=en).
 
-Enables the display of values returned from an array formula into multiple rows and/or columns and the use of non-array functions with arrays.
+`ARRAYFORMULA` is the primary [[Array-enabled functions|array-enabling function]]. It enables the display of values returned from an [[Array|array formula]] into multiple rows and/or columns and the use of non-array functions with arrays.
 
 ### Sample Usage
 
@@ -28,9 +29,12 @@ ARRAYFORMULA(array_formula)
 ### Notes
 
 - Many array formulas will be automatically expanded into neighboring cells, obviating the explicit use of `ARRAYFORMULA`.
-- Pressing Ctrl+Shift+Enter while editing a formula will automatically add `ARRAYFORMULA(` to the beginning of the formula.
+- Pressing `Ctrl+Shift+Enter` (`Cmd+Shift+Enter` on Mac) while editing a formula will automatically add `ARRAYFORMULA(` to the beginning of the formula.
 - Note that array formulas cannot be exported.
+- `ARRAYFORMULA` is not the only function that enables array evaluation. See [[Array-enabled functions]] for a full list.
 
 ### See Also
 
 [[ARRAY_CONSTRAIN]]: Constrains an array result to a specified size.
+
+[[Array-enabled functions]]: Explains array iteration and lists array-enabling functions.
