@@ -23,6 +23,7 @@ Sheets recognizes the following core types:
 | [[Array]]   | Two-dimensional collections of values that may spill across multiple cells.         |
 | [[Lambda]]  | Executable terms created using `LAMBDA` or related constructs.                      |
 | [[Error]]   | Runtime signals representing failed evaluation. Propagate through most expressions. |
+| [[Null value|Null]] | A special value denoting the lack of a type. |
 
 Higher-level constructs such as [[LAMBDA UDT|LAMBDA UDTs]] and [[Data structures]] are derived from these base types.
 
@@ -35,7 +36,7 @@ A term’s type may change depending on how it is used. For example:
 =IF("","X","Y") → "Y"
 ```
 
-Such conversions are governed by [[Type Coercion]].
+Such conversions are governed by [[Type coercion]].
 
 ### Scalar types
 

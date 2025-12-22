@@ -6,13 +6,13 @@ description: Explains array iteration and lists array-enabling functions.
 > [!WARNING]
 > This article uses [[Unofficial terminology]].
 
-"Array-enabled" refers to a specific behavior where a function iterates over a [[Range|range]] or [[Array|array]] of values provided as an argument, evaluating the expression for each item individually.
+"Array-enabled" refers to a specific behavior where a function iterates over a [[Array#Range|range]] or [[Array#Virtual array|virtual array]] of values provided as an argument, evaluating the expression for each item individually.
 
 ### Concepts
 
 It is important to distinguish between "array-enabling functions" and functions that "can be array-enabled."
 
-- Array-enabling functions: A specific, small set of functions that generally force their arguments to be evaluated for each item in a [[Range|range]] or [[Array|array]].
+- Array-enabling functions: A specific, small set of functions that generally force their arguments to be evaluated for each item in a range or virtual array.
 - Functions that can be array-enabled: A large category of functions (like [[LEN]], [[REGEXEXTRACT]], `&`, `+`) that normally accept only [[Data type#Scalar types|scalar]] (single) values but, when wrapped in an array-enabling function, can process arrays.
     - This includes most [[Operator|operators]] (such as `+`, `-`, `*`, `/`, `&`).
 
