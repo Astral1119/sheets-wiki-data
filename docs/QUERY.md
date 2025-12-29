@@ -226,14 +226,14 @@ The arithmetic operators `+`, `-`, `*`, and `/` all function as if [[Array opera
 
 #### Literals
 
-| Type | Format |  |
-| ---- | ---- | ---- |
-| `string` | A `string` literal should be enclosed in either single or double quotes. **Examples:** `"fourteen" 'hello world' "It's raining"`. |  |
-| `number` | Numeric literals are specified in decimal notation. **Examples:** `3  3.0  3.14  -71  -7.2  .6 | ` |
-| `boolean` | Boolean literals are either `true` or `false`. |  |
-| `date` | Use the keyword `date` followed by a `string` literal in the format `yyyy-MM-dd`. **Example:** `date "2008-03-18"`. |  |
-| `timeofday` | Use the keyword `timeofday` followed by a `string` literal in the format `HH:mm:ss[.SSS]` **Example:** `timeofday "12:30:45"`. |  |
-| `datetime` | A date and a time, using either the keyword `datetime` or the keyword `timestamp` followed by a `string` literal in the format `yyyy-MM-dd HH:mm:ss[.sss]`. **Example:** `datetime '2008-03-18 12:30:34.123'` |  |
+| Type | Format |
+| ---- | ---- |
+| `string` | A `string` literal should be enclosed in either single or double quotes. **Examples:** `"fourteen" 'hello world' "It's raining"`. |
+| `number` | Numeric literals are specified in decimal notation. **Examples:** `3  3.0  3.14  -71  -7.2  .6 |
+| `boolean` | Boolean literals are either `true` or `false`. |
+| `date` | Use the keyword `date` followed by a `string` literal in the format `yyyy-MM-dd`. **Example:** `date "2008-03-18"`. |
+| `timeofday` | Use the keyword `timeofday` followed by a `string` literal in the format `HH:mm:ss[.SSS]` **Example:** `timeofday "12:30:45"`. |
+| `datetime` | A date and a time, using either the keyword `datetime` or the keyword `timestamp` followed by a `string` literal in the format `yyyy-MM-dd HH:mm:ss[.sss]`. **Example:** `datetime '2008-03-18 12:30:34.123'` |
 
 ### Identifiers
 
