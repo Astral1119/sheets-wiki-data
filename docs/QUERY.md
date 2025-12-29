@@ -49,7 +49,8 @@ Language clauses determine how information is gathered and processed.
 | [label](https://developers.google.com/chart/interactive/docs/querylanguage#Label)       | Sets column labels.                                                                                                              |
 | [format](https://developers.google.com/chart/interactive/docs/querylanguage#Format)     | Formats the values in certain columns using given formatting patterns.                                                           |
 | [options](https://developers.google.com/chart/interactive/docs/querylanguage#Options)   | Sets additional options.                                                                                                         |
-Each clause takes different arguments and has vastly different effects; there is no singular construction applicable to each.
+
+Each clause takes different arguments and has vastly different effects; there is no singular construction applicable to each. All clauses are optional.
 
 #### Select
 
