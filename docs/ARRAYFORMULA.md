@@ -26,6 +26,33 @@ ARRAYFORMULA(array_formula)
 
 - `array_formula` - A range, mathematical expression using one cell range or multiple ranges of the same size, or a function that returns a result greater than one cell.
 
+### Math Operations
+
+When using mathematical operations with arrays, the behavior differs from aggregate functions:
+
+```gse
+=ARRAYFORMULA(SUM(A1:A,B1:B))    → Single value (overall sum)
+=ARRAYFORMULA(A1:A+B1:B)         → Array (row-by-row addition)
+```
+
+For row-wise operations, use arithmetic operators directly: `+`, `-`, `*`, `/`
+
+### Controlling Array Output
+
+To prevent "runaway" arrays that fill thousands of rows, use control structures:
+
+**Using IF with ISBLANK:**
+```gse
+=ARRAYFORMULA(IF(ISBLANK(A2:A),,A2:A*2))
+```
+
+**Using ARRAY_CONSTRAIN:**
+```gse
+=ARRAY_CONSTRAIN(ARRAYFORMULA(A2:A*2), COUNTA(A2:A), 1)
+```
+
+**Regional Note:** European locales use backslash (`\`) instead of comma (`,`) for column delimiters in array literals: `{1\2\3}` instead of `{1,2,3}`
+
 ### Notes
 
 - Many array formulas will be automatically expanded into neighboring cells, obviating the explicit use of `ARRAYFORMULA`.
