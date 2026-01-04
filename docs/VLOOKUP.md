@@ -185,6 +185,26 @@ To use wildcards in `VLOOKUP`, you must use an exact match: "`is_sorted` = `FALS
 | --- | --- |
 | "St\*" is used to match anything that starts with "St" regardless of the number of characters, such as "Steve", "St1", "Stock", or "Steeeeeeve". | =VLOOKUP("St\*", B4:D8, 3, FALSE)  Return value = "Marketing" |
 
+### Advanced VLOOKUP techniques
+
+#### Rearranging arrays for left-lookups
+`VLOOKUP` searches the first column of the `range`, but you can create a custom array to search columns that appear to the right of the return column:
+```gse
+=VLOOKUP(search_key, {C2:C, A2:A, B2:B}, 2, FALSE)
+```
+
+#### Multiple column returns
+To return multiple columns at once, use an array for the `index` parameter. This utilizes [[Array-enabled functions|array formula broadcasting]]:
+```gse
+=ARRAYFORMULA(VLOOKUP(search_key, A2:E10, {2,3,4}, FALSE))
+```
+
+#### Multiple criteria without helper columns
+You can join columns directly in the array:
+```gse
+=ARRAYFORMULA(VLOOKUP("John"&"Doe", {A2:A&B2:B, C2:C}, 2, FALSE))
+```
+
 ### Troubleshoot errors & best practices:
 
 Wrong return value

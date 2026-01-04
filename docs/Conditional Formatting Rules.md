@@ -4,40 +4,31 @@ tags:
   - conditional
 ---
 
-Conditional formatting in Google Sheets applies visual formatting (colors, font styles, etc.) to cells based on their values or formulas. Understanding how conditional formatting formulas are evaluated is crucial for correct application.
+Conditional formatting in Google Sheets applies visual formatting (colors, font styles, etc.) to cells based on their values or formulas. Understanding how references are evaluated within these rules is crucial for correct application.
 
-### Reference Types and Their Effects
+### Range Application & Referencing
 
-Conditional formatting formulas use cell references, and the anchor points (`$`) determine what gets compared:
+When applying a conditional format to a range (e.g., `B2:D10`), Google Sheets evaluates the formula for **each cell** in that range from the perspective of the top-left cell.
 
-| Reference | Example | Behavior |
-|-----------|---------|----------|
-| Fully relative | `=A1="x"` | Checks each cell against itself |
-| Column-anchored | `=$A1="x"` | Checks column A of each row |
-| Row-anchored | `=A$1="x"` | Checks row 1 of each column |
-| Fully absolute | `=$A$1="x"` | Checks only cell A1 for all cells |
+> [!IMPORTANT]
+> The behavior of a conditional formatting rule is heavily dictated by **anchoring**. For a detailed explanation of `$` notation, see [[Cell references]].
 
-### How Formulas Are Applied
+#### How Anchoring Affects CF Rules
 
-When you apply a conditional format to a range (e.g., `B2:D10`), Google Sheets evaluates the formula for **each cell** in that range, adjusting relative references accordingly:
-
-**Example**: Format `B2:D10` with formula `=$A2="x"`
-- For cell B2: checks if `$A2="x"`
-- For cell B3: checks if `$A3="x"`  
-- For cell C2: checks if `$A2="x"` (same as B2)
-- For cell C3: checks if `$A3="x"` (same as B3)
-
-The `$A` anchor keeps the column fixed at A, but the row number adjusts to match each cell's row.
+| Reference Mode | CF Behavior |
+|----------------|-------------|
+| **Relative** (`=A1="x"`) | Each cell in the range is checked against itself. |
+| **Column-locked** (`=$A1="x"`) | Every cell in the row checks column A of that same row. Used for **highlighting entire rows**. |
+| **Row-locked** (`=A$1="x"`) | Every cell in the column checks row 1 of that same column. |
+| **Absolute** (`=$A$1="x"`) | Every cell in the entire range checks exactly cell A1. |
 
 ### Common Patterns
 
 #### Highlighting entire rows
-
-To highlight a full row based on a single column's value:
-
-```gse
-=$A2="x"
-```
+To highlight a full row based on a single column's value (e.g., Column A):
+- **Range**: `A2:Z100`
+- **Formula**: `=$A2="Done"`
+This locks the comparison to column A, but allows the row number to adjust for each row in the range.
 
 Applied to range `A2:Z100`, this highlights the entire row when column A contains "x".
 
