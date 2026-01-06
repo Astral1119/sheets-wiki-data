@@ -1,4 +1,4 @@
-Bad practice is a set of techniques, especially common ones, that result in [[good practice|otherwise avoidable]] adverse effects.
+Bad practice is a set of techniques, especially common ones, that result in [[Good practice|otherwise avoidable]] adverse effects.
 
 ### Using INDEX+MATCH instead of modern alternatives
 While `INDEX+MATCH` is a common pattern in Excel, it is often a bad practice in Google Sheets because `INDEX` does not support array arguments for its row or column indices. This prevents the formula from "broadcasting" results when used inside an `ARRAYFORMULA`. Use `XLOOKUP` or `VLOOKUP` instead, as they are more concise and natively support array outputs.

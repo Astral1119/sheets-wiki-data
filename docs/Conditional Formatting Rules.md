@@ -4,7 +4,7 @@ tags:
   - conditional
 ---
 
-Conditional formatting in Google Sheets applies visual formatting (colors, font styles, etc.) to cells based on their values or formulas. Understanding how references are evaluated within these rules is crucial for correct application.
+Conditional formatting in Google Sheets applies visual formatting (colors, font styles, etc.) to cells based on their values or formulas.
 
 ### Range Application & Referencing
 

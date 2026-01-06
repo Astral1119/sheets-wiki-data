@@ -40,7 +40,7 @@ Vectors are one-dimensional arrays with dimensions of either $1 \times n$ (row v
 Jagged arrays consist of rows or columns of varying lengths padded with null values to align dimensions.
 
 In Google Sheets, jagged arrays behave similarly to regular arrays and are especially useful when combined with [[LAMBDA Helper Functions]].
-In Excel, however, they are generally considered [[bad practice]] due to inconsistent behavior across functions.
+In Excel, however, they are generally considered [[Bad Practice|bad practice]] due to inconsistent behavior across functions.
 
 ### Notes
 

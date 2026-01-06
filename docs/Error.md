@@ -4,7 +4,7 @@ tags:
   - error
 ---
 
-**Error** is a [[data type]] representing failed formula evaluation. When a formula cannot compute a valid result, it returns an error value that propagates through dependent calculations.
+**Error** is a [[Data type|data type]] representing failed formula evaluation. When a formula cannot compute a valid result, it returns an error value that propagates through dependent calculations.
 
 ### Error Types
 
@@ -86,6 +86,6 @@ In the Google Sheets API, errors are represented as `ErrorValue` objects contain
 
 ### See Also
 - [[IFERROR]] — handle errors with fallback values
-- [[IFNA]] — handle #N/A specifically
+- [[IFNA]] — handle `#N/A` specifically
 - [[ISERROR]], [[ISERR]], [[ISNA]] — test for errors
 - [[Data type]] — core data types in Google Sheets

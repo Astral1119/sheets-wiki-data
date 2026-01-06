@@ -6,7 +6,7 @@ tags:
 > [!WARNING]
 > This article uses [[Unofficial terminology]].
 
-Each [[term]] in Google Sheets has a [type](https://en.wikipedia.org/wiki/Type_system) that determines which operations can be performed on it.
+Each [[Term|term]] in Google Sheets has a [type](https://en.wikipedia.org/wiki/Type_system) that determines which operations can be performed on it.
 
 ### Overview
 
@@ -16,16 +16,15 @@ Sheets recognizes the following core types:
 
 | Type        | Description                                                                         |
 | ----------- | ----------------------------------------------------------------------------------- |
-| [[Number]]  | Numeric values such as integers, decimals, and scientific notation.                 |
+| [[Number]]  | Numeric values such as integers, decimals, and scientific notation.         |
 | [[String]]  | Text values enclosed in quotes or inferred from literal input.                      |
 | [[Boolean]] | Logical values `TRUE` and `FALSE`.                                                  |
-| [[Null]]    | Empty cells or expressions that return no value.                                    |
 | [[Array]]   | Two-dimensional collections of values that may spill across multiple cells.         |
 | [[Lambda]]  | Executable terms created using `LAMBDA` or related constructs.                      |
 | [[Error]]   | Runtime signals representing failed evaluation. Propagate through most expressions. |
-| [[Null]] | A special value denoting the lack of a type. |
+| [[Null]]    | Conceptual type for **blank cells** or expressions with no value.                   |
 
-Higher-level constructs such as [[LAMBDA UDT|LAMBDA UDTs]] and [[Data structures]] are derived from these base types.
+Higher-level constructs such as [[LAMBDA data structures]] are derived from these base types.
 
 ### Internal representation
 
@@ -87,13 +86,13 @@ Scalar types participate directly in type coercion and function arguments, and t
 Some expressions encapsulate multiple values or behaviors:
 - [[Array]] terms hold multiple values in two dimensions.
 - [[Lambda]] terms hold executable expressions.
-- [[LAMBDA UDT|LAMBDA UDTs]] simulate user-defined structures.
+- [[LAMBDA data structures]] simulate user-defined structures.
 
 These may be considered compound types, though Sheets does not support type introspection.
 
 ### Type errors
 
-If a value cannot be coerced into the expected type, evaluation produces an error such as #VALUE! or #N/A.
+If a value cannot be coerced into the expected type, evaluation produces an error such as `#VALUE!` or `#N/A`.
 
 ### See Also
 - [[Type coercion]] — conversion rules between types.

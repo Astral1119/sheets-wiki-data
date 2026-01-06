@@ -7,7 +7,7 @@ tags:
 > [!WARNING]
 > This article uses [[Unofficial terminology]].
 
-A [term](https://en.wikipedia.org/wiki/Language_construct) is a syntactic element of a formula. Each term has a [[data type]] that defines what operations can be performed on it.
+A [term](https://en.wikipedia.org/wiki/Language_construct) is a syntactic element of a formula. Each term has a [[Data type|data type]] that defines what operations can be performed on it.
 
 ### Terms and Values
 
@@ -18,7 +18,7 @@ A formula such as:
 =SUM(1, 2)
 ```
 
-contains the term `SUM(1, 2)`, which evaluates to the value 3. Note that the term `SUM(1, 2)` is recursively defined, containing the primitive `SUM` and the [[number]] literals `1` and `2`.
+contains the term `SUM(1, 2)`, which evaluates to the value 3. Note that the term `SUM(1, 2)` is recursively defined, containing the primitive `SUM` and the [[Number|number]] literals `1` and `2`.
 
 All values originate from terms, but not all terms reduce to values. For instance, terms that produce [[Crash bug|crash bugs]] do not reduce to values. Note however that [[Error|errors]] are still values.
 

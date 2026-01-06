@@ -4,7 +4,7 @@ tags:
   - date
 ---
 
-Strictly speaking, datetimes are not a distinct [[data type]]. Instead, they are a format for [[number|numbers]].
+Strictly speaking, datetimes are not a distinct [[Data type|data type]]. Instead, they are a format for [[Number|numbers]].
 
 ### Specification
 
