@@ -65,6 +65,8 @@ A more complex example, using the CONCAT (&) operator and SPLIT to do a simple *
 
 The `FLATTEN` function was originally #undocumented and was first discovered on March 15, 2020 by a user named Andy on the [Google Docs Editors Help Community forum](https://support.google.com/docs/thread/33715001). It has since been [officially recognized](https://support.google.com/docs/answer/10307761), although it has been mostly deprecated by [[TOCOL]].
 
+[[Matt King]]'s sheet, which was escalated to Google, can be found [here](https://docs.google.com/spreadsheets/d/196NDPUZ-p2sPiiiYlYsJeHD6F_eJq7CWO_hP7rFqGpc/edit?gid=0#gid=0).
+
 ### Related functions
 
 * [[SPLIT]]

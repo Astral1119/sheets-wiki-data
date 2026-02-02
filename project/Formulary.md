@@ -2,7 +2,7 @@
 
 ## Key Features
 
-- **Package Installation**: Install named functions from the [Formulary registry](https://github.com/Astral1119/formulary-registry)
+- **Package Installation**: Install named functions from the [Formulary registry](https://formulary.dev)
 - **Multi-Account Support**: Manage multiple Google accounts with profile switching
 - **Dependency Resolution**: Automatic dependency resolution with semantic versioning
 - **Private Sheets**: Keep your sheets private - authentication is stored in profiles
