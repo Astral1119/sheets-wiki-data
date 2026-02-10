@@ -15,9 +15,10 @@ These limits are separate. If either one is reached, the formula will stop calcu
 
 The function call limit is approximately `2,000,000` (`2e6`) function calls per cell. The exact value is currently unknown as there is variance in the results of the functions used to reach that limit.
 
-### Recursion Calls
+### Stack Limit
 
-The recursion limit is exactly `10,000` (`1e4`). This limit is the same when used in [[LAMBDA Recursion]] and [[iterative calculation]].
+The stack limit is `10,000` (`1e4`) function calls. This limit is the same when used in [[LAMBDA Recursion]] and [[iterative calculation]].
+[Church-encoded lists](https://en.wikipedia.org/wiki/Church_encoding#Church_lists_%E2%80%93_right_fold_representation) implemented in Google Sheets (see: [[LIST]]) appear to violate this property, potentially a result of how [closures](https://en.wikipedia.org/wiki/Closure_(computer_programming)) are handled.
 
 ### Further Reading
 
