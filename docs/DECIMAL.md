@@ -3,6 +3,7 @@ tags:
   - function
   - generated
   - math
+  - modified
 description: The DECIMAL function converts the text representation of a number in another base, to base 10 (decimal).
 ---
 > [!INFO]
@@ -33,10 +34,14 @@ DECIMAL(101,2)
 
 ### Example
 
-| A | B |
-| --- | --- |
-| **1** | **Formula** | **Result** |
-| **2** | =DECIMAL(101,2) | 5 |
+| Description            | Formula            | Result |
+|------------------------|--------------------|--------|
+| Binary (Base 2)        | =DECIMAL(101,2)    | 5      |
+| Binary (Base 2)        | =DECIMAL("1111",2) | 15     |
+| Octal (Base 8)         | =DECIMAL(77,8)     | 63     |
+| Hexadecimal (Base 16)  | =DECIMAL("FF",16)  | 255    |
+| Hexadecimal (Base 16)  | =DECIMAL("1A",16)  | 26     |
+| Base 36 (Alphanumeric) | =DECIMAL("Z",36)   | 35     |
 
 ### Related functions
 

@@ -2,6 +2,7 @@
 tags:
   - function
   - generated
+  - modified
   - operator
 description: Returns unique rows in the provided source range, discarding duplicates.
 ---
@@ -28,30 +29,38 @@ UNIQUE(range, by_column, exactly_once)
 
 ### Examples
 
-|  | **Color 1** | **Color 2** | **Color 3** |
-| --- | --- | --- | --- |
-|  | Red | Yellow | Red |
-|  | Blue | Magenta | Blue |
-|  | Red | Yellow | Red |
-|  | Green | White | Green |
-|  |  |  |  |
-|  |  |  |  |
-| **Formula** | =UNIQUE(B2:D5) | | |
-| **Output** | Red | Yellow | Red |
-|  | Blue | Magenta | Blue |
-|  | Green | White | Green |
-|  |  |  |  |
-|  |  |  |  |
-| **Formula** | =UNIQUE(B2:D5, TRUE) | | |
-| **Output** | Red | Yellow |  |
-|  | Blue | Magenta |  |
-|  | Red | Yellow |  |
-|  | Green | White |  |
-|  |  |  |  |
-|  |  |  |  |
-| **Formula** | =UNIQUE(B2:D5, TRUE) | | |
-| **Output** | Blue | Magenta | Blue |
-|  | Green | White | Green |
+Running `UNIQUE` on this input:
+
+|       |         |       |
+|-------|---------|-------|
+| Red   | Yellow  | Red   |
+| Blue  | Magenta | Blue  |
+| Red   | Yellow  | Red   |
+| Green | White   | Green |
+
+Yields:
+
+|       |         |       |
+|-------|---------|-------|
+| Red   | Yellow  | Red   |
+| Blue  | Magenta | Blue  |
+| Green | White   | Green |
+
+And running `UNIQUE` with `by_column` set to `true` on that output yields:
+
+|       |         |
+|-------|---------|
+| Red   | Yellow  |
+| Blue  | Magenta |
+| Green | White   |
+
+
+Finally, running `UNIQUE` with `by_column` set to `false` but `exactly_once` set to `true` on the original input yields:
+
+|       |         |       |
+|-------|---------|-------|
+| Blue  | Magenta | Blue  |
+| Green | White   | Green |
 
 ### Related functions
 
