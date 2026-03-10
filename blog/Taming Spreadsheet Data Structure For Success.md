@@ -2,98 +2,129 @@
 author: Chris Carpenter/Aliafriend
 tags:
   - tutorial
+  - data-organization
+  - google-sheets
 ---
-New spreadsheet users often struggle with data organization. We encounter data in various formats daily, but understanding its underlying structure is key. Poor data structure creates headaches later when simple tasks like analysis or filtering become cumbersome. By prioritizing a well-organized structure, even if it appears less visually appealing initially, you'll save time and frustration in the long run.
+# Why Data Structure Matters in Spreadsheets (And Common Mistakes to Avoid)
 
-Proper data structure leads to better data ingestion, smoother experience, and easier usability.
+New spreadsheet users often focus on making data look nice right away — pretty layouts, merged cells, colors, and notes everywhere. But **poor data structure creates massive headaches** later when you want to analyze, filter, sort, summarize, or visualize that data.
 
-Let's look at an example.
+The key principle is simple: **organize your data like a database table** from the start, even if it feels plain or repetitive at first. This follows "tidy data" ideas (each variable in its own column, each observation in its own row, each type of data in its own table). A well-structured dataset makes everything you do with that data set measurably easier.
 
-| A                | B             | C         |
-| ---------------- | ------------- | --------- |
-| Week of 4/1/2024 |               |           |
-| Monday           |               |           |
-|                  | Gas           | \-$25.00  |
-|                  | Food          | \-$10.00  |
-| Tuesday          |               |           |
-|                  | Car           | \-$50.00  |
-| Wednesday        |               |           |
-|                  | Birthday Gift | \-$26.00  |
-|                  | Food          | \-$15.00  |
-| Thursday         |               |           |
-|                  | Paycheck      | $400.00   |
-| Friday           |               |           |
-|                  | Movies        | \-$30.00  |
-|                  | Candy         | \-$10.00  |
-| Saturday         |               |           |
-|                  | Groceries     | \-$100.00 |
-| Sunday           |               |           |
-|                  | Video Game    | \-$60.00  |
-| Total            |               | $74.00    |
-|                  |               |           |
-|                  |               |           |
-| Week 1           |               |           |
+Good structure means:
+- Easier data entry over time
+- Simpler formulas that don't break when you add more rows
+- Powerful analysis without manual copying/pasting or restructuring every week/month
+- Scalability: works for 1 week or 10 years of data
 
-This is an example of a data structure that would be fine to use if you're only planning on 1-3 weeks to track expenses. However, how about 2 months, 6 months, 3 years? It becomes harder and harder to find information like "How much am i spending every week on average?" or "How much am I spending on groceries every month?"
+Let's look at real-world examples of **bad structures (anti-patterns)** and why they cause pain — then see the better approach.
 
-| A        | B             | C         |
-| -------- | ------------- | --------- |
-| Day      | Item          | Amount    |
-| 4/1/2024 | Gas           | \-$25.00  |
-| 4/1/2024 | Food          | \-$10.00  |
-| 4/2/2024 | Car           | \-$50.00  |
-| 4/3/2024 | Birthday Gift | \-$26.00  |
-| 4/3/2024 | Food          | \-$15.00  |
-| 4/4/2024 | Paycheck      | $400.00   |
-| 4/5/2024 | Movies        | \-$30.00  |
-| 4/5/2024 | Candy         | \-$10.00  |
-| 4/6/2024 | Groceries     | \-$100.00 |
-| 4/7/2024 | Video Game    | \-$60.00  |
-|          |               |           |
-|          |               |           |
-| Entries  |               |           |
+### Anti-Pattern 1: Hierarchical / Nested Layouts (Pretty but Unusable for Analysis)
 
-While this doesn't look as nice, it's infinitely more easier to do something like
+Many people start with something like this for expense tracking:
 
-```gse
-=QUERY(A:C,"SELECT Sum(C)
- WHERE A >= date '2024-04-01' and A <= date '2024-04-07'")
+| A              | B     | C        |
+|----------------|-------|----------|
+| Week of 4/1/2024 |       |          |
+| Monday         |       |          |
+|                | Gas   | -$25.00  |
+|                | Food  | -$10.00  |
+| Tuesday        |       |          |
+|                | Car   | -$50.00  |
+| ...            | ...   | ...      |
+| Total          |       | $74.00   |
+
+This looks readable for a single week. But try answering:
+- "What's my average weekly grocery spend over 6 months?"
+- "How much did I spend on 'Food' items in Q2?"
+
+You end up with fragile formulas, manual copying, or impossible queries without first flattening the data.
+
+### Anti-Pattern 2: Repeated Sheets per Time Period (Monthly/Weekly Tabs)
+
+A very common trap: one sheet per month (e.g., "April 2024", "May 2024", "June 2024"...). Each sheet has the same columns (Date, Item, Amount), but the data lives scattered across tabs.
+
+Problems this creates:
+- No easy way to get totals across months
+- Adding a new month means creating yet another tab and updating every summary formula
+- Searching history (e.g., "all Food expenses since last year") becomes a nightmare
+
+After 2–3 years, you have dozens of similar tabs, and asking "What's my yearly trend on groceries?" requires hours of consolidation work.
+
+### Anti-Pattern 3: Wide Format with Columns for Each Time Period
+
+Another frequent mistake — turning time into columns:
+
+| Customer   | Jan Sales | Feb Sales | Mar Sales | ... | Dec Sales |
+|------------|-----------|-----------|-----------|-----|-----------|
+| ABC Co     | $500      | $620      | $450      | ... | $780      |
+| DEF Co     | $300      | $0        | $890      | ... | $410      |
+
+This is "wide" format. It's okay for quick yearly overviews, but terrible for growth:
+- Adding a new month requires inserting columns and breaking formulas
+- Filtering by customer + specific month is awkward
+- Long-term trends or per-customer averages need TRANSPOSE or other hacks
+- It doesn't scale when you add years or other dimensions (product, region, etc.)
+
+### The Better Way: Tall / Normalized / Tabular Format
+
+Restructure to **one row per transaction/observation**, with consistent columns for each variable:
+
+**Expenses Example (Tidy)**
+
+| Date       | Category   | Amount   | Notes              |
+|------------|------------|----------|--------------------|
+| 2024-04-01 | Gas        | -25.00   |                    |
+| 2024-04-01 | Food       | -10.00   | Lunch              |
+| 2024-04-02 | Car        | -50.00   | Oil change         |
+| 2024-04-03 | Birthday Gift | -26.00 | For Mom         |
+| 2024-04-03 | Food       | -15.00   | Dinner             |
+| ...        | ...        | ...      | ...                |
+
+Now simple formulas unlock powerful insights:
+
+Sum for a specific week:
 ```
-
-This formula easily calculates the sum for the week or any date range you specify.
-
-```gse
-=QUERY(A:C,"SELECT Sum(C) WHERE B ='Food'")
+=QUERY(A:D, "SELECT SUM(C)
+WHERE A >= date '2024-04-01' AND A <= date '2024-04-07'
+LABEL SUM(C) 'Weekly Total'")
 ```
-
-For more information see [[QUERY]]
-
-and
-
-```gse
-=SUM(FILTER(C:C,B:B="Food"))
+Total spent on Food (any date range):
 ```
+=SUM(FILTER(C:C, B:B="Food"))
+```
+Or monthly Food average (more advanced but scalable):
+```
+=AVERAGEIFS(C:C, B:B, "Food", A:A, ">="&EOMONTH(TODAY(),-1)+1, A:A, "<="&EOMONTH(TODAY(),0))
+```
+All of this works forever as you keep adding rows — no restructuring needed.
 
-Which would give you all the totals for how much you spent on food. You could even combine them!
+**Orders / Inventory Example (Tidy)**
 
-This structure allows you to track weeks, months, or years and allows you to easily find the data you're looking for without looking through many sheets. It also prevents complex formulas or creating arrays of multiple different sections and changing it every week to include that week.
+| PO     | Customer    | Item        | Quantity | Date       |
+|--------|-------------|-------------|----------|------------|
+| 123456 | ABC Company | Water       | 1        | 2024-04-01 |
+| 123456 | ABC Company | Meat        | 2        | 2024-04-01 |
+| 123456 | ABC Company | Vegetables  | 2        | 2024-04-01 |
+| 567891 | DEF Company | Bread       | 4        | 2024-04-03 |
+| ...    | ...         | ...         | ...      | ...        |
 
-Let's take a look at another example.
+Easy queries become trivial:
+- Meat purchased from ABC Company last month → [[QUERY]] or [[FILTER]] by Customer + Item + Date range
+- Total quantity per item across all POs → [[QUERY]]
 
-| A      | B           | C          | D        | E        |
-| ------ | ----------- | ---------- | -------- | -------- |
-| PO     | Customer    | Item       | Quantity | Date     |
-| 123456 | ABC Company | Water      | 1        | 4/1/2024 |
-| 123456 | ABC Company | Meat       | 2        | 4/1/2024 |
-| 123456 | ABC Company | Vegetables | 2        | 4/1/2024 |
-| 567891 | DEF Company | Bread      | 4        | 4/3/2024 |
-| 567891 | DEF Company | Salad      | 5        | 4/3/2024 |
-| 234567 | ABC Company | Water      | 1        | 4/5/2024 |
+### Quick Summary: Anti-Patterns to Avoid vs. Best Practices
 
-While this might seem like extra work upfront, this structure allows you to easily filter by various criteria, such as specific companies or items, to see how much stock you have on hand, or other important information you may be looking for such as "How much Meat did we buy from ABC company last month?" can be answered with a simple [[FILTER]] or [[QUERY]].
+| Anti-Pattern                          | Why It Hurts Later                          | Better Approach                          |
+|---------------------------------------|---------------------------------------------|------------------------------------------|
+| Nested/hierarchical layouts           | Hard to filter, sort, or query              | Flat rows per transaction                |
+| Separate sheets per month/week/year   | No cross-period analysis without hacks      | One master table + date column           |
+| Wide format (time as columns)         | Brittle when adding periods                 | Tall format (time as rows)               |
+| Using formatting to store data (colors, merged cells, comments) | Lost when sorting/filtering/exporting | Actual columns/values                    |
+| Multiple variables crammed in one cell | Breaks splitting and analysis               | One variable per column                  |
 
 By prioritizing a well-organized structure from the beginning, you'll empower yourself to get the most out of your spreadsheets!
 
+For further information see [[Table|tables]]
 
-
-Further information on techniques for data structure success see [[Table|tables]].
+Happy spreadsheeting!
