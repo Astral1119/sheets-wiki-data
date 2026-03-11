@@ -91,11 +91,7 @@ LABEL SUM(C) 'Weekly Total'")
 ```
 Total spent on Food (any date range):
 ```
-=SUM(FILTER(C:C, B:B="Food"))
-```
-Or monthly Food average (more advanced but scalable):
-```
-=AVERAGEIFS(C:C, B:B, "Food", A:A, ">="&EOMONTH(TODAY(),-1)+1, A:A, "<="&EOMONTH(TODAY(),0))
+=SUM(FILTER(D:D, C:C="Food"))
 ```
 All of this works forever as you keep adding rows — no restructuring needed.
 
