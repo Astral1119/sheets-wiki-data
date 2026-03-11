@@ -1,3 +1,10 @@
+---
+author: Chris Carpenter/Aliafriend
+tags:
+  - tutorial
+  - data-organization
+  - google-sheets
+---
 ## Fixing Anti-Patterns: From Wide to Tall
 
 You've seen the pain of "wide" data — time periods, weeks, months, or categories spread across columns instead of living as rows. This makes filtering, sorting, pivoting, charting, and long-term tracking much harder.
