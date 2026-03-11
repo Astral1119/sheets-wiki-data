@@ -37,10 +37,12 @@ Basically we concat/join each part of the data together to create a string.
 ```
 INDEX() enables the array. & concats/join cells together.
 
+```
 Bob|Apple|46023|1	Bob|Apple|46024|2	Bob|Apple|46025|3	Bob|Apple|46026|4	Bob|Apple|46027|5	Bob|Apple|46028|6
 Bob|Orange|46023|7	Bob|Orange|46024|8	Bob|Orange|46025|9	Bob|Orange|46026|10	Bob|Orange|46027|11	Bob|Orange|46028|12
 Sally|Apple|46023|1	Sally|Apple|46024|2	Sally|Apple|46025|3	Sally|Apple|46026|4	Sally|Apple|46027|5	Sally|Apple|46028|6
 Steve|Orange|46023|1	Steve|Orange|46024|2	Steve|Orange|46025|3	Steve|Orange|46026|4	Steve|Orange|46027|5	Steve|Orange|46028|6
+```
 
 TOCOL() makes them all aligned again
 then we split to get the data back.
