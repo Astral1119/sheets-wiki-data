@@ -16,14 +16,12 @@ Merged cells are one of the most seductive traps in spreadsheets. They look clea
 
    | A          | B      | C       |
    |------------|--------|---------|
-   | Bob        |        |         |  ← merged A1:A4
-   |            | Gas    | -$25    |
-   |            | Food   | -$18    |
-   |            | Movies | -$12    |
-   | Sally      |        |         |  ← merged A5:A8
-   |            | Rent   | -$800   |
-   |            | Food   | -$45    |
-   |            | Gifts  | -$60    |
+   |   Bob      | Gas    | -$25    |
+   |   Merged   | Food   | -$18    |
+   |   Merged   | Movies | -$12    |
+   |   Sally    | Rent   | -$800   |
+   |   Merged   | Food   | -$45    |
+   |   Merged   | Gifts  | -$60    |
 
    Looks nice in a printed report… but try to:
    - Filter only Sally’s expenses
