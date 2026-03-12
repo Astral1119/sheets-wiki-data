@@ -58,9 +58,9 @@ Merged cells are one of the most seductive traps in spreadsheets. They look clea
 
 <table border="1" style="border-collapse: collapse; width: 100%;">
   <tr>
-    <th>A</th>
+    <th></th>
     <th colspan="5">Week of Jan 1</th>
-    <th colspan="1">Week of Jan 8</th>
+    <th colspan="5">Week of Jan 8</th>
   </tr>
   <tr>
     <td>Item</td>
@@ -69,7 +69,11 @@ Merged cells are one of the most seductive traps in spreadsheets. They look clea
     <td>Wed</td>
     <td>Thu</td>
     <td>Fri</td>
-    <td>Sat</td>
+    <td>Mon</td>
+    <td>Tue</td>
+    <td>Wed</td>
+    <td>Thu</td>
+    <td>Fri</td>
   </tr>
   <tr>
     <td>Apples</td>
@@ -79,6 +83,10 @@ Merged cells are one of the most seductive traps in spreadsheets. They look clea
     <td>2</td>
     <td>6</td>
     <td>4</td>
+    <td>7</td>
+    <td>9</td>
+    <td>3</td>
+    <td>5</td>
   </tr>
 </table>
 
