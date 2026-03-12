@@ -14,14 +14,39 @@ Merged cells are one of the most seductive traps in spreadsheets. They look clea
 1. **Merged row/column labels repeated across groups**  
    Example: Person names merged vertically over several rows of their transactions.
 
-   | A          | B      | C       |
-   |------------|--------|---------|
-   |   Bob      | Gas    | -$25    |
-   |   Merged   | Food   | -$18    |
-   |   Merged   | Movies | -$12    |
-   |   Sally    | Rent   | -$800   |
-   |   Merged   | Food   | -$45    |
-   |   Merged   | Gifts  | -$60    |
+<table border="1" style="border-collapse: collapse; width: 50%;">
+  <tr>
+    <th>Person (merged)</th>
+    <th>Category</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Bob</td>
+    <td>Gas</td>
+    <td>-$25</td>
+  </tr>
+  <tr>
+    <td>Food</td>
+    <td>-$18</td>
+  </tr>
+  <tr>
+    <td>Movies</td>
+    <td>-$12</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Sally</td>
+    <td>Rent</td>
+    <td>-$800</td>
+  </tr>
+  <tr>
+    <td>Food</td>
+    <td>-$45</td>
+  </tr>
+  <tr>
+    <td>Gifts</td>
+    <td>-$60</td>
+  </tr>
+</table>
 
    Looks nice in a printed report… but try to:
    - Filter only Sally’s expenses
@@ -31,11 +56,34 @@ Merged cells are one of the most seductive traps in spreadsheets. They look clea
 2. **Merged headers over date groups**  
    Example: Weeks or months merged across several date columns.
 
-   | A     | B     | C             | D     | E     | F             | G     |
-   |-------|-------|---------------|-------|-------|---------------|-------|
-   | Item  |       | Week of Jan 1 |       |       | Week of Jan 8 |       |
-   |       | Mon   | Tue   | Wed   | Thu   | Fri   | Sat   |
-   | Apples| 5     | 3     | 8     | 2     | 6     | 4     |
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th></th>
+    <th>A</th>
+    <th colspan="5">Week of Jan 1</th>
+    <th colspan="1">Week of Jan 8</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Item</td>
+    <td>Mon</td>
+    <td>Tue</td>
+    <td>Wed</td>
+    <td>Thu</td>
+    <td>Fri</td>
+    <td>Sat</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Apples</td>
+    <td>5</td>
+    <td>3</td>
+    <td>8</td>
+    <td>2</td>
+    <td>6</td>
+    <td>4</td>
+  </tr>
+</table>
 
    You can’t easily filter by a single day, use date-based functions, or expand the table without manual labor each time.
 
