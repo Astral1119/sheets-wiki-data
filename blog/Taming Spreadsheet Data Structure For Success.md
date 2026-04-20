@@ -66,7 +66,7 @@ This is "wide" format. It's okay for quick yearly overviews, but terrible for gr
 - Long-term trends or per-customer averages need TRANSPOSE or other hacks
 - It doesn't scale when you add years or other dimensions (product, region, etc.)
 
-### The Better Way: Tall / Normalized / Tabular Format
+### The Better Way: Tall / Tabular Format
 
 Restructure to **one row per transaction/observation**, with consistent columns for each variable:
 
